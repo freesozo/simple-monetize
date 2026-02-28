@@ -1,0 +1,85 @@
+========================================
+Impact.com マーケットプレイス プロフィール
+エラー修正手順
+========================================
+
+現在の状況: 60% 完了（残り2ステップ）
+  ✅ Apply to the Marketplace
+  ✅ Do we have the right email?
+  ✅ Complete your tax information
+  ⬜ Fill out your Marketplace profile ← 今ここ
+  ⬜ Verify your media properties
+
+========================================
+エラー1: Description is required.
+========================================
+
+原因: テキストが入っているように見えても、
+      コピペ時の不可視文字で無効になっている可能性あり。
+
+修正手順:
+1. Description欄のテキストを全選択（Ctrl+A）して削除
+2. 以下のテキストを「手入力」するか、
+   メモ帳に一度貼ってからコピーし直す:
+
+--- ここからコピー ---
+Freesozo operates two bilingual Japanese-English websites. Free Asset Portal curates over 200 free design resources including illustrations, photos, icons, fonts, and more. Simple Monetize Reviews provides honest reviews and comparisons of popular web tools and services. Both sites help creators find the right resources for their projects.
+--- ここまでコピー ---
+
+ポイント:
+- 特殊文字（絵文字、全角文字）は使わない
+- 改行なしの1段落で入力する
+- 貼り付け後、スペースキーを1回押してから削除する
+  （入力イベントを発火させるため）
+
+========================================
+エラー2: Please enter at least one content and interests tag
+========================================
+
+原因: タグをテキスト入力しただけで「確定」していない。
+      カンマ区切りで書いても、Enterキーを押さないと
+      タグとして登録されない。
+
+修正手順:
+1. Content and interests欄を全選択して削除
+2. 以下のタグを1つずつ入力してEnterキーを押す:
+
+   Technology  → Enter
+   Design      → Enter
+   Education   → Enter
+   Software    → Enter
+
+   ※ タグが「チップ」（小さい四角いラベル）に
+     変わればOK。テキストのままではダメ。
+
+   ※ もしEnterで確定しない場合は、
+     カンマ(,)を入力してみる。
+     またはTabキーを試す。
+
+3. タグが4つチップ表示されていることを確認
+
+========================================
+保存手順
+========================================
+
+1. 上記2つのエラーを修正
+2. 「Save」ボタンをクリック
+3. エラーが消えて次のステップに進めればOK
+
+========================================
+次のステップ（Save成功後）
+========================================
+
+1. Verify your media properties（メディア認証）
+   - サイトの所有権確認（メタタグ or ファイル設置）
+
+2. アフィリエイトプログラム申請（Impact内）
+   - Shutterstock
+   - Envato Elements
+   - Canva
+   - Udemy
+
+3. Artlist Ambassador Program（別途申請）
+   - https://artlist.io/ambassador-program
+
+========================================

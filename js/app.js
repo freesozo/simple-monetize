@@ -148,7 +148,7 @@
 
     // Update meta
     document.title = product.name + ' レビュー｜おすすめツール比較ナビ';
-    const pageUrl = 'https://freesozo.github.io/simple-monetize/review.html?id=' + product.id;
+    const pageUrl = 'https://tools.freesozo.com/review.html?id=' + product.id;
     const metaDesc = product.name + 'を徹底レビュー。' + product.summary;
     document.querySelector('meta[name="description"]')?.setAttribute('content', metaDesc);
     document.querySelector('meta[property="og:title"]')?.setAttribute('content', product.name + ' レビュー');
@@ -178,7 +178,7 @@
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://freesozo.github.io/simple-monetize/" },
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://tools.freesozo.com/" },
         { "@type": "ListItem", "position": 2, "name": getCategoryName(product.category) },
         { "@type": "ListItem", "position": 3, "name": product.name }
       ]
