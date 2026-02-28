@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おすすめツール比較ナビ｜人気サービスを徹底比較</title>
+  <meta name="description" content="人気ツール・サービスを徹底比較。レンタルサーバー、VPN、プログラミング学習、AIツールなど、あなたに最適なツールが見つかります。">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="">
+  <!-- OGP -->
+  <meta property="og:title" content="おすすめツール比較ナビ">
+  <meta property="og:description" content="人気ツール・サービスを徹底比較。あなたに最適なツールが見つかります。">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "おすすめツール比較ナビ",
+    "description": "人気ツール・サービスを徹底比較",
+    "url": ""
+  }
+  </script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">ツール比較<span>ナビ</span></a>
+      <nav class="header-nav">
+        <a href="index.html">ホーム</a>
+        <a href="#categories">カテゴリ</a>
+        <a href="#all-products">全ツール</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>あなたに最適なツールが見つかる</h1>
+      <p>人気のレンタルサーバー、VPN、学習サービス、AIツールなどを徹底比較。実際のユーザー視点でおすすめをご紹介します。</p>
+      <div class="hero-search">
+        <input type="text" id="searchInput" placeholder="ツール名やキーワードで検索...">
+        <button type="button" id="searchBtn">🔍</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories" id="categories">
+    <div class="container">
+      <div class="category-grid" id="categoryGrid">
+        <button class="category-btn active" data-category="all">すべて</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ad Slot Top -->
+  <div class="container">
+    <div class="ad-slot" id="adSlotTop">広告スペース（AdSense / A8.net バナー）</div>
+  </div>
+
+  <!-- Featured Products -->
+  <section class="products-section">
+    <div class="container">
+      <h2 class="section-title" id="featuredTitle">★ 特におすすめ</h2>
+      <div class="product-grid" id="featuredGrid"></div>
+    </div>
+  </section>
+
+  <!-- All Products -->
+  <section class="products-section" id="all-products">
+    <div class="container">
+      <h2 class="section-title">全ツール一覧</h2>
+      <div class="product-grid" id="productGrid"></div>
+      <div class="no-results" id="noResults" style="display:none;">
+        <p>該当するツールが見つかりませんでした。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ad Slot Bottom -->
+  <div class="container">
+    <div class="ad-slot" id="adSlotBottom">広告スペース（AdSense / A8.net バナー）</div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html">ホーム</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+      </div>
+      <p>※ 当サイトはアフィリエイトプログラムに参加しています。</p>
+      <p>&copy; 2026 おすすめツール比較ナビ</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop">↑</button>
+  <div class="toast" id="toast"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>レビュー｜おすすめツール比較ナビ</title>
+  <meta name="robots" content="index, follow">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">ツール比較<span>ナビ</span></a>
+      <nav class="header-nav">
+        <a href="index.html">ホーム</a>
+        <a href="index.html#categories">カテゴリ</a>
+        <a href="index.html#all-products">全ツール</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Breadcrumb -->
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">ホーム</a><span>›</span><span id="breadcrumbCategory"></span><span>›</span><span id="breadcrumbName"></span>
+    </div>
+  </div>
+
+  <!-- Review Content -->
+  <section class="review-page">
+    <div class="container">
+      <div class="loading" id="loading">読み込み中...</div>
+      <div id="reviewContent" style="display:none;">
+        <div class="review-header">
+          <h1 id="reviewTitle"></h1>
+          <div class="review-meta">
+            <span class="review-rating-lg" id="reviewRating"></span>
+            <span class="review-price-lg" id="reviewPrice"></span>
+            <span class="review-badge">おすすめ</span>
+          </div>
+        </div>
+
+        <!-- Ad Slot -->
+        <div class="ad-slot">広告スペース</div>
+
+        <div class="review-content">
+          <div class="review-main">
+            <div class="review-description" id="reviewDescription"></div>
+            <div class="pros-cons">
+              <div class="pros">
+                <h3>メリット</h3>
+                <ul id="reviewPros"></ul>
+              </div>
+              <div class="cons">
+                <h3>デメリット</h3>
+                <ul id="reviewCons"></ul>
+              </div>
+            </div>
+            <div class="features-list">
+              <h3>主な機能・特徴</h3>
+              <ul id="reviewFeatures"></ul>
+            </div>
+          </div>
+          <div class="review-sidebar">
+            <div class="sidebar-cta">
+              <h3 id="ctaTitle"></h3>
+              <p>まずは公式サイトで詳細をチェック</p>
+              <a href="#" class="btn-cta" id="ctaAffiliate" target="_blank" rel="noopener noreferrer nofollow">公式サイトを見る →</a>
+              <a href="#" class="btn-official" id="ctaOfficial" target="_blank" rel="noopener noreferrer">公式サイト（直接）</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Ad Slot Bottom -->
+        <div class="ad-slot">広告スペース</div>
+
+        <!-- Related Products -->
+        <div class="products-section">
+          <h2 class="section-title">関連ツール</h2>
+          <div class="product-grid" id="relatedGrid"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html">ホーム</a>
+        <a href="privacy.html">プライバシーポリシー</a>
+      </div>
+      <p>※ 当サイトはアフィリエイトプログラムに参加しています。</p>
+      <p>&copy; 2026 おすすめツール比較ナビ</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop">↑</button>
+  <div class="toast" id="toast"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

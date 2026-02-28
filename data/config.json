@@ -1,0 +1,41 @@
+{
+  "siteName": "おすすめツール比較ナビ",
+  "siteDescription": "人気ツール・サービスを徹底比較。あなたに最適なツールが見つかります。",
+  "siteUrl": "",
+  "categories": [
+    {
+      "id": "server",
+      "name": "レンタルサーバー",
+      "icon": "🖥️"
+    },
+    {
+      "id": "vpn",
+      "name": "VPN",
+      "icon": "🔒"
+    },
+    {
+      "id": "learning",
+      "name": "プログラミング学習",
+      "icon": "📚"
+    },
+    {
+      "id": "ai",
+      "name": "AI ツール",
+      "icon": "🤖"
+    },
+    {
+      "id": "design",
+      "name": "デザインツール",
+      "icon": "🎨"
+    }
+  ],
+  "adsense": {
+    "enabled": false,
+    "publisherId": ""
+  },
+  "analytics": {
+    "enabled": false,
+    "gaId": ""
+  },
+  "lastUpdated": "2026-02-28"
+}

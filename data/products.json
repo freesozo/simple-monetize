@@ -1,0 +1,232 @@
+{
+  "products": [
+    {
+      "id": "xserver",
+      "name": "エックスサーバー",
+      "category": "server",
+      "summary": "国内シェアNo.1の高性能レンタルサーバー。安定性と速度に定評あり。",
+      "description": "エックスサーバーは国内シェアNo.1のレンタルサーバーです。高速なサーバー環境、安定した稼働率99.99%、充実したサポートが特徴。WordPress簡単インストール機能や無料SSL証明書も標準搭載しており、初心者からプロまで幅広く利用されています。",
+      "rating": 4.8,
+      "price": "¥990/月〜",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=XXXXX_xserver",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "国内シェアNo.1の安定性",
+        "高速サーバー環境",
+        "WordPress簡単インストール",
+        "無料SSL標準搭載",
+        "24時間サポート"
+      ],
+      "cons": [
+        "最安プランは容量少なめ",
+        "初期費用がかかる場合あり"
+      ],
+      "features": [
+        "SSD 300GB〜",
+        "転送量無制限",
+        "MySQL無制限",
+        "自動バックアップ"
+      ],
+      "officialUrl": "https://www.xserver.ne.jp/",
+      "lastChecked": "2026-02-28",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "conoha-wing",
+      "name": "ConoHa WING",
+      "category": "server",
+      "summary": "国内最速クラスのレンタルサーバー。WINGパックでドメイン無料。",
+      "description": "ConoHa WINGはGMOインターネットグループが提供する高速レンタルサーバーです。国内最速クラスの処理速度を誇り、WINGパックを利用すると独自ドメインが最大2つまで無料で取得可能。管理画面も直感的で使いやすく、初心者にもおすすめです。",
+      "rating": 4.6,
+      "price": "¥678/月〜",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=XXXXX_conoha",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "国内最速クラス",
+        "ドメイン最大2個無料",
+        "管理画面が使いやすい",
+        "コスパが良い"
+      ],
+      "cons": [
+        "電話サポートが平日のみ",
+        "プラン変更に制限あり"
+      ],
+      "features": [
+        "SSD 300GB〜",
+        "転送量無制限",
+        "ドメイン無料",
+        "自動バックアップ"
+      ],
+      "officialUrl": "https://www.conoha.jp/wing/",
+      "lastChecked": "2026-02-28",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "nordvpn",
+      "name": "NordVPN",
+      "category": "vpn",
+      "summary": "世界シェアNo.1のVPNサービス。セキュリティと速度のバランスが優秀。",
+      "description": "NordVPNは世界60カ国以上に6,000台以上のサーバーを持つ業界最大手のVPNサービスです。軍事レベルの暗号化技術、ノーログポリシー、高速通信を実現。ストリーミング解除にも強く、日本語対応もしています。",
+      "rating": 4.7,
+      "price": "¥580/月〜",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=XXXXX_nordvpn",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "世界60カ国6,000台以上のサーバー",
+        "軍事レベルの暗号化",
+        "高速通信",
+        "同時接続6台",
+        "30日間返金保証"
+      ],
+      "cons": [
+        "2年プランでないと割高",
+        "中国では不安定な場合あり"
+      ],
+      "features": [
+        "AES-256暗号化",
+        "キルスイッチ",
+        "スプリットトンネリング",
+        "広告ブロック"
+      ],
+      "officialUrl": "https://nordvpn.com/ja/",
+      "lastChecked": "2026-02-28",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "surfshark",
+      "name": "Surfshark",
+      "category": "vpn",
+      "summary": "コスパ最強のVPN。デバイス接続台数が無制限。",
+      "description": "Surfsharkは低価格ながら高品質なVPNサービスです。最大の特徴はデバイス接続台数が無制限であること。家族全員で使っても追加料金なし。100カ国以上のサーバーロケーションと、CleanWeb機能による広告・マルウェアブロックも搭載しています。",
+      "rating": 4.5,
+      "price": "¥328/月〜",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=XXXXX_surfshark",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "デバイス接続台数無制限",
+        "業界最安クラス",
+        "CleanWeb広告ブロック",
+        "100カ国以上対応"
+      ],
+      "cons": [
+        "サーバー数はNordVPNより少ない",
+        "日本語サポートが限定的"
+      ],
+      "features": [
+        "AES-256暗号化",
+        "接続台数無制限",
+        "CleanWeb",
+        "MultiHop"
+      ],
+      "officialUrl": "https://surfshark.com/ja/",
+      "lastChecked": "2026-02-28",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "udemy",
+      "name": "Udemy",
+      "category": "learning",
+      "summary": "世界最大級のオンライン学習プラットフォーム。セール時は1,200円から。",
+      "description": "Udemyは世界中の講師が作成した20万以上のコースを提供するオンライン学習プラットフォームです。プログラミング、デザイン、ビジネスなど幅広いジャンルをカバー。頻繁にセールが開催され、通常2万円以上のコースが1,200〜1,800円で購入できます。買い切り型なので月額費用もかかりません。",
+      "rating": 4.4,
+      "price": "¥1,200〜（セール時）",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=XXXXX_udemy",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "20万以上のコース",
+        "セール時は格安",
+        "買い切り型",
+        "30日間返金保証",
+        "スマホアプリ対応"
+      ],
+      "cons": [
+        "講師の質にバラつきあり",
+        "セール以外は高い"
+      ],
+      "features": [
+        "動画講座",
+        "修了証明書",
+        "Q&A機能",
+        "オフライン視聴"
+      ],
+      "officialUrl": "https://www.udemy.com/",
+      "lastChecked": "2026-02-28",
+      "status": "active",
+      "featured": true
+    },
+    {
+      "id": "chatgpt-plus",
+      "name": "ChatGPT Plus",
+      "category": "ai",
+      "summary": "OpenAIの最先端AIチャットボット。GPT-4o搭載で高度な対話が可能。",
+      "description": "ChatGPT PlusはOpenAIが提供するAIチャットサービスの有料プランです。最新のGPT-4oモデルにアクセスでき、テキスト生成、コーディング支援、画像生成（DALL-E）、データ分析など幅広い機能を利用可能。月額$20で、無料版と比べて応答速度や機能が大幅に向上しています。",
+      "rating": 4.6,
+      "price": "$20/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "direct",
+      "imageUrl": "",
+      "pros": [
+        "最先端のAIモデル",
+        "画像生成対応",
+        "プラグイン利用可能",
+        "高速応答"
+      ],
+      "cons": [
+        "月額$20と高め",
+        "日本語は英語より精度が落ちる場合あり"
+      ],
+      "features": [
+        "GPT-4o",
+        "DALL-E画像生成",
+        "コード実行",
+        "ファイル分析"
+      ],
+      "officialUrl": "https://chat.openai.com/",
+      "lastChecked": "2026-02-28",
+      "status": "active",
+      "featured": false
+    },
+    {
+      "id": "canva-pro",
+      "name": "Canva Pro",
+      "category": "design",
+      "summary": "誰でも簡単にプロ品質のデザインが作れるオンラインツール。",
+      "description": "Canva Proはオーストラリア発のオンラインデザインツールの有料プランです。1億点以上のテンプレート・素材が使い放題で、SNS投稿、プレゼン、動画、Webサイトなど何でも作れます。背景除去やブランドキットなどプロ機能も搭載。デザイン経験がなくても直感的に操作できます。",
+      "rating": 4.5,
+      "price": "¥1,000/月〜",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=XXXXX_canva",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "直感的な操作",
+        "1億点以上の素材",
+        "テンプレート豊富",
+        "チーム共有機能",
+        "背景除去AI"
+      ],
+      "cons": [
+        "オフラインでは使えない",
+        "高度な編集はPhotoshopに劣る"
+      ],
+      "features": [
+        "テンプレート",
+        "AI画像生成",
+        "動画編集",
+        "ブランドキット"
+      ],
+      "officialUrl": "https://www.canva.com/",
+      "lastChecked": "2026-02-28",
+      "status": "active",
+      "featured": true
+    }
+  ]
+}
