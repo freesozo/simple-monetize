@@ -41,7 +41,7 @@
   }
   </script>
   <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=4">
 </head>
 <body>
   <!-- Header -->
@@ -89,19 +89,6 @@
     </div>
   </section>
 
-  <!-- Ad Slot Top -->
-  <div class="container">
-    <div class="ad-slot" id="adSlotTop" data-i18n="adSlot">広告スペース</div>
-  </div>
-
-  <!-- Featured Products -->
-  <section class="products-section">
-    <div class="container">
-      <h2 class="section-title" id="featuredTitle" data-i18n="featuredHeading">★ 特におすすめ</h2>
-      <div class="product-grid" id="featuredGrid"></div>
-    </div>
-  </section>
-
   <!-- All Products -->
   <section class="products-section" id="all-products">
     <div class="container">
@@ -115,6 +102,19 @@
         <button class="btn-load-more" id="loadMoreBtn" style="display:none" data-i18n="loadMore">もっと見る</button>
       </div>
       <p class="result-count" id="resultCount"></p>
+    </div>
+  </section>
+
+  <!-- Ad Slot Top -->
+  <div class="container">
+    <div class="ad-slot" id="adSlotTop" data-i18n="adSlot">広告スペース</div>
+  </div>
+
+  <!-- Featured Products -->
+  <section class="products-section">
+    <div class="container">
+      <h2 class="section-title" id="featuredTitle" data-i18n="featuredHeading">★ 特におすすめ</h2>
+      <div class="product-grid" id="featuredGrid"></div>
     </div>
   </section>
 
@@ -139,7 +139,7 @@
   <button class="back-to-top" id="backToTop">↑</button>
   <div class="toast" id="toast"></div>
 
-  <script src="js/i18n.js?v=3"></script>
-  <script src="js/app.js?v=3"></script>
+  <script src="js/i18n.js?v=4"></script>
+  <script src="js/app.js?v=4"></script>
 </body>
 </html>
