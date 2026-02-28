@@ -48,6 +48,9 @@ const I18n = (() => {
       favRemove: 'お気に入りから削除',
       // Load more
       loadMore: 'もっと見る',
+      // Personalized sections
+      recentlyViewed: '最近チェックしたツール',
+      favSection: '❤️ お気に入りツール',
       // Theme
       lang: '🌐 English',
       // Quiz
@@ -123,6 +126,9 @@ const I18n = (() => {
       favRemove: 'Remove from favorites',
       // Load more
       loadMore: 'Show More',
+      // Personalized sections
+      recentlyViewed: 'Recently Viewed',
+      favSection: '❤️ Your Favorites',
       // Theme
       lang: '🌐 日本語',
       // Quiz

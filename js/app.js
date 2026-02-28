@@ -38,6 +38,8 @@
       // Re-render dynamic content
       if (document.getElementById('productGrid')) {
         renderCategories();
+        renderRecentlyViewed();
+        renderFavoritesHome();
         renderFeatured();
         filterProducts();
       } else if (document.getElementById('reviewContent')) {
@@ -88,14 +90,48 @@
     localStorage.setItem('toolFavorites', JSON.stringify(favorites));
     // Re-render
     renderFeatured();
+    renderRecentlyViewed();
+    renderFavoritesHome();
     filterProducts();
   }
   window.toggleFav = toggleFav;
+
+  // ===== Recently Viewed =====
+  function trackRecentlyViewed(id) {
+    let recent = JSON.parse(localStorage.getItem('recentlyViewed') || '[]');
+    recent = recent.filter(r => r !== id);
+    recent.unshift(id);
+    if (recent.length > 8) recent = recent.slice(0, 8);
+    localStorage.setItem('recentlyViewed', JSON.stringify(recent));
+  }
+
+  function renderRecentlyViewed() {
+    const section = document.getElementById('recentSection');
+    const grid = document.getElementById('recentGrid');
+    if (!section || !grid) return;
+    const recent = JSON.parse(localStorage.getItem('recentlyViewed') || '[]');
+    const recentProducts = recent.map(id => products.find(p => p.id === id)).filter(p => p && p.status === 'active');
+    if (recentProducts.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = '';
+    grid.innerHTML = recentProducts.map(p => createProductCard(p, false)).join('');
+  }
+
+  function renderFavoritesHome() {
+    const section = document.getElementById('favHomeSection');
+    const grid = document.getElementById('favHomeGrid');
+    if (!section || !grid) return;
+    const favProducts = products.filter(p => isFav(p.id) && p.status === 'active');
+    if (favProducts.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = '';
+    grid.innerHTML = favProducts.map(p => createProductCard(p, false)).join('');
+  }
 
   // ===== Index Page =====
   function initIndexPage() {
     renderCategories();
     renderSortBar();
+    renderRecentlyViewed();
+    renderFavoritesHome();
     renderFeatured();
     filterProducts();
     initSearch();
@@ -215,6 +251,8 @@
 
   function createProductCard(product, isFeatured) {
     const catName = getCategoryName(product.category);
+    const isNew = product.dateAdded && (Date.now() - new Date(product.dateAdded).getTime()) < 30 * 86400000;
+    const newBadge = isNew ? ' <span class="new-badge">NEW</span>' : '';
     const stars = '★'.repeat(Math.floor(product.rating)) + (product.rating % 1 >= 0.5 ? '☆' : '');
     const featuredClass = (isFeatured || product.featured) ? ' featured' : '';
     const affiliateLink = product.affiliateUrl || product.officialUrl;
@@ -224,7 +262,7 @@
       <div class="product-card${featuredClass}" data-featured-label="${escapeHtml(I18n.getLang() === 'en' ? '★ Top Pick' : '★ おすすめ')}">
         <div class="card-body">
           <div class="card-top-row">
-            <span class="card-category">${escapeHtml(catName)}</span>
+            <span class="card-category">${escapeHtml(catName)}${newBadge}</span>
             <button class="fav-btn${faved ? ' active' : ''}" onclick="toggleFav('${product.id}')" title="${favLabel}">${faved ? '❤️' : '🤍'}</button>
           </div>
           <h3 class="card-title">${escapeHtml(product.name)}</h3>
@@ -291,6 +329,9 @@
       loading.innerHTML = '<p>' + I18n.t('notFound') + '<br><a href="index.html">' + I18n.t('backHome') + '</a></p>';
       return;
     }
+
+    // Track recently viewed
+    trackRecentlyViewed(product.id);
 
     // Update meta
     document.title = product.name + (I18n.getLang() === 'en' ? ' Review | Tool Compare Navi' : ' レビュー｜おすすめツール比較ナビ');
