@@ -74,6 +74,7 @@ const I18n = (() => {
       quizNoResult: '条件に合うツールが見つかりませんでした。',
       quizRetry: 'もう一度診断する',
       quizBack: '← 戻る',
+      quizClose: '自分で見つける',
     },
     en: {
       siteTitle: 'Tool Compare Navi',
@@ -148,6 +149,7 @@ const I18n = (() => {
       quizNoResult: 'No tools matched your criteria.',
       quizRetry: 'Try Again',
       quizBack: '← Back',
+      quizClose: 'Browse on my own',
     }
   };
 
