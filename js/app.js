@@ -99,6 +99,7 @@
     renderFeatured();
     filterProducts();
     initSearch();
+    initQuiz();
     // Load more
     const loadMoreBtn = document.getElementById('loadMoreBtn');
     if (loadMoreBtn) loadMoreBtn.addEventListener('click', loadMore);
@@ -440,6 +441,209 @@
     });
     btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
   }
+
+  // ===== Quiz / Tool Finder =====
+  const quizCategoryMap = {
+    website: ['server', 'domain', 'sitebuilder'],
+    security: ['vpn', 'security', 'password'],
+    learning: ['learning'],
+    content: ['design', 'video', 'photo', 'writing'],
+    ai: ['ai'],
+    business: ['ecommerce', 'project', 'accounting', 'marketing', 'communication'],
+    cloud: ['cloud'],
+    seo: ['seo'],
+  };
+
+  let quizState = { step: 0, q1: null, q2: null, q3: null };
+
+  function initQuiz() {
+    const startBtn = document.getElementById('quizStartBtn');
+    const overlay = document.getElementById('quizOverlay');
+    const closeBtn = document.getElementById('quizClose');
+    if (!startBtn || !overlay) return;
+
+    startBtn.addEventListener('click', () => {
+      quizState = { step: 1, q1: null, q2: null, q3: null };
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      renderQuizStep();
+    });
+
+    closeBtn.addEventListener('click', closeQuiz);
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) closeQuiz();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && overlay.classList.contains('active')) closeQuiz();
+    });
+  }
+
+  function closeQuiz() {
+    const overlay = document.getElementById('quizOverlay');
+    overlay.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
+  function renderQuizProgress() {
+    const container = document.getElementById('quizProgress');
+    const labels = ['Q1', 'Q2', 'Q3', '✓'];
+    container.innerHTML = labels.map((_, i) => {
+      const stepNum = i + 1;
+      let cls = 'quiz-dot';
+      if (stepNum < quizState.step) cls += ' done';
+      else if (stepNum === quizState.step) cls += ' active';
+      return `<div class="${cls}"></div>`;
+    }).join('');
+  }
+
+  function renderQuizStep() {
+    renderQuizProgress();
+    const content = document.getElementById('quizContent');
+    if (quizState.step === 1) renderQ1(content);
+    else if (quizState.step === 2) renderQ2(content);
+    else if (quizState.step === 3) renderQ3(content);
+    else if (quizState.step === 4) renderQuizResults(content);
+  }
+
+  function renderQ1(el) {
+    const keys = ['quizQ1a','quizQ1b','quizQ1c','quizQ1d','quizQ1e','quizQ1f','quizQ1g','quizQ1h'];
+    const values = ['website','security','learning','content','ai','business','cloud','seo'];
+    el.innerHTML = `<h2>${I18n.t('quizQ1')}</h2>
+      <div class="quiz-options">${keys.map((k, i) =>
+        `<button class="quiz-option" data-value="${values[i]}">${I18n.t(k)}</button>`
+      ).join('')}</div>`;
+    el.querySelectorAll('.quiz-option').forEach(btn => {
+      btn.addEventListener('click', () => {
+        quizState.q1 = btn.dataset.value;
+        quizState.step = 2;
+        renderQuizStep();
+      });
+    });
+  }
+
+  function renderQ2(el) {
+    const keys = ['quizQ2a','quizQ2b','quizQ2c'];
+    const values = ['free','low','any'];
+    el.innerHTML = `<h2>${I18n.t('quizQ2')}</h2>
+      <div class="quiz-options">${keys.map((k, i) =>
+        `<button class="quiz-option" data-value="${values[i]}">${I18n.t(k)}</button>`
+      ).join('')}</div>
+      <button class="quiz-back" id="quizBackBtn">${I18n.t('quizBack')}</button>`;
+    el.querySelectorAll('.quiz-option').forEach(btn => {
+      btn.addEventListener('click', () => {
+        quizState.q2 = btn.dataset.value;
+        quizState.step = 3;
+        renderQuizStep();
+      });
+    });
+    document.getElementById('quizBackBtn').addEventListener('click', () => {
+      quizState.step = 1;
+      renderQuizStep();
+    });
+  }
+
+  function renderQ3(el) {
+    const keys = ['quizQ3a','quizQ3b','quizQ3c'];
+    const values = ['beginner','intermediate','advanced'];
+    el.innerHTML = `<h2>${I18n.t('quizQ3')}</h2>
+      <div class="quiz-options">${keys.map((k, i) =>
+        `<button class="quiz-option" data-value="${values[i]}">${I18n.t(k)}</button>`
+      ).join('')}</div>
+      <button class="quiz-back" id="quizBackBtn">${I18n.t('quizBack')}</button>`;
+    el.querySelectorAll('.quiz-option').forEach(btn => {
+      btn.addEventListener('click', () => {
+        quizState.q3 = btn.dataset.value;
+        quizState.step = 4;
+        renderQuizStep();
+      });
+    });
+    document.getElementById('quizBackBtn').addEventListener('click', () => {
+      quizState.step = 2;
+      renderQuizStep();
+    });
+  }
+
+  function parseMonthlyPrice(priceStr) {
+    if (!priceStr) return Infinity;
+    if (/^無料$/.test(priceStr) || /^無料（/.test(priceStr) || /^決済手数料/.test(priceStr)) return 0;
+    if (priceStr.startsWith('無料')) return 0;
+    const buyout = /買い切り/.test(priceStr);
+    const yearly = /\/年/.test(priceStr);
+    const match = priceStr.match(/([\d,]+(?:\.\d+)?)/);
+    if (!match) return Infinity;
+    let num = parseFloat(match[1].replace(/,/g, ''));
+    if (priceStr.includes('$') || priceStr.includes('€')) num *= 150;
+    if (buyout) num = num / 24;
+    else if (yearly) num = num / 12;
+    return num;
+  }
+
+  function scoreProducts(filtered) {
+    return filtered.map(p => {
+      let score = 0;
+      const monthly = parseMonthlyPrice(p.price);
+
+      // Q2: Budget
+      if (quizState.q2 === 'free') {
+        if (monthly === 0) score += 10;
+        else if (monthly <= 1000) score += 4;
+        else if (monthly <= 2000) score += 1;
+      } else if (quizState.q2 === 'low') {
+        if (monthly > 0 && monthly <= 2000) score += 10;
+        else if (monthly === 0) score += 6;
+        else if (monthly <= 5000) score += 2;
+      }
+      // 'any' → no budget filter
+
+      // Q3: Experience level
+      if (quizState.q3 === 'beginner') {
+        if (p.featured) score += 5;
+        score += Math.round(p.rating * 2);
+      } else if (quizState.q3 === 'intermediate') {
+        score += Math.round(p.rating * 1.5);
+        if (p.features) score += Math.min(p.features.length, 4);
+      } else if (quizState.q3 === 'advanced') {
+        score += Math.round(p.rating);
+        if (p.features) score += Math.min(p.features.length * 2, 10);
+      }
+
+      // Affiliate bonus
+      if (p.affiliateUrl) score += 1;
+
+      return { product: p, score };
+    }).sort((a, b) => b.score - a.score);
+  }
+
+  function renderQuizResults(el) {
+    const cats = quizCategoryMap[quizState.q1] || [];
+    const filtered = products.filter(p => p.status === 'active' && cats.includes(p.category));
+    const scored = scoreProducts(filtered);
+    const top5 = scored.slice(0, 5);
+
+    let html = `<h2 class="quiz-results-title">${I18n.t('quizResultTitle')}</h2>`;
+    if (top5.length === 0) {
+      html += `<p class="quiz-no-result">${I18n.t('quizNoResult')}</p>`;
+    } else {
+      html += '<div class="quiz-results-grid">' +
+        top5.map(s => createProductCard(s.product, false)).join('') +
+        '</div>';
+    }
+    html += `<button class="quiz-retry" id="quizRetryBtn">${I18n.t('quizRetry')}</button>`;
+    el.innerHTML = html;
+
+    document.getElementById('quizRetryBtn').addEventListener('click', () => {
+      quizState = { step: 1, q1: null, q2: null, q3: null };
+      renderQuizStep();
+    });
+  }
+
+  // Re-render quiz on language change
+  window.addEventListener('langchange', () => {
+    const overlay = document.getElementById('quizOverlay');
+    if (overlay && overlay.classList.contains('active')) {
+      renderQuizStep();
+    }
+  });
 
   // ===== Start =====
   document.addEventListener('DOMContentLoaded', init);

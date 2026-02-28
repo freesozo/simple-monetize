@@ -69,8 +69,18 @@
         <input type="text" id="searchInput" data-i18n="searchPlaceholder" placeholder="ツール名やキーワードで検索...">
         <button type="button" id="searchBtn">🔍</button>
       </div>
+      <button class="quiz-start-btn" id="quizStartBtn" data-i18n="quizBtn">🔍 おすすめ診断</button>
     </div>
   </section>
+
+  <!-- Quiz Modal -->
+  <div class="quiz-overlay" id="quizOverlay">
+    <div class="quiz-modal">
+      <button class="quiz-close" id="quizClose">&times;</button>
+      <div class="quiz-progress" id="quizProgress"></div>
+      <div class="quiz-content" id="quizContent"></div>
+    </div>
+  </div>
 
   <!-- Categories -->
   <section class="categories" id="categories">
