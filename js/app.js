@@ -147,7 +147,43 @@
     }
 
     // Update meta
-    document.title = product.name + '｜おすすめツール比較ナビ';
+    document.title = product.name + ' レビュー｜おすすめツール比較ナビ';
+    const pageUrl = 'https://freesozo.github.io/simple-monetize/review.html?id=' + product.id;
+    const metaDesc = product.name + 'を徹底レビュー。' + product.summary;
+    document.querySelector('meta[name="description"]')?.setAttribute('content', metaDesc);
+    document.querySelector('meta[property="og:title"]')?.setAttribute('content', product.name + ' レビュー');
+    document.querySelector('meta[property="og:description"]')?.setAttribute('content', metaDesc);
+    document.querySelector('meta[property="og:url"]')?.setAttribute('content', pageUrl);
+    document.querySelector('link[rel="canonical"]')?.setAttribute('href', pageUrl);
+    // JSON-LD Product structured data
+    const jsonLd = document.createElement('script');
+    jsonLd.type = 'application/ld+json';
+    jsonLd.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": product.name,
+      "description": product.description,
+      "review": {
+        "@type": "Review",
+        "reviewRating": { "@type": "Rating", "ratingValue": product.rating, "bestRating": 5 },
+        "author": { "@type": "Organization", "name": "おすすめツール比較ナビ" }
+      },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": product.rating, "bestRating": 5, "ratingCount": 1 }
+    });
+    document.head.appendChild(jsonLd);
+    // BreadcrumbList
+    const bcLd = document.createElement('script');
+    bcLd.type = 'application/ld+json';
+    bcLd.textContent = JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://freesozo.github.io/simple-monetize/" },
+        { "@type": "ListItem", "position": 2, "name": getCategoryName(product.category) },
+        { "@type": "ListItem", "position": 3, "name": product.name }
+      ]
+    });
+    document.head.appendChild(bcLd);
     const catName = getCategoryName(product.category);
     const stars = '★'.repeat(Math.floor(product.rating)) + (product.rating % 1 >= 0.5 ? '☆' : '');
 
