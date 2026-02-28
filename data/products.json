@@ -1164,8 +1164,8 @@
       "description": "お名前.comはGMOが運営する国内最大のドメイン登録サービスです。580種類以上のTLDに対応し、キャンペーン時は1円でドメイン取得可能。Whois情報公開代行やDNSレコード設定も標準搭載。国内ユーザーには日本語サポートがある安心感があります。",
       "rating": 3.9,
       "price": "¥1〜/年（キャンペーン時）",
-      "affiliateUrl": "",
-      "affiliateProvider": "none",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AXL4C+FFHG6Q+50+2HE0RM",
+      "affiliateProvider": "a8",
       "imageUrl": "",
       "pros": [
         "580種類以上のTLD",
@@ -3171,6 +3171,38 @@
       "lastChecked": "2026-02-28",
       "status": "active",
       "featured": false
+    },
+    {
+      "id": "a8net",
+      "name": "A8.net",
+      "category": "marketing",
+      "summary": "国内最大級のアフィリエイトASP。広告主数・メディア数ともにNo.1。",
+      "description": "A8.netは株式会社ファンコミュニケーションズが運営する国内最大級のアフィリエイトサービスプロバイダ（ASP）です。累計広告主数24,000社以上、登録メディア数330万以上。ブログやWebサイトの収益化に最適で、セルフバック（自己アフィリエイト）機能も充実。初心者向けの学習コンテンツも豊富で、アフィリエイトを始めるなら最初に登録すべきASPです。",
+      "rating": 4.5,
+      "price": "無料",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AXL4C+FDP5DE+0K+10FXXU",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "国内最大級の広告主数",
+        "登録・利用完全無料",
+        "セルフバック機能充実",
+        "初心者向けコンテンツ豊富"
+      ],
+      "cons": [
+        "最低支払額1,000円",
+        "振込手数料がかかる"
+      ],
+      "features": [
+        "アフィリエイト広告",
+        "セルフバック",
+        "成果レポート",
+        "A8フェスティバル"
+      ],
+      "officialUrl": "https://www.a8.net/",
+      "lastChecked": "2026-02-28",
+      "status": "active",
+      "featured": true
     },
     {
       "id": "duolingo-plus",
