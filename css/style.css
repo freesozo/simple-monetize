@@ -188,6 +188,68 @@ ul { list-style: none; }
   background: var(--cat-active-bg);
 }
 
+/* ===== Sort Bar ===== */
+.sort-bar {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 0 16px;
+}
+.sort-select {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: .9rem;
+  color: var(--text);
+  cursor: pointer;
+}
+.sort-select:focus { border-color: var(--primary); outline: none; }
+.fav-filter-btn {
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: .9rem;
+  cursor: pointer;
+  color: var(--text);
+  transition: all .2s;
+}
+.fav-filter-btn:hover { border-color: var(--primary); }
+.fav-filter-btn.active {
+  border-color: #ef4444;
+  background: #fef2f2;
+  color: #ef4444;
+}
+[data-theme="dark"] .fav-filter-btn.active {
+  background: #451a1a;
+}
+
+/* ===== Favorite Button ===== */
+.card-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.fav-btn {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 2px 4px;
+  transition: transform .2s;
+  line-height: 1;
+}
+.fav-btn:hover { transform: scale(1.2); }
+.fav-btn.active { animation: favPop .3s ease; }
+@keyframes favPop {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+  100% { transform: scale(1); }
+}
+
 /* ===== Section Titles ===== */
 .section-title {
   font-size: 1.5rem;
@@ -479,6 +541,9 @@ ul { list-style: none; }
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* ===== Responsive ===== */
+@media (min-width: 1024px) {
+  .product-grid { grid-template-columns: repeat(3, 1fr); }
+}
 @media (max-width: 768px) {
   .hero h1 { font-size: 1.4rem; }
   .hero { padding: 40px 0; }
@@ -487,7 +552,12 @@ ul { list-style: none; }
   .review-sidebar { position: static; }
   .pros-cons { grid-template-columns: 1fr; }
   .section-title { font-size: 1.2rem; }
+  .site-header .container { flex-wrap: wrap; }
   .header-nav { gap: 10px; }
   .header-actions { gap: 4px; }
   .lang-btn { padding: 6px 8px; font-size: .8rem; }
+  .sort-bar { justify-content: center; }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  .product-grid { grid-template-columns: repeat(2, 1fr); }
 }

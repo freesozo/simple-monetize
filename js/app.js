@@ -4,6 +4,9 @@
   let products = [];
   let config = {};
   let currentCategory = 'all';
+  let currentSort = 'rating';
+  let showFavOnly = false;
+  let favorites = JSON.parse(localStorage.getItem('toolFavorites') || '[]');
 
   // ===== Theme =====
   function initTheme() {
@@ -71,12 +74,51 @@
     I18n.applyAll();
   }
 
+  // ===== Favorites =====
+  function isFav(id) { return favorites.includes(id); }
+  function toggleFav(id) {
+    if (isFav(id)) {
+      favorites = favorites.filter(f => f !== id);
+    } else {
+      favorites.push(id);
+    }
+    localStorage.setItem('toolFavorites', JSON.stringify(favorites));
+    // Re-render
+    renderFeatured();
+    filterProducts();
+  }
+  window.toggleFav = toggleFav;
+
   // ===== Index Page =====
   function initIndexPage() {
     renderCategories();
+    renderSortBar();
     renderFeatured();
-    renderProducts(products);
+    filterProducts();
     initSearch();
+  }
+
+  function renderSortBar() {
+    const container = document.getElementById('sortBar');
+    if (!container) return;
+    container.innerHTML = '';
+    // Sort select
+    const sel = document.createElement('select');
+    sel.className = 'sort-select';
+    sel.innerHTML = `<option value="rating">${I18n.t('sortRating')}</option><option value="name">${I18n.t('sortName')}</option>`;
+    sel.value = currentSort;
+    sel.addEventListener('change', () => { currentSort = sel.value; filterProducts(); });
+    // Fav toggle
+    const favBtn = document.createElement('button');
+    favBtn.className = 'fav-filter-btn' + (showFavOnly ? ' active' : '');
+    favBtn.textContent = I18n.t('favOnly');
+    favBtn.addEventListener('click', () => {
+      showFavOnly = !showFavOnly;
+      favBtn.classList.toggle('active', showFavOnly);
+      filterProducts();
+    });
+    container.appendChild(sel);
+    container.appendChild(favBtn);
   }
 
   function renderCategories() {
@@ -146,11 +188,15 @@
     const stars = '★'.repeat(Math.floor(product.rating)) + (product.rating % 1 >= 0.5 ? '☆' : '');
     const featuredClass = (isFeatured || product.featured) ? ' featured' : '';
     const affiliateLink = product.affiliateUrl || product.officialUrl;
-    const featuredLabel = I18n.t('featuredHeading').replace('★ ', '★ ');
+    const faved = isFav(product.id);
+    const favLabel = faved ? I18n.t('favRemove') : I18n.t('favAdd');
     return `
       <div class="product-card${featuredClass}" data-featured-label="${escapeHtml(I18n.getLang() === 'en' ? '★ Top Pick' : '★ おすすめ')}">
         <div class="card-body">
-          <span class="card-category">${escapeHtml(catName)}</span>
+          <div class="card-top-row">
+            <span class="card-category">${escapeHtml(catName)}</span>
+            <button class="fav-btn${faved ? ' active' : ''}" onclick="toggleFav('${product.id}')" title="${favLabel}">${faved ? '❤️' : '🤍'}</button>
+          </div>
           <h3 class="card-title">${escapeHtml(product.name)}</h3>
           <p class="card-summary">${escapeHtml(I18n.getLang() === 'en' ? (product.summaryEn || product.summary) : product.summary)}</p>
           <div class="card-meta">
@@ -177,6 +223,15 @@
         p.summary.toLowerCase().includes(query) ||
         p.description.toLowerCase().includes(query)
       );
+    }
+    if (showFavOnly) {
+      filtered = filtered.filter(p => isFav(p.id));
+    }
+    // Sort
+    if (currentSort === 'name') {
+      filtered = [...filtered].sort((a, b) => a.name.localeCompare(b.name, 'ja'));
+    } else {
+      filtered = [...filtered].sort((a, b) => b.rating - a.rating);
     }
     renderProducts(filtered);
   }

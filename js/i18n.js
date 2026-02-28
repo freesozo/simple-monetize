@@ -39,6 +39,13 @@ const I18n = (() => {
       footerCopyright: '© 2026 おすすめツール比較ナビ',
       // Ad
       adSlot: '広告スペース',
+      // Sort
+      sortRating: '評価順',
+      sortName: '名前順',
+      // Favorites
+      favOnly: '❤️ お気に入りのみ',
+      favAdd: 'お気に入りに追加',
+      favRemove: 'お気に入りから削除',
       // Theme
       lang: '🌐 English',
     },
@@ -80,6 +87,13 @@ const I18n = (() => {
       footerCopyright: '© 2026 Tool Compare Navi',
       // Ad
       adSlot: 'Ad Space',
+      // Sort
+      sortRating: 'By Rating',
+      sortName: 'By Name',
+      // Favorites
+      favOnly: '❤️ Favorites Only',
+      favAdd: 'Add to favorites',
+      favRemove: 'Remove from favorites',
       // Theme
       lang: '🌐 日本語',
     }
