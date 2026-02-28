@@ -7,6 +7,9 @@
   let currentSort = 'rating';
   let showFavOnly = false;
   let favorites = JSON.parse(localStorage.getItem('toolFavorites') || '[]');
+  let currentPage = 1;
+  const perPage = 24;
+  let lastFiltered = [];
 
   // ===== Theme =====
   function initTheme() {
@@ -96,6 +99,9 @@
     renderFeatured();
     filterProducts();
     initSearch();
+    // Load more
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    if (loadMoreBtn) loadMoreBtn.addEventListener('click', loadMore);
   }
 
   function renderSortBar() {
@@ -166,21 +172,44 @@
     grid.innerHTML = featured.map(p => createProductCard(p, true)).join('');
   }
 
-  function renderProducts(list) {
+  function renderProducts(list, append) {
     const grid = document.getElementById('productGrid');
     const noResults = document.getElementById('noResults');
+    const loadMoreBtn = document.getElementById('loadMoreBtn');
+    const resultCount = document.getElementById('resultCount');
     if (!grid) return;
     const active = list.filter(p => p.status === 'active');
+    lastFiltered = active;
     if (active.length === 0) {
       grid.innerHTML = '';
       if (noResults) {
         noResults.style.display = 'block';
         noResults.querySelector('p').textContent = I18n.t('noResults');
       }
+      if (loadMoreBtn) loadMoreBtn.style.display = 'none';
+      if (resultCount) resultCount.textContent = '';
       return;
     }
     if (noResults) noResults.style.display = 'none';
-    grid.innerHTML = active.map(p => createProductCard(p, false)).join('');
+    const shown = currentPage * perPage;
+    const visible = active.slice(0, shown);
+    if (append) {
+      grid.innerHTML += active.slice(shown - perPage, shown).map(p => createProductCard(p, false)).join('');
+    } else {
+      grid.innerHTML = visible.map(p => createProductCard(p, false)).join('');
+    }
+    // Load more button
+    if (loadMoreBtn) {
+      loadMoreBtn.style.display = shown < active.length ? 'inline-block' : 'none';
+    }
+    // Result count
+    if (resultCount) {
+      const showing = Math.min(shown, active.length);
+      const lang = I18n.getLang();
+      resultCount.textContent = lang === 'en'
+        ? `Showing ${showing} of ${active.length} tools`
+        : `${active.length}件中 ${showing}件を表示`;
+    }
   }
 
   function createProductCard(product, isFeatured) {
@@ -212,6 +241,7 @@
   }
 
   function filterProducts() {
+    currentPage = 1;
     const query = (document.getElementById('searchInput')?.value || '').toLowerCase();
     let filtered = products;
     if (currentCategory !== 'all') {
@@ -233,7 +263,12 @@
     } else {
       filtered = [...filtered].sort((a, b) => b.rating - a.rating);
     }
-    renderProducts(filtered);
+    renderProducts(filtered, false);
+  }
+
+  function loadMore() {
+    currentPage++;
+    renderProducts(lastFiltered, true);
   }
 
   function initSearch() {

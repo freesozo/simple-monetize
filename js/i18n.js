@@ -46,6 +46,8 @@ const I18n = (() => {
       favOnly: '❤️ お気に入りのみ',
       favAdd: 'お気に入りに追加',
       favRemove: 'お気に入りから削除',
+      // Load more
+      loadMore: 'もっと見る',
       // Theme
       lang: '🌐 English',
     },
@@ -94,6 +96,8 @@ const I18n = (() => {
       favOnly: '❤️ Favorites Only',
       favAdd: 'Add to favorites',
       favRemove: 'Remove from favorites',
+      // Load more
+      loadMore: 'Show More',
       // Theme
       lang: '🌐 日本語',
     }

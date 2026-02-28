@@ -486,6 +486,27 @@ ul { list-style: none; }
 .breadcrumb a { color: var(--primary); }
 .breadcrumb span { margin: 0 6px; }
 
+/* ===== Load More & Result Count ===== */
+.load-more-wrap { text-align: center; padding: 24px 0 8px; }
+.btn-load-more {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 40px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background .2s;
+}
+.btn-load-more:hover { background: var(--primary-hover); }
+.result-count {
+  text-align: center;
+  font-size: .85rem;
+  color: var(--text-muted);
+  padding: 8px 0 0;
+}
+
 /* ===== No Results ===== */
 .no-results {
   text-align: center;
@@ -557,6 +578,15 @@ ul { list-style: none; }
   .header-actions { gap: 4px; }
   .lang-btn { padding: 6px 8px; font-size: .8rem; }
   .sort-bar { justify-content: center; }
+  .category-grid {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    padding-bottom: 8px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+  }
+  .category-btn { white-space: nowrap; flex-shrink: 0; padding: 10px 16px; font-size: .85rem; }
 }
 @media (min-width: 481px) and (max-width: 768px) {
   .product-grid { grid-template-columns: repeat(2, 1fr); }
