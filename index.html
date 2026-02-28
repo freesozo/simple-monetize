@@ -39,6 +39,7 @@
     "sameAs": ["https://github.com/freesozo/simple-monetize"]
   }
   </script>
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -47,20 +48,24 @@
     <div class="container">
       <a href="index.html" class="site-logo">ツール比較<span>ナビ</span></a>
       <nav class="header-nav">
-        <a href="index.html">ホーム</a>
-        <a href="#categories">カテゴリ</a>
-        <a href="#all-products">全ツール</a>
+        <a href="index.html" data-i18n="navHome">ホーム</a>
+        <a href="#categories" data-i18n="navCategory">カテゴリ</a>
+        <a href="#all-products" data-i18n="navAll">全ツール</a>
       </nav>
+      <div class="header-actions">
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <button class="lang-btn" id="langBtn" data-i18n="lang">🌐 English</button>
+      </div>
     </div>
   </header>
 
   <!-- Hero -->
   <section class="hero">
     <div class="container">
-      <h1>あなたに最適なツールが見つかる</h1>
-      <p>人気のレンタルサーバー、VPN、学習サービス、AIツールなどを徹底比較。実際のユーザー視点でおすすめをご紹介します。</p>
+      <h1 data-i18n="heroHeading">あなたに最適なツールが見つかる</h1>
+      <p data-i18n="heroSub">人気のレンタルサーバー、VPN、学習サービス、AIツールなどを徹底比較。実際のユーザー視点でおすすめをご紹介します。</p>
       <div class="hero-search">
-        <input type="text" id="searchInput" placeholder="ツール名やキーワードで検索...">
+        <input type="text" id="searchInput" data-i18n="searchPlaceholder" placeholder="ツール名やキーワードで検索...">
         <button type="button" id="searchBtn">🔍</button>
       </div>
     </div>
@@ -69,21 +74,19 @@
   <!-- Categories -->
   <section class="categories" id="categories">
     <div class="container">
-      <div class="category-grid" id="categoryGrid">
-        <button class="category-btn active" data-category="all">すべて</button>
-      </div>
+      <div class="category-grid" id="categoryGrid"></div>
     </div>
   </section>
 
   <!-- Ad Slot Top -->
   <div class="container">
-    <div class="ad-slot" id="adSlotTop">広告スペース（AdSense / A8.net バナー）</div>
+    <div class="ad-slot" id="adSlotTop" data-i18n="adSlot">広告スペース</div>
   </div>
 
   <!-- Featured Products -->
   <section class="products-section">
     <div class="container">
-      <h2 class="section-title" id="featuredTitle">★ 特におすすめ</h2>
+      <h2 class="section-title" id="featuredTitle" data-i18n="featuredHeading">★ 特におすすめ</h2>
       <div class="product-grid" id="featuredGrid"></div>
     </div>
   </section>
@@ -91,35 +94,36 @@
   <!-- All Products -->
   <section class="products-section" id="all-products">
     <div class="container">
-      <h2 class="section-title">全ツール一覧</h2>
+      <h2 class="section-title" data-i18n="allToolsHeading">全ツール一覧</h2>
       <div class="product-grid" id="productGrid"></div>
       <div class="no-results" id="noResults" style="display:none;">
-        <p>該当するツールが見つかりませんでした。</p>
+        <p data-i18n="noResults">該当するツールが見つかりませんでした。</p>
       </div>
     </div>
   </section>
 
   <!-- Ad Slot Bottom -->
   <div class="container">
-    <div class="ad-slot" id="adSlotBottom">広告スペース（AdSense / A8.net バナー）</div>
+    <div class="ad-slot" id="adSlotBottom" data-i18n="adSlot">広告スペース</div>
   </div>
 
   <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-links">
-        <a href="index.html">ホーム</a>
-        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="index.html" data-i18n="footerHome">ホーム</a>
+        <a href="privacy.html" data-i18n="footerPrivacy">プライバシーポリシー</a>
       </div>
-      <p class="sister-site">姉妹サイト: <a href="https://freesozo.com/" target="_blank" rel="noopener">フリー素材ポータル</a></p>
-      <p>※ 当サイトはアフィリエイトプログラムに参加しています。</p>
-      <p>&copy; 2026 おすすめツール比較ナビ</p>
+      <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://freesozo.com/" target="_blank" rel="noopener" data-i18n="footerSisterName">フリー素材ポータル</a></p>
+      <p data-i18n="footerAffiliate">※ 当サイトはアフィリエイトプログラムに参加しています。</p>
+      <p data-i18n="footerCopyright">© 2026 おすすめツール比較ナビ</p>
     </div>
   </footer>
 
   <button class="back-to-top" id="backToTop">↑</button>
   <div class="toast" id="toast"></div>
 
+  <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

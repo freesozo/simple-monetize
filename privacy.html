@@ -4,13 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>プライバシーポリシー｜おすすめツール比較ナビ</title>
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <a href="index.html" class="site-logo">ツール比較<span>ナビ</span></a>
-      <nav class="header-nav"><a href="index.html">ホーム</a></nav>
+      <nav class="header-nav">
+        <a href="index.html" data-i18n="navHome">ホーム</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <button class="lang-btn" id="langBtn" data-i18n="lang">🌐 English</button>
+      </div>
     </div>
   </header>
   <section class="review-page">
@@ -30,12 +37,37 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-links">
-        <a href="index.html">ホーム</a>
-        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="index.html" data-i18n="footerHome">ホーム</a>
+        <a href="privacy.html" data-i18n="footerPrivacy">プライバシーポリシー</a>
       </div>
-      <p class="sister-site">姉妹サイト: <a href="https://freesozo.com/" target="_blank" rel="noopener">フリー素材ポータル</a></p>
-      <p>&copy; 2026 おすすめツール比較ナビ</p>
+      <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://freesozo.com/" target="_blank" rel="noopener" data-i18n="footerSisterName">フリー素材ポータル</a></p>
+      <p data-i18n="footerCopyright">© 2026 おすすめツール比較ナビ</p>
     </div>
   </footer>
+  <script src="js/i18n.js"></script>
+  <script>
+    // Theme toggle for privacy page
+    (function(){
+      var btn=document.getElementById('themeBtn');
+      if(!btn)return;
+      var theme=document.documentElement.dataset.theme||'light';
+      btn.textContent=theme==='dark'?'☀️':'🌙';
+      btn.addEventListener('click',function(){
+        var next=document.documentElement.dataset.theme==='dark'?'light':'dark';
+        document.documentElement.dataset.theme=next;
+        localStorage.setItem('theme',next);
+        btn.textContent=next==='dark'?'☀️':'🌙';
+      });
+      var langBtn=document.getElementById('langBtn');
+      if(langBtn){
+        langBtn.textContent=I18n.t('lang');
+        langBtn.addEventListener('click',function(){
+          I18n.toggle();
+          langBtn.textContent=I18n.t('lang');
+        });
+      }
+      I18n.applyAll();
+    })();
+  </script>
 </body>
 </html>

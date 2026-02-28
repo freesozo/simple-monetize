@@ -12,6 +12,7 @@
   <meta property="og:url" content="">
   <meta name="twitter:card" content="summary">
   <link rel="canonical" href="">
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -20,59 +21,63 @@
     <div class="container">
       <a href="index.html" class="site-logo">ツール比較<span>ナビ</span></a>
       <nav class="header-nav">
-        <a href="index.html">ホーム</a>
-        <a href="index.html#categories">カテゴリ</a>
-        <a href="index.html#all-products">全ツール</a>
+        <a href="index.html" data-i18n="navHome">ホーム</a>
+        <a href="index.html#categories" data-i18n="navCategory">カテゴリ</a>
+        <a href="index.html#all-products" data-i18n="navAll">全ツール</a>
       </nav>
+      <div class="header-actions">
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <button class="lang-btn" id="langBtn" data-i18n="lang">🌐 English</button>
+      </div>
     </div>
   </header>
 
   <!-- Breadcrumb -->
   <div class="container">
     <div class="breadcrumb">
-      <a href="index.html">ホーム</a><span>›</span><span id="breadcrumbCategory"></span><span>›</span><span id="breadcrumbName"></span>
+      <a href="index.html" data-i18n="breadcrumbHome">ホーム</a><span>›</span><span id="breadcrumbCategory"></span><span>›</span><span id="breadcrumbName"></span>
     </div>
   </div>
 
   <!-- Review Content -->
   <section class="review-page">
     <div class="container">
-      <div class="loading" id="loading">読み込み中...</div>
+      <div class="loading" id="loading" data-i18n="loading">読み込み中...</div>
       <div id="reviewContent" style="display:none;">
         <div class="review-header">
           <h1 id="reviewTitle"></h1>
           <div class="review-meta">
             <span class="review-rating-lg" id="reviewRating"></span>
             <span class="review-price-lg" id="reviewPrice"></span>
-            <span class="review-badge">おすすめ</span>
+            <span class="review-badge" id="reviewBadge">おすすめ</span>
           </div>
         </div>
 
         <!-- Ad Slot -->
-        <div class="ad-slot">広告スペース</div>
+        <div class="ad-slot" data-i18n="adSlot">広告スペース</div>
 
         <div class="review-content">
           <div class="review-main">
             <div class="review-description" id="reviewDescription"></div>
             <div class="pros-cons">
               <div class="pros">
-                <h3>メリット</h3>
+                <h3 id="prosLabel">メリット</h3>
                 <ul id="reviewPros"></ul>
               </div>
               <div class="cons">
-                <h3>デメリット</h3>
+                <h3 id="consLabel">デメリット</h3>
                 <ul id="reviewCons"></ul>
               </div>
             </div>
             <div class="features-list">
-              <h3>主な機能・特徴</h3>
+              <h3 id="featuresLabel">主な機能・特徴</h3>
               <ul id="reviewFeatures"></ul>
             </div>
           </div>
           <div class="review-sidebar">
             <div class="sidebar-cta">
               <h3 id="ctaTitle"></h3>
-              <p>まずは公式サイトで詳細をチェック</p>
+              <p id="ctaSubtext">まずは公式サイトで詳細をチェック</p>
               <a href="#" class="btn-cta" id="ctaAffiliate" target="_blank" rel="noopener noreferrer nofollow">公式サイトを見る →</a>
               <a href="#" class="btn-official" id="ctaOfficial" target="_blank" rel="noopener noreferrer">公式サイト（直接）</a>
             </div>
@@ -80,11 +85,11 @@
         </div>
 
         <!-- Ad Slot Bottom -->
-        <div class="ad-slot">広告スペース</div>
+        <div class="ad-slot" data-i18n="adSlot">広告スペース</div>
 
         <!-- Related Products -->
         <div class="products-section">
-          <h2 class="section-title">関連ツール</h2>
+          <h2 class="section-title" id="relatedTitle">関連ツール</h2>
           <div class="product-grid" id="relatedGrid"></div>
         </div>
       </div>
@@ -95,18 +100,19 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-links">
-        <a href="index.html">ホーム</a>
-        <a href="privacy.html">プライバシーポリシー</a>
+        <a href="index.html" data-i18n="footerHome">ホーム</a>
+        <a href="privacy.html" data-i18n="footerPrivacy">プライバシーポリシー</a>
       </div>
-      <p class="sister-site">姉妹サイト: <a href="https://freesozo.com/" target="_blank" rel="noopener">フリー素材ポータル</a></p>
-      <p>※ 当サイトはアフィリエイトプログラムに参加しています。</p>
-      <p>&copy; 2026 おすすめツール比較ナビ</p>
+      <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://freesozo.com/" target="_blank" rel="noopener" data-i18n="footerSisterName">フリー素材ポータル</a></p>
+      <p data-i18n="footerAffiliate">※ 当サイトはアフィリエイトプログラムに参加しています。</p>
+      <p data-i18n="footerCopyright">© 2026 おすすめツール比較ナビ</p>
     </div>
   </footer>
 
   <button class="back-to-top" id="backToTop">↑</button>
   <div class="toast" id="toast"></div>
 
+  <script src="js/i18n.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

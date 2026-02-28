@@ -6,26 +6,31 @@
     {
       "id": "server",
       "name": "レンタルサーバー",
+      "nameEn": "Web Hosting",
       "icon": "🖥️"
     },
     {
       "id": "vpn",
       "name": "VPN",
+      "nameEn": "VPN",
       "icon": "🔒"
     },
     {
       "id": "learning",
       "name": "プログラミング学習",
+      "nameEn": "Learning",
       "icon": "📚"
     },
     {
       "id": "ai",
       "name": "AI ツール",
+      "nameEn": "AI Tools",
       "icon": "🤖"
     },
     {
       "id": "design",
       "name": "デザインツール",
+      "nameEn": "Design Tools",
       "icon": "🎨"
     }
   ],
