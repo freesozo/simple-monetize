@@ -464,7 +464,7 @@
 
     startBtn.addEventListener('click', () => {
       quizState = { step: 1, q1: null, q2: null, q3: null };
-      overlay.classList.add('active');
+      overlay.style.display = 'flex';
       document.body.style.overflow = 'hidden';
       renderQuizStep();
     });
@@ -474,13 +474,13 @@
       if (e.target === overlay) closeQuiz();
     });
     document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && overlay.classList.contains('active')) closeQuiz();
+      if (e.key === 'Escape' && overlay.style.display === 'flex') closeQuiz();
     });
   }
 
   function closeQuiz() {
     const overlay = document.getElementById('quizOverlay');
-    overlay.classList.remove('active');
+    overlay.style.display = 'none';
     document.body.style.overflow = '';
   }
 
@@ -640,7 +640,7 @@
   // Re-render quiz on language change
   window.addEventListener('langchange', () => {
     const overlay = document.getElementById('quizOverlay');
-    if (overlay && overlay.classList.contains('active')) {
+    if (overlay && overlay.style.display === 'flex') {
       renderQuizStep();
     }
   });
