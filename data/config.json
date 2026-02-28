@@ -3,25 +3,120 @@
   "siteDescription": "人気ツール・サービスを徹底比較。あなたに最適なツールが見つかります。",
   "siteUrl": "https://tools.freesozo.com",
   "categories": [
-    { "id": "server", "name": "レンタルサーバー", "nameEn": "Web Hosting", "icon": "🖥️" },
-    { "id": "vpn", "name": "VPN", "nameEn": "VPN", "icon": "🔒" },
-    { "id": "learning", "name": "学習・スキルアップ", "nameEn": "Learning", "icon": "📚" },
-    { "id": "ai", "name": "AI ツール", "nameEn": "AI Tools", "icon": "🤖" },
-    { "id": "design", "name": "デザインツール", "nameEn": "Design Tools", "icon": "🎨" },
-    { "id": "cloud", "name": "クラウドストレージ", "nameEn": "Cloud Storage", "icon": "☁️" },
-    { "id": "domain", "name": "ドメイン", "nameEn": "Domain", "icon": "🌐" },
-    { "id": "sitebuilder", "name": "サイトビルダー", "nameEn": "Site Builder", "icon": "🏗️" },
-    { "id": "ecommerce", "name": "ECサイト・決済", "nameEn": "E-commerce", "icon": "🛒" },
-    { "id": "project", "name": "プロジェクト管理", "nameEn": "Project Management", "icon": "📋" },
-    { "id": "communication", "name": "コミュニケーション", "nameEn": "Communication", "icon": "💬" },
-    { "id": "security", "name": "セキュリティ", "nameEn": "Security", "icon": "🛡️" },
-    { "id": "seo", "name": "SEO ツール", "nameEn": "SEO Tools", "icon": "📊" },
-    { "id": "video", "name": "動画編集", "nameEn": "Video Editing", "icon": "🎬" },
-    { "id": "photo", "name": "写真編集", "nameEn": "Photo Editing", "icon": "📷" },
-    { "id": "accounting", "name": "会計・経理", "nameEn": "Accounting", "icon": "💰" },
-    { "id": "marketing", "name": "マーケティング", "nameEn": "Marketing", "icon": "📧" },
-    { "id": "password", "name": "パスワード管理", "nameEn": "Password Manager", "icon": "🔑" },
-    { "id": "writing", "name": "ライティング・翻訳", "nameEn": "Writing & Translation", "icon": "✍️" }
+    {
+      "id": "server",
+      "name": "レンタルサーバー",
+      "nameEn": "Web Hosting",
+      "icon": "🖥️"
+    },
+    {
+      "id": "vpn",
+      "name": "VPN",
+      "nameEn": "VPN",
+      "icon": "🔒"
+    },
+    {
+      "id": "learning",
+      "name": "学習・スキルアップ",
+      "nameEn": "Learning",
+      "icon": "📚"
+    },
+    {
+      "id": "ai",
+      "name": "AI ツール",
+      "nameEn": "AI Tools",
+      "icon": "🤖"
+    },
+    {
+      "id": "design",
+      "name": "デザインツール",
+      "nameEn": "Design Tools",
+      "icon": "🎨"
+    },
+    {
+      "id": "cloud",
+      "name": "クラウドストレージ",
+      "nameEn": "Cloud Storage",
+      "icon": "☁️"
+    },
+    {
+      "id": "domain",
+      "name": "ドメイン",
+      "nameEn": "Domain",
+      "icon": "🌐"
+    },
+    {
+      "id": "sitebuilder",
+      "name": "サイトビルダー",
+      "nameEn": "Site Builder",
+      "icon": "🏗️"
+    },
+    {
+      "id": "ecommerce",
+      "name": "ECサイト・決済",
+      "nameEn": "E-commerce",
+      "icon": "🛒"
+    },
+    {
+      "id": "project",
+      "name": "プロジェクト管理",
+      "nameEn": "Project Management",
+      "icon": "📋"
+    },
+    {
+      "id": "communication",
+      "name": "コミュニケーション",
+      "nameEn": "Communication",
+      "icon": "💬"
+    },
+    {
+      "id": "security",
+      "name": "セキュリティ",
+      "nameEn": "Security",
+      "icon": "🛡️"
+    },
+    {
+      "id": "seo",
+      "name": "SEO ツール",
+      "nameEn": "SEO Tools",
+      "icon": "📊"
+    },
+    {
+      "id": "video",
+      "name": "動画編集",
+      "nameEn": "Video Editing",
+      "icon": "🎬"
+    },
+    {
+      "id": "photo",
+      "name": "写真編集",
+      "nameEn": "Photo Editing",
+      "icon": "📷"
+    },
+    {
+      "id": "accounting",
+      "name": "会計・経理",
+      "nameEn": "Accounting",
+      "icon": "💰"
+    },
+    {
+      "id": "marketing",
+      "name": "マーケティング",
+      "nameEn": "Marketing",
+      "icon": "📧"
+    },
+    {
+      "id": "password",
+      "name": "パスワード管理",
+      "nameEn": "Password Manager",
+      "icon": "🔑"
+    },
+    {
+      "id": "writing",
+      "name": "ライティング・翻訳",
+      "nameEn": "Writing & Translation",
+      "icon": "✍️"
+    }
   ],
   "adsense": {
     "enabled": false,

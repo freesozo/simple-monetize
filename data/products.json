@@ -11,9 +11,23 @@
       "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AXLW8+8MSAK2+CO4+61JSI",
       "affiliateProvider": "a8",
       "imageUrl": "",
-      "pros": ["国内シェアNo.1の安定性", "高速サーバー環境", "WordPress簡単インストール", "無料SSL標準搭載", "24時間サポート"],
-      "cons": ["最安プランは容量少なめ", "初期費用がかかる場合あり"],
-      "features": ["SSD 300GB〜", "転送量無制限", "MySQL無制限", "自動バックアップ"],
+      "pros": [
+        "国内シェアNo.1の安定性",
+        "高速サーバー環境",
+        "WordPress簡単インストール",
+        "無料SSL標準搭載",
+        "24時間サポート"
+      ],
+      "cons": [
+        "最安プランは容量少なめ",
+        "初期費用がかかる場合あり"
+      ],
+      "features": [
+        "SSD 300GB〜",
+        "転送量無制限",
+        "MySQL無制限",
+        "自動バックアップ"
+      ],
       "officialUrl": "https://www.xserver.ne.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -30,9 +44,22 @@
       "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AXLW8+ACPDGY+50+5SR7U9",
       "affiliateProvider": "a8",
       "imageUrl": "",
-      "pros": ["国内最速クラス", "ドメイン最大2個無料", "管理画面が使いやすい", "コスパが良い"],
-      "cons": ["電話サポートが平日のみ", "プラン変更に制限あり"],
-      "features": ["SSD 300GB〜", "転送量無制限", "ドメイン無料", "自動バックアップ"],
+      "pros": [
+        "国内最速クラス",
+        "ドメイン最大2個無料",
+        "管理画面が使いやすい",
+        "コスパが良い"
+      ],
+      "cons": [
+        "電話サポートが平日のみ",
+        "プラン変更に制限あり"
+      ],
+      "features": [
+        "SSD 300GB〜",
+        "転送量無制限",
+        "ドメイン無料",
+        "自動バックアップ"
+      ],
       "officialUrl": "https://www.conoha.jp/wing/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -49,9 +76,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["LiteSpeed採用で高速", "アダルトサイト対応", "初期費用無料", "30日間返金保証"],
-      "cons": ["管理画面がcPanel（英語ベース）", "電話サポートなし"],
-      "features": ["LiteSpeed Webサーバー", "SSD 300GB〜", "無料SSL", "自動バックアップ"],
+      "pros": [
+        "LiteSpeed採用で高速",
+        "アダルトサイト対応",
+        "初期費用無料",
+        "30日間返金保証"
+      ],
+      "cons": [
+        "管理画面がcPanel（英語ベース）",
+        "電話サポートなし"
+      ],
+      "features": [
+        "LiteSpeed Webサーバー",
+        "SSD 300GB〜",
+        "無料SSL",
+        "自動バックアップ"
+      ],
       "officialUrl": "https://mixhost.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -68,9 +108,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["月額99円〜の格安", "200万サイト以上の実績", "WordPress簡単インストール", "チャットサポート"],
-      "cons": ["安いプランは速度が遅め", "SSD容量が少ないプランあり"],
-      "features": ["WordPress簡単インストール", "無料SSL", "自動バックアップ（上位プラン）", "10日間無料お試し"],
+      "pros": [
+        "月額99円〜の格安",
+        "200万サイト以上の実績",
+        "WordPress簡単インストール",
+        "チャットサポート"
+      ],
+      "cons": [
+        "安いプランは速度が遅め",
+        "SSD容量が少ないプランあり"
+      ],
+      "features": [
+        "WordPress簡単インストール",
+        "無料SSL",
+        "自動バックアップ（上位プラン）",
+        "10日間無料お試し"
+      ],
       "officialUrl": "https://lolipop.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -87,9 +140,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["創業1996年の信頼性", "自社データセンター", "法人利用に強い", "幅広い価格帯"],
-      "cons": ["管理画面がやや古い", "プラン変更に制約あり"],
-      "features": ["SSD 100GB〜", "無料SSL", "Webフォント対応", "2週間無料お試し"],
+      "pros": [
+        "創業1996年の信頼性",
+        "自社データセンター",
+        "法人利用に強い",
+        "幅広い価格帯"
+      ],
+      "cons": [
+        "管理画面がやや古い",
+        "プラン変更に制約あり"
+      ],
+      "features": [
+        "SSD 100GB〜",
+        "無料SSL",
+        "Webフォント対応",
+        "2週間無料お試し"
+      ],
       "officialUrl": "https://www.sakura.ne.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -106,9 +172,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["地域別自動バックアップ", "LiteSpeed採用", "アダルト対応", "30日間返金保証"],
-      "cons": ["知名度が低め", "サポートの応答がやや遅い場合あり"],
-      "features": ["LiteSpeed", "地域別バックアップ", "無料SSL", "cPanel管理画面"],
+      "pros": [
+        "地域別自動バックアップ",
+        "LiteSpeed採用",
+        "アダルト対応",
+        "30日間返金保証"
+      ],
+      "cons": [
+        "知名度が低め",
+        "サポートの応答がやや遅い場合あり"
+      ],
+      "features": [
+        "LiteSpeed",
+        "地域別バックアップ",
+        "無料SSL",
+        "cPanel管理画面"
+      ],
       "officialUrl": "https://www.colorfulbox.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -125,9 +204,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["AWSインフラの信頼性", "月額固定料金で安心", "ワンクリックデプロイ", "EC2への移行が容易"],
-      "cons": ["日本語サポートが限定的", "従来のレンタルサーバーより設定が難しい"],
-      "features": ["SSD ストレージ", "静的IP付属", "DNS管理", "スナップショット"],
+      "pros": [
+        "AWSインフラの信頼性",
+        "月額固定料金で安心",
+        "ワンクリックデプロイ",
+        "EC2への移行が容易"
+      ],
+      "cons": [
+        "日本語サポートが限定的",
+        "従来のレンタルサーバーより設定が難しい"
+      ],
+      "features": [
+        "SSD ストレージ",
+        "静的IP付属",
+        "DNS管理",
+        "スナップショット"
+      ],
       "officialUrl": "https://aws.amazon.com/lightsail/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -144,9 +236,23 @@
       "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AXLW8+AV5T82+3YFI+61C2Q",
       "affiliateProvider": "a8",
       "imageUrl": "",
-      "pros": ["世界60カ国6,000台以上のサーバー", "軍事レベルの暗号化", "高速通信", "同時接続6台", "30日間返金保証"],
-      "cons": ["2年プランでないと割高", "中国では不安定な場合あり"],
-      "features": ["AES-256暗号化", "キルスイッチ", "スプリットトンネリング", "広告ブロック"],
+      "pros": [
+        "世界60カ国6,000台以上のサーバー",
+        "軍事レベルの暗号化",
+        "高速通信",
+        "同時接続6台",
+        "30日間返金保証"
+      ],
+      "cons": [
+        "2年プランでないと割高",
+        "中国では不安定な場合あり"
+      ],
+      "features": [
+        "AES-256暗号化",
+        "キルスイッチ",
+        "スプリットトンネリング",
+        "広告ブロック"
+      ],
       "officialUrl": "https://nordvpn.com/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -163,9 +269,22 @@
       "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AXLW8+BDM8Z6+4LSW+BXIYP",
       "affiliateProvider": "a8",
       "imageUrl": "",
-      "pros": ["デバイス接続台数無制限", "業界最安クラス", "CleanWeb広告ブロック", "100カ国以上対応"],
-      "cons": ["サーバー数はNordVPNより少ない", "日本語サポートが限定的"],
-      "features": ["AES-256暗号化", "接続台数無制限", "CleanWeb", "MultiHop"],
+      "pros": [
+        "デバイス接続台数無制限",
+        "業界最安クラス",
+        "CleanWeb広告ブロック",
+        "100カ国以上対応"
+      ],
+      "cons": [
+        "サーバー数はNordVPNより少ない",
+        "日本語サポートが限定的"
+      ],
+      "features": [
+        "AES-256暗号化",
+        "接続台数無制限",
+        "CleanWeb",
+        "MultiHop"
+      ],
       "officialUrl": "https://surfshark.com/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -182,9 +301,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["業界最速のLightwayプロトコル", "105カ国対応", "ストリーミング解除に強い", "24時間ライブチャット"],
-      "cons": ["価格が高め", "同時接続8台まで"],
-      "features": ["Lightwayプロトコル", "AES-256暗号化", "キルスイッチ", "スプリットトンネリング"],
+      "pros": [
+        "業界最速のLightwayプロトコル",
+        "105カ国対応",
+        "ストリーミング解除に強い",
+        "24時間ライブチャット"
+      ],
+      "cons": [
+        "価格が高め",
+        "同時接続8台まで"
+      ],
+      "features": [
+        "Lightwayプロトコル",
+        "AES-256暗号化",
+        "キルスイッチ",
+        "スプリットトンネリング"
+      ],
       "officialUrl": "https://www.expressvpn.com/jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -201,9 +333,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["10,000台以上のサーバー", "用途別プリセット", "45日間返金保証", "同時接続7台"],
-      "cons": ["中国では使えない", "速度がやや不安定な地域あり"],
-      "features": ["AES-256暗号化", "専用ストリーミングサーバー", "広告ブロック", "自動Wi-Fi保護"],
+      "pros": [
+        "10,000台以上のサーバー",
+        "用途別プリセット",
+        "45日間返金保証",
+        "同時接続7台"
+      ],
+      "cons": [
+        "中国では使えない",
+        "速度がやや不安定な地域あり"
+      ],
+      "features": [
+        "AES-256暗号化",
+        "専用ストリーミングサーバー",
+        "広告ブロック",
+        "自動Wi-Fi保護"
+      ],
       "officialUrl": "https://www.cyberghostvpn.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -220,9 +365,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["アカウント不要の匿名性", "月額固定€5", "オープンソース", "長期契約不要"],
-      "cons": ["サーバー数が少なめ", "ストリーミング解除は弱い"],
-      "features": ["WireGuard対応", "匿名アカウント", "マルチホップ", "DNS over HTTPS"],
+      "pros": [
+        "アカウント不要の匿名性",
+        "月額固定€5",
+        "オープンソース",
+        "長期契約不要"
+      ],
+      "cons": [
+        "サーバー数が少なめ",
+        "ストリーミング解除は弱い"
+      ],
+      "features": [
+        "WireGuard対応",
+        "匿名アカウント",
+        "マルチホップ",
+        "DNS over HTTPS"
+      ],
       "officialUrl": "https://mullvad.net/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -239,9 +397,23 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["20万以上のコース", "セール時は格安", "買い切り型", "30日間返金保証", "スマホアプリ対応"],
-      "cons": ["講師の質にバラつきあり", "セール以外は高い"],
-      "features": ["動画講座", "修了証明書", "Q&A機能", "オフライン視聴"],
+      "pros": [
+        "20万以上のコース",
+        "セール時は格安",
+        "買い切り型",
+        "30日間返金保証",
+        "スマホアプリ対応"
+      ],
+      "cons": [
+        "講師の質にバラつきあり",
+        "セール以外は高い"
+      ],
+      "features": [
+        "動画講座",
+        "修了証明書",
+        "Q&A機能",
+        "オフライン視聴"
+      ],
       "officialUrl": "https://www.udemy.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -258,9 +430,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["スライド形式でわかりやすい", "ブラウザで実践", "無料プランあり", "15言語以上対応"],
-      "cons": ["中級以上には物足りない", "実践的なプロジェクトが少ない"],
-      "features": ["スライド学習", "ブラウザエディタ", "レベルアップ機能", "スマホアプリ"],
+      "pros": [
+        "スライド形式でわかりやすい",
+        "ブラウザで実践",
+        "無料プランあり",
+        "15言語以上対応"
+      ],
+      "cons": [
+        "中級以上には物足りない",
+        "実践的なプロジェクトが少ない"
+      ],
+      "features": [
+        "スライド学習",
+        "ブラウザエディタ",
+        "レベルアップ機能",
+        "スマホアプリ"
+      ],
       "officialUrl": "https://prog-8.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -277,9 +462,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["現役エンジニアメンター", "週2回のメンタリング", "転職サポート付き", "多彩なコース"],
-      "cons": ["料金が高め", "自主学習が必要"],
-      "features": ["メンタリング", "チャットサポート", "課題レビュー", "転職保証コース"],
+      "pros": [
+        "現役エンジニアメンター",
+        "週2回のメンタリング",
+        "転職サポート付き",
+        "多彩なコース"
+      ],
+      "cons": [
+        "料金が高め",
+        "自主学習が必要"
+      ],
+      "features": [
+        "メンタリング",
+        "チャットサポート",
+        "課題レビュー",
+        "転職保証コース"
+      ],
       "officialUrl": "https://techacademy.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -296,9 +494,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["クリエイティブ系に強い", "月額見放題", "短いクラスで学びやすい", "7日間無料体験"],
-      "cons": ["日本語コースが少ない", "修了証明書がない"],
-      "features": ["動画クラス", "プロジェクトベース学習", "オフラインダウンロード", "コミュニティ"],
+      "pros": [
+        "クリエイティブ系に強い",
+        "月額見放題",
+        "短いクラスで学びやすい",
+        "7日間無料体験"
+      ],
+      "cons": [
+        "日本語コースが少ない",
+        "修了証明書がない"
+      ],
+      "features": [
+        "動画クラス",
+        "プロジェクトベース学習",
+        "オフラインダウンロード",
+        "コミュニティ"
+      ],
       "officialUrl": "https://www.skillshare.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -315,9 +526,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["インタラクティブな学習", "無料プラン充実", "キャリアパス機能", "14言語以上対応"],
-      "cons": ["日本語非対応", "応用的な内容は有料"],
-      "features": ["ブラウザ内コーディング", "クイズ", "プロジェクト", "証明書"],
+      "pros": [
+        "インタラクティブな学習",
+        "無料プラン充実",
+        "キャリアパス機能",
+        "14言語以上対応"
+      ],
+      "cons": [
+        "日本語非対応",
+        "応用的な内容は有料"
+      ],
+      "features": [
+        "ブラウザ内コーディング",
+        "クイズ",
+        "プロジェクト",
+        "証明書"
+      ],
       "officialUrl": "https://www.codecademy.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -334,9 +558,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["トップ大学の講座", "無料監査受講あり", "修了証取得可能", "オンライン学位"],
-      "cons": ["日本語字幕がないコースもある", "学位プログラムは高額"],
-      "features": ["大学連携コース", "Professional Certificate", "オンライン学位", "モバイルアプリ"],
+      "pros": [
+        "トップ大学の講座",
+        "無料監査受講あり",
+        "修了証取得可能",
+        "オンライン学位"
+      ],
+      "cons": [
+        "日本語字幕がないコースもある",
+        "学位プログラムは高額"
+      ],
+      "features": [
+        "大学連携コース",
+        "Professional Certificate",
+        "オンライン学位",
+        "モバイルアプリ"
+      ],
       "officialUrl": "https://www.coursera.org/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -353,9 +590,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["最先端のAIモデル", "画像生成対応", "プラグイン利用可能", "高速応答"],
-      "cons": ["月額$20と高め", "日本語は英語より精度が落ちる場合あり"],
-      "features": ["GPT-4o", "DALL-E画像生成", "コード実行", "ファイル分析"],
+      "pros": [
+        "最先端のAIモデル",
+        "画像生成対応",
+        "プラグイン利用可能",
+        "高速応答"
+      ],
+      "cons": [
+        "月額$20と高め",
+        "日本語は英語より精度が落ちる場合あり"
+      ],
+      "features": [
+        "GPT-4o",
+        "DALL-E画像生成",
+        "コード実行",
+        "ファイル分析"
+      ],
       "officialUrl": "https://chat.openai.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -372,9 +622,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["200Kトークンの長文対応", "高い日本語精度", "安全性重視の設計", "Artifacts機能"],
-      "cons": ["無料版は利用回数制限あり", "画像生成機能なし"],
-      "features": ["Claude 4.5 Sonnet/Opus", "長文コンテキスト", "Artifacts", "Projects機能"],
+      "pros": [
+        "200Kトークンの長文対応",
+        "高い日本語精度",
+        "安全性重視の設計",
+        "Artifacts機能"
+      ],
+      "cons": [
+        "無料版は利用回数制限あり",
+        "画像生成機能なし"
+      ],
+      "features": [
+        "Claude 4.5 Sonnet/Opus",
+        "長文コンテキスト",
+        "Artifacts",
+        "Projects機能"
+      ],
       "officialUrl": "https://claude.ai/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -391,9 +654,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["Google Workspace完全連携", "最新情報アクセス", "2TBストレージ付属", "マルチモーダル"],
-      "cons": ["Google依存が強い", "クリエイティブ系はやや弱い"],
-      "features": ["Gemini Ultra", "Google連携", "マルチモーダル", "2TB ストレージ"],
+      "pros": [
+        "Google Workspace完全連携",
+        "最新情報アクセス",
+        "2TBストレージ付属",
+        "マルチモーダル"
+      ],
+      "cons": [
+        "Google依存が強い",
+        "クリエイティブ系はやや弱い"
+      ],
+      "features": [
+        "Gemini Ultra",
+        "Google連携",
+        "マルチモーダル",
+        "2TB ストレージ"
+      ],
       "officialUrl": "https://gemini.google.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -410,9 +686,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["出典付きの正確な回答", "複数AIモデル選択可能", "リサーチに最適", "ファイルアップロード対応"],
-      "cons": ["日本語ソースがやや少ない", "長文生成は他AIに劣る"],
-      "features": ["マルチモデル対応", "ソース引用", "ファイル分析", "コレクション機能"],
+      "pros": [
+        "出典付きの正確な回答",
+        "複数AIモデル選択可能",
+        "リサーチに最適",
+        "ファイルアップロード対応"
+      ],
+      "cons": [
+        "日本語ソースがやや少ない",
+        "長文生成は他AIに劣る"
+      ],
+      "features": [
+        "マルチモデル対応",
+        "ソース引用",
+        "ファイル分析",
+        "コレクション機能"
+      ],
       "officialUrl": "https://www.perplexity.ai/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -429,9 +718,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["業界最高品質の画像生成", "アート性が高い", "V6で大幅進化", "商用利用可能（有料プラン）"],
-      "cons": ["Discordが必須", "日本語プロンプトはやや弱い"],
-      "features": ["テキスト→画像生成", "画像のバリエーション", "アップスケール", "スタイル指定"],
+      "pros": [
+        "業界最高品質の画像生成",
+        "アート性が高い",
+        "V6で大幅進化",
+        "商用利用可能（有料プラン）"
+      ],
+      "cons": [
+        "Discordが必須",
+        "日本語プロンプトはやや弱い"
+      ],
+      "features": [
+        "テキスト→画像生成",
+        "画像のバリエーション",
+        "アップスケール",
+        "スタイル指定"
+      ],
       "officialUrl": "https://www.midjourney.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -448,9 +750,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["IDE統合でシームレス", "多言語対応", "コンテキスト理解が優秀", "チャット機能付き"],
-      "cons": ["月額料金がかかる", "提案が常に正確とは限らない"],
-      "features": ["コード補完", "チャット", "テスト生成", "マルチIDE対応"],
+      "pros": [
+        "IDE統合でシームレス",
+        "多言語対応",
+        "コンテキスト理解が優秀",
+        "チャット機能付き"
+      ],
+      "cons": [
+        "月額料金がかかる",
+        "提案が常に正確とは限らない"
+      ],
+      "features": [
+        "コード補完",
+        "チャット",
+        "テスト生成",
+        "マルチIDE対応"
+      ],
       "officialUrl": "https://github.com/features/copilot",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -467,9 +782,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["VS Codeベースで馴染みやすい", "コードベース全体を理解", "マルチファイル編集", "高速なTab補完"],
-      "cons": ["Pro版は月額$20", "大規模プロジェクトでは遅い場合あり"],
-      "features": ["AIコード編集", "Cmd+K編集", "チャット", "コードベース検索"],
+      "pros": [
+        "VS Codeベースで馴染みやすい",
+        "コードベース全体を理解",
+        "マルチファイル編集",
+        "高速なTab補完"
+      ],
+      "cons": [
+        "Pro版は月額$20",
+        "大規模プロジェクトでは遅い場合あり"
+      ],
+      "features": [
+        "AIコード編集",
+        "Cmd+K編集",
+        "チャット",
+        "コードベース検索"
+      ],
       "officialUrl": "https://cursor.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -486,9 +814,23 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["直感的な操作", "1億点以上の素材", "テンプレート豊富", "チーム共有機能", "背景除去AI"],
-      "cons": ["オフラインでは使えない", "高度な編集はPhotoshopに劣る"],
-      "features": ["テンプレート", "AI画像生成", "動画編集", "ブランドキット"],
+      "pros": [
+        "直感的な操作",
+        "1億点以上の素材",
+        "テンプレート豊富",
+        "チーム共有機能",
+        "背景除去AI"
+      ],
+      "cons": [
+        "オフラインでは使えない",
+        "高度な編集はPhotoshopに劣る"
+      ],
+      "features": [
+        "テンプレート",
+        "AI画像生成",
+        "動画編集",
+        "ブランドキット"
+      ],
       "officialUrl": "https://www.canva.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -505,9 +847,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["リアルタイム共同編集", "ブラウザで動作", "無料プラン充実", "豊富なプラグイン"],
-      "cons": ["オフラインでは制限あり", "印刷物デザインには不向き"],
-      "features": ["リアルタイム共同編集", "プロトタイピング", "デザインシステム", "開発者ハンドオフ"],
+      "pros": [
+        "リアルタイム共同編集",
+        "ブラウザで動作",
+        "無料プラン充実",
+        "豊富なプラグイン"
+      ],
+      "cons": [
+        "オフラインでは制限あり",
+        "印刷物デザインには不向き"
+      ],
+      "features": [
+        "リアルタイム共同編集",
+        "プロトタイピング",
+        "デザインシステム",
+        "開発者ハンドオフ"
+      ],
       "officialUrl": "https://www.figma.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -524,9 +879,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["業界標準のプロツール", "20以上のアプリ", "Adobe Fonts付属", "ファイル互換性が高い"],
-      "cons": ["月額料金が高い", "PCスペックが必要"],
-      "features": ["Photoshop", "Illustrator", "Premiere Pro", "100GBストレージ"],
+      "pros": [
+        "業界標準のプロツール",
+        "20以上のアプリ",
+        "Adobe Fonts付属",
+        "ファイル互換性が高い"
+      ],
+      "cons": [
+        "月額料金が高い",
+        "PCスペックが必要"
+      ],
+      "features": [
+        "Photoshop",
+        "Illustrator",
+        "Premiere Pro",
+        "100GBストレージ"
+      ],
       "officialUrl": "https://www.adobe.com/jp/creativecloud.html",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -543,9 +911,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["買い切り型", "Adobe級の機能", "軽快な動作", "3アプリで完結"],
-      "cons": ["プラグインが少ない", "業界標準のAI形式は非対応"],
-      "features": ["Photo（画像編集）", "Designer（ベクター）", "Publisher（DTP）", "iPad対応"],
+      "pros": [
+        "買い切り型",
+        "Adobe級の機能",
+        "軽快な動作",
+        "3アプリで完結"
+      ],
+      "cons": [
+        "プラグインが少ない",
+        "業界標準のAI形式は非対応"
+      ],
+      "features": [
+        "Photo（画像編集）",
+        "Designer（ベクター）",
+        "Publisher（DTP）",
+        "iPad対応"
+      ],
       "officialUrl": "https://affinity.serif.com/ja-jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -562,9 +943,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["Mac上で軽快動作", "シンプルなUI", "プラグイン豊富", "シンボル管理が優秀"],
-      "cons": ["Mac専用", "Figmaにシェアを奪われ気味"],
-      "features": ["シンボル", "プロトタイプ", "共同編集", "開発者ハンドオフ"],
+      "pros": [
+        "Mac上で軽快動作",
+        "シンプルなUI",
+        "プラグイン豊富",
+        "シンボル管理が優秀"
+      ],
+      "cons": [
+        "Mac専用",
+        "Figmaにシェアを奪われ気味"
+      ],
+      "features": [
+        "シンボル",
+        "プロトタイプ",
+        "共同編集",
+        "開発者ハンドオフ"
+      ],
       "officialUrl": "https://www.sketch.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -581,9 +975,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["Googleサービスと完全連携", "家族5人まで共有", "VPN付属", "コスパが良い"],
-      "cons": ["Google依存が強まる", "単体ストレージとしては割高"],
-      "features": ["100GB〜2TB", "家族共有", "VPN", "Google フォト編集"],
+      "pros": [
+        "Googleサービスと完全連携",
+        "家族5人まで共有",
+        "VPN付属",
+        "コスパが良い"
+      ],
+      "cons": [
+        "Google依存が強まる",
+        "単体ストレージとしては割高"
+      ],
+      "features": [
+        "100GB〜2TB",
+        "家族共有",
+        "VPN",
+        "Google フォト編集"
+      ],
       "officialUrl": "https://one.google.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -600,9 +1007,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["同期が高速", "スマートシンク", "多OS対応", "ビジネス向け機能充実"],
-      "cons": ["無料プランは2GBのみ", "価格が高め"],
-      "features": ["スマートシンク", "Paper", "Transfer", "電子署名"],
+      "pros": [
+        "同期が高速",
+        "スマートシンク",
+        "多OS対応",
+        "ビジネス向け機能充実"
+      ],
+      "cons": [
+        "無料プランは2GBのみ",
+        "価格が高め"
+      ],
+      "features": [
+        "スマートシンク",
+        "Paper",
+        "Transfer",
+        "電子署名"
+      ],
       "officialUrl": "https://www.dropbox.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -619,9 +1039,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["Windows標準搭載", "Microsoft 365完全連携", "バージョン管理", "コスパ良好"],
-      "cons": ["Mac/Linuxでは使い勝手がやや劣る", "同期トラブルが稀にある"],
-      "features": ["Windows統合", "Microsoft 365連携", "バージョン履歴", "ランサムウェア検出"],
+      "pros": [
+        "Windows標準搭載",
+        "Microsoft 365完全連携",
+        "バージョン管理",
+        "コスパ良好"
+      ],
+      "cons": [
+        "Mac/Linuxでは使い勝手がやや劣る",
+        "同期トラブルが稀にある"
+      ],
+      "features": [
+        "Windows統合",
+        "Microsoft 365連携",
+        "バージョン履歴",
+        "ランサムウェア検出"
+      ],
       "officialUrl": "https://www.microsoft.com/ja-jp/microsoft-365/onedrive/online-cloud-storage",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -638,9 +1071,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["企業向けセキュリティ", "コンプライアンス対応", "1,500以上のアプリ連携", "無料10GBプラン"],
-      "cons": ["個人利用にはオーバースペック", "UIがやや複雑"],
-      "features": ["アクセス権限管理", "Box AI", "ワークフロー自動化", "電子署名"],
+      "pros": [
+        "企業向けセキュリティ",
+        "コンプライアンス対応",
+        "1,500以上のアプリ連携",
+        "無料10GBプラン"
+      ],
+      "cons": [
+        "個人利用にはオーバースペック",
+        "UIがやや複雑"
+      ],
+      "features": [
+        "アクセス権限管理",
+        "Box AI",
+        "ワークフロー自動化",
+        "電子署名"
+      ],
       "officialUrl": "https://www.box.com/ja-jp",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -657,9 +1103,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["買い切りプランあり", "スイスのプライバシー保護", "クライアント側暗号化", "10GBの無料プラン"],
-      "cons": ["暗号化オプションは別料金", "日本語サポートが限定的"],
-      "features": ["ライフタイムプラン", "pCloud Encryption", "メディアプレーヤー内蔵", "自動アップロード"],
+      "pros": [
+        "買い切りプランあり",
+        "スイスのプライバシー保護",
+        "クライアント側暗号化",
+        "10GBの無料プラン"
+      ],
+      "cons": [
+        "暗号化オプションは別料金",
+        "日本語サポートが限定的"
+      ],
+      "features": [
+        "ライフタイムプラン",
+        "pCloud Encryption",
+        "メディアプレーヤー内蔵",
+        "自動アップロード"
+      ],
       "officialUrl": "https://www.pcloud.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -676,9 +1135,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["原価でドメイン取得", "マークアップなし", "Cloudflare CDN連携", "WHOIS代行無料"],
-      "cons": ["新規取得できるTLDが限られる", "管理画面が英語ベース"],
-      "features": ["原価ドメイン", "DNSSEC", "WHOIS代行", "自動更新"],
+      "pros": [
+        "原価でドメイン取得",
+        "マークアップなし",
+        "Cloudflare CDN連携",
+        "WHOIS代行無料"
+      ],
+      "cons": [
+        "新規取得できるTLDが限られる",
+        "管理画面が英語ベース"
+      ],
+      "features": [
+        "原価ドメイン",
+        "DNSSEC",
+        "WHOIS代行",
+        "自動更新"
+      ],
       "officialUrl": "https://www.cloudflare.com/products/registrar/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -695,9 +1167,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["580種類以上のTLD", "1円キャンペーンあり", "日本語サポート", "国内最大の実績"],
-      "cons": ["更新料が高い", "営業メールが多い"],
-      "features": ["ドメイン取得", "Whois代行", "DNS管理", "転送設定"],
+      "pros": [
+        "580種類以上のTLD",
+        "1円キャンペーンあり",
+        "日本語サポート",
+        "国内最大の実績"
+      ],
+      "cons": [
+        "更新料が高い",
+        "営業メールが多い"
+      ],
+      "features": [
+        "ドメイン取得",
+        "Whois代行",
+        "DNS管理",
+        "転送設定"
+      ],
       "officialUrl": "https://www.onamae.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -714,9 +1199,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["WHOIS代行永年無料", "コスパが良い", "管理画面が使いやすい", "SSL証明書も安い"],
-      "cons": ["日本語非対応", "サポートは英語のみ"],
-      "features": ["WHOIS Privacy", "SSL証明書", "DNS管理", "ホスティング"],
+      "pros": [
+        "WHOIS代行永年無料",
+        "コスパが良い",
+        "管理画面が使いやすい",
+        "SSL証明書も安い"
+      ],
+      "cons": [
+        "日本語非対応",
+        "サポートは英語のみ"
+      ],
+      "features": [
+        "WHOIS Privacy",
+        "SSL証明書",
+        "DNS管理",
+        "ホスティング"
+      ],
       "officialUrl": "https://www.namecheap.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -733,9 +1231,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["初年度1円キャンペーン", "エックスサーバー連携", "Whois代行無料", "日本語完全対応"],
-      "cons": ["エックスサーバー以外との連携は手動", "TLD数がやや少ない"],
-      "features": ["ドメイン取得", "Whois代行", "DNS管理", "サーバー連携"],
+      "pros": [
+        "初年度1円キャンペーン",
+        "エックスサーバー連携",
+        "Whois代行無料",
+        "日本語完全対応"
+      ],
+      "cons": [
+        "エックスサーバー以外との連携は手動",
+        "TLD数がやや少ない"
+      ],
+      "features": [
+        "ドメイン取得",
+        "Whois代行",
+        "DNS管理",
+        "サーバー連携"
+      ],
       "officialUrl": "https://www.xdomain.ne.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -752,9 +1263,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["世界シェアNo.1のCMS", "無料プランあり", "豊富なテーマ", "SEOに強い"],
-      "cons": ["無料プランは広告付き", "カスタマイズに制限あり"],
-      "features": ["ブロックエディタ", "テーマ", "プラグイン", "SEO機能"],
+      "pros": [
+        "世界シェアNo.1のCMS",
+        "無料プランあり",
+        "豊富なテーマ",
+        "SEOに強い"
+      ],
+      "cons": [
+        "無料プランは広告付き",
+        "カスタマイズに制限あり"
+      ],
+      "features": [
+        "ブロックエディタ",
+        "テーマ",
+        "プラグイン",
+        "SEO機能"
+      ],
       "officialUrl": "https://wordpress.com/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -771,9 +1295,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["直感的なエディタ", "900以上のテンプレート", "AI自動生成", "無料プランあり"],
-      "cons": ["無料プランはWix広告付き", "テンプレート変更後の移行が困難"],
-      "features": ["ドラッグ＆ドロップ", "Wix ADI", "App Market", "SEOツール"],
+      "pros": [
+        "直感的なエディタ",
+        "900以上のテンプレート",
+        "AI自動生成",
+        "無料プランあり"
+      ],
+      "cons": [
+        "無料プランはWix広告付き",
+        "テンプレート変更後の移行が困難"
+      ],
+      "features": [
+        "ドラッグ＆ドロップ",
+        "Wix ADI",
+        "App Market",
+        "SEOツール"
+      ],
       "officialUrl": "https://ja.wix.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -790,9 +1327,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["デザインが美しい", "オールインワン", "EC機能内蔵", "14日間無料体験"],
-      "cons": ["日本語テンプレートが少ない", "カスタムコードに制限あり"],
-      "features": ["テンプレート", "EC機能", "ブログ", "予約システム"],
+      "pros": [
+        "デザインが美しい",
+        "オールインワン",
+        "EC機能内蔵",
+        "14日間無料体験"
+      ],
+      "cons": [
+        "日本語テンプレートが少ない",
+        "カスタムコードに制限あり"
+      ],
+      "features": [
+        "テンプレート",
+        "EC機能",
+        "ブログ",
+        "予約システム"
+      ],
       "officialUrl": "https://www.squarespace.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -809,9 +1359,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["CSSレベルの自由度", "クリーンなコード出力", "CMS内蔵", "豊富なアニメーション"],
-      "cons": ["学習コストが高い", "日本語情報が少ない"],
-      "features": ["ビジュアルCSS", "CMS", "EC機能", "ホスティング"],
+      "pros": [
+        "CSSレベルの自由度",
+        "クリーンなコード出力",
+        "CMS内蔵",
+        "豊富なアニメーション"
+      ],
+      "cons": [
+        "学習コストが高い",
+        "日本語情報が少ない"
+      ],
+      "features": [
+        "ビジュアルCSS",
+        "CMS",
+        "EC機能",
+        "ホスティング"
+      ],
       "officialUrl": "https://webflow.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -828,9 +1391,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["日本語完全対応", "AIビルダー", "無料プランあり", "KDDIサポート"],
-      "cons": ["デザインの自由度が低め", "高度なカスタマイズは不可"],
-      "features": ["AIビルダー", "レスポンシブ", "SEO", "アクセス解析"],
+      "pros": [
+        "日本語完全対応",
+        "AIビルダー",
+        "無料プランあり",
+        "KDDIサポート"
+      ],
+      "cons": [
+        "デザインの自由度が低め",
+        "高度なカスタマイズは不可"
+      ],
+      "features": [
+        "AIビルダー",
+        "レスポンシブ",
+        "SEO",
+        "アクセス解析"
+      ],
       "officialUrl": "https://www.jimdo.com/jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -847,9 +1423,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["日本語UIで使いやすい", "リアルタイム共同編集", "CMS機能", "美しいテンプレート"],
-      "cons": ["EC機能がない", "大規模サイトには不向き"],
-      "features": ["ノーコードデザイン", "CMS", "共同編集", "独自ドメイン"],
+      "pros": [
+        "日本語UIで使いやすい",
+        "リアルタイム共同編集",
+        "CMS機能",
+        "美しいテンプレート"
+      ],
+      "cons": [
+        "EC機能がない",
+        "大規模サイトには不向き"
+      ],
+      "features": [
+        "ノーコードデザイン",
+        "CMS",
+        "共同編集",
+        "独自ドメイン"
+      ],
       "officialUrl": "https://studio.design/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -866,9 +1455,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["世界最大のECプラットフォーム", "オールインワン", "アプリストア充実", "多通貨対応"],
-      "cons": ["月額+手数料のコスト", "日本向け機能はBASEに劣る面も"],
-      "features": ["ストア構築", "決済管理", "在庫管理", "アプリストア"],
+      "pros": [
+        "世界最大のECプラットフォーム",
+        "オールインワン",
+        "アプリストア充実",
+        "多通貨対応"
+      ],
+      "cons": [
+        "月額+手数料のコスト",
+        "日本向け機能はBASEに劣る面も"
+      ],
+      "features": [
+        "ストア構築",
+        "決済管理",
+        "在庫管理",
+        "アプリストア"
+      ],
       "officialUrl": "https://www.shopify.com/jp",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -885,9 +1487,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["初期費用・月額0円", "200万ショップの実績", "多様な決済対応", "Instagram連携"],
-      "cons": ["販売手数料がかかる", "デザインのカスタマイズに制限"],
-      "features": ["ショップ作成", "決済機能", "ショッピングアプリ", "Instagram連携"],
+      "pros": [
+        "初期費用・月額0円",
+        "200万ショップの実績",
+        "多様な決済対応",
+        "Instagram連携"
+      ],
+      "cons": [
+        "販売手数料がかかる",
+        "デザインのカスタマイズに制限"
+      ],
+      "features": [
+        "ショップ作成",
+        "決済機能",
+        "ショッピングアプリ",
+        "Instagram連携"
+      ],
       "officialUrl": "https://thebase.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -904,9 +1519,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["ネット＋実店舗の一元管理", "予約システム付き", "無料プランあり", "日本に最適化"],
-      "cons": ["デザインの自由度が低い", "海外販売には不向き"],
-      "features": ["ネットショップ", "POSレジ", "予約システム", "決済端末"],
+      "pros": [
+        "ネット＋実店舗の一元管理",
+        "予約システム付き",
+        "無料プランあり",
+        "日本に最適化"
+      ],
+      "cons": [
+        "デザインの自由度が低い",
+        "海外販売には不向き"
+      ],
+      "features": [
+        "ネットショップ",
+        "POSレジ",
+        "予約システム",
+        "決済端末"
+      ],
       "officialUrl": "https://stores.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -923,9 +1551,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["高品質なAPI", "ドキュメントが充実", "グローバル対応", "不正検知機能"],
-      "cons": ["開発知識が必要", "日本の決済手段カバー率はやや弱い"],
-      "features": ["オンライン決済", "サブスク管理", "請求書", "不正検知"],
+      "pros": [
+        "高品質なAPI",
+        "ドキュメントが充実",
+        "グローバル対応",
+        "不正検知機能"
+      ],
+      "cons": [
+        "開発知識が必要",
+        "日本の決済手段カバー率はやや弱い"
+      ],
+      "features": [
+        "オンライン決済",
+        "サブスク管理",
+        "請求書",
+        "不正検知"
+      ],
       "officialUrl": "https://stripe.com/jp",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -942,9 +1583,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["月額0円", "対面＋オンライン一体型", "POSレジ無料", "請求書無料"],
-      "cons": ["高額決済に制限あり", "サポートがやや遅い場合あり"],
-      "features": ["カードリーダー", "POSレジ", "オンラインストア", "請求書"],
+      "pros": [
+        "月額0円",
+        "対面＋オンライン一体型",
+        "POSレジ無料",
+        "請求書無料"
+      ],
+      "cons": [
+        "高額決済に制限あり",
+        "サポートがやや遅い場合あり"
+      ],
+      "features": [
+        "カードリーダー",
+        "POSレジ",
+        "オンラインストア",
+        "請求書"
+      ],
       "officialUrl": "https://squareup.com/jp/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -961,9 +1615,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["オールインワン", "ブロックエディタの自由度", "テンプレート豊富", "個人利用無料"],
-      "cons": ["多機能すぎて最初は迷う", "オフラインでは制限あり"],
-      "features": ["ブロックエディタ", "データベース", "タスク管理", "Wiki"],
+      "pros": [
+        "オールインワン",
+        "ブロックエディタの自由度",
+        "テンプレート豊富",
+        "個人利用無料"
+      ],
+      "cons": [
+        "多機能すぎて最初は迷う",
+        "オフラインでは制限あり"
+      ],
+      "features": [
+        "ブロックエディタ",
+        "データベース",
+        "タスク管理",
+        "Wiki"
+      ],
       "officialUrl": "https://www.notion.so/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -980,9 +1647,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["直感的なカンバンUI", "無料プラン充実", "Power-Upで拡張", "モバイルアプリ対応"],
-      "cons": ["大規模プロジェクトには不向き", "レポート機能が弱い"],
-      "features": ["カンバンボード", "チェックリスト", "Power-Up", "自動化（Butler）"],
+      "pros": [
+        "直感的なカンバンUI",
+        "無料プラン充実",
+        "Power-Upで拡張",
+        "モバイルアプリ対応"
+      ],
+      "cons": [
+        "大規模プロジェクトには不向き",
+        "レポート機能が弱い"
+      ],
+      "features": [
+        "カンバンボード",
+        "チェックリスト",
+        "Power-Up",
+        "自動化（Butler）"
+      ],
       "officialUrl": "https://trello.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -999,9 +1679,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["複数ビュー対応", "タスク依存関係", "200以上のアプリ連携", "自動化ルール"],
-      "cons": ["無料プランに制限が多い", "UIが複雑に感じる場合あり"],
-      "features": ["リスト/ボード/タイムライン", "ゴール管理", "ポートフォリオ", "自動化"],
+      "pros": [
+        "複数ビュー対応",
+        "タスク依存関係",
+        "200以上のアプリ連携",
+        "自動化ルール"
+      ],
+      "cons": [
+        "無料プランに制限が多い",
+        "UIが複雑に感じる場合あり"
+      ],
+      "features": [
+        "リスト/ボード/タイムライン",
+        "ゴール管理",
+        "ポートフォリオ",
+        "自動化"
+      ],
       "officialUrl": "https://asana.com/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1018,9 +1711,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["圧倒的な多機能", "無料プランが充実", "ドキュメント統合", "AI機能搭載"],
-      "cons": ["多機能すぎて学習コスト高", "動作がやや重い"],
-      "features": ["15以上のビュー", "ドキュメント", "チャット", "ホワイトボード"],
+      "pros": [
+        "圧倒的な多機能",
+        "無料プランが充実",
+        "ドキュメント統合",
+        "AI機能搭載"
+      ],
+      "cons": [
+        "多機能すぎて学習コスト高",
+        "動作がやや重い"
+      ],
+      "features": [
+        "15以上のビュー",
+        "ドキュメント",
+        "チャット",
+        "ホワイトボード"
+      ],
       "officialUrl": "https://clickup.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1037,9 +1743,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["見やすいカラフルUI", "200以上のテンプレート", "ノーコード自動化", "多用途対応"],
-      "cons": ["無料プランは2ユーザーまで", "価格がやや高い"],
-      "features": ["ダッシュボード", "自動化", "フォーム", "時間管理"],
+      "pros": [
+        "見やすいカラフルUI",
+        "200以上のテンプレート",
+        "ノーコード自動化",
+        "多用途対応"
+      ],
+      "cons": [
+        "無料プランは2ユーザーまで",
+        "価格がやや高い"
+      ],
+      "features": [
+        "ダッシュボード",
+        "自動化",
+        "フォーム",
+        "時間管理"
+      ],
       "officialUrl": "https://monday.com/lang/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1056,9 +1775,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["爆速のUI操作", "GitHub深度連携", "スプリント自動管理", "洗練されたデザイン"],
-      "cons": ["開発チーム以外には機能過多", "日本語UIなし"],
-      "features": ["イシュー管理", "サイクル（スプリント）", "ロードマップ", "GitHub連携"],
+      "pros": [
+        "爆速のUI操作",
+        "GitHub深度連携",
+        "スプリント自動管理",
+        "洗練されたデザイン"
+      ],
+      "cons": [
+        "開発チーム以外には機能過多",
+        "日本語UIなし"
+      ],
+      "features": [
+        "イシュー管理",
+        "サイクル（スプリント）",
+        "ロードマップ",
+        "GitHub連携"
+      ],
       "officialUrl": "https://linear.app/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1075,9 +1807,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["チャンネル管理が優秀", "2,600以上のアプリ連携", "ハドルミーティング", "検索機能が強力"],
-      "cons": ["無料プランは履歴90日制限", "通知が多すぎる場合あり"],
-      "features": ["チャンネル", "ハドル", "ワークフロー", "アプリ連携"],
+      "pros": [
+        "チャンネル管理が優秀",
+        "2,600以上のアプリ連携",
+        "ハドルミーティング",
+        "検索機能が強力"
+      ],
+      "cons": [
+        "無料プランは履歴90日制限",
+        "通知が多すぎる場合あり"
+      ],
+      "features": [
+        "チャンネル",
+        "ハドル",
+        "ワークフロー",
+        "アプリ連携"
+      ],
       "officialUrl": "https://slack.com/intl/ja-jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1094,9 +1839,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["基本機能が完全無料", "ボイスチャットが高品質", "Bot自動化", "大規模コミュニティ対応"],
-      "cons": ["ビジネス向け機能が弱い", "通知管理が複雑"],
-      "features": ["テキスト/ボイス/ビデオ", "サーバー管理", "Bot", "画面共有"],
+      "pros": [
+        "基本機能が完全無料",
+        "ボイスチャットが高品質",
+        "Bot自動化",
+        "大規模コミュニティ対応"
+      ],
+      "cons": [
+        "ビジネス向け機能が弱い",
+        "通知管理が複雑"
+      ],
+      "features": [
+        "テキスト/ボイス/ビデオ",
+        "サーバー管理",
+        "Bot",
+        "画面共有"
+      ],
       "officialUrl": "https://discord.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1113,9 +1871,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["安定した通話品質", "直感的な操作", "ブレイクアウトルーム", "録画機能"],
-      "cons": ["無料は40分制限", "セキュリティの懸念（改善済み）"],
-      "features": ["ビデオ会議", "画面共有", "ウェビナー", "文字起こし"],
+      "pros": [
+        "安定した通話品質",
+        "直感的な操作",
+        "ブレイクアウトルーム",
+        "録画機能"
+      ],
+      "cons": [
+        "無料は40分制限",
+        "セキュリティの懸念（改善済み）"
+      ],
+      "features": [
+        "ビデオ会議",
+        "画面共有",
+        "ウェビナー",
+        "文字起こし"
+      ],
       "officialUrl": "https://zoom.us/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1132,9 +1903,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["Microsoft 365完全統合", "ビデオ+チャット+ファイル", "大企業向け管理機能", "無料プランあり"],
-      "cons": ["UIが複雑", "動作がやや重い"],
-      "features": ["ビデオ会議", "チャット", "ファイル共有", "アプリ統合"],
+      "pros": [
+        "Microsoft 365完全統合",
+        "ビデオ+チャット+ファイル",
+        "大企業向け管理機能",
+        "無料プランあり"
+      ],
+      "cons": [
+        "UIが複雑",
+        "動作がやや重い"
+      ],
+      "features": [
+        "ビデオ会議",
+        "チャット",
+        "ファイル共有",
+        "アプリ統合"
+      ],
       "officialUrl": "https://www.microsoft.com/ja-jp/microsoft-teams/group-chat-software",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1151,9 +1935,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["楽しいバーチャルオフィス", "偶然の会話が生まれる", "カスタムマップ", "無料プランあり"],
-      "cons": ["ブラウザ動作で重い場合あり", "少人数チームにはオーバースペック"],
-      "features": ["2Dバーチャルオフィス", "近接音声", "画面共有", "カスタムマップ"],
+      "pros": [
+        "楽しいバーチャルオフィス",
+        "偶然の会話が生まれる",
+        "カスタムマップ",
+        "無料プランあり"
+      ],
+      "cons": [
+        "ブラウザ動作で重い場合あり",
+        "少人数チームにはオーバースペック"
+      ],
+      "features": [
+        "2Dバーチャルオフィス",
+        "近接音声",
+        "画面共有",
+        "カスタムマップ"
+      ],
       "officialUrl": "https://www.gather.town/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1170,9 +1967,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["Googleサービス統合", "独自ドメインメール", "リアルタイム共同編集", "管理コンソール"],
-      "cons": ["Googleに依存", "オフラインは制限あり"],
-      "features": ["Gmail", "Drive", "Meet", "管理コンソール"],
+      "pros": [
+        "Googleサービス統合",
+        "独自ドメインメール",
+        "リアルタイム共同編集",
+        "管理コンソール"
+      ],
+      "cons": [
+        "Googleに依存",
+        "オフラインは制限あり"
+      ],
+      "features": [
+        "Gmail",
+        "Drive",
+        "Meet",
+        "管理コンソール"
+      ],
       "officialUrl": "https://workspace.google.com/intl/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1189,9 +1999,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["オールインワンセキュリティ", "VPN付属", "パスワード管理", "ダークウェブ監視"],
-      "cons": ["動作がやや重い", "更新料が高め"],
-      "features": ["ウイルス対策", "VPN", "パスワード管理", "クラウドバックアップ"],
+      "pros": [
+        "オールインワンセキュリティ",
+        "VPN付属",
+        "パスワード管理",
+        "ダークウェブ監視"
+      ],
+      "cons": [
+        "動作がやや重い",
+        "更新料が高め"
+      ],
+      "features": [
+        "ウイルス対策",
+        "VPN",
+        "パスワード管理",
+        "クラウドバックアップ"
+      ],
       "officialUrl": "https://jp.norton.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1208,9 +2031,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["動作が軽い", "高い検出率", "ゲーマーモード", "バンキング保護"],
-      "cons": ["VPN機能がない（上位版のみ）", "UIがやや古い"],
-      "features": ["ウイルス対策", "フィッシング対策", "ゲーマーモード", "マルチOS"],
+      "pros": [
+        "動作が軽い",
+        "高い検出率",
+        "ゲーマーモード",
+        "バンキング保護"
+      ],
+      "cons": [
+        "VPN機能がない（上位版のみ）",
+        "UIがやや古い"
+      ],
+      "features": [
+        "ウイルス対策",
+        "フィッシング対策",
+        "ゲーマーモード",
+        "マルチOS"
+      ],
       "officialUrl": "https://www.eset.com/jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1227,9 +2063,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["日本で最も人気", "日本語サポート充実", "SNSプライバシー保護", "3台まで利用可能"],
-      "cons": ["動作がやや重い", "VPN機能は別売"],
-      "features": ["AI脅威検出", "Web脅威対策", "フィッシングブロック", "SNS保護"],
+      "pros": [
+        "日本で最も人気",
+        "日本語サポート充実",
+        "SNSプライバシー保護",
+        "3台まで利用可能"
+      ],
+      "cons": [
+        "動作がやや重い",
+        "VPN機能は別売"
+      ],
+      "features": [
+        "AI脅威検出",
+        "Web脅威対策",
+        "フィッシングブロック",
+        "SNS保護"
+      ],
       "officialUrl": "https://www.trendmicro.com/ja_jp/forHome/products/vb.html",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1246,9 +2095,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["マルウェア駆除に強い", "他ソフトと併用可能", "無料版あり", "軽量"],
-      "cons": ["無料版はリアルタイム保護なし", "ファイアウォール機能なし"],
-      "features": ["マルウェアスキャン", "リアルタイム保護", "Webプロテクション", "ランサムウェア対策"],
+      "pros": [
+        "マルウェア駆除に強い",
+        "他ソフトと併用可能",
+        "無料版あり",
+        "軽量"
+      ],
+      "cons": [
+        "無料版はリアルタイム保護なし",
+        "ファイアウォール機能なし"
+      ],
+      "features": [
+        "マルウェアスキャン",
+        "リアルタイム保護",
+        "Webプロテクション",
+        "ランサムウェア対策"
+      ],
       "officialUrl": "https://www.malwarebytes.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1265,9 +2127,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["世界最大級の被リンクDB", "競合分析が強力", "キーワードエクスプローラー", "サイト監査"],
-      "cons": ["月額料金が高い", "初心者には複雑"],
-      "features": ["Site Explorer", "Keywords Explorer", "Site Audit", "Rank Tracker"],
+      "pros": [
+        "世界最大級の被リンクDB",
+        "競合分析が強力",
+        "キーワードエクスプローラー",
+        "サイト監査"
+      ],
+      "cons": [
+        "月額料金が高い",
+        "初心者には複雑"
+      ],
+      "features": [
+        "Site Explorer",
+        "Keywords Explorer",
+        "Site Audit",
+        "Rank Tracker"
+      ],
       "officialUrl": "https://ahrefs.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1284,9 +2159,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["SEO+広告+SNS統合", "競合分析が詳細", "コンテンツテンプレート", "ポジショントラッキング"],
-      "cons": ["価格が高い", "機能が多すぎて使いこなすのが大変"],
-      "features": ["キーワードリサーチ", "サイト監査", "PPC分析", "SNS管理"],
+      "pros": [
+        "SEO+広告+SNS統合",
+        "競合分析が詳細",
+        "コンテンツテンプレート",
+        "ポジショントラッキング"
+      ],
+      "cons": [
+        "価格が高い",
+        "機能が多すぎて使いこなすのが大変"
+      ],
+      "features": [
+        "キーワードリサーチ",
+        "サイト監査",
+        "PPC分析",
+        "SNS管理"
+      ],
       "officialUrl": "https://www.semrush.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1303,9 +2191,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["低価格", "買い切りプランあり", "Chrome拡張が便利", "初心者に優しいUI"],
-      "cons": ["大手ツールよりデータ量が少ない", "高度な分析は限界あり"],
-      "features": ["キーワード調査", "競合分析", "サイト監査", "Chrome拡張"],
+      "pros": [
+        "低価格",
+        "買い切りプランあり",
+        "Chrome拡張が便利",
+        "初心者に優しいUI"
+      ],
+      "cons": [
+        "大手ツールよりデータ量が少ない",
+        "高度な分析は限界あり"
+      ],
+      "features": [
+        "キーワード調査",
+        "競合分析",
+        "サイト監査",
+        "Chrome拡張"
+      ],
       "officialUrl": "https://neilpatel.com/ubersuggest/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1322,9 +2223,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["DA指標の提唱元", "包括的なSEO機能", "学習リソース充実", "MozBar拡張が便利"],
-      "cons": ["Ahrefsよりデータ更新が遅い場合あり", "価格が高め"],
-      "features": ["Link Explorer", "Keyword Explorer", "Rank Tracking", "Site Crawl"],
+      "pros": [
+        "DA指標の提唱元",
+        "包括的なSEO機能",
+        "学習リソース充実",
+        "MozBar拡張が便利"
+      ],
+      "cons": [
+        "Ahrefsよりデータ更新が遅い場合あり",
+        "価格が高め"
+      ],
+      "features": [
+        "Link Explorer",
+        "Keyword Explorer",
+        "Rank Tracking",
+        "Site Crawl"
+      ],
       "officialUrl": "https://moz.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1341,9 +2255,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["コスパが良い", "総合的なSEO機能", "レポート自動生成", "ホワイトラベル対応"],
-      "cons": ["大手ツールよりデータ精度がやや劣る", "英語ベースのUI"],
-      "features": ["ランク追跡", "競合調査", "サイト監査", "被リンク分析"],
+      "pros": [
+        "コスパが良い",
+        "総合的なSEO機能",
+        "レポート自動生成",
+        "ホワイトラベル対応"
+      ],
+      "cons": [
+        "大手ツールよりデータ精度がやや劣る",
+        "英語ベースのUI"
+      ],
+      "features": [
+        "ランク追跡",
+        "競合調査",
+        "サイト監査",
+        "被リンク分析"
+      ],
       "officialUrl": "https://seranking.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1360,9 +2287,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["業界標準のプロツール", "After Effects連携", "多フォーマット対応", "プラグイン豊富"],
-      "cons": ["月額料金が高い", "PCスペックが必要"],
-      "features": ["マルチカム編集", "Lumetri Color", "自動文字起こし", "チームプロジェクト"],
+      "pros": [
+        "業界標準のプロツール",
+        "After Effects連携",
+        "多フォーマット対応",
+        "プラグイン豊富"
+      ],
+      "cons": [
+        "月額料金が高い",
+        "PCスペックが必要"
+      ],
+      "features": [
+        "マルチカム編集",
+        "Lumetri Color",
+        "自動文字起こし",
+        "チームプロジェクト"
+      ],
       "officialUrl": "https://www.adobe.com/jp/products/premiere.html",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1379,9 +2319,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["無料でプロ級機能", "最高水準のカラグレ", "買い切り有料版", "VFX・オーディオ統合"],
-      "cons": ["PCスペックが必要", "学習コストが高い"],
-      "features": ["編集", "Fusion（VFX）", "Fairlight（オーディオ）", "カラーグレーディング"],
+      "pros": [
+        "無料でプロ級機能",
+        "最高水準のカラグレ",
+        "買い切り有料版",
+        "VFX・オーディオ統合"
+      ],
+      "cons": [
+        "PCスペックが必要",
+        "学習コストが高い"
+      ],
+      "features": [
+        "編集",
+        "Fusion（VFX）",
+        "Fairlight（オーディオ）",
+        "カラーグレーディング"
+      ],
       "officialUrl": "https://www.blackmagicdesign.com/jp/products/davinciresolve/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1398,9 +2351,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["初心者でも簡単", "エフェクト豊富", "AI字幕生成", "コスパが良い"],
-      "cons": ["プロ用途には機能不足", "無料版はウォーターマーク付き"],
-      "features": ["ドラッグ＆ドロップ", "AIツール", "テンプレート", "4K対応"],
+      "pros": [
+        "初心者でも簡単",
+        "エフェクト豊富",
+        "AI字幕生成",
+        "コスパが良い"
+      ],
+      "cons": [
+        "プロ用途には機能不足",
+        "無料版はウォーターマーク付き"
+      ],
+      "features": [
+        "ドラッグ＆ドロップ",
+        "AIツール",
+        "テンプレート",
+        "4K対応"
+      ],
       "officialUrl": "https://filmora.wondershare.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1417,9 +2383,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["無料で高機能", "トレンドエフェクト", "スマホ＋PC対応", "自動字幕"],
-      "cons": ["プロ用途には不十分", "ByteDance（中国）運営"],
-      "features": ["自動字幕", "テンプレート", "背景除去", "エフェクト"],
+      "pros": [
+        "無料で高機能",
+        "トレンドエフェクト",
+        "スマホ＋PC対応",
+        "自動字幕"
+      ],
+      "cons": [
+        "プロ用途には不十分",
+        "ByteDance（中国）運営"
+      ],
+      "features": [
+        "自動字幕",
+        "テンプレート",
+        "背景除去",
+        "エフェクト"
+      ],
       "officialUrl": "https://www.capcut.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1436,9 +2415,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["Apple Silicon最適化", "買い切り型", "マグネティックタイムライン", "iPhoneとの連携"],
-      "cons": ["Mac/iPad専用", "他社エコシステムと非互換"],
-      "features": ["マグネティックタイムライン", "マルチカム", "360度VR", "HDR対応"],
+      "pros": [
+        "Apple Silicon最適化",
+        "買い切り型",
+        "マグネティックタイムライン",
+        "iPhoneとの連携"
+      ],
+      "cons": [
+        "Mac/iPad専用",
+        "他社エコシステムと非互換"
+      ],
+      "features": [
+        "マグネティックタイムライン",
+        "マルチカム",
+        "360度VR",
+        "HDR対応"
+      ],
       "officialUrl": "https://www.apple.com/jp/final-cut-pro/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1455,9 +2447,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["RAW現像の業界標準", "AI自動補正が優秀", "クラウド同期", "プリセット豊富"],
-      "cons": ["月額課金制", "高度なレタッチはPhotoshopが必要"],
-      "features": ["RAW現像", "AI マスキング", "クラウド同期", "プリセット"],
+      "pros": [
+        "RAW現像の業界標準",
+        "AI自動補正が優秀",
+        "クラウド同期",
+        "プリセット豊富"
+      ],
+      "cons": [
+        "月額課金制",
+        "高度なレタッチはPhotoshopが必要"
+      ],
+      "features": [
+        "RAW現像",
+        "AI マスキング",
+        "クラウド同期",
+        "プリセット"
+      ],
       "officialUrl": "https://www.adobe.com/jp/products/photoshop-lightroom.html",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1474,9 +2479,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["AIによる自動補正", "空の置き換え", "Lightroom連携", "買い切りプランあり"],
-      "cons": ["動作がやや重い", "細かい手動調整は弱い"],
-      "features": ["AI空置き換え", "AI人物レタッチ", "レイヤー", "プラグイン動作"],
+      "pros": [
+        "AIによる自動補正",
+        "空の置き換え",
+        "Lightroom連携",
+        "買い切りプランあり"
+      ],
+      "cons": [
+        "動作がやや重い",
+        "細かい手動調整は弱い"
+      ],
+      "features": [
+        "AI空置き換え",
+        "AI人物レタッチ",
+        "レイヤー",
+        "プラグイン動作"
+      ],
       "officialUrl": "https://skylum.com/jp/luminar",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1493,9 +2511,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["最高クラスの色再現性", "テザー撮影対応", "レイヤー編集", "カスタムスタイル"],
-      "cons": ["価格が高い", "学習コストが高い"],
-      "features": ["RAW現像", "テザー撮影", "レイヤー", "カラーエディタ"],
+      "pros": [
+        "最高クラスの色再現性",
+        "テザー撮影対応",
+        "レイヤー編集",
+        "カスタムスタイル"
+      ],
+      "cons": [
+        "価格が高い",
+        "学習コストが高い"
+      ],
+      "features": [
+        "RAW現像",
+        "テザー撮影",
+        "レイヤー",
+        "カラーエディタ"
+      ],
       "officialUrl": "https://www.captureone.com/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1512,9 +2543,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["ブラウザで動作", "インストール不要", "無料で利用可能", "AI機能搭載"],
-      "cons": ["プロ用途には機能不足", "無料版は広告あり"],
-      "features": ["レイヤー編集", "AI背景除去", "テンプレート", "バッチ処理"],
+      "pros": [
+        "ブラウザで動作",
+        "インストール不要",
+        "無料で利用可能",
+        "AI機能搭載"
+      ],
+      "cons": [
+        "プロ用途には機能不足",
+        "無料版は広告あり"
+      ],
+      "features": [
+        "レイヤー編集",
+        "AI背景除去",
+        "テンプレート",
+        "バッチ処理"
+      ],
       "officialUrl": "https://pixlr.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1531,9 +2575,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["クラウド会計シェアNo.1", "自動仕訳", "確定申告がかんたん", "銀行口座連携"],
-      "cons": ["簿記知識がないと戸惑う場面も", "カスタマイズ性がやや低い"],
-      "features": ["自動仕訳", "確定申告", "請求書", "経費精算"],
+      "pros": [
+        "クラウド会計シェアNo.1",
+        "自動仕訳",
+        "確定申告がかんたん",
+        "銀行口座連携"
+      ],
+      "cons": [
+        "簿記知識がないと戸惑う場面も",
+        "カスタマイズ性がやや低い"
+      ],
+      "features": [
+        "自動仕訳",
+        "確定申告",
+        "請求書",
+        "経費精算"
+      ],
       "officialUrl": "https://www.freee.co.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1550,9 +2607,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["バックオフィス統合", "AI仕訳が優秀", "API連携充実", "プラン豊富"],
-      "cons": ["サービス間の連携にやや慣れが必要", "法人プランはやや高い"],
-      "features": ["クラウド会計", "請求書", "給与計算", "経費精算"],
+      "pros": [
+        "バックオフィス統合",
+        "AI仕訳が優秀",
+        "API連携充実",
+        "プラン豊富"
+      ],
+      "cons": [
+        "サービス間の連携にやや慣れが必要",
+        "法人プランはやや高い"
+      ],
+      "features": [
+        "クラウド会計",
+        "請求書",
+        "給与計算",
+        "経費精算"
+      ],
       "officialUrl": "https://biz.moneyforward.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1569,9 +2639,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["20年以上の実績", "初年度無料", "かんたん取引入力", "税理士連携"],
-      "cons": ["UIがやや古い", "クラウド版は機能がデスクトップ版に劣る"],
-      "features": ["自動仕訳", "確定申告", "銀行連携", "税理士共有"],
+      "pros": [
+        "20年以上の実績",
+        "初年度無料",
+        "かんたん取引入力",
+        "税理士連携"
+      ],
+      "cons": [
+        "UIがやや古い",
+        "クラウド版は機能がデスクトップ版に劣る"
+      ],
+      "features": [
+        "自動仕訳",
+        "確定申告",
+        "銀行連携",
+        "税理士共有"
+      ],
       "officialUrl": "https://www.yayoi-kk.co.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1588,9 +2671,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["月10通まで無料", "テンプレートで簡単作成", "郵送代行対応", "弥生会計連携"],
-      "cons": ["会計機能はない", "デザインカスタマイズが限定的"],
-      "features": ["請求書作成", "見積書・納品書", "郵送代行", "取引先管理"],
+      "pros": [
+        "月10通まで無料",
+        "テンプレートで簡単作成",
+        "郵送代行対応",
+        "弥生会計連携"
+      ],
+      "cons": [
+        "会計機能はない",
+        "デザインカスタマイズが限定的"
+      ],
+      "features": [
+        "請求書作成",
+        "見積書・納品書",
+        "郵送代行",
+        "取引先管理"
+      ],
       "officialUrl": "https://www.misoca.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1607,9 +2703,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["無料プラン充実", "直感的なメールビルダー", "自動化ワークフロー", "豊富なテンプレート"],
-      "cons": ["日本語非対応", "リスト数が増えると高額に"],
-      "features": ["メール配信", "自動化", "A/Bテスト", "ランディングページ"],
+      "pros": [
+        "無料プラン充実",
+        "直感的なメールビルダー",
+        "自動化ワークフロー",
+        "豊富なテンプレート"
+      ],
+      "cons": [
+        "日本語非対応",
+        "リスト数が増えると高額に"
+      ],
+      "features": [
+        "メール配信",
+        "自動化",
+        "A/Bテスト",
+        "ランディングページ"
+      ],
       "officialUrl": "https://mailchimp.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1626,9 +2735,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["クリエイターに最適化", "有料ニュースレター対応", "デジタル販売機能", "シンプルな自動化"],
-      "cons": ["デザインのカスタマイズが少ない", "メールテンプレートがシンプル"],
-      "features": ["メール配信", "ランディングページ", "デジタル販売", "有料ニュースレター"],
+      "pros": [
+        "クリエイターに最適化",
+        "有料ニュースレター対応",
+        "デジタル販売機能",
+        "シンプルな自動化"
+      ],
+      "cons": [
+        "デザインのカスタマイズが少ない",
+        "メールテンプレートがシンプル"
+      ],
+      "features": [
+        "メール配信",
+        "ランディングページ",
+        "デジタル販売",
+        "有料ニュースレター"
+      ],
       "officialUrl": "https://kit.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1645,9 +2767,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["無料CRMから始められる", "オールインワン", "マーケティング自動化", "豊富な連携"],
-      "cons": ["上位プランが高額", "機能が多く学習コスト高"],
-      "features": ["CRM", "メールマーケティング", "チャットボット", "ランディングページ"],
+      "pros": [
+        "無料CRMから始められる",
+        "オールインワン",
+        "マーケティング自動化",
+        "豊富な連携"
+      ],
+      "cons": [
+        "上位プランが高額",
+        "機能が多く学習コスト高"
+      ],
+      "features": [
+        "CRM",
+        "メールマーケティング",
+        "チャットボット",
+        "ランディングページ"
+      ],
       "officialUrl": "https://www.hubspot.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1664,9 +2799,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["月12,000通まで無料", "高い到達率", "豊富なAPI/SDK", "スケーラブル"],
-      "cons": ["マーケティングUIは基本的", "開発知識が必要"],
-      "features": ["メールAPI", "マーケティングメール", "到達率分析", "テンプレートエディタ"],
+      "pros": [
+        "月12,000通まで無料",
+        "高い到達率",
+        "豊富なAPI/SDK",
+        "スケーラブル"
+      ],
+      "cons": [
+        "マーケティングUIは基本的",
+        "開発知識が必要"
+      ],
+      "features": [
+        "メールAPI",
+        "マーケティングメール",
+        "到達率分析",
+        "テンプレートエディタ"
+      ],
       "officialUrl": "https://sendgrid.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1683,9 +2831,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["最高水準のセキュリティ", "全デバイス対応", "Watchtower監査", "家族共有機能"],
-      "cons": ["無料プランがない", "月額課金制"],
-      "features": ["パスワード管理", "パスキー対応", "2FA管理", "Watchtower"],
+      "pros": [
+        "最高水準のセキュリティ",
+        "全デバイス対応",
+        "Watchtower監査",
+        "家族共有機能"
+      ],
+      "cons": [
+        "無料プランがない",
+        "月額課金制"
+      ],
+      "features": [
+        "パスワード管理",
+        "パスキー対応",
+        "2FA管理",
+        "Watchtower"
+      ],
       "officialUrl": "https://1password.com/jp",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1702,9 +2863,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["オープンソース", "無料でデバイス無制限", "セルフホスティング可能", "定期的なセキュリティ監査"],
-      "cons": ["UIがやや質素", "自動入力がたまに不安定"],
-      "features": ["パスワード管理", "2FA管理", "パスキー", "セルフホスティング"],
+      "pros": [
+        "オープンソース",
+        "無料でデバイス無制限",
+        "セルフホスティング可能",
+        "定期的なセキュリティ監査"
+      ],
+      "cons": [
+        "UIがやや質素",
+        "自動入力がたまに不安定"
+      ],
+      "features": [
+        "パスワード管理",
+        "2FA管理",
+        "パスキー",
+        "セルフホスティング"
+      ],
       "officialUrl": "https://bitwarden.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1721,9 +2895,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["ブラウザ拡張が使いやすい", "パスワード生成機能", "緊急アクセス", "セキュリティダッシュボード"],
-      "cons": ["過去にセキュリティ事故あり", "無料版の制限が厳しい"],
-      "features": ["自動入力", "パスワード生成", "セキュリティ監査", "緊急アクセス"],
+      "pros": [
+        "ブラウザ拡張が使いやすい",
+        "パスワード生成機能",
+        "緊急アクセス",
+        "セキュリティダッシュボード"
+      ],
+      "cons": [
+        "過去にセキュリティ事故あり",
+        "無料版の制限が厳しい"
+      ],
+      "features": [
+        "自動入力",
+        "パスワード生成",
+        "セキュリティ監査",
+        "緊急アクセス"
+      ],
       "officialUrl": "https://www.lastpass.com/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1740,9 +2927,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["VPN付属", "ダークウェブ監視", "パスワードヘルス", "モダンなUI"],
-      "cons": ["無料プランは1デバイスのみ", "競合よりやや高め"],
-      "features": ["パスワード管理", "VPN", "ダークウェブ監視", "パスキー"],
+      "pros": [
+        "VPN付属",
+        "ダークウェブ監視",
+        "パスワードヘルス",
+        "モダンなUI"
+      ],
+      "cons": [
+        "無料プランは1デバイスのみ",
+        "競合よりやや高め"
+      ],
+      "features": [
+        "パスワード管理",
+        "VPN",
+        "ダークウェブ監視",
+        "パスキー"
+      ],
       "officialUrl": "https://www.dashlane.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1759,9 +2959,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["リアルタイム校正", "トーン分析", "Chrome拡張", "無料版でも基本校正"],
-      "cons": ["日本語非対応", "文脈を誤解する場合あり"],
-      "features": ["文法校正", "スタイル提案", "プラジアリズム検出", "AI文章生成"],
+      "pros": [
+        "リアルタイム校正",
+        "トーン分析",
+        "Chrome拡張",
+        "無料版でも基本校正"
+      ],
+      "cons": [
+        "日本語非対応",
+        "文脈を誤解する場合あり"
+      ],
+      "features": [
+        "文法校正",
+        "スタイル提案",
+        "プラジアリズム検出",
+        "AI文章生成"
+      ],
       "officialUrl": "https://www.grammarly.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1778,9 +2991,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["最高水準の翻訳精度", "自然な日本語訳", "ファイル翻訳対応", "用語集カスタマイズ"],
-      "cons": ["対応言語数がGoogle翻訳より少ない", "専門用語は追加調整が必要"],
-      "features": ["テキスト翻訳", "ファイル翻訳", "用語集", "API"],
+      "pros": [
+        "最高水準の翻訳精度",
+        "自然な日本語訳",
+        "ファイル翻訳対応",
+        "用語集カスタマイズ"
+      ],
+      "cons": [
+        "対応言語数がGoogle翻訳より少ない",
+        "専門用語は追加調整が必要"
+      ],
+      "features": [
+        "テキスト翻訳",
+        "ファイル翻訳",
+        "用語集",
+        "API"
+      ],
       "officialUrl": "https://www.deepl.com/pro",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1797,9 +3023,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["長文執筆に最適化", "バインダー構成管理", "買い切り型", "リサーチ資料管理"],
-      "cons": ["UIの学習コストが高い", "リアルタイム共同編集なし"],
-      "features": ["バインダー", "コルクボード", "スナップショット", "コンパイル（出力）"],
+      "pros": [
+        "長文執筆に最適化",
+        "バインダー構成管理",
+        "買い切り型",
+        "リサーチ資料管理"
+      ],
+      "cons": [
+        "UIの学習コストが高い",
+        "リアルタイム共同編集なし"
+      ],
+      "features": [
+        "バインダー",
+        "コルクボード",
+        "スナップショット",
+        "コンパイル（出力）"
+      ],
       "officialUrl": "https://www.literatureandlatte.com/scrivener/overview",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1816,9 +3055,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["リアルタイム文字起こし", "話者識別", "会議ツール連携", "AI要約"],
-      "cons": ["日本語の精度はやや低い", "無料プランは月300分まで"],
-      "features": ["自動文字起こし", "話者識別", "AI要約", "Zoom/Meet連携"],
+      "pros": [
+        "リアルタイム文字起こし",
+        "話者識別",
+        "会議ツール連携",
+        "AI要約"
+      ],
+      "cons": [
+        "日本語の精度はやや低い",
+        "無料プランは月300分まで"
+      ],
+      "features": [
+        "自動文字起こし",
+        "話者識別",
+        "AI要約",
+        "Zoom/Meet連携"
+      ],
       "officialUrl": "https://otter.ai/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1835,9 +3087,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["Gitプッシュで自動デプロイ", "エッジネットワーク", "プレビューデプロイ", "無料プラン充実"],
-      "cons": ["Next.js以外はやや使いにくい", "ビルド時間に制限あり"],
-      "features": ["自動デプロイ", "エッジ配信", "サーバーレス", "アナリティクス"],
+      "pros": [
+        "Gitプッシュで自動デプロイ",
+        "エッジネットワーク",
+        "プレビューデプロイ",
+        "無料プラン充実"
+      ],
+      "cons": [
+        "Next.js以外はやや使いにくい",
+        "ビルド時間に制限あり"
+      ],
+      "features": [
+        "自動デプロイ",
+        "エッジ配信",
+        "サーバーレス",
+        "アナリティクス"
+      ],
       "officialUrl": "https://vercel.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1854,9 +3119,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["日本企業に最適", "タスク管理内蔵", "シンプルなUI", "40万社の実績"],
-      "cons": ["スレッド機能がない", "連携アプリが少ない"],
-      "features": ["グループチャット", "タスク管理", "ファイル共有", "ビデオ通話"],
+      "pros": [
+        "日本企業に最適",
+        "タスク管理内蔵",
+        "シンプルなUI",
+        "40万社の実績"
+      ],
+      "cons": [
+        "スレッド機能がない",
+        "連携アプリが少ない"
+      ],
+      "features": [
+        "グループチャット",
+        "タスク管理",
+        "ファイル共有",
+        "ビデオ通話"
+      ],
       "officialUrl": "https://go.chatwork.com/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1873,9 +3151,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["7,000以上のアプリ連携", "ノーコード自動化", "無料プランあり", "テンプレート豊富"],
-      "cons": ["複雑なワークフローは有料", "実行回数に制限あり"],
-      "features": ["Zap自動化", "マルチステップ", "フィルター", "スケジュール"],
+      "pros": [
+        "7,000以上のアプリ連携",
+        "ノーコード自動化",
+        "無料プランあり",
+        "テンプレート豊富"
+      ],
+      "cons": [
+        "複雑なワークフローは有料",
+        "実行回数に制限あり"
+      ],
+      "features": [
+        "Zap自動化",
+        "マルチステップ",
+        "フィルター",
+        "スケジュール"
+      ],
       "officialUrl": "https://zapier.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
@@ -1892,9 +3183,22 @@
       "affiliateUrl": "",
       "affiliateProvider": "none",
       "imageUrl": "",
-      "pros": ["ゲーム感覚で楽しい", "40以上の言語対応", "無料でも学習可能", "5億人以上のユーザー"],
-      "cons": ["会話練習はやや不足", "上級者には物足りない"],
-      "features": ["ゲーミフィケーション", "AI会話", "ストーリー", "リーダーボード"],
+      "pros": [
+        "ゲーム感覚で楽しい",
+        "40以上の言語対応",
+        "無料でも学習可能",
+        "5億人以上のユーザー"
+      ],
+      "cons": [
+        "会話練習はやや不足",
+        "上級者には物足りない"
+      ],
+      "features": [
+        "ゲーミフィケーション",
+        "AI会話",
+        "ストーリー",
+        "リーダーボード"
+      ],
       "officialUrl": "https://www.duolingo.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
