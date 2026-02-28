@@ -717,6 +717,38 @@ ul { list-style: none; }
 }
 .quiz-retry:hover { background: var(--primary-hover); }
 
+/* ===== Region Badge ===== */
+.card-region {
+  font-size: .65rem;
+  font-weight: 600;
+  padding: 1px 7px;
+  border-radius: 10px;
+  margin-left: 6px;
+  vertical-align: middle;
+  display: inline-block;
+  white-space: nowrap;
+}
+.card-region-jp {
+  background: #fef2f2;
+  color: #dc2626;
+  border: 1px solid #fecaca;
+}
+.card-region-global {
+  background: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #bfdbfe;
+}
+[data-theme="dark"] .card-region-jp {
+  background: #451a1a;
+  color: #fca5a5;
+  border-color: #7f1d1d;
+}
+[data-theme="dark"] .card-region-global {
+  background: #1e3a5f;
+  color: #93c5fd;
+  border-color: #1e40af;
+}
+
 /* ===== NEW Badge ===== */
 .new-badge {
   background: var(--danger);

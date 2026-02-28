@@ -31,7 +31,8 @@
       "officialUrl": "https://www.xserver.ne.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "jp"
     },
     {
       "id": "conoha-wing",
@@ -63,7 +64,8 @@
       "officialUrl": "https://www.conoha.jp/wing/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "mixhost",
@@ -95,7 +97,8 @@
       "officialUrl": "https://mixhost.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "lolipop",
@@ -127,7 +130,8 @@
       "officialUrl": "https://lolipop.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "sakura",
@@ -159,7 +163,8 @@
       "officialUrl": "https://www.sakura.ne.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "colorfulbox",
@@ -191,7 +196,8 @@
       "officialUrl": "https://www.colorfulbox.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "aws-lightsail",
@@ -223,7 +229,8 @@
       "officialUrl": "https://aws.amazon.com/lightsail/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "nordvpn",
@@ -256,7 +263,8 @@
       "officialUrl": "https://nordvpn.com/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "surfshark",
@@ -288,7 +296,8 @@
       "officialUrl": "https://surfshark.com/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "expressvpn",
@@ -320,7 +329,8 @@
       "officialUrl": "https://www.expressvpn.com/jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "cyberghost",
@@ -352,7 +362,8 @@
       "officialUrl": "https://www.cyberghostvpn.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "mullvad",
@@ -384,7 +395,8 @@
       "officialUrl": "https://mullvad.net/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "udemy",
@@ -417,7 +429,8 @@
       "officialUrl": "https://www.udemy.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "progate",
@@ -449,7 +462,8 @@
       "officialUrl": "https://prog-8.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "techacademy",
@@ -481,7 +495,8 @@
       "officialUrl": "https://techacademy.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "skillshare",
@@ -513,7 +528,8 @@
       "officialUrl": "https://www.skillshare.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "codecademy",
@@ -545,7 +561,8 @@
       "officialUrl": "https://www.codecademy.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "coursera",
@@ -577,7 +594,8 @@
       "officialUrl": "https://www.coursera.org/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "chatgpt-plus",
@@ -609,7 +627,8 @@
       "officialUrl": "https://chat.openai.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "claude-pro",
@@ -641,7 +660,8 @@
       "officialUrl": "https://claude.ai/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "gemini-advanced",
@@ -673,7 +693,8 @@
       "officialUrl": "https://gemini.google.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "perplexity-pro",
@@ -705,7 +726,8 @@
       "officialUrl": "https://www.perplexity.ai/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "midjourney",
@@ -737,7 +759,8 @@
       "officialUrl": "https://www.midjourney.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "github-copilot",
@@ -769,7 +792,8 @@
       "officialUrl": "https://github.com/features/copilot",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "cursor",
@@ -801,7 +825,8 @@
       "officialUrl": "https://cursor.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "canva-pro",
@@ -834,7 +859,8 @@
       "officialUrl": "https://www.canva.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "figma",
@@ -866,7 +892,8 @@
       "officialUrl": "https://www.figma.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "adobe-cc",
@@ -898,7 +925,8 @@
       "officialUrl": "https://www.adobe.com/jp/creativecloud.html",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "affinity",
@@ -930,7 +958,8 @@
       "officialUrl": "https://affinity.serif.com/ja-jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "sketch",
@@ -962,7 +991,8 @@
       "officialUrl": "https://www.sketch.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "google-one",
@@ -994,7 +1024,8 @@
       "officialUrl": "https://one.google.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "dropbox",
@@ -1026,7 +1057,8 @@
       "officialUrl": "https://www.dropbox.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "onedrive",
@@ -1058,7 +1090,8 @@
       "officialUrl": "https://www.microsoft.com/ja-jp/microsoft-365/onedrive/online-cloud-storage",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "box",
@@ -1090,7 +1123,8 @@
       "officialUrl": "https://www.box.com/ja-jp",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "pcloud",
@@ -1122,7 +1156,8 @@
       "officialUrl": "https://www.pcloud.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "cloudflare-registrar",
@@ -1154,7 +1189,8 @@
       "officialUrl": "https://www.cloudflare.com/products/registrar/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "onamae",
@@ -1186,7 +1222,8 @@
       "officialUrl": "https://www.onamae.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "namecheap",
@@ -1218,7 +1255,8 @@
       "officialUrl": "https://www.namecheap.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "xdomain",
@@ -1250,7 +1288,8 @@
       "officialUrl": "https://www.xdomain.ne.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "wordpress-com",
@@ -1282,7 +1321,8 @@
       "officialUrl": "https://wordpress.com/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "wix",
@@ -1314,7 +1354,8 @@
       "officialUrl": "https://ja.wix.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "squarespace",
@@ -1346,7 +1387,8 @@
       "officialUrl": "https://www.squarespace.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "webflow",
@@ -1378,7 +1420,8 @@
       "officialUrl": "https://webflow.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "jimdo",
@@ -1386,7 +1429,7 @@
       "category": "sitebuilder",
       "summary": "日本語対応の簡単サイトビルダー。個人や小規模ビジネスに最適。",
       "description": "Jimdoはドイツ発のWebサイトビルダーで、日本語に完全対応しています。AIビルダーで質問に答えるだけでサイトを自動作成。無料プランでもホームページを公開でき、小規模ビジネスや個人利用に最適。KDDIが日本法人を運営しており、日本語サポートも充実しています。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料〜¥1,590/月",
       "affiliateUrl": "",
       "affiliateProvider": "none",
@@ -1410,7 +1453,8 @@
       "officialUrl": "https://www.jimdo.com/jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "studio",
@@ -1442,7 +1486,8 @@
       "officialUrl": "https://studio.design/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "shopify",
@@ -1474,7 +1519,8 @@
       "officialUrl": "https://www.shopify.com/jp",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "base-ec",
@@ -1506,7 +1552,8 @@
       "officialUrl": "https://thebase.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "stores-jp",
@@ -1514,7 +1561,7 @@
       "category": "ecommerce",
       "summary": "ネットショップ＋実店舗を一元管理。予約システムも使える万能サービス。",
       "description": "STORESはヘイ株式会社が運営するコマースプラットフォームです。ネットショップ作成に加え、POSレジ（実店舗管理）、予約システム、決済端末を一つのアカウントで管理可能。オンラインとオフラインを統合したい事業者に最適です。無料プランもあります。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料〜¥2,980/月",
       "affiliateUrl": "",
       "affiliateProvider": "none",
@@ -1538,7 +1585,8 @@
       "officialUrl": "https://stores.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "stripe",
@@ -1570,7 +1618,8 @@
       "officialUrl": "https://stripe.com/jp",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "square",
@@ -1602,7 +1651,8 @@
       "officialUrl": "https://squareup.com/jp/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "notion",
@@ -1634,7 +1684,8 @@
       "officialUrl": "https://www.notion.so/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "trello",
@@ -1666,7 +1717,8 @@
       "officialUrl": "https://trello.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "asana",
@@ -1698,7 +1750,8 @@
       "officialUrl": "https://asana.com/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "clickup",
@@ -1730,7 +1783,8 @@
       "officialUrl": "https://clickup.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "monday",
@@ -1762,7 +1816,8 @@
       "officialUrl": "https://monday.com/lang/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "linear",
@@ -1794,7 +1849,8 @@
       "officialUrl": "https://linear.app/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "slack",
@@ -1826,7 +1882,8 @@
       "officialUrl": "https://slack.com/intl/ja-jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "discord",
@@ -1858,7 +1915,8 @@
       "officialUrl": "https://discord.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "zoom",
@@ -1890,7 +1948,8 @@
       "officialUrl": "https://zoom.us/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "teams",
@@ -1922,7 +1981,8 @@
       "officialUrl": "https://www.microsoft.com/ja-jp/microsoft-teams/group-chat-software",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "gather",
@@ -1954,7 +2014,8 @@
       "officialUrl": "https://www.gather.town/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "google-workspace",
@@ -1986,7 +2047,8 @@
       "officialUrl": "https://workspace.google.com/intl/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "norton",
@@ -2018,7 +2080,8 @@
       "officialUrl": "https://jp.norton.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "eset",
@@ -2050,7 +2113,8 @@
       "officialUrl": "https://www.eset.com/jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "virus-buster",
@@ -2082,7 +2146,8 @@
       "officialUrl": "https://www.trendmicro.com/ja_jp/forHome/products/vb.html",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "malwarebytes",
@@ -2114,7 +2179,8 @@
       "officialUrl": "https://www.malwarebytes.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "ahrefs",
@@ -2146,7 +2212,8 @@
       "officialUrl": "https://ahrefs.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "semrush",
@@ -2178,7 +2245,8 @@
       "officialUrl": "https://www.semrush.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "ubersuggest",
@@ -2210,7 +2278,8 @@
       "officialUrl": "https://neilpatel.com/ubersuggest/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "moz-pro",
@@ -2242,7 +2311,8 @@
       "officialUrl": "https://moz.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "rank-tracker",
@@ -2274,7 +2344,8 @@
       "officialUrl": "https://seranking.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "premiere-pro",
@@ -2306,7 +2377,8 @@
       "officialUrl": "https://www.adobe.com/jp/products/premiere.html",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "davinci-resolve",
@@ -2338,7 +2410,8 @@
       "officialUrl": "https://www.blackmagicdesign.com/jp/products/davinciresolve/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "filmora",
@@ -2370,7 +2443,8 @@
       "officialUrl": "https://filmora.wondershare.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "capcut-pro",
@@ -2402,7 +2476,8 @@
       "officialUrl": "https://www.capcut.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "final-cut-pro",
@@ -2434,7 +2509,8 @@
       "officialUrl": "https://www.apple.com/jp/final-cut-pro/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "lightroom",
@@ -2466,7 +2542,8 @@
       "officialUrl": "https://www.adobe.com/jp/products/photoshop-lightroom.html",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "luminar-neo",
@@ -2498,7 +2575,8 @@
       "officialUrl": "https://skylum.com/jp/luminar",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "capture-one",
@@ -2530,7 +2608,8 @@
       "officialUrl": "https://www.captureone.com/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "pixlr",
@@ -2538,7 +2617,7 @@
       "category": "photo",
       "summary": "ブラウザで使える無料画像編集ツール。Photoshopの代替に。",
       "description": "Pixlrはブラウザ上で動作する画像編集ツールです。インストール不要でPhotoshopに似た機能を無料で利用可能。レイヤー、マスク、フィルター、テキスト追加など基本的な画像編集機能を搭載。AI機能（背景除去、画像拡大など）も追加され、手軽な画像編集に最適です。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料〜$7.99/月",
       "affiliateUrl": "",
       "affiliateProvider": "none",
@@ -2562,7 +2641,8 @@
       "officialUrl": "https://pixlr.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "freee",
@@ -2594,7 +2674,8 @@
       "officialUrl": "https://www.freee.co.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "jp"
     },
     {
       "id": "money-forward",
@@ -2626,7 +2707,8 @@
       "officialUrl": "https://biz.moneyforward.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "yayoi",
@@ -2658,7 +2740,8 @@
       "officialUrl": "https://www.yayoi-kk.co.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "misoca",
@@ -2666,7 +2749,7 @@
       "category": "accounting",
       "summary": "クラウド請求書作成サービス。見積書・納品書・請求書をかんたん管理。",
       "description": "Misocaは弥生グループのクラウド請求書作成サービスです。見積書、納品書、請求書をテンプレートから簡単に作成でき、PDF送付や郵送代行にも対応。取引先管理や売上レポート機能も搭載。月10通まで無料で利用でき、フリーランスや個人事業主の請求業務を効率化します。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料〜¥800/月",
       "affiliateUrl": "",
       "affiliateProvider": "none",
@@ -2690,7 +2773,8 @@
       "officialUrl": "https://www.misoca.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "mailchimp",
@@ -2722,7 +2806,8 @@
       "officialUrl": "https://mailchimp.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "convertkit",
@@ -2754,7 +2839,8 @@
       "officialUrl": "https://kit.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "hubspot",
@@ -2786,7 +2872,8 @@
       "officialUrl": "https://www.hubspot.jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "sendgrid",
@@ -2818,7 +2905,8 @@
       "officialUrl": "https://sendgrid.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "1password",
@@ -2850,7 +2938,8 @@
       "officialUrl": "https://1password.com/jp",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "bitwarden",
@@ -2882,7 +2971,8 @@
       "officialUrl": "https://bitwarden.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "lastpass",
@@ -2914,7 +3004,8 @@
       "officialUrl": "https://www.lastpass.com/ja",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "dashlane",
@@ -2946,7 +3037,8 @@
       "officialUrl": "https://www.dashlane.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "grammarly",
@@ -2978,7 +3070,8 @@
       "officialUrl": "https://www.grammarly.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "deepl-pro",
@@ -3010,7 +3103,8 @@
       "officialUrl": "https://www.deepl.com/pro",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "global"
     },
     {
       "id": "scrivener",
@@ -3042,7 +3136,8 @@
       "officialUrl": "https://www.literatureandlatte.com/scrivener/overview",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "otter-ai",
@@ -3074,7 +3169,8 @@
       "officialUrl": "https://otter.ai/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "vercel",
@@ -3106,7 +3202,8 @@
       "officialUrl": "https://vercel.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "chatwork",
@@ -3114,7 +3211,7 @@
       "category": "communication",
       "summary": "日本発のビジネスチャット。中小企業を中心に40万社以上が導入。",
       "description": "Chatworkは日本発のビジネスチャットツールで、40万社以上に導入されています。シンプルなUIで ITに不慣れな方でも使いやすく、タスク管理機能を内蔵しているのが特徴。ファイル共有、ビデオ通話にも対応。日本語サポートが充実しており、中小企業やフリーランスに人気です。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料〜¥700/月",
       "affiliateUrl": "",
       "affiliateProvider": "none",
@@ -3138,7 +3235,8 @@
       "officialUrl": "https://go.chatwork.com/ja/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "jp"
     },
     {
       "id": "zapier",
@@ -3170,7 +3268,8 @@
       "officialUrl": "https://zapier.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     },
     {
       "id": "a8net",
@@ -3202,7 +3301,8 @@
       "officialUrl": "https://www.a8.net/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true
+      "featured": true,
+      "region": "jp"
     },
     {
       "id": "duolingo-plus",
@@ -3234,7 +3334,8 @@
       "officialUrl": "https://www.duolingo.com/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": false
+      "featured": false,
+      "region": "global"
     }
   ]
 }

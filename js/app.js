@@ -253,6 +253,8 @@
     const catName = getCategoryName(product.category);
     const isNew = product.dateAdded && (Date.now() - new Date(product.dateAdded).getTime()) < 30 * 86400000;
     const newBadge = isNew ? ' <span class="new-badge">NEW</span>' : '';
+    const regionFlag = product.region === 'jp' ? '🇯🇵' : '🌐';
+    const regionLabel = product.region === 'jp' ? (I18n.getLang() === 'en' ? 'Japan' : '日本') : (I18n.getLang() === 'en' ? 'Global' : '海外');
     const stars = '★'.repeat(Math.floor(product.rating)) + (product.rating % 1 >= 0.5 ? '☆' : '');
     const featuredClass = (isFeatured || product.featured) ? ' featured' : '';
     const affiliateLink = product.affiliateUrl || product.officialUrl;
@@ -262,7 +264,7 @@
       <div class="product-card${featuredClass}" data-featured-label="${escapeHtml(I18n.getLang() === 'en' ? '★ Top Pick' : '★ おすすめ')}">
         <div class="card-body">
           <div class="card-top-row">
-            <span class="card-category">${escapeHtml(catName)}${newBadge}</span>
+            <span class="card-category">${escapeHtml(catName)}${newBadge} <span class="card-region card-region-${product.region || 'global'}">${regionFlag} ${regionLabel}</span></span>
             <button class="fav-btn${faved ? ' active' : ''}" onclick="toggleFav('${product.id}')" title="${favLabel}">${faved ? '❤️' : '🤍'}</button>
           </div>
           <h3 class="card-title">${escapeHtml(product.name)}</h3>
