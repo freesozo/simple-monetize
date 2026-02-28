@@ -27,7 +27,7 @@ jobs:
       - name: Validate Data
         run: |
           echo "=== Validating products.json ==="
-          python3 -c "
+          python3 << 'PYEOF'
           import json, sys
           with open('data/products.json', encoding='utf-8') as f:
               data = json.load(f)
@@ -38,7 +38,7 @@ jobs:
           for i, p in enumerate(products):
               for key in required:
                   if key not in p or not p[key]:
-                      print(f'ERROR: Product {p.get(\"name\",\"#\"+str(i))} missing: {key}')
+                      print(f'ERROR: Product {p.get("name","#"+str(i))} missing: {key}')
                       errors += 1
           ids = [p['id'] for p in products]
           dupes = set(x for x in ids if ids.count(x) > 1)
@@ -48,13 +48,13 @@ jobs:
           if errors:
               sys.exit(1)
           print('All validations passed!')
-          "
+          PYEOF
 
       - name: Check Links
         continue-on-error: true
         run: |
           echo "=== Checking links ==="
-          python3 -c "
+          python3 << 'PYEOF'
           import json, urllib.request, ssl, sys
           ctx = ssl.create_default_context()
           ctx.check_hostname = False
@@ -68,37 +68,37 @@ jobs:
               try:
                   req = urllib.request.Request(url, method='HEAD', headers={'User-Agent':'Mozilla/5.0'})
                   resp = urllib.request.urlopen(req, timeout=15, context=ctx)
-                  print(f'OK: {p[\"name\"]} ({resp.getcode()})')
+                  print(f'OK: {p["name"]} ({resp.getcode()})')
               except:
                   try:
                       req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0'})
                       resp = urllib.request.urlopen(req, timeout=15, context=ctx)
-                      print(f'OK: {p[\"name\"]} ({resp.getcode()} via GET)')
+                      print(f'OK: {p["name"]} ({resp.getcode()} via GET)')
                   except Exception as e:
-                      print(f'FAIL: {p[\"name\"]} - {e}')
+                      print(f'FAIL: {p["name"]} - {e}')
                       fail += 1
           if fail:
               print(f'{fail} broken link(s) found')
-          "
+          PYEOF
 
       - name: Update timestamps
         run: |
-          TODAY=$(date '+%Y-%m-%d')
-          python3 -c "
-          import json
+          python3 << 'PYEOF'
+          import json, datetime
+          today = datetime.date.today().isoformat()
           with open('data/products.json', encoding='utf-8') as f:
               data = json.load(f)
           for p in data['products']:
-              p['lastChecked'] = '$TODAY'
+              p['lastChecked'] = today
           with open('data/products.json', 'w', encoding='utf-8') as f:
               json.dump(data, f, ensure_ascii=False, indent=2)
           with open('data/config.json', encoding='utf-8') as f:
               config = json.load(f)
-          config['lastUpdated'] = '$TODAY'
+          config['lastUpdated'] = today
           with open('data/config.json', 'w', encoding='utf-8') as f:
               json.dump(config, f, ensure_ascii=False, indent=2)
-          print(f'Timestamps updated to {\"$TODAY\"]}')
-          "
+          print(f'Timestamps updated to {today}')
+          PYEOF
 
       - name: Commit changes
         run: |
@@ -108,9 +108,10 @@ jobs:
           git diff --cached --quiet || git commit -m "auto: weekly update $(date '+%Y-%m-%d')"
           git push || true
 
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'
+
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-        if: github.event_name == 'push'
-        with:
-          artifact_name: github-pages
-        continue-on-error: true
