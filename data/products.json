@@ -893,7 +893,8 @@
       "lastChecked": "2026-02-28",
       "status": "active",
       "featured": true,
-      "region": "global"
+      "region": "global",
+      "dateAdded": "2026-03-01"
     },
     {
       "id": "adobe-cc",
@@ -1685,7 +1686,8 @@
       "lastChecked": "2026-02-28",
       "status": "active",
       "featured": true,
-      "region": "global"
+      "region": "global",
+      "dateAdded": "2026-03-01"
     },
     {
       "id": "trello",
@@ -1882,8 +1884,9 @@
       "officialUrl": "https://slack.com/intl/ja-jp/",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true,
-      "region": "global"
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-01"
     },
     {
       "id": "discord",
@@ -2938,8 +2941,9 @@
       "officialUrl": "https://1password.com/jp",
       "lastChecked": "2026-02-28",
       "status": "active",
-      "featured": true,
-      "region": "global"
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-01"
     },
     {
       "id": "bitwarden",
@@ -3336,138 +3340,6 @@
       "status": "active",
       "featured": false,
       "region": "global"
-    },
-    {
-      "id": "notion",
-      "name": "Notion",
-      "category": "project",
-      "summary": "オールインワンワークスペース。ドキュメント、タスク管理、Wiki、データベースを一つに統合。",
-      "description": "Notionはドキュメント作成、タスク管理、Wiki、データベースを一つのワークスペースに統合したオールインワンツールです。柔軟なカスタマイズ性とテンプレートの豊富さが特徴で、個人からチームまで幅広く活用されています。AI機能も搭載され、文章作成や情報整理をサポートします。",
-      "rating": 4.5,
-      "price": "フリープラン有 / Plus $10/月",
-      "affiliateUrl": "",
-      "affiliateProvider": "none",
-      "imageUrl": "",
-      "pros": [
-        "柔軟なカスタマイズ",
-        "テンプレート豊富",
-        "AI機能搭載"
-      ],
-      "cons": [
-        "学習コストが高い",
-        "オフライン機能が弱い"
-      ],
-      "features": [
-        "ドキュメント管理",
-        "タスク管理",
-        "Wiki",
-        "データベース"
-      ],
-      "officialUrl": "https://www.notion.so/",
-      "lastChecked": "2026-03-01",
-      "status": "active",
-      "featured": true,
-      "region": "global",
-      "dateAdded": "2026-03-01"
-    },
-    {
-      "id": "slack",
-      "name": "Slack",
-      "category": "communication",
-      "summary": "ビジネス向けチャットツール。チャンネル別の会話管理とアプリ連携が強力。",
-      "description": "Slackはビジネス向けのチャットコミュニケーションツールです。チャンネルによるトピック別の会話管理、2,600以上のアプリとの連携、スレッド機能による効率的な議論が可能。ファイル共有や検索機能も優秀で、リモートワークに欠かせないツールとして広く利用されています。",
-      "rating": 4.3,
-      "price": "フリープラン有 / Pro $8.75/月",
-      "affiliateUrl": "",
-      "affiliateProvider": "none",
-      "imageUrl": "",
-      "pros": [
-        "豊富なアプリ連携",
-        "検索機能が優秀",
-        "スレッド機能"
-      ],
-      "cons": [
-        "無料版はメッセージ制限あり",
-        "通知が多くなりがち"
-      ],
-      "features": [
-        "チャンネル管理",
-        "アプリ連携",
-        "ファイル共有",
-        "ビデオ通話"
-      ],
-      "officialUrl": "https://slack.com/",
-      "lastChecked": "2026-03-01",
-      "status": "active",
-      "featured": false,
-      "region": "global",
-      "dateAdded": "2026-03-01"
-    },
-    {
-      "id": "figma",
-      "name": "Figma",
-      "category": "design",
-      "summary": "ブラウザベースのUIデザインツール。リアルタイム共同編集が強み。",
-      "description": "Figmaはブラウザベースで動作するUIデザインツールです。リアルタイムでの共同編集機能が最大の特徴で、デザイナーと開発者のコラボレーションを大幅に効率化します。豊富なプラグインエコシステム、開発者ハンドオフ機能、プロトタイピング機能を備えた業界標準ツールです。",
-      "rating": 4.7,
-      "price": "フリープラン有 / Professional $15/月",
-      "affiliateUrl": "",
-      "affiliateProvider": "none",
-      "imageUrl": "",
-      "pros": [
-        "リアルタイムコラボ",
-        "プラグイン豊富",
-        "開発者ハンドオフ機能"
-      ],
-      "cons": [
-        "オフライン不可",
-        "高度な画像編集は苦手"
-      ],
-      "features": [
-        "UIデザイン",
-        "プロトタイピング",
-        "共同編集",
-        "デザインシステム"
-      ],
-      "officialUrl": "https://www.figma.com/",
-      "lastChecked": "2026-03-01",
-      "status": "active",
-      "featured": true,
-      "region": "global",
-      "dateAdded": "2026-03-01"
-    },
-    {
-      "id": "1password",
-      "name": "1Password",
-      "category": "password",
-      "summary": "パスワード管理ツール。家族・チーム向けプランも充実。",
-      "description": "1Passwordは世界で最も信頼されるパスワード管理ツールの一つです。直感的なUIで全デバイスのパスワードを安全に管理。Watchtower機能で漏洩パスワードを検知し、家族共有プランではメンバー間でのパスワード共有も安全に行えます。ビジネス向けの高度なアクセス管理機能も搭載。",
-      "rating": 4.6,
-      "price": "$2.99/月〜",
-      "affiliateUrl": "",
-      "affiliateProvider": "none",
-      "imageUrl": "",
-      "pros": [
-        "直感的なUI",
-        "Watchtower機能",
-        "家族共有プラン"
-      ],
-      "cons": [
-        "無料プランなし",
-        "一部ブラウザ拡張が不安定"
-      ],
-      "features": [
-        "パスワード管理",
-        "Watchtower",
-        "家族共有",
-        "2要素認証"
-      ],
-      "officialUrl": "https://1password.com/",
-      "lastChecked": "2026-03-01",
-      "status": "active",
-      "featured": false,
-      "region": "global",
-      "dateAdded": "2026-03-01"
     },
     {
       "id": "deepl",
