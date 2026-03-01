@@ -424,7 +424,7 @@
     ctaOfficial.textContent = I18n.t('goOfficialDirect');
 
     // Related
-    const related = products.filter(p => p.category === product.category && p.id !== product.id && p.status === 'active');
+    const related = products.filter(p => p.category === product.category && p.id !== product.id && p.status === 'active').slice(0, 4);
     document.getElementById('relatedGrid').innerHTML = related.map(p => createProductCard(p, false)).join('');
     document.getElementById('relatedTitle').textContent = I18n.t('relatedTools');
 

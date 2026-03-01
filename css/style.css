@@ -799,3 +799,14 @@ ul { list-style: none; }
 @media (min-width: 481px) and (max-width: 768px) {
   .product-grid { grid-template-columns: repeat(2, 1fr); }
 }
+
+/* ---------- Sister Site Banner ---------- */
+.sister-banner {
+  background: var(--bg-secondary, #f0f4ff);
+  border-top: 2px solid var(--primary);
+  padding: 16px 0;
+  text-align: center;
+  font-size: 0.95rem;
+}
+.sister-banner a { color: var(--primary); text-decoration: underline; }
+[data-theme="dark"] .sister-banner { background: var(--bg-secondary, #1e293b); }
