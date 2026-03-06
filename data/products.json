@@ -108,8 +108,8 @@
       "description": "ロリポップ!はGMOペパボが運営する老舗レンタルサーバーです。月額99円のエコノミープランから始められ、コスパの良さが最大の魅力。200万サイト以上の利用実績があり、WordPressの簡単インストールやチャットサポートなど初心者向けの機能が充実しています。",
       "rating": 4.1,
       "price": "¥99/月〜",
-      "affiliateUrl": "",
-      "affiliateProvider": "none",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AZ9C8+59BV5E+348+5YZ76",
+      "affiliateProvider": "a8",
       "imageUrl": "",
       "pros": [
         "月額99円〜の格安",
@@ -174,8 +174,8 @@
       "description": "ColorfulBoxは災害対策を重視したクラウド型レンタルサーバーです。東京・大阪の2拠点でデータを自動バックアップし、万が一の障害にも強い設計。LiteSpeed採用で表示速度も速く、アダルトサイトにも対応しています。",
       "rating": 4.3,
       "price": "¥528/月〜",
-      "affiliateUrl": "",
-      "affiliateProvider": "none",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AZ9C8+44UE0I+42SG+5ZMCH",
+      "affiliateProvider": "a8",
       "imageUrl": "",
       "pros": [
         "地域別自動バックアップ",
@@ -3373,6 +3373,176 @@
       "featured": false,
       "region": "global",
       "dateAdded": "2026-03-01"
+    },
+    {
+      "id": "shin-server",
+      "name": "シンレンタルサーバー",
+      "category": "server",
+      "summary": "エックスサーバー系列の高速サーバー。最新技術KUSANAGIを標準搭載。",
+      "description": "シンレンタルサーバーはエックスサーバー株式会社が提供する新世代レンタルサーバーです。WordPress高速化技術「KUSANAGI」を標準搭載し、最新のハードウェアと技術を積極的に導入。エックスサーバーと同等の管理画面で使いやすく、より高速な環境を求めるユーザーに最適です。",
+      "rating": 4.4,
+      "price": "¥770/月〜",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AZ9C8+4JQ84Y+5GDG+5ZMCJ",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "KUSANAGI標準搭載で超高速",
+        "エックスサーバー系列の信頼性",
+        "最新ハードウェア採用",
+        "管理画面が使いやすい"
+      ],
+      "cons": [
+        "エックスサーバーより知名度が低い",
+        "実績がまだ少なめ"
+      ],
+      "features": [
+        "KUSANAGI高速化",
+        "NVMe SSD",
+        "無料SSL",
+        "自動バックアップ"
+      ],
+      "officialUrl": "https://www.shin-server.jp/",
+      "lastChecked": "2026-03-06",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "dateAdded": "2026-03-06"
+    },
+    {
+      "id": "star-server",
+      "name": "スターサーバー",
+      "category": "server",
+      "summary": "ネットオウル提供の格安高速サーバー。オールSSDで月額220円から。",
+      "description": "スターサーバーはネットオウル株式会社（エックスサーバーグループ）が提供するレンタルサーバーです。月額220円の格安プランからオールSSD環境を利用可能。HTTP/2対応やPHP高速化設定など、低価格ながらも高速表示を実現。個人ブログや小規模サイトに最適です。",
+      "rating": 4.0,
+      "price": "¥220/月〜",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AZ9C8+4EDBOY+1WTI+62MDD",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "月額220円〜の格安",
+        "オールSSD環境",
+        "エックスサーバーグループ",
+        "2週間無料お試し"
+      ],
+      "cons": [
+        "電話サポートなし",
+        "安いプランは機能制限あり"
+      ],
+      "features": [
+        "オールSSD",
+        "HTTP/2対応",
+        "無料SSL",
+        "WordPress簡単インストール"
+      ],
+      "officialUrl": "https://www.star.ne.jp/",
+      "lastChecked": "2026-03-06",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "dateAdded": "2026-03-06"
+    },
+    {
+      "id": "millenvpn",
+      "name": "MillenVPN",
+      "category": "vpn",
+      "summary": "日本企業が運営する国産VPN。日本の法律に準拠しノーログポリシー。",
+      "description": "MillenVPNはアズポケット株式会社が運営する日本発のVPNサービスです。日本の法律（電気通信事業法）に準拠し、ノーログポリシーを採用。72カ国以上1,300台以上のサーバーに対応し、海外から日本の動画配信サービスへのアクセスや、中国からのVPN接続にも強いと評判です。",
+      "rating": 4.3,
+      "price": "¥396/月〜",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AZ9C8+555TWY+3JTE+HVNAR",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "日本企業運営で安心",
+        "日本の法律に準拠",
+        "中国からの接続に強い",
+        "30日間返金保証"
+      ],
+      "cons": [
+        "サーバー数はNordVPN等に劣る",
+        "海外での知名度が低い"
+      ],
+      "features": [
+        "ノーログポリシー",
+        "72カ国1,300台以上",
+        "同時接続10台",
+        "キルスイッチ"
+      ],
+      "officialUrl": "https://millenvpn.jp/",
+      "lastChecked": "2026-03-06",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "dateAdded": "2026-03-06"
+    },
+    {
+      "id": "coconala",
+      "name": "ココナラ",
+      "category": "marketing",
+      "summary": "スキルを売り買いできる日本最大級のスキルマーケット。450カテゴリ以上。",
+      "description": "ココナラは個人のスキルや知識を売買できる日本最大級のスキルマーケットです。デザイン、プログラミング、ライティング、動画編集、翻訳、相談など450カテゴリ以上のサービスが出品されています。ビジネスから個人まで幅広いニーズに対応し、副業やフリーランスの仕事獲得にも活用されています。",
+      "rating": 4.2,
+      "price": "無料（手数料あり）",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AZ9C8+56Y4QA+2PEO+1I9NSH",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "日本最大級のスキルマーケット",
+        "450カテゴリ以上",
+        "安心の決済システム",
+        "レビュー制度で品質担保"
+      ],
+      "cons": [
+        "手数料がやや高い",
+        "品質にバラつきあり"
+      ],
+      "features": [
+        "スキル売買",
+        "エスクロー決済",
+        "ビデオチャット対応",
+        "公開依頼"
+      ],
+      "officialUrl": "https://coconala.com/",
+      "lastChecked": "2026-03-06",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "dateAdded": "2026-03-06"
+    },
+    {
+      "id": "xserver-cloudpc",
+      "name": "XServerクラウドPC",
+      "category": "cloud",
+      "summary": "エックスサーバー提供のクラウドデスクトップ。高性能Windows環境をブラウザで。",
+      "description": "XServerクラウドPCはエックスサーバー株式会社が提供するクラウドデスクトップサービスです。高性能なWindows環境をブラウザからどこでも利用可能。FX自動売買やリモートワーク、開発環境として活用でき、24時間稼働の安定したサーバー環境が特徴です。",
+      "rating": 4.2,
+      "price": "¥2,860/月〜",
+      "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AZ9C8+5GH2EQ+CO4+357CYR",
+      "affiliateProvider": "a8",
+      "imageUrl": "",
+      "pros": [
+        "エックスサーバーの信頼性",
+        "ブラウザで利用可能",
+        "24時間安定稼働",
+        "高性能なスペック"
+      ],
+      "cons": [
+        "月額料金がやや高め",
+        "GPUプランは高額"
+      ],
+      "features": [
+        "Windows環境",
+        "NVMe SSD",
+        "24時間稼働",
+        "リモートデスクトップ"
+      ],
+      "officialUrl": "https://www.xserver.ne.jp/cloud-pc/",
+      "lastChecked": "2026-03-06",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "dateAdded": "2026-03-06"
     }
   ]
 }
