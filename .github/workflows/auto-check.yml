@@ -100,6 +100,52 @@ jobs:
           print(f'Timestamps updated to {today}')
           PYEOF
 
+      - name: Regenerate blog articles
+        run: |
+          echo "=== Regenerating blog articles ==="
+          python3 generate-blog.py
+
+      - name: Regenerate sitemap (with blog)
+        run: |
+          python3 << 'PYEOF'
+          import json, datetime, glob, os
+
+          BASE = 'https://tools.freesozo.com'
+          today = datetime.date.today().isoformat()
+
+          with open('data/products.json', encoding='utf-8') as f:
+              data = json.load(f)
+          with open('data/config.json', encoding='utf-8') as f:
+              config = json.load(f)
+
+          urls = []
+          urls.append(('/', 'weekly', '1.0'))
+          urls.append(('/privacy.html', 'monthly', '0.3'))
+          urls.append(('/go.html', 'monthly', '0.1'))
+
+          for cat in config.get('categories', []):
+              urls.append((f'/?cat={cat["id"]}', 'weekly', '0.7'))
+          for p in data['products']:
+              urls.append((f'/review.html?id={p["id"]}', 'monthly', '0.6'))
+
+          # Blog URLs
+          blog_files = sorted(glob.glob('blog/*.html'))
+          for bf in blog_files:
+              fname = os.path.basename(bf)
+              prio = '0.8' if fname == 'index.html' else '0.7'
+              urls.append((f'/blog/{fname}', 'weekly', prio))
+
+          xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
+          xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+          for loc, freq, prio in urls:
+              xml += f'  <url><loc>{BASE}{loc}</loc><changefreq>{freq}</changefreq><priority>{prio}</priority></url>\n'
+          xml += '</urlset>\n'
+
+          with open('sitemap.xml', 'w', encoding='utf-8') as f:
+              f.write(xml)
+          print(f'sitemap.xml: {len(urls)} URLs')
+          PYEOF
+
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
