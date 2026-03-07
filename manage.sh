@@ -248,7 +248,7 @@ print(f'sitemap.xml generated with {len(products)+2} URLs')
   cat > "$SCRIPT_DIR/robots.txt" << 'ROBOTS'
 User-agent: *
 Allow: /
-Sitemap: sitemap.xml
+Sitemap: https://tools.freesozo.com/sitemap.xml
 ROBOTS
   fix "robots.txt 生成完了"
 
