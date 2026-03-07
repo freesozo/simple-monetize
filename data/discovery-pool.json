@@ -1186,7 +1186,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "studio-design",
@@ -1258,7 +1258,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "woocommerce",
@@ -1829,7 +1829,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "screaming-frog",
@@ -2005,7 +2005,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "inshot",
@@ -2826,7 +2826,7 @@
         "japanese",
         "api"
       ],
-      "processed": false
+      "processed": true
     }
   ]
 }

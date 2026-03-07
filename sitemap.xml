@@ -133,6 +133,16 @@
   <url><loc>https://tools.freesozo.com/review.html?id=notion-ai</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=canva-ai</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=elevenlabs</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=later</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=affinity-designer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=miro</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=windscribe</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=hemingway-editor</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=weebly</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=strikingly</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=descript</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=crowdstrike</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=ecforce</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/blog/1password-vs-bitwarden.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/a8net-vs-hubspot.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/accounting-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -145,11 +155,13 @@
   <url><loc>https://tools.freesozo.com/blog/cloudflare-registrar-vs-namecheap.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/communication-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/coursera-vs-udemy.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tools.freesozo.com/blog/crowdstrike-vs-norton.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/davinci-resolve-vs-premiere-pro.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/deepl-pro-vs-grammarly.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/design-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/domain-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/ecommerce-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tools.freesozo.com/blog/figma-vs-affinity-designer.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/figma-vs-canva-pro.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/free-accounting-tools.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/free-ai-tools.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>

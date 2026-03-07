@@ -4304,6 +4304,188 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "id": "weebly",
+      "name": "Weebly",
+      "category": "sitebuilder",
+      "summary": "Square傘下のサイトビルダー。ECとの統合が特徴。",
+      "description": "Weeblyは、Square傘下のWebサイトビルダーです。ドラッグ&ドロップの直感的なエディターで、ビジネスサイトやオンラインストアを簡単に作成可能。Squareの決済機能との統合が強みで、小規模ビジネスのオンライン展開に適しています。",
+      "rating": 3.9,
+      "price": "無料〜$26/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "ドラッグ&ドロップで簡単",
+        "Square決済統合",
+        "無料プランで始められる"
+      ],
+      "cons": [
+        "テンプレートのデザインがやや古い",
+        "Squareに統合されつつある"
+      ],
+      "features": [
+        "ドラッグ&ドロップエディター",
+        "EC機能統合",
+        "SEO設定",
+        "モバイルアプリ"
+      ],
+      "officialUrl": "https://www.weebly.com/",
+      "lastChecked": "2026-03-07",
+      "dateAdded": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "strikingly",
+      "name": "Strikingly",
+      "category": "sitebuilder",
+      "summary": "モバイル最適化のサイトビルダー。数分で美しいサイトを公開。",
+      "description": "Strikinglyは、モバイルファーストの美しいWebサイトを数分で作成できるサイトビルダーです。テンプレートを選んで編集するだけで、プロフェッショナルなサイトが完成。ECサイト機能も統合されており、シンプルなオンラインショップの開設にも対応しています。",
+      "rating": 4.0,
+      "price": "無料〜$49/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "モバイル最適化が優秀",
+        "数分でサイト公開可能",
+        "EC機能内蔵"
+      ],
+      "cons": [
+        "無料プランはStrikinglyバナー表示",
+        "SEO機能が限定的"
+      ],
+      "features": [
+        "モバイル最適化",
+        "EC機能内蔵",
+        "ブログ機能",
+        "カスタムドメイン (有料)"
+      ],
+      "officialUrl": "https://www.strikingly.com/",
+      "lastChecked": "2026-03-07",
+      "dateAdded": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "category": "video",
+      "summary": "テキスト編集感覚で動画・ポッドキャストを編集。AI機能が充実。",
+      "description": "Descriptは、テキストを編集するように動画やポッドキャストを編集できるユニークなツールです。自動文字起こし機能でテキスト化し、テキストの削除=動画の該当部分も削除という直感的な編集が可能。AI音声クローン、フィラー語自動除去、グリーンスクリーンなし背景除去などの先進機能も搭載しています。",
+      "rating": 4.4,
+      "price": "無料〜$24/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "テキストベースの直感的編集",
+        "AI自動文字起こし",
+        "フィラー語自動除去"
+      ],
+      "cons": [
+        "高度な映像編集には不向き",
+        "重いプロジェクトでは動作が遅い"
+      ],
+      "features": [
+        "テキストベース動画編集",
+        "AI文字起こし",
+        "画面録画",
+        "AI音声クローン",
+        "バックグラウンド除去"
+      ],
+      "officialUrl": "https://www.descript.com/",
+      "lastChecked": "2026-03-07",
+      "dateAdded": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "crowdstrike",
+      "name": "CrowdStrike Falcon",
+      "category": "security",
+      "summary": "クラウドベースのエンドポイントセキュリティ。企業向けEDRのリーダー。",
+      "description": "CrowdStrike Falconは、クラウドネイティブのエンドポイントセキュリティプラットフォームです。AI/MLを活用したリアルタイム脅威検出、EDR (Endpoint Detection and Response)、脅威ハンティングなど高度なセキュリティ機能を提供。軽量なエージェントでシステムへの負荷が少ないのが特徴です。",
+      "rating": 4.5,
+      "price": "$99.99/年〜 (個人向け)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "クラウドベースで軽量",
+        "AI駆動の高度な脅威検出",
+        "業界リーダーの実績"
+      ],
+      "cons": [
+        "個人利用には高額",
+        "設定にはセキュリティ知識が必要"
+      ],
+      "features": [
+        "次世代アンチウイルス",
+        "EDR/XDR",
+        "脅威インテリジェンス",
+        "クラウドネイティブ",
+        "24/7マネージドサービス"
+      ],
+      "officialUrl": "https://www.crowdstrike.com/",
+      "lastChecked": "2026-03-07",
+      "dateAdded": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": []
+    },
+    {
+      "id": "ecforce",
+      "name": "ecforce",
+      "category": "ecommerce",
+      "summary": "日本発のD2C特化型ECプラットフォーム。定期通販・サブスクに強い。",
+      "description": "ecforceは、D2C（Direct to Consumer）ブランド向けに特化した日本発のECプラットフォームです。定期通販・サブスクリプション販売に強く、LP一体型フォームやA/Bテスト機能でCVR改善を実現。国内の有名D2Cブランドが多数採用しています。",
+      "rating": 4.3,
+      "price": "¥49,800/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "D2C・定期通販に特化",
+        "LP一体型フォームでCVR向上",
+        "充実した分析・CRM機能"
+      ],
+      "cons": [
+        "月額費用が高い",
+        "小規模事業者には不向き"
+      ],
+      "features": [
+        "定期通販・サブスク管理",
+        "LP一体型フォーム",
+        "A/Bテスト",
+        "CRM連携",
+        "API対応"
+      ],
+      "officialUrl": "https://ec-force.com/",
+      "lastChecked": "2026-03-07",
+      "dateAdded": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese",
+        "api"
+      ]
     }
   ]
 }
