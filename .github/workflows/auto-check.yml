@@ -100,6 +100,12 @@ jobs:
           print(f'Timestamps updated to {today}')
           PYEOF
 
+      - name: Discover new products
+        continue-on-error: true
+        run: |
+          echo "=== Discovering new products ==="
+          python3 discover-new.py
+
       - name: Regenerate blog articles
         run: |
           echo "=== Regenerating blog articles ==="

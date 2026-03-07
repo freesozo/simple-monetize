@@ -4124,6 +4124,186 @@
         "free",
         "api"
       ]
+    },
+    {
+      "id": "later",
+      "name": "Later",
+      "category": "marketing",
+      "summary": "ビジュアルSNSマーケティングツール。Instagram管理に特化。",
+      "description": "Laterは、Instagram管理に特化したビジュアルSNSマーケティングツールです。ドラッグ&ドロップのビジュアルプランナーで投稿の見た目を事前にプレビューしながらスケジュール設定が可能。リンクインバイオ機能(Linkin.bio)も人気で、Instagram経由の収益化を支援します。",
+      "rating": 4.2,
+      "price": "無料〜$40/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "ビジュアルプランナーが直感的",
+        "Linkin.bio機能が優秀",
+        "Instagram管理に最適"
+      ],
+      "cons": [
+        "Instagram以外の機能は弱め",
+        "無料プランは投稿数制限あり"
+      ],
+      "features": [
+        "ビジュアルプランナー",
+        "Linkin.bio",
+        "ベストタイム提案",
+        "ハッシュタグ提案",
+        "UGC管理"
+      ],
+      "officialUrl": "https://later.com/",
+      "lastChecked": "2026-03-07",
+      "dateAdded": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "affinity-designer",
+      "name": "Affinity Designer 2",
+      "category": "design",
+      "summary": "買い切りのプロ向けベクターデザインツール。Illustrator代替として人気。",
+      "description": "Affinity Designer 2は、Serif社が開発した買い切り型のプロフェッショナル向けベクターグラフィックツールです。Adobe Illustratorの代替として高い評価を受けており、ベクターとラスターの両方のワークスペースを一つのアプリで切り替えて使えます。サブスクリプション不要の買い切りモデルが特徴です。",
+      "rating": 4.6,
+      "price": "$69.99 (買い切り)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "買い切りで追加費用なし",
+        "高性能なベクター編集",
+        "ベクター+ラスター統合環境"
+      ],
+      "cons": [
+        "Illustratorほどのプラグインがない",
+        "AI形式の完全互換ではない"
+      ],
+      "features": [
+        "ベクター＆ラスター統合",
+        "ペンツール・ノードツール",
+        "iPad版連携",
+        "PSD/AI/SVG対応"
+      ],
+      "officialUrl": "https://affinity.serif.com/designer/",
+      "lastChecked": "2026-03-07",
+      "dateAdded": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": []
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "category": "communication",
+      "summary": "オンラインホワイトボードツール。ブレインストーミングやワークショップに最適。",
+      "description": "Miroは、チームのコラボレーションを支援するオンラインホワイトボードプラットフォームです。無限のキャンバス上でブレインストーミング、ワークショップ、デザインシンキング、アジャイル開発のプランニングなどが行えます。100以上のテンプレートと多数のアプリ統合を提供しています。",
+      "rating": 4.5,
+      "price": "無料〜$10/ユーザー/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無限キャンバスで自由にコラボ",
+        "100以上のテンプレート",
+        "多数のアプリ統合"
+      ],
+      "cons": [
+        "無料プランはボード3枚まで",
+        "大量の付箋で動作が重くなることも"
+      ],
+      "features": [
+        "無限キャンバス",
+        "リアルタイムコラボレーション",
+        "テンプレートライブラリ",
+        "投票・タイマー機能",
+        "Jira/Asana連携"
+      ],
+      "officialUrl": "https://miro.com/",
+      "lastChecked": "2026-03-07",
+      "dateAdded": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "windscribe",
+      "name": "Windscribe",
+      "category": "vpn",
+      "summary": "寛大な無料プラン付きVPN。広告ブロックとファイアウォール機能搭載。",
+      "description": "Windscribeは、毎月10GBまで無料で使えるVPNサービスです。VPN機能に加え、広告・トラッカーブロッカーのR.O.B.E.R.T.機能を搭載。有料プランではビルドアプランで必要な国のサーバーだけを選んで購入できる柔軟な料金体系が特徴です。",
+      "rating": 4.2,
+      "price": "無料〜$5.75/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料で月10GB利用可能",
+        "広告ブロック機能内蔵",
+        "柔軟な料金プラン"
+      ],
+      "cons": [
+        "無料プランは接続国が限定",
+        "速度は中程度"
+      ],
+      "features": [
+        "R.O.B.E.R.T.広告ブロック",
+        "Split Tunneling",
+        "ビルドアプラン",
+        "ブラウザ拡張機能"
+      ],
+      "officialUrl": "https://windscribe.com/",
+      "lastChecked": "2026-03-07",
+      "dateAdded": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "hemingway-editor",
+      "name": "Hemingway Editor",
+      "category": "writing",
+      "summary": "文章の読みやすさを分析するエディター。簡潔で明確な文章作成を支援。",
+      "description": "Hemingway Editorは、英語の文章の読みやすさを分析・改善するライティングツールです。長すぎる文、受動態、難解な単語などをハイライトで指摘し、より簡潔で明確な文章への改善を支援します。無料のWeb版とデスクトップ版（有料）があり、ブログやメールの文章改善に最適です。",
+      "rating": 4.1,
+      "price": "無料 (Web版) / $19.99 (デスクトップ)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "Web版は完全無料",
+        "文章の問題点が一目瞭然",
+        "シンプルで使いやすい"
+      ],
+      "cons": [
+        "英語専用",
+        "詳細な文法チェックはなし"
+      ],
+      "features": [
+        "読みやすさスコア",
+        "長文・複雑な文の検出",
+        "受動態の検出",
+        "副詞・弱い表現の検出"
+      ],
+      "officialUrl": "https://hemingwayapp.com/",
+      "lastChecked": "2026-03-07",
+      "dateAdded": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
     }
   ]
 }

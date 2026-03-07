@@ -1,0 +1,2832 @@
+{
+  "candidates": [
+    {
+      "id": "perplexity",
+      "name": "Perplexity AI",
+      "category": "ai",
+      "summary": "AI搭載の検索エンジン。ソース付きで正確な回答を提供。",
+      "description": "Perplexity AIは、AI技術を活用した次世代検索エンジンです。質問に対してウェブ上の情報を参照しながら、出典付きの回答を提供します。無料プランでも利用可能で、Pro版ではGPT-4やClaude等の高性能AIモデルを選択できます。",
+      "rating": 4.5,
+      "price": "無料〜$20/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "ソース付きの正確な回答",
+        "無料プランが充実",
+        "複数のAIモデルを選択可能"
+      ],
+      "cons": [
+        "日本語の精度がやや劣る場合あり",
+        "Pro版は月額$20"
+      ],
+      "features": [
+        "AI検索エンジン",
+        "ソース引用機能",
+        "マルチモデル対応",
+        "Copilot機能"
+      ],
+      "officialUrl": "https://www.perplexity.ai/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "dall-e",
+      "name": "DALL-E (OpenAI)",
+      "category": "ai",
+      "summary": "OpenAIのAI画像生成ツール。テキストからリアルな画像を生成。",
+      "description": "DALL-EはOpenAIが開発したAI画像生成ツールです。テキストプロンプトを入力するだけで、高品質な画像を生成できます。ChatGPT Plus経由で利用可能で、商用利用も許可されています。DALL-E 3ではより正確なプロンプト理解が実現されています。",
+      "rating": 4.4,
+      "price": "無料〜$20/月 (ChatGPT Plus経由)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "高品質な画像生成",
+        "商用利用可能",
+        "ChatGPT統合で使いやすい"
+      ],
+      "cons": [
+        "無料版は生成回数制限あり",
+        "細かいコントロールが難しい"
+      ],
+      "features": [
+        "テキストから画像生成",
+        "画像編集・修正機能",
+        "商用ライセンス付き",
+        "ChatGPT統合"
+      ],
+      "officialUrl": "https://openai.com/dall-e-3",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free",
+        "api"
+      ],
+      "processed": false
+    },
+    {
+      "id": "runway-ml",
+      "name": "Runway ML",
+      "category": "ai",
+      "summary": "AI動画生成・編集プラットフォーム。テキストや画像から動画を作成。",
+      "description": "Runway MLは、AI技術を活用した動画生成・編集プラットフォームです。Gen-2モデルにより、テキストや画像から動画を生成できます。映像制作のプロフェッショナルから個人クリエイターまで幅広く利用されており、モーションブラシやインペインティングなどの高度な編集機能も搭載しています。",
+      "rating": 4.3,
+      "price": "無料〜$76/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "テキストから動画生成が可能",
+        "豊富なAI編集ツール",
+        "ブラウザベースで使いやすい"
+      ],
+      "cons": [
+        "無料プランは生成秒数制限あり",
+        "高画質出力は有料プラン必須"
+      ],
+      "features": [
+        "AI動画生成 (Gen-2)",
+        "モーションブラシ",
+        "テキストto動画",
+        "画像toビデオ変換"
+      ],
+      "officialUrl": "https://runwayml.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "jasper-ai",
+      "name": "Jasper AI",
+      "category": "ai",
+      "summary": "マーケティング向けAIライティングツール。広告やブログ記事を自動生成。",
+      "description": "Jasper AIは、マーケティングコンテンツの作成に特化したAIライティングツールです。ブログ記事、広告コピー、SNS投稿、メールなど多様なコンテンツを高品質に生成します。ブランドボイス機能により、一貫したトーンでのコンテンツ作成が可能です。",
+      "rating": 4.2,
+      "price": "$39/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "マーケティング特化のテンプレート豊富",
+        "ブランドボイス機能",
+        "多言語対応"
+      ],
+      "cons": [
+        "月額料金が高め",
+        "日本語の品質は英語より劣る"
+      ],
+      "features": [
+        "AIコンテンツ生成",
+        "ブランドボイス設定",
+        "50以上のテンプレート",
+        "Chrome拡張機能"
+      ],
+      "officialUrl": "https://www.jasper.ai/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "category": "ai",
+      "summary": "AIコピーライティングツール。マーケティング文章を素早く生成。",
+      "description": "Copy.aiは、AIを活用したコピーライティングプラットフォームです。ブログ記事、広告コピー、商品説明、SNS投稿などを素早く生成できます。無料プランも提供されており、ワークフロー機能で繰り返し作業を自動化することも可能です。",
+      "rating": 4.1,
+      "price": "無料〜$49/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料プランあり",
+        "90以上のコンテンツテンプレート",
+        "ワークフロー自動化機能"
+      ],
+      "cons": [
+        "日本語対応が限定的",
+        "長文コンテンツは品質にムラ"
+      ],
+      "features": [
+        "AIコピーライティング",
+        "ワークフロー自動化",
+        "多言語対応",
+        "チームコラボレーション"
+      ],
+      "officialUrl": "https://www.copy.ai/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "writesonic",
+      "name": "Writesonic",
+      "category": "ai",
+      "summary": "AIコンテンツ作成プラットフォーム。SEO対応の記事を自動生成。",
+      "description": "Writesonicは、SEOに最適化されたコンテンツを生成するAIプラットフォームです。ブログ記事、ランディングページ、広告コピーなどを作成でき、Chatsonic機能でリアルタイムの情報を反映したコンテンツも生成可能です。GPT-4搭載で高品質な出力を実現しています。",
+      "rating": 4.0,
+      "price": "無料〜$19/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "SEO最適化機能が充実",
+        "リアルタイム情報を反映",
+        "手頃な価格設定"
+      ],
+      "cons": [
+        "無料プランは出力文字数制限あり",
+        "UIがやや複雑"
+      ],
+      "features": [
+        "SEO最適化記事生成",
+        "Chatsonic AI チャット",
+        "ランディングページ生成",
+        "AIアート生成"
+      ],
+      "officialUrl": "https://writesonic.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "category": "ai",
+      "summary": "オープンソースのLLMアプリ開発プラットフォーム。ノーコードでAIアプリを構築。",
+      "description": "Difyは、LLM（大規模言語モデル）アプリケーションを簡単に構築できるオープンソースプラットフォームです。ノーコードでAIチャットボット、ワークフロー、RAGアプリケーションを作成可能。セルフホストもクラウド版も利用でき、OpenAI、Claude、Geminiなど複数のLLMに対応しています。",
+      "rating": 4.4,
+      "price": "無料〜$159/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "オープンソースで無料利用可能",
+        "ノーコードでAIアプリ構築",
+        "複数のLLMプロバイダー対応"
+      ],
+      "cons": [
+        "セルフホストには技術知識が必要",
+        "エンタープライズ機能は有料"
+      ],
+      "features": [
+        "ノーコードAIアプリビルダー",
+        "RAG (検索拡張生成)",
+        "ワークフローオーケストレーション",
+        "マルチLLM対応",
+        "API公開機能"
+      ],
+      "officialUrl": "https://dify.ai/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free",
+        "api"
+      ],
+      "processed": false
+    },
+    {
+      "id": "ai-sakura-internet",
+      "name": "さくらのクラウド GPU",
+      "category": "ai",
+      "summary": "さくらインターネットのGPUクラウド。AI開発・推論に最適な国産サービス。",
+      "description": "さくらのクラウドGPUは、さくらインターネットが提供するGPUクラウドサービスです。NVIDIA H100を搭載し、AI/ML開発や推論ワークロードに最適な環境を国内データセンターから提供。政府のAI基盤としても採用されており、データ主権を重視するユーザーに人気です。",
+      "rating": 4.1,
+      "price": "¥3,000/時間〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "国内データセンターで安心",
+        "NVIDIA H100搭載",
+        "政府案件での実績あり"
+      ],
+      "cons": [
+        "料金が高め",
+        "個人利用にはオーバースペック"
+      ],
+      "features": [
+        "NVIDIA H100 GPU",
+        "国内データセンター",
+        "高速ネットワーク",
+        "APIアクセス"
+      ],
+      "officialUrl": "https://www.sakura.ad.jp/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese",
+        "api"
+      ],
+      "processed": false
+    },
+    {
+      "id": "ablenet-vps",
+      "name": "ABLENET VPS",
+      "category": "server",
+      "summary": "老舗のVPSホスティング。安定性とコスパに優れたサーバー。",
+      "description": "ABLENET VPSは、20年以上の実績を持つ老舗VPSホスティングサービスです。Windows VPSとLinux VPSの両方を提供しており、安定した稼働率と手頃な価格が特徴。FX自動売買やWebサーバー運用など幅広い用途で利用されています。",
+      "rating": 4.0,
+      "price": "¥554/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "20年以上の運営実績",
+        "Windows VPS対応",
+        "コストパフォーマンスが高い"
+      ],
+      "cons": [
+        "管理画面がやや古い",
+        "サポートは平日のみ"
+      ],
+      "features": [
+        "Windows/Linux VPS",
+        "SSDストレージ",
+        "10日間無料お試し",
+        "自動バックアップ"
+      ],
+      "officialUrl": "https://www.ablenet.jp/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "kagoya-vps",
+      "name": "カゴヤ・ジャパン VPS",
+      "category": "server",
+      "summary": "京都発の老舗ホスティング。自社データセンター運営で高い信頼性。",
+      "description": "カゴヤ・ジャパンは京都に自社データセンターを持つ老舗ホスティング企業です。VPSサービスは日額課金に対応しており、必要な期間だけ利用可能。法人利用にも適した高い信頼性とセキュリティを提供しています。",
+      "rating": 4.0,
+      "price": "¥550/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "自社データセンター運営",
+        "日額課金に対応",
+        "法人向けサポートが充実"
+      ],
+      "cons": [
+        "個人向けの知名度が低い",
+        "管理画面のUIがやや古い"
+      ],
+      "features": [
+        "自社DC運営",
+        "日額課金対応",
+        "スナップショット機能",
+        "ロードバランサー"
+      ],
+      "officialUrl": "https://www.kagoya.jp/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "wpx-server",
+      "name": "wpX Speed",
+      "category": "server",
+      "summary": "WordPress特化の高速サーバー。エックスサーバー系列の専用環境。",
+      "description": "wpX Speedはエックスサーバー株式会社が提供するWordPress専用の高速レンタルサーバーです。WordPress運用に最適化された環境で、高速表示とセキュリティ対策が充実。オートスケール機能でアクセス急増時も安定稼働します。",
+      "rating": 4.2,
+      "price": "¥2.2/時間〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "WordPress特化で高速",
+        "オートスケール対応",
+        "エックスサーバー系列の安心感"
+      ],
+      "cons": [
+        "WordPress以外には使えない",
+        "従量課金で費用が読みにくい"
+      ],
+      "features": [
+        "WordPress専用最適化",
+        "オートスケール",
+        "無料SSL",
+        "自動バックアップ"
+      ],
+      "officialUrl": "https://www.wpx.ne.jp/speed/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "hetznervps",
+      "name": "Hetzner Cloud",
+      "category": "server",
+      "summary": "欧州発の高コスパクラウドサーバー。開発者に人気のVPS。",
+      "description": "Hetzner Cloudはドイツの老舗ホスティング企業Hetznerが提供するクラウドサーバーサービスです。非常に手頃な価格で高性能なVPSを提供しており、欧州とアメリカにデータセンターを構えています。開発者やスタートアップに非常に人気があります。",
+      "rating": 4.5,
+      "price": "$3.29/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "業界最安クラスの価格",
+        "高性能なスペック",
+        "シンプルなAPI"
+      ],
+      "cons": [
+        "日本にデータセンターなし",
+        "サポートは英語/ドイツ語のみ"
+      ],
+      "features": [
+        "SSD/NVMe ストレージ",
+        "従量課金制",
+        "REST API対応",
+        "ロードバランサー"
+      ],
+      "officialUrl": "https://www.hetzner.com/cloud/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "api"
+      ],
+      "processed": false
+    },
+    {
+      "id": "protonvpn",
+      "name": "ProtonVPN",
+      "category": "vpn",
+      "summary": "スイス拠点のプライバシー重視VPN。無料プランあり。",
+      "description": "ProtonVPNは、Proton Mail開発チームが提供するプライバシー重視のVPNサービスです。スイスの厳格なプライバシー法の下で運営され、ノーログポリシーを貫いています。無料プランでもデータ制限なし、広告なしで利用可能な珍しいVPNです。",
+      "rating": 4.5,
+      "price": "無料〜$9.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料プランでデータ無制限",
+        "スイスのプライバシー法で保護",
+        "オープンソースアプリ",
+        "ノーログポリシー"
+      ],
+      "cons": [
+        "無料プランはサーバー数が限定",
+        "有料版は他社よりやや高い"
+      ],
+      "features": [
+        "ノーログポリシー",
+        "キルスイッチ",
+        "Secure Core (多重VPN)",
+        "NetShield広告ブロック"
+      ],
+      "officialUrl": "https://protonvpn.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "pia-vpn",
+      "name": "Private Internet Access",
+      "category": "vpn",
+      "summary": "大規模サーバーネットワークを持つ老舗VPN。オープンソースアプリ。",
+      "description": "Private Internet Access (PIA) は、世界91カ国以上にサーバーを展開する大規模VPNサービスです。オープンソースのアプリで透明性が高く、ノーログポリシーは法廷でも証明されています。同時接続台数が無制限で、家族や複数デバイスでの利用にも最適です。",
+      "rating": 4.3,
+      "price": "$2.03/月〜 (3年プラン)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "同時接続台数無制限",
+        "91カ国以上のサーバー",
+        "オープンソースアプリ"
+      ],
+      "cons": [
+        "アメリカ拠点 (5 Eyes)",
+        "速度は中程度"
+      ],
+      "features": [
+        "同時接続無制限",
+        "WireGuard対応",
+        "広告・トラッカーブロック",
+        "ポートフォワーディング"
+      ],
+      "officialUrl": "https://www.privateinternetaccess.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "windscribe",
+      "name": "Windscribe",
+      "category": "vpn",
+      "summary": "寛大な無料プラン付きVPN。広告ブロックとファイアウォール機能搭載。",
+      "description": "Windscribeは、毎月10GBまで無料で使えるVPNサービスです。VPN機能に加え、広告・トラッカーブロッカーのR.O.B.E.R.T.機能を搭載。有料プランではビルドアプランで必要な国のサーバーだけを選んで購入できる柔軟な料金体系が特徴です。",
+      "rating": 4.2,
+      "price": "無料〜$5.75/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料で月10GB利用可能",
+        "広告ブロック機能内蔵",
+        "柔軟な料金プラン"
+      ],
+      "cons": [
+        "無料プランは接続国が限定",
+        "速度は中程度"
+      ],
+      "features": [
+        "R.O.B.E.R.T.広告ブロック",
+        "Split Tunneling",
+        "ビルドアプラン",
+        "ブラウザ拡張機能"
+      ],
+      "officialUrl": "https://windscribe.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": true
+    },
+    {
+      "id": "atlas-vpn",
+      "name": "Atlas VPN",
+      "category": "vpn",
+      "summary": "Nord Security傘下の新興VPN。手頃な価格で高速接続を提供。",
+      "description": "Atlas VPNはNord Security (NordVPN運営元) 傘下のVPNサービスです。WireGuardプロトコルによる高速接続と、SafeSwap機能による匿名性の強化が特徴。無料プランも提供しており、手軽にVPNを試せます。",
+      "rating": 4.0,
+      "price": "無料〜$1.83/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "非常に手頃な価格",
+        "無料プランあり",
+        "WireGuard対応で高速"
+      ],
+      "cons": [
+        "サーバー数が他社より少ない",
+        "無料プランは機能制限あり"
+      ],
+      "features": [
+        "SafeSwap サーバー",
+        "WireGuard プロトコル",
+        "データ侵害モニター",
+        "同時接続無制限"
+      ],
+      "officialUrl": "https://atlasvpn.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "schoo",
+      "name": "Schoo",
+      "category": "learning",
+      "summary": "大人のための生放送学習コミュニティ。ビジネススキルからIT技術まで。",
+      "description": "Schoo（スクー）は、社会人向けのオンライン学習プラットフォームです。毎日生放送の授業が配信され、リアルタイムで質問やコメントが可能。ビジネススキル、プログラミング、デザイン、マーケティングなど幅広いジャンルの授業を8,000本以上提供しています。",
+      "rating": 4.2,
+      "price": "無料〜¥980/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "生放送授業は無料で視聴可能",
+        "8,000本以上のアーカイブ",
+        "日本語コンテンツが充実"
+      ],
+      "cons": [
+        "アーカイブ視聴は有料会員のみ",
+        "英語コンテンツは少ない"
+      ],
+      "features": [
+        "生放送授業",
+        "8,000本以上の録画授業",
+        "チャットで質問可能",
+        "法人向けプランあり"
+      ],
+      "officialUrl": "https://schoo.jp/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "dotinstall",
+      "name": "ドットインストール",
+      "category": "learning",
+      "summary": "3分動画でプログラミングを学べる初心者向け学習サイト。",
+      "description": "ドットインストールは、3分間の短い動画でプログラミングを学べる日本最大級のプログラミング学習サイトです。HTML/CSS、JavaScript、Python、Ruby、PHPなど幅広い言語に対応。初心者向けの基礎レッスンは無料で視聴でき、プレミアム会員になるとすべてのレッスンにアクセスできます。",
+      "rating": 4.3,
+      "price": "無料〜¥1,080/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "3分動画で手軽に学習",
+        "基礎レッスン無料",
+        "日本語で分かりやすい"
+      ],
+      "cons": [
+        "応用的な内容は少なめ",
+        "プレミアム会員でないと制限多い"
+      ],
+      "features": [
+        "3分動画レッスン",
+        "470以上のレッスン",
+        "ソースコード閲覧",
+        "環境構築レッスン"
+      ],
+      "officialUrl": "https://dotinstall.com/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "linkedin-learning",
+      "name": "LinkedIn Learning",
+      "category": "learning",
+      "summary": "LinkedIn提供のビジネス・IT学習プラットフォーム。修了証でスキルをアピール。",
+      "description": "LinkedIn Learningは、LinkedInが提供するオンライン学習プラットフォームです。ビジネス、テクノロジー、クリエイティブの3分野で21,000以上のコースを提供。修了証はLinkedInプロフィールに表示でき、キャリアアップに直結します。",
+      "rating": 4.3,
+      "price": "$29.99/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "LinkedInプロフィールに修了証表示",
+        "21,000以上のコース",
+        "ビジネススキルが充実"
+      ],
+      "cons": [
+        "月額料金がやや高い",
+        "日本語コースは少なめ"
+      ],
+      "features": [
+        "21,000+コース",
+        "修了証発行",
+        "オフライン視聴",
+        "LinkedIn連携",
+        "学習パス機能"
+      ],
+      "officialUrl": "https://www.linkedin.com/learning/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "paiza-learning",
+      "name": "paizaラーニング",
+      "category": "learning",
+      "summary": "動画と演習で学ぶプログラミング学習サービス。転職サポートも。",
+      "description": "paizaラーニングは、プログラミング学習と転職支援を一体化した日本のサービスです。動画講座と実践的なコーディング演習を組み合わせた学習スタイルで、Python、Java、PHP、Rubyなど多数の言語に対応。学習後はpaiza転職で実力をアピールしてIT企業への就職・転職が可能です。",
+      "rating": 4.1,
+      "price": "無料〜¥1,078/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "学習と転職が一体化",
+        "ブラウザ上でコーディング練習",
+        "無料コンテンツが豊富"
+      ],
+      "cons": [
+        "上級者向けコンテンツが少ない",
+        "転職は日本国内限定"
+      ],
+      "features": [
+        "動画+演習の学習スタイル",
+        "ブラウザ実行環境",
+        "スキルチェック",
+        "転職サポート連携"
+      ],
+      "officialUrl": "https://paiza.jp/works",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "pluralsight",
+      "name": "Pluralsight",
+      "category": "learning",
+      "summary": "IT・テクノロジー特化の学習プラットフォーム。スキル評価機能付き。",
+      "description": "Pluralsightは、IT・テクノロジー分野に特化したオンライン学習プラットフォームです。クラウド、サイバーセキュリティ、AI/ML、ソフトウェア開発など幅広い技術分野をカバー。Skill IQによるスキルレベル診断やラーニングパスで効率的な学習が可能です。",
+      "rating": 4.3,
+      "price": "$29/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "IT分野の専門コンテンツが豊富",
+        "スキルレベル診断機能",
+        "ラーニングパスで体系的学習"
+      ],
+      "cons": [
+        "月額料金が高め",
+        "日本語コンテンツなし"
+      ],
+      "features": [
+        "7,000+コース",
+        "Skill IQ診断",
+        "ラーニングパス",
+        "ハンズオンラボ",
+        "修了証発行"
+      ],
+      "officialUrl": "https://www.pluralsight.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "penpot",
+      "name": "Penpot",
+      "category": "design",
+      "summary": "オープンソースのデザイン・プロトタイピングツール。Figma代替として注目。",
+      "description": "Penpotは、完全オープンソースのデザイン・プロトタイピングツールです。Figmaの代替として注目されており、Web標準技術(SVG)をベースにしています。セルフホストも可能で、チームでのリアルタイムコラボレーションにも対応。完全無料で全機能を利用できます。",
+      "rating": 4.1,
+      "price": "無料",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "完全無料・オープンソース",
+        "セルフホスト可能",
+        "SVGベースで互換性が高い"
+      ],
+      "cons": [
+        "Figmaに比べプラグインが少ない",
+        "コミュニティがまだ小さい"
+      ],
+      "features": [
+        "リアルタイムコラボレーション",
+        "プロトタイピング",
+        "SVGネイティブ",
+        "セルフホスト対応",
+        "コンポーネントシステム"
+      ],
+      "officialUrl": "https://penpot.app/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "framer-design",
+      "name": "Framer",
+      "category": "design",
+      "summary": "デザインから公開まで一気通貫のWebデザインツール。インタラクション作成に強い。",
+      "description": "Framerは、デザインから実際のWebサイト公開まで一貫して行えるデザインツールです。高度なインタラクションやアニメーションを直感的に作成でき、デザインしたものがそのままレスポンシブなWebサイトとして公開可能。CMSやフォーム機能も内蔵しています。",
+      "rating": 4.4,
+      "price": "無料〜$30/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "デザインからそのまま公開可能",
+        "高度なアニメーション作成",
+        "レスポンシブ対応"
+      ],
+      "cons": [
+        "学習コストがやや高い",
+        "複雑なサイトには不向き"
+      ],
+      "features": [
+        "ビジュアルデザイン",
+        "レスポンシブレイアウト",
+        "CMS内蔵",
+        "カスタムアニメーション",
+        "ワンクリック公開"
+      ],
+      "officialUrl": "https://www.framer.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "affinity-designer",
+      "name": "Affinity Designer 2",
+      "category": "design",
+      "summary": "買い切りのプロ向けベクターデザインツール。Illustrator代替として人気。",
+      "description": "Affinity Designer 2は、Serif社が開発した買い切り型のプロフェッショナル向けベクターグラフィックツールです。Adobe Illustratorの代替として高い評価を受けており、ベクターとラスターの両方のワークスペースを一つのアプリで切り替えて使えます。サブスクリプション不要の買い切りモデルが特徴です。",
+      "rating": 4.6,
+      "price": "$69.99 (買い切り)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "買い切りで追加費用なし",
+        "高性能なベクター編集",
+        "ベクター+ラスター統合環境"
+      ],
+      "cons": [
+        "Illustratorほどのプラグインがない",
+        "AI形式の完全互換ではない"
+      ],
+      "features": [
+        "ベクター＆ラスター統合",
+        "ペンツール・ノードツール",
+        "iPad版連携",
+        "PSD/AI/SVG対応"
+      ],
+      "officialUrl": "https://affinity.serif.com/designer/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": true
+    },
+    {
+      "id": "adobe-xd",
+      "name": "Adobe XD",
+      "category": "design",
+      "summary": "AdobeのUI/UXデザインツール。プロトタイプ作成とコラボレーションに対応。",
+      "description": "Adobe XDは、AdobeのUI/UXデザイン・プロトタイピングツールです。ワイヤーフレーム作成からインタラクティブプロトタイプまで一貫して制作可能。Adobe Creative Cloud他製品との連携も強みで、コンポーネント機能やリピートグリッドで効率的なデザインができます。",
+      "rating": 4.0,
+      "price": "Adobe CC $54.99/月に含む",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "Adobe CC統合で連携が容易",
+        "リピートグリッドが便利",
+        "プロトタイプ共有機能"
+      ],
+      "cons": [
+        "単体販売は終了",
+        "Figmaに機能面で遅れ"
+      ],
+      "features": [
+        "UI/UXデザイン",
+        "プロトタイピング",
+        "コンポーネント管理",
+        "Adobe CC連携"
+      ],
+      "officialUrl": "https://www.adobe.com/products/xd.html",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "mega-cloud",
+      "name": "MEGA",
+      "category": "cloud",
+      "summary": "エンドツーエンド暗号化のクラウドストレージ。無料で20GBの大容量。",
+      "description": "MEGAは、エンドツーエンド暗号化を標準搭載したクラウドストレージサービスです。無料プランで20GBの容量が利用可能で、プライバシーを重視するユーザーに人気。ファイル共有、チャット、ビデオ通話機能も備えており、ニュージーランドに拠点を置いています。",
+      "rating": 4.2,
+      "price": "無料〜€29.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料で20GBの大容量",
+        "エンドツーエンド暗号化標準",
+        "チャット・通話機能付き"
+      ],
+      "cons": [
+        "転送量制限あり",
+        "一部機能のUIがやや複雑"
+      ],
+      "features": [
+        "E2E暗号化",
+        "20GB無料ストレージ",
+        "ファイル共有リンク",
+        "MEGAchat",
+        "デスクトップ同期アプリ"
+      ],
+      "officialUrl": "https://mega.io/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "sync-com",
+      "name": "Sync.com",
+      "category": "cloud",
+      "summary": "プライバシー重視のカナダ発クラウドストレージ。ゼロ知識暗号化。",
+      "description": "Sync.comは、カナダ拠点のプライバシー重視クラウドストレージサービスです。ゼロ知識暗号化により、サービス提供者でさえユーザーのファイルにアクセスできない設計。無料プランで5GBの容量が利用可能で、ビジネス向けのコンプライアンス機能も充実しています。",
+      "rating": 4.3,
+      "price": "無料〜$8/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "ゼロ知識暗号化で高セキュリティ",
+        "カナダのプライバシー法で保護",
+        "無料5GBプラン"
+      ],
+      "cons": [
+        "同期速度がやや遅い",
+        "サードパーティ連携が少ない"
+      ],
+      "features": [
+        "ゼロ知識暗号化",
+        "ファイルバージョニング",
+        "リモートワイプ",
+        "2TB〜6TBプラン"
+      ],
+      "officialUrl": "https://www.sync.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "tresorit",
+      "name": "Tresorit",
+      "category": "cloud",
+      "summary": "スイス拠点の超高セキュリティクラウドストレージ。法人利用に最適。",
+      "description": "Tresoritmは、スイス拠点のエンドツーエンド暗号化クラウドストレージです。GDPR完全準拠で、医療・法律・金融など高いセキュリティ基準が求められる業界で採用されています。電子署名機能も統合されており、ビジネス文書の安全な管理に最適です。",
+      "rating": 4.4,
+      "price": "$10/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "最高レベルのセキュリティ",
+        "GDPR完全準拠",
+        "電子署名統合"
+      ],
+      "cons": [
+        "無料プランなし",
+        "個人利用にはやや高額"
+      ],
+      "features": [
+        "E2E暗号化",
+        "電子署名統合",
+        "GDPR準拠",
+        "リンク共有管理",
+        "DRM制御"
+      ],
+      "officialUrl": "https://tresorit.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "icedrive",
+      "name": "Icedrive",
+      "category": "cloud",
+      "summary": "モダンなUIのクラウドストレージ。Twofish暗号化で安全。",
+      "description": "Icedriveは、洗練されたUIと強固なセキュリティを備えたクラウドストレージです。Twofish暗号化を採用し、仮想ドライブ機能でローカルドライブのようにクラウドストレージを利用可能。無料プランで10GBが使え、買い切りの永久プランも提供しています。",
+      "rating": 4.1,
+      "price": "無料〜$4.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "美しいモダンUI",
+        "仮想ドライブ機能",
+        "永久プランあり (買い切り)"
+      ],
+      "cons": [
+        "Linux対応が限定的",
+        "サードパーティ連携が少ない"
+      ],
+      "features": [
+        "Twofish暗号化",
+        "仮想ドライブマウント",
+        "ストリーミング再生",
+        "永久プラン対応"
+      ],
+      "officialUrl": "https://icedrive.net/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "muumuu-domain",
+      "name": "ムームードメイン",
+      "category": "domain",
+      "summary": "GMOペパボ運営の人気ドメイン取得サービス。初心者に優しい管理画面。",
+      "description": "ムームードメインは、GMOペパボが運営するドメイン取得・管理サービスです。シンプルで分かりやすい管理画面が特徴で、初心者でも簡単にドメインの取得・設定ができます。ロリポップ!レンタルサーバーとの連携がスムーズで、Whois情報代理公開も無料で提供しています。",
+      "rating": 4.1,
+      "price": "¥69/年〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "初心者でも使いやすい管理画面",
+        "Whois代理公開無料",
+        "ロリポップとの連携がスムーズ"
+      ],
+      "cons": [
+        "更新料金がやや高め",
+        "サポートはメールのみ"
+      ],
+      "features": [
+        "600種類以上のドメイン",
+        "Whois代理公開無料",
+        "ワンクリックDNS設定",
+        "ロリポップ連携"
+      ],
+      "officialUrl": "https://muumuu-domain.com/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "star-domain",
+      "name": "スタードメイン",
+      "category": "domain",
+      "summary": "ネットオウル運営の格安ドメインサービス。無料レンタルサーバー付き。",
+      "description": "スタードメインは、エックスサーバー系列のネットオウルが運営するドメイン取得サービスです。業界最安クラスの価格でドメインを取得でき、ドメイン購入者には無料のレンタルサーバーも付属。.comや.jpなどの主要ドメインを安価に取得できます。",
+      "rating": 4.0,
+      "price": "¥980/年〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "業界最安クラスの価格",
+        "無料レンタルサーバー付き",
+        "エックスサーバー系列の安心感"
+      ],
+      "cons": [
+        "管理画面がシンプルすぎる",
+        "サポートが限定的"
+      ],
+      "features": [
+        "格安ドメイン取得",
+        "無料サーバー付属",
+        "Whois代理公開",
+        "DNS管理"
+      ],
+      "officialUrl": "https://www.star-domain.jp/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "gandi",
+      "name": "Gandi",
+      "category": "domain",
+      "summary": "フランス発の老舗ドメインレジストラ。透明な料金設定と高いセキュリティ。",
+      "description": "Gandiは、2000年設立のフランスの老舗ドメインレジストラです。「No Bullshit」をモットーに透明な料金体系を採用し、隠れた費用がありません。Whoisプライバシー保護やSSL証明書も無料で付属。800以上のTLDに対応し、ビジネス向けのメールホスティングも提供しています。",
+      "rating": 4.2,
+      "price": "$14.94/年〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "透明な料金設定",
+        "Whoisプライバシー無料",
+        "800以上のTLD対応"
+      ],
+      "cons": [
+        "他社と比べてやや割高",
+        "日本語サポートなし"
+      ],
+      "features": [
+        "800+ TLD対応",
+        "Whoisプライバシー無料",
+        "SSL証明書付属",
+        "メールホスティング"
+      ],
+      "officialUrl": "https://www.gandi.net/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "carrd",
+      "name": "Carrd",
+      "category": "sitebuilder",
+      "summary": "シンプルな1ページサイトビルダー。無料で美しいランディングページを作成。",
+      "description": "Carrdは、シンプルで美しい1ページのWebサイトを簡単に作成できるサイトビルダーです。ポートフォリオ、ランディングページ、プロフィールサイトなどに最適。無料プランで3サイトまで作成可能で、有料プランではカスタムドメインやフォーム機能が利用できます。",
+      "rating": 4.3,
+      "price": "無料〜$19/年",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "非常にシンプルで使いやすい",
+        "無料で3サイト作成可能",
+        "有料プランが年$19と格安"
+      ],
+      "cons": [
+        "1ページサイトのみ",
+        "複雑なサイトには不向き"
+      ],
+      "features": [
+        "ドラッグ&ドロップ編集",
+        "レスポンシブデザイン",
+        "カスタムドメイン (Pro)",
+        "フォーム・決済連携 (Pro)"
+      ],
+      "officialUrl": "https://carrd.co/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "strikingly",
+      "name": "Strikingly",
+      "category": "sitebuilder",
+      "summary": "モバイル最適化のサイトビルダー。数分で美しいサイトを公開。",
+      "description": "Strikinglyは、モバイルファーストの美しいWebサイトを数分で作成できるサイトビルダーです。テンプレートを選んで編集するだけで、プロフェッショナルなサイトが完成。ECサイト機能も統合されており、シンプルなオンラインショップの開設にも対応しています。",
+      "rating": 4.0,
+      "price": "無料〜$49/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "モバイル最適化が優秀",
+        "数分でサイト公開可能",
+        "EC機能内蔵"
+      ],
+      "cons": [
+        "無料プランはStrikinglyバナー表示",
+        "SEO機能が限定的"
+      ],
+      "features": [
+        "モバイル最適化",
+        "EC機能内蔵",
+        "ブログ機能",
+        "カスタムドメイン (有料)"
+      ],
+      "officialUrl": "https://www.strikingly.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "studio-design",
+      "name": "STUDIO",
+      "category": "sitebuilder",
+      "summary": "日本発のノーコードWeb制作プラットフォーム。デザインの自由度が高い。",
+      "description": "STUDIOは、日本発のノーコードWeb制作プラットフォームです。コードを書くことなく、自由度の高いデザインのWebサイトを作成・公開できます。CMS機能も内蔵されており、ブログやニュースサイトの構築にも対応。日本語UIで使いやすく、国内の企業やクリエイターに人気です。",
+      "rating": 4.4,
+      "price": "無料〜¥2,480/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "日本語UIで使いやすい",
+        "デザイン自由度が非常に高い",
+        "CMS機能内蔵"
+      ],
+      "cons": [
+        "動的な機能は限定的",
+        "複雑なECサイトは不可"
+      ],
+      "features": [
+        "ノーコードデザイン",
+        "CMS機能",
+        "レスポンシブ対応",
+        "Google Fonts対応",
+        "日本語サポート"
+      ],
+      "officialUrl": "https://studio.design/ja",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "weebly",
+      "name": "Weebly",
+      "category": "sitebuilder",
+      "summary": "Square傘下のサイトビルダー。ECとの統合が特徴。",
+      "description": "Weeblyは、Square傘下のWebサイトビルダーです。ドラッグ&ドロップの直感的なエディターで、ビジネスサイトやオンラインストアを簡単に作成可能。Squareの決済機能との統合が強みで、小規模ビジネスのオンライン展開に適しています。",
+      "rating": 3.9,
+      "price": "無料〜$26/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "ドラッグ&ドロップで簡単",
+        "Square決済統合",
+        "無料プランで始められる"
+      ],
+      "cons": [
+        "テンプレートのデザインがやや古い",
+        "Squareに統合されつつある"
+      ],
+      "features": [
+        "ドラッグ&ドロップエディター",
+        "EC機能統合",
+        "SEO設定",
+        "モバイルアプリ"
+      ],
+      "officialUrl": "https://www.weebly.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "woocommerce",
+      "name": "WooCommerce",
+      "category": "ecommerce",
+      "summary": "WordPress用の無料ECプラグイン。世界シェアNo.1のECプラットフォーム。",
+      "description": "WooCommerceは、WordPress用の無料オープンソースECプラグインです。世界のECサイトの約40%が利用しており、圧倒的なシェアを誇ります。無料でありながら、商品管理、決済、配送、税金計算など本格的なEC機能を備え、数千のプラグインで拡張可能です。",
+      "rating": 4.4,
+      "price": "無料 (ホスティング別)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "完全無料のオープンソース",
+        "WordPressとの完全統合",
+        "拡張性が非常に高い"
+      ],
+      "cons": [
+        "WordPress知識が必要",
+        "大規模サイトでは速度低下の可能性"
+      ],
+      "features": [
+        "商品管理",
+        "決済ゲートウェイ連携",
+        "数千のプラグイン",
+        "REST API対応",
+        "多通貨対応"
+      ],
+      "officialUrl": "https://woocommerce.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free",
+        "api"
+      ],
+      "processed": false
+    },
+    {
+      "id": "bigcommerce",
+      "name": "BigCommerce",
+      "category": "ecommerce",
+      "summary": "スケーラブルなECプラットフォーム。中〜大規模ビジネス向け。",
+      "description": "BigCommerceは、中規模から大規模ビジネス向けのECプラットフォームです。SEO機能が標準で充実しており、マルチチャネル販売（Amazon、eBay、SNS連携）にも対応。API駆動のヘッドレスコマース機能で、カスタマイズ性の高いEC構築が可能です。",
+      "rating": 4.2,
+      "price": "$29/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "SEO機能が標準で充実",
+        "マルチチャネル販売対応",
+        "取引手数料0%"
+      ],
+      "cons": [
+        "月額売上制限がプランごとにある",
+        "テンプレートの種類が少なめ"
+      ],
+      "features": [
+        "マルチチャネル販売",
+        "ヘッドレスコマース",
+        "取引手数料0%",
+        "REST API対応",
+        "B2B機能"
+      ],
+      "officialUrl": "https://www.bigcommerce.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "api"
+      ],
+      "processed": false
+    },
+    {
+      "id": "gumroad",
+      "name": "Gumroad",
+      "category": "ecommerce",
+      "summary": "クリエイター向けのデジタル商品販売プラットフォーム。手軽に販売開始。",
+      "description": "Gumroadは、クリエイターがデジタル商品（電子書籍、音楽、ソフトウェア、コースなど）を手軽に販売できるプラットフォームです。月額費用なしで始められ、売上発生時のみ手数料が発生するシンプルな料金体系。サブスクリプション販売やメンバーシップ機能にも対応しています。",
+      "rating": 4.2,
+      "price": "無料 (売上の10%手数料)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "月額費用なしで始められる",
+        "デジタル商品販売に特化",
+        "サブスクリプション販売対応"
+      ],
+      "cons": [
+        "手数料10%はやや高め",
+        "日本語サポートなし"
+      ],
+      "features": [
+        "デジタル商品販売",
+        "サブスクリプション",
+        "メンバーシップ機能",
+        "アフィリエイトシステム",
+        "ワークフロー自動化"
+      ],
+      "officialUrl": "https://gumroad.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "stores",
+      "name": "STORES",
+      "category": "ecommerce",
+      "summary": "日本発の簡単ネットショップ作成サービス。決済・予約も一括管理。",
+      "description": "STORESは、日本発のネットショップ作成サービスです。ECサイト構築だけでなく、実店舗のPOSレジ、予約システム、決済サービスまで一括で提供。テンプレートを選ぶだけで美しいショップが完成し、初期費用無料で始められます。",
+      "rating": 4.3,
+      "price": "無料〜¥2,980/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "初期費用無料で始められる",
+        "EC＋実店舗を一括管理",
+        "日本語サポートが充実"
+      ],
+      "cons": [
+        "海外販売には不向き",
+        "デザインのカスタマイズに制限"
+      ],
+      "features": [
+        "ネットショップ作成",
+        "予約システム",
+        "POSレジ連携",
+        "STORES決済",
+        "インスタ連携"
+      ],
+      "officialUrl": "https://stores.jp/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "wrike",
+      "name": "Wrike",
+      "category": "project",
+      "summary": "エンタープライズ向けプロジェクト管理。高度なカスタマイズとレポート機能。",
+      "description": "Wrikeは、エンタープライズ企業向けの高機能プロジェクト管理ツールです。ガントチャート、カンバンボード、タイムトラッキング、カスタムワークフローなど豊富な機能を備え、マーケティング、IT、製品開発など部門横断での利用に最適。400以上のアプリとの統合も可能です。",
+      "rating": 4.3,
+      "price": "無料〜$24.80/ユーザー/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "高度なカスタマイズ性",
+        "400以上のアプリ統合",
+        "詳細なレポート機能"
+      ],
+      "cons": [
+        "学習コストが高い",
+        "エンタープライズ価格がネック"
+      ],
+      "features": [
+        "ガントチャート",
+        "カンバンボード",
+        "タイムトラッキング",
+        "カスタムワークフロー",
+        "AIアシスタント"
+      ],
+      "officialUrl": "https://www.wrike.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "backlog",
+      "name": "Backlog",
+      "category": "project",
+      "summary": "日本発のプロジェクト管理ツール。バグ管理からWiki、Git連携まで。",
+      "description": "Backlogは、ヌーラボが開発した日本発のプロジェクト管理ツールです。課題管理、バグトラッキング、Wiki、Git/SVNリポジトリ、ガントチャートなどを1つのツールに統合。日本企業での導入実績が豊富で、直感的なUIと日本語サポートが特徴です。",
+      "rating": 4.2,
+      "price": "¥2,970/月〜 (30ユーザーまで)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "日本語UI・サポートが充実",
+        "Git/SVNリポジトリ内蔵",
+        "課題管理とWikiが統合"
+      ],
+      "cons": [
+        "個人利用にはやや高額",
+        "UIがやや古い印象"
+      ],
+      "features": [
+        "課題・バグ管理",
+        "ガントチャート",
+        "Wiki",
+        "Git/SVN連携",
+        "ファイル共有"
+      ],
+      "officialUrl": "https://backlog.com/ja/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "basecamp",
+      "name": "Basecamp",
+      "category": "project",
+      "summary": "シンプルさを追求したプロジェクト管理ツール。To-doとメッセージボード中心。",
+      "description": "Basecampは、シンプルさを追求したプロジェクト管理ツールです。To-doリスト、メッセージボード、スケジュール、ドキュメント、チャットの5つの基本機能に集約された設計が特徴。過剰な機能を排除し、チームの生産性を最大化するアプローチで根強いファンを持っています。",
+      "rating": 4.1,
+      "price": "$15/ユーザー/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "シンプルで学習コストが低い",
+        "機能の絞り込みによる高い生産性",
+        "Hill Charts独自の進捗管理"
+      ],
+      "cons": [
+        "ガントチャートなし",
+        "カスタマイズ性が低い"
+      ],
+      "features": [
+        "To-doリスト",
+        "メッセージボード",
+        "スケジュール管理",
+        "Hill Charts",
+        "グループチャット"
+      ],
+      "officialUrl": "https://basecamp.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "category": "project",
+      "summary": "人気No.1のタスク管理アプリ。シンプルかつパワフルなタスク管理。",
+      "description": "Todoistは、世界で4,000万人以上が利用する人気タスク管理アプリです。自然言語入力でタスクを素早く追加でき、プロジェクト、ラベル、フィルター、優先度などで柔軟にタスクを整理。個人利用からチーム利用まで幅広く対応し、80以上のアプリとの連携が可能です。",
+      "rating": 4.5,
+      "price": "無料〜$5/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "自然言語入力で素早くタスク追加",
+        "マルチプラットフォーム対応",
+        "80以上のアプリ連携"
+      ],
+      "cons": [
+        "無料プランは機能制限あり",
+        "ガントチャートなし"
+      ],
+      "features": [
+        "自然言語入力",
+        "プロジェクト管理",
+        "繰り返しタスク",
+        "生産性トラッキング",
+        "チーム共有"
+      ],
+      "officialUrl": "https://todoist.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "loom",
+      "name": "Loom",
+      "category": "communication",
+      "summary": "画面録画＆ビデオメッセージツール。非同期コミュニケーションを効率化。",
+      "description": "Loomは、画面録画とビデオメッセージによる非同期コミュニケーションツールです。ブラウザやデスクトップアプリから簡単に画面を録画し、URLを共有するだけで相手に動画を送れます。会議の代わりに動画で説明することで、チームの生産性を大幅に向上させます。",
+      "rating": 4.4,
+      "price": "無料〜$12.50/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "ワンクリックで画面録画",
+        "AI自動文字起こし",
+        "会議の代替で時間節約"
+      ],
+      "cons": [
+        "無料プランは5分/動画の制限",
+        "インタラクティブ機能は限定的"
+      ],
+      "features": [
+        "画面録画＆カメラ録画",
+        "AI文字起こし・要約",
+        "コメント・リアクション",
+        "ビデオ編集",
+        "チーム管理"
+      ],
+      "officialUrl": "https://www.loom.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "miro",
+      "name": "Miro",
+      "category": "communication",
+      "summary": "オンラインホワイトボードツール。ブレインストーミングやワークショップに最適。",
+      "description": "Miroは、チームのコラボレーションを支援するオンラインホワイトボードプラットフォームです。無限のキャンバス上でブレインストーミング、ワークショップ、デザインシンキング、アジャイル開発のプランニングなどが行えます。100以上のテンプレートと多数のアプリ統合を提供しています。",
+      "rating": 4.5,
+      "price": "無料〜$10/ユーザー/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無限キャンバスで自由にコラボ",
+        "100以上のテンプレート",
+        "多数のアプリ統合"
+      ],
+      "cons": [
+        "無料プランはボード3枚まで",
+        "大量の付箋で動作が重くなることも"
+      ],
+      "features": [
+        "無限キャンバス",
+        "リアルタイムコラボレーション",
+        "テンプレートライブラリ",
+        "投票・タイマー機能",
+        "Jira/Asana連携"
+      ],
+      "officialUrl": "https://miro.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": true
+    },
+    {
+      "id": "whereby",
+      "name": "Whereby",
+      "category": "communication",
+      "summary": "ブラウザだけで使えるビデオ会議ツール。インストール不要。",
+      "description": "Wherebyは、ブラウザだけでビデオ会議が行えるシンプルなツールです。参加者のアプリインストールが不要で、URLを共有するだけで会議に参加可能。固定URLのミーティングルームを作成でき、繰り返しの会議に便利です。少人数チームに最適な手軽さが特徴です。",
+      "rating": 4.1,
+      "price": "無料〜$8.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "アプリインストール不要",
+        "固定URL会議室",
+        "シンプルなUI"
+      ],
+      "cons": [
+        "大人数の会議には不向き",
+        "無料プランは100名まで"
+      ],
+      "features": [
+        "ブラウザベース会議",
+        "画面共有",
+        "録画機能",
+        "バーチャル背景",
+        "ブレイクアウトルーム"
+      ],
+      "officialUrl": "https://whereby.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "mmhmm",
+      "name": "mmhmm",
+      "category": "communication",
+      "summary": "プレゼン特化のビデオツール。バーチャル背景でプロ級の発表を実現。",
+      "description": "mmhmmは、プレゼンテーションに特化したビデオコミュニケーションツールです。スライドと自分の映像を自由にレイアウトでき、Zoom、Teams、Google Meetなどあらゆるビデオ会議ツールと連携可能。プレゼンの録画・共有機能も充実しており、非同期プレゼンにも対応しています。",
+      "rating": 4.0,
+      "price": "無料〜$8.33/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "プレゼンの見栄えが劇的に向上",
+        "主要ビデオ会議ツールと連携",
+        "録画＆非同期共有対応"
+      ],
+      "cons": [
+        "Mac/Windowsのみ対応",
+        "動作がやや重い場合あり"
+      ],
+      "features": [
+        "スライド+映像レイアウト",
+        "バーチャル背景",
+        "ビデオ会議連携",
+        "プレゼン録画・共有"
+      ],
+      "officialUrl": "https://www.mmhmm.app/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "bitdefender",
+      "name": "Bitdefender",
+      "category": "security",
+      "summary": "受賞歴多数のセキュリティソフト。AI搭載で高い検出率を実現。",
+      "description": "Bitdefenderは、ルーマニア発の受賞歴多数のセキュリティソフトウェアです。AI・機械学習を活用した高い脅威検出率が特徴で、AV-TESTやAV-Comparativesの評価で常にトップクラスの成績を収めています。VPN、パスワードマネージャー、ペアレンタルコントロールなど包括的な保護機能を提供しています。",
+      "rating": 4.6,
+      "price": "$29.99/年〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "業界トップクラスの検出率",
+        "軽量でPCへの負荷が少ない",
+        "VPN・パスワード管理機能付き"
+      ],
+      "cons": [
+        "日本語サポートが限定的",
+        "VPNは容量制限あり (基本プラン)"
+      ],
+      "features": [
+        "リアルタイム保護",
+        "VPN (200MB/日)",
+        "パスワードマネージャー",
+        "ランサムウェア対策",
+        "Webカメラ保護"
+      ],
+      "officialUrl": "https://www.bitdefender.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "avast",
+      "name": "Avast",
+      "category": "security",
+      "summary": "無料で使える定番セキュリティソフト。世界4億人以上が利用。",
+      "description": "Avastは、世界4億人以上が利用する無料セキュリティソフトの定番です。ウイルス対策、フィッシング対策、Wi-Fiセキュリティスキャンなどの基本機能を無料で提供。有料版ではランサムウェアシールド、サンドボックス、VPNなどの高度な機能が利用可能になります。",
+      "rating": 4.1,
+      "price": "無料〜$49.99/年",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料版が充実",
+        "4億人以上の利用実績",
+        "Wi-Fiセキュリティスキャン"
+      ],
+      "cons": [
+        "無料版は広告表示あり",
+        "過去にプライバシー問題あり"
+      ],
+      "features": [
+        "リアルタイムウイルス対策",
+        "フィッシング対策",
+        "Wi-Fiスキャン",
+        "ランサムウェアシールド (有料)",
+        "VPN (有料)"
+      ],
+      "officialUrl": "https://www.avast.co.jp/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "kaspersky",
+      "name": "Kaspersky",
+      "category": "security",
+      "summary": "高性能なセキュリティソフト。法人から個人まで幅広く対応。",
+      "description": "Kasperskyは、ロシア発の高性能セキュリティソフトウェアです。30年以上の実績を持ち、独立テスト機関での評価も高い水準を維持。ウイルス対策だけでなく、VPN、パスワード管理、ダークウェブモニタリングなど包括的なセキュリティ機能を提供しています。無料版も利用可能です。",
+      "rating": 4.3,
+      "price": "無料〜¥4,860/年",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "高い脅威検出率",
+        "無料版あり",
+        "日本語対応が充実"
+      ],
+      "cons": [
+        "地政学的リスクへの懸念",
+        "一部機能がやや重い"
+      ],
+      "features": [
+        "リアルタイム保護",
+        "VPN (有料版)",
+        "パスワードマネージャー",
+        "ダークウェブモニタリング",
+        "ペアレンタルコントロール"
+      ],
+      "officialUrl": "https://www.kaspersky.co.jp/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "crowdstrike",
+      "name": "CrowdStrike Falcon",
+      "category": "security",
+      "summary": "クラウドベースのエンドポイントセキュリティ。企業向けEDRのリーダー。",
+      "description": "CrowdStrike Falconは、クラウドネイティブのエンドポイントセキュリティプラットフォームです。AI/MLを活用したリアルタイム脅威検出、EDR (Endpoint Detection and Response)、脅威ハンティングなど高度なセキュリティ機能を提供。軽量なエージェントでシステムへの負荷が少ないのが特徴です。",
+      "rating": 4.5,
+      "price": "$99.99/年〜 (個人向け)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "クラウドベースで軽量",
+        "AI駆動の高度な脅威検出",
+        "業界リーダーの実績"
+      ],
+      "cons": [
+        "個人利用には高額",
+        "設定にはセキュリティ知識が必要"
+      ],
+      "features": [
+        "次世代アンチウイルス",
+        "EDR/XDR",
+        "脅威インテリジェンス",
+        "クラウドネイティブ",
+        "24/7マネージドサービス"
+      ],
+      "officialUrl": "https://www.crowdstrike.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "screaming-frog",
+      "name": "Screaming Frog SEO Spider",
+      "category": "seo",
+      "summary": "デスクトップ型のSEOクローラーツール。サイト全体を高速に解析。",
+      "description": "Screaming Frog SEO Spiderは、デスクトップ型のWebサイトクローラーツールです。サイト全体をクロールし、タイトルタグ、メタディスクリプション、リンク切れ、リダイレクト、構造化データなどのSEO問題を一括で検出します。無料版で500URLまで分析可能で、SEO専門家に愛用されています。",
+      "rating": 4.6,
+      "price": "無料〜£199/年",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料で500URLまで分析可能",
+        "詳細なSEO技術分析",
+        "デスクトップで高速処理"
+      ],
+      "cons": [
+        "UIがやや取っつきにくい",
+        "大規模サイトにはRAMが必要"
+      ],
+      "features": [
+        "サイトクロール",
+        "リンク切れ検出",
+        "構造化データ検証",
+        "XMLサイトマップ生成",
+        "GA/GSC統合"
+      ],
+      "officialUrl": "https://www.screamingfrog.co.uk/seo-spider/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "mangools",
+      "name": "Mangools",
+      "category": "seo",
+      "summary": "初心者向けSEOツールセット。5つのツールでSEOを包括的にカバー。",
+      "description": "Mangoolsは、KWFinder、SERPChecker、SERPWatcher、LinkMiner、SiteProfilerの5つのSEOツールをセットで提供するプラットフォームです。直感的なUIで初心者にも使いやすく、キーワードリサーチ、SERP分析、順位追跡、被リンク分析、サイト分析をカバーしています。",
+      "rating": 4.2,
+      "price": "$29/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "初心者に優しいUI",
+        "5ツールのセット",
+        "手頃な料金設定"
+      ],
+      "cons": [
+        "上級者には物足りない",
+        "データの更新頻度がやや低い"
+      ],
+      "features": [
+        "KWFinder (キーワード調査)",
+        "SERPChecker (SERP分析)",
+        "SERPWatcher (順位追跡)",
+        "LinkMiner (被リンク)",
+        "SiteProfiler (サイト分析)"
+      ],
+      "officialUrl": "https://mangools.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "grc-seo",
+      "name": "GRC",
+      "category": "seo",
+      "summary": "日本の定番検索順位チェックツール。Google/Yahoo/Bingの順位を毎日自動取得。",
+      "description": "GRCは、日本のSEO業界で広く使われている検索順位チェックツールです。Google、Yahoo! JAPAN、Bingの検索順位を毎日自動で取得し、推移をグラフで表示します。デスクトップアプリとして動作し、買い切りプランもある手頃な価格設定が特徴です。",
+      "rating": 4.1,
+      "price": "無料〜¥9,900/年",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "日本のSEO定番ツール",
+        "3大検索エンジン対応",
+        "手頃な価格設定"
+      ],
+      "cons": [
+        "Windows専用",
+        "UIがやや古い"
+      ],
+      "features": [
+        "検索順位自動チェック",
+        "Google/Yahoo/Bing対応",
+        "順位推移グラフ",
+        "レポート出力"
+      ],
+      "officialUrl": "https://seopro.jp/grc/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "surfer-seo",
+      "name": "Surfer SEO",
+      "category": "seo",
+      "summary": "AI搭載のコンテンツ最適化ツール。SEOに最適な記事作成を支援。",
+      "description": "Surfer SEOは、AI技術を活用したコンテンツ最適化ツールです。競合分析に基づいてSEOに最適なコンテンツの構成、文字数、キーワード密度などをリアルタイムで提案。Google DocsやWordPressとの連携で、記事作成しながらSEOスコアを確認できます。",
+      "rating": 4.4,
+      "price": "$89/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "AIベースのコンテンツ最適化",
+        "リアルタイムSEOスコア",
+        "Google Docs統合"
+      ],
+      "cons": [
+        "月額料金が高め",
+        "日本語コンテンツの精度は改善途上"
+      ],
+      "features": [
+        "コンテンツエディター",
+        "SERP分析",
+        "キーワードリサーチ",
+        "AI記事生成",
+        "Google Docs連携"
+      ],
+      "officialUrl": "https://surferseo.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "descript",
+      "name": "Descript",
+      "category": "video",
+      "summary": "テキスト編集感覚で動画・ポッドキャストを編集。AI機能が充実。",
+      "description": "Descriptは、テキストを編集するように動画やポッドキャストを編集できるユニークなツールです。自動文字起こし機能でテキスト化し、テキストの削除=動画の該当部分も削除という直感的な編集が可能。AI音声クローン、フィラー語自動除去、グリーンスクリーンなし背景除去などの先進機能も搭載しています。",
+      "rating": 4.4,
+      "price": "無料〜$24/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "テキストベースの直感的編集",
+        "AI自動文字起こし",
+        "フィラー語自動除去"
+      ],
+      "cons": [
+        "高度な映像編集には不向き",
+        "重いプロジェクトでは動作が遅い"
+      ],
+      "features": [
+        "テキストベース動画編集",
+        "AI文字起こし",
+        "画面録画",
+        "AI音声クローン",
+        "バックグラウンド除去"
+      ],
+      "officialUrl": "https://www.descript.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "inshot",
+      "name": "InShot",
+      "category": "video",
+      "summary": "スマホ向け動画編集アプリ。SNS投稿に最適な簡単編集。",
+      "description": "InShotは、スマートフォン向けの人気動画編集アプリです。トリミング、スピード調整、フィルター、テキスト追加、音楽追加などの基本編集機能を直感的なUIで提供。Instagram、TikTok、YouTubeなどSNSに最適なアスペクト比での編集が簡単に行えます。",
+      "rating": 4.3,
+      "price": "無料〜$3.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "直感的で使いやすいUI",
+        "SNS向けアスペクト比対応",
+        "無料でも十分な機能"
+      ],
+      "cons": [
+        "PC版は未提供",
+        "無料版はウォーターマーク付き"
+      ],
+      "features": [
+        "動画トリミング・分割",
+        "フィルター・エフェクト",
+        "テキスト・ステッカー追加",
+        "BGM・効果音追加",
+        "SNS用アスペクト比"
+      ],
+      "officialUrl": "https://inshot.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "clipchamp",
+      "name": "Clipchamp",
+      "category": "video",
+      "summary": "Microsoft傘下のブラウザ動画編集ツール。Windows 11に標準搭載。",
+      "description": "Clipchampは、Microsoft傘下のブラウザベース動画編集ツールです。Windows 11に標準搭載されており、インストール不要でブラウザから直接動画編集が可能。テンプレート、ストック映像、テキスト読み上げなどの機能を備え、SNSやプレゼン用動画を素早く作成できます。",
+      "rating": 4.0,
+      "price": "無料〜$11.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "Windows 11に標準搭載",
+        "ブラウザで完結",
+        "Microsoft 365連携"
+      ],
+      "cons": [
+        "高度な編集機能は限定的",
+        "無料版はエクスポート解像度制限"
+      ],
+      "features": [
+        "ブラウザベース編集",
+        "テンプレート",
+        "ストック映像・音楽",
+        "テキスト読み上げ",
+        "画面録画"
+      ],
+      "officialUrl": "https://clipchamp.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "vllo",
+      "name": "VLLO",
+      "category": "video",
+      "summary": "韓国発の多機能動画編集アプリ。初心者にも優しいUI。",
+      "description": "VLLOは、韓国で開発された多機能動画編集アプリです。直感的なUIで初心者でも簡単に動画編集が可能。PIP（ピクチャーインピクチャー）、クロマキー、モザイク追跡など、スマホアプリとしては高度な機能を備えています。YouTubeやVlogの編集に人気です。",
+      "rating": 4.2,
+      "price": "無料〜¥4,900/年",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "高機能なのに初心者向け",
+        "PIP・クロマキー対応",
+        "広告なしで使える (有料版)"
+      ],
+      "cons": [
+        "PC版は非対応",
+        "一部機能は有料のみ"
+      ],
+      "features": [
+        "マルチレイヤー編集",
+        "PIP (ピクチャーインピクチャー)",
+        "クロマキー合成",
+        "モザイク追跡",
+        "200以上のBGM"
+      ],
+      "officialUrl": "https://www.vllo.io/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "affinity-photo",
+      "name": "Affinity Photo 2",
+      "category": "photo",
+      "summary": "買い切りのプロ向け写真編集ソフト。Photoshop代替として人気。",
+      "description": "Affinity Photo 2は、Serif社が開発した買い切り型のプロフェッショナル向け写真編集ソフトです。Adobe Photoshopの代替として高い評価を受けており、RAW現像、レイヤー編集、マスキング、レタッチなどの高度な写真編集機能を提供。サブスクリプション不要の買い切りモデルが人気です。",
+      "rating": 4.6,
+      "price": "$69.99 (買い切り)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "買い切りで追加費用なし",
+        "Photoshop級の編集機能",
+        "PSD完全互換"
+      ],
+      "cons": [
+        "Photoshopほどのプラグインがない",
+        "一部の最新AI機能は未搭載"
+      ],
+      "features": [
+        "RAW現像",
+        "非破壊編集",
+        "HDR合成",
+        "フォーカスマージ",
+        "PSD互換"
+      ],
+      "officialUrl": "https://affinity.serif.com/photo/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "photoscape-x",
+      "name": "PhotoScape X",
+      "category": "photo",
+      "summary": "無料の多機能フォトエディター。コラージュやバッチ編集が簡単。",
+      "description": "PhotoScape Xは、無料で利用できる多機能フォトエディターです。写真編集、コラージュ作成、GIF作成、バッチ編集、画面キャプチャなど多彩な機能を1つのアプリに統合。プロ版では更に高度なフィルターやツールが利用可能。初心者からアマチュアカメラマンまで幅広く使われています。",
+      "rating": 4.0,
+      "price": "無料〜$39.99 (Pro買い切り)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "基本機能は完全無料",
+        "コラージュ・GIF作成対応",
+        "バッチ処理で効率的"
+      ],
+      "cons": [
+        "プロ向けの高度な機能は少ない",
+        "UIがやや古い"
+      ],
+      "features": [
+        "写真編集・レタッチ",
+        "コラージュ作成",
+        "GIFアニメ作成",
+        "バッチ編集",
+        "画面キャプチャ"
+      ],
+      "officialUrl": "http://x.photoscape.org/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "gimp",
+      "name": "GIMP",
+      "category": "photo",
+      "summary": "オープンソースの画像編集ソフト。完全無料でPhotoshop級の機能。",
+      "description": "GIMP（GNU Image Manipulation Program）は、完全無料のオープンソース画像編集ソフトです。レイヤー編集、マスク、フィルター、ブラシ、パスツールなどPhotoshop級の編集機能を無料で提供。プラグインやスクリプトで拡張も可能で、Windows、Mac、Linuxで動作します。",
+      "rating": 4.2,
+      "price": "無料",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "完全無料・オープンソース",
+        "Photoshop級の機能",
+        "プラグインで拡張可能"
+      ],
+      "cons": [
+        "UIがPhotoshopと大きく異なる",
+        "学習コストが高い"
+      ],
+      "features": [
+        "レイヤー編集",
+        "マスク・選択ツール",
+        "フィルター・エフェクト",
+        "Script-Fu/Python-Fu",
+        "PSD対応"
+      ],
+      "officialUrl": "https://www.gimp.org/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "darktable",
+      "name": "darktable",
+      "category": "photo",
+      "summary": "オープンソースのRAW現像ソフト。Lightroom代替として注目。",
+      "description": "darktableは、オープンソースの写真ワークフローソフトウェアです。RAW現像に特化しており、非破壊編集、カラーマネジメント、テザー撮影などの高度な機能を完全無料で提供。Adobe Lightroomの代替として写真家の間で注目されています。",
+      "rating": 4.1,
+      "price": "無料",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "完全無料・オープンソース",
+        "本格的なRAW現像",
+        "非破壊編集対応"
+      ],
+      "cons": [
+        "学習コストが高い",
+        "GPU非対応環境では動作が重い"
+      ],
+      "features": [
+        "RAW現像",
+        "非破壊編集",
+        "カラーマネジメント",
+        "テザー撮影",
+        "マルチプラットフォーム"
+      ],
+      "officialUrl": "https://www.darktable.org/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "zoho-books",
+      "name": "Zoho Books",
+      "category": "accounting",
+      "summary": "Zohoのクラウド会計ソフト。中小企業の経理を効率化。",
+      "description": "Zoho Booksは、Zohoスイートに含まれるクラウド会計ソフトです。請求書作成、経費管理、銀行連携、在庫管理、プロジェクト会計など包括的な経理機能を提供。他のZohoアプリとのシームレスな連携が強みで、中小企業の経理業務を効率化します。",
+      "rating": 4.2,
+      "price": "無料〜$24/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料プランあり",
+        "Zohoスイートとの連携",
+        "自動銀行連携"
+      ],
+      "cons": [
+        "日本の確定申告には非対応",
+        "日本語サポートが限定的"
+      ],
+      "features": [
+        "請求書作成",
+        "経費管理",
+        "銀行口座連携",
+        "在庫管理",
+        "レポート生成"
+      ],
+      "officialUrl": "https://www.zoho.com/books/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "wave-accounting",
+      "name": "Wave",
+      "category": "accounting",
+      "summary": "完全無料のクラウド会計ソフト。フリーランスや小規模事業者に最適。",
+      "description": "Waveは、フリーランスや小規模事業者向けの完全無料クラウド会計ソフトです。請求書作成、経費管理、レポート作成などの会計機能が無料で利用可能。有料オプションとして給与計算や決済処理も提供しています。北米を中心に広く利用されています。",
+      "rating": 4.0,
+      "price": "無料",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "会計機能が完全無料",
+        "直感的なUI",
+        "請求書の無制限発行"
+      ],
+      "cons": [
+        "日本の会計基準には非対応",
+        "在庫管理機能なし"
+      ],
+      "features": [
+        "請求書作成",
+        "経費管理",
+        "銀行連携",
+        "レポート生成",
+        "レシートスキャン"
+      ],
+      "officialUrl": "https://www.waveapps.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "mfcloud-kakutei",
+      "name": "マネーフォワード クラウド確定申告",
+      "category": "accounting",
+      "summary": "個人事業主向けのクラウド確定申告ソフト。銀行連携で仕訳を自動化。",
+      "description": "マネーフォワード クラウド確定申告は、個人事業主やフリーランス向けのクラウド型確定申告ソフトです。銀行口座やクレジットカードとの自動連携で仕訳を自動化し、確定申告書類の作成を効率化。e-Taxにも対応しており、電子申告もスムーズに行えます。",
+      "rating": 4.4,
+      "price": "¥980/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "銀行・カード自動連携",
+        "確定申告書類を自動作成",
+        "e-Tax対応"
+      ],
+      "cons": [
+        "無料プランの制限が厳しい",
+        "月額費用がかかる"
+      ],
+      "features": [
+        "自動仕訳",
+        "確定申告書作成",
+        "e-Tax連携",
+        "レポート・分析",
+        "請求書連携"
+      ],
+      "officialUrl": "https://biz.moneyforward.com/tax_return/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ],
+      "processed": false
+    },
+    {
+      "id": "buffer",
+      "name": "Buffer",
+      "category": "marketing",
+      "summary": "SNS投稿管理ツール。複数プラットフォームへの予約投稿を簡単に。",
+      "description": "Bufferは、SNSマーケティングを効率化する投稿管理ツールです。Instagram、Twitter/X、Facebook、LinkedIn、Pinterestなど複数のSNSへの予約投稿を一括管理できます。分析機能で投稿パフォーマンスを可視化し、最適な投稿タイミングも提案してくれます。",
+      "rating": 4.3,
+      "price": "無料〜$5/チャネル/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料で3チャネルまで管理可能",
+        "シンプルで使いやすいUI",
+        "AIアシスタント機能"
+      ],
+      "cons": [
+        "無料プランは機能制限あり",
+        "高度な分析は有料版のみ"
+      ],
+      "features": [
+        "予約投稿",
+        "マルチSNS管理",
+        "分析・レポート",
+        "AIアシスタント",
+        "リンクインバイオ"
+      ],
+      "officialUrl": "https://buffer.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "later",
+      "name": "Later",
+      "category": "marketing",
+      "summary": "ビジュアルSNSマーケティングツール。Instagram管理に特化。",
+      "description": "Laterは、Instagram管理に特化したビジュアルSNSマーケティングツールです。ドラッグ&ドロップのビジュアルプランナーで投稿の見た目を事前にプレビューしながらスケジュール設定が可能。リンクインバイオ機能(Linkin.bio)も人気で、Instagram経由の収益化を支援します。",
+      "rating": 4.2,
+      "price": "無料〜$40/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "ビジュアルプランナーが直感的",
+        "Linkin.bio機能が優秀",
+        "Instagram管理に最適"
+      ],
+      "cons": [
+        "Instagram以外の機能は弱め",
+        "無料プランは投稿数制限あり"
+      ],
+      "features": [
+        "ビジュアルプランナー",
+        "Linkin.bio",
+        "ベストタイム提案",
+        "ハッシュタグ提案",
+        "UGC管理"
+      ],
+      "officialUrl": "https://later.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": true
+    },
+    {
+      "id": "activecampaign",
+      "name": "ActiveCampaign",
+      "category": "marketing",
+      "summary": "マーケティングオートメーション＆CRM。メール配信から顧客管理まで一元化。",
+      "description": "ActiveCampaignは、メールマーケティング、マーケティングオートメーション、CRMを統合したプラットフォームです。高度な条件分岐付きの自動化ワークフロー、リードスコアリング、セグメンテーションなどの機能で、パーソナライズされたマーケティングを実現します。",
+      "rating": 4.4,
+      "price": "$15/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "高度なマーケティングオートメーション",
+        "CRM統合",
+        "900以上のアプリ連携"
+      ],
+      "cons": [
+        "学習コストが高い",
+        "料金がコンタクト数に応じて上昇"
+      ],
+      "features": [
+        "メールマーケティング",
+        "マーケティングオートメーション",
+        "CRM",
+        "リードスコアリング",
+        "ランディングページ"
+      ],
+      "officialUrl": "https://www.activecampaign.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "brevo",
+      "name": "Brevo (旧Sendinblue)",
+      "category": "marketing",
+      "summary": "オールインワンのデジタルマーケティングツール。メール・SMS・チャット対応。",
+      "description": "Brevo（旧Sendinblue）は、メールマーケティング、SMS、チャット、CRMを統合したオールインワンのデジタルマーケティングプラットフォームです。無料プランで1日300通のメール送信が可能で、中小企業のマーケティングを手頃な価格で支援します。",
+      "rating": 4.1,
+      "price": "無料〜$25/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料プランが充実",
+        "メール＋SMS＋チャット統合",
+        "手頃な料金設定"
+      ],
+      "cons": [
+        "無料版はBrevoロゴ表示",
+        "テンプレートのデザインがやや限定的"
+      ],
+      "features": [
+        "メールマーケティング",
+        "SMS配信",
+        "チャット機能",
+        "CRM",
+        "ランディングページ"
+      ],
+      "officialUrl": "https://www.brevo.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "nordpass",
+      "name": "NordPass",
+      "category": "password",
+      "summary": "NordVPN開発元のパスワードマネージャー。XChaCha20暗号化で安全。",
+      "description": "NordPassは、NordVPNを開発したNord Security社が提供するパスワードマネージャーです。XChaCha20暗号化を採用し、パスワード、クレジットカード、セキュアノートなどを安全に管理。パスワードの健全性チェック、データ漏洩スキャン、パスキー対応など最新の機能を備えています。",
+      "rating": 4.3,
+      "price": "無料〜$2.49/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "XChaCha20暗号化",
+        "無料プランあり",
+        "パスキー対応"
+      ],
+      "cons": [
+        "無料版は1デバイスのみ",
+        "パスワード共有は有料版のみ"
+      ],
+      "features": [
+        "パスワード管理",
+        "パスキー対応",
+        "データ漏洩スキャン",
+        "パスワード健全性チェック",
+        "セキュアノート"
+      ],
+      "officialUrl": "https://nordpass.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "keeper",
+      "name": "Keeper",
+      "category": "password",
+      "summary": "エンタープライズ対応のパスワードマネージャー。高度なセキュリティ機能。",
+      "description": "Keeperは、個人からエンタープライズまで対応する高セキュリティのパスワードマネージャーです。ゼロ知識暗号化、BreachWatch（ダークウェブモニタリング）、セキュアファイルストレージなどの高度な機能を提供。SOC 2、ISO 27001認定も取得しています。",
+      "rating": 4.4,
+      "price": "$2.92/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "ゼロ知識暗号化",
+        "ダークウェブモニタリング",
+        "SOC 2/ISO 27001認定"
+      ],
+      "cons": [
+        "無料プランは1デバイスのみ",
+        "追加機能ごとに料金がかかる"
+      ],
+      "features": [
+        "パスワード管理",
+        "BreachWatch",
+        "セキュアファイルストレージ",
+        "パスキー対応",
+        "緊急アクセス"
+      ],
+      "officialUrl": "https://www.keepersecurity.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [],
+      "processed": false
+    },
+    {
+      "id": "proton-pass",
+      "name": "Proton Pass",
+      "category": "password",
+      "summary": "Proton開発のオープンソースパスワードマネージャー。メールエイリアス機能付き。",
+      "description": "Proton Passは、ProtonMailやProtonVPNで知られるProtonが開発したオープンソースのパスワードマネージャーです。エンドツーエンド暗号化はもちろん、hide-my-emailエイリアス機能でメールアドレスの漏洩も防止。無料プランでも全デバイスで同期可能です。",
+      "rating": 4.2,
+      "price": "無料〜$3.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "オープンソースで透明性が高い",
+        "無料で全デバイス同期",
+        "メールエイリアス機能"
+      ],
+      "cons": [
+        "比較的新しいサービス",
+        "他社に比べ機能がまだ少ない"
+      ],
+      "features": [
+        "パスワード管理",
+        "hide-my-emailエイリアス",
+        "E2E暗号化",
+        "オープンソース",
+        "パスキー対応"
+      ],
+      "officialUrl": "https://proton.me/pass",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "hemingway-editor",
+      "name": "Hemingway Editor",
+      "category": "writing",
+      "summary": "文章の読みやすさを分析するエディター。簡潔で明確な文章作成を支援。",
+      "description": "Hemingway Editorは、英語の文章の読みやすさを分析・改善するライティングツールです。長すぎる文、受動態、難解な単語などをハイライトで指摘し、より簡潔で明確な文章への改善を支援します。無料のWeb版とデスクトップ版（有料）があり、ブログやメールの文章改善に最適です。",
+      "rating": 4.1,
+      "price": "無料 (Web版) / $19.99 (デスクトップ)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "Web版は完全無料",
+        "文章の問題点が一目瞭然",
+        "シンプルで使いやすい"
+      ],
+      "cons": [
+        "英語専用",
+        "詳細な文法チェックはなし"
+      ],
+      "features": [
+        "読みやすさスコア",
+        "長文・複雑な文の検出",
+        "受動態の検出",
+        "副詞・弱い表現の検出"
+      ],
+      "officialUrl": "https://hemingwayapp.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": true
+    },
+    {
+      "id": "prowritingaid",
+      "name": "ProWritingAid",
+      "category": "writing",
+      "summary": "AI搭載のライティング支援ツール。文法チェックからスタイル改善まで。",
+      "description": "ProWritingAidは、文法チェック、スタイル改善、読みやすさ分析を統合したAIライティングツールです。Grammarlyの代替として人気で、より詳細なレポート機能が特徴。Google Docs、Word、Scrivenerなど多くのアプリと統合でき、小説やブログなど長文の執筆に特に強みがあります。",
+      "rating": 4.2,
+      "price": "無料〜$10/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "詳細なライティングレポート",
+        "多数のアプリ統合",
+        "長文執筆に強い"
+      ],
+      "cons": [
+        "英語中心",
+        "無料版は500語まで"
+      ],
+      "features": [
+        "文法チェック",
+        "スタイル分析",
+        "読みやすさレポート",
+        "盗作チェック (有料)",
+        "Scrivener統合"
+      ],
+      "officialUrl": "https://prowritingaid.com/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "deepl-write",
+      "name": "DeepL Write",
+      "category": "writing",
+      "summary": "DeepLのAIライティングアシスタント。自然で正確な文章に改善。",
+      "description": "DeepL Writeは、翻訳で定評のあるDeepLが提供するAIライティングアシスタントです。文法修正だけでなく、文章のトーンやスタイルの調整、言い換え提案などを行い、より自然で正確な文章に改善します。英語とドイツ語に対応し、DeepL翻訳との連携もスムーズです。",
+      "rating": 4.3,
+      "price": "無料〜$8.74/月 (DeepL Pro)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "DeepL品質のAI文章改善",
+        "無料版でも利用可能",
+        "トーン調整機能"
+      ],
+      "cons": [
+        "対応言語がまだ少ない",
+        "日本語には非対応"
+      ],
+      "features": [
+        "文法・スペルチェック",
+        "言い換え提案",
+        "トーン調整",
+        "DeepL翻訳連携"
+      ],
+      "officialUrl": "https://www.deepl.com/write",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "esa-io",
+      "name": "esa",
+      "category": "writing",
+      "summary": "チーム情報共有のためのドキュメントサービス。「育てる」をコンセプトに。",
+      "description": "esaは、「情報を育てる」をコンセプトにした日本発のチーム向けドキュメント共有サービスです。WIP（書き途中）機能により、未完成の記事でもチーム内に共有しながら育てていくワークフローを実現。Markdown対応、カテゴリ管理、全文検索など開発チームに便利な機能を備えています。",
+      "rating": 4.2,
+      "price": "¥500/ユーザー/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "WIP機能で情報を育てられる",
+        "Markdown完全対応",
+        "検索性が高い"
+      ],
+      "cons": [
+        "無料プランなし",
+        "個人利用にはやや割高"
+      ],
+      "features": [
+        "WIP (書き途中) 機能",
+        "Markdown対応",
+        "カテゴリ管理",
+        "全文検索",
+        "Webhook/API連携"
+      ],
+      "officialUrl": "https://esa.io/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese",
+        "api"
+      ],
+      "processed": false
+    },
+    {
+      "id": "brilliant",
+      "name": "Brilliant",
+      "category": "learning",
+      "summary": "インタラクティブに数学・科学・CS を学べる学習プラットフォーム。",
+      "description": "Brilliantは、数学、科学、コンピュータサイエンスをインタラクティブな問題解決形式で学べるプラットフォームです。受動的に動画を見るのではなく、実際に手を動かして概念を理解する学習アプローチが特徴。AI、データ分析、論理的思考力など実践的なスキルも学べます。",
+      "rating": 4.4,
+      "price": "無料〜$10.49/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "インタラクティブな学習体験",
+        "数学・CS分野が充実",
+        "毎日の学習チャレンジ"
+      ],
+      "cons": [
+        "日本語未対応",
+        "無料コンテンツは限定的"
+      ],
+      "features": [
+        "インタラクティブレッスン",
+        "毎日のチャレンジ問題",
+        "AI・データサイエンスコース",
+        "オフライン学習対応"
+      ],
+      "officialUrl": "https://brilliant.org/",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ],
+      "processed": false
+    },
+    {
+      "id": "ecforce",
+      "name": "ecforce",
+      "category": "ecommerce",
+      "summary": "日本発のD2C特化型ECプラットフォーム。定期通販・サブスクに強い。",
+      "description": "ecforceは、D2C（Direct to Consumer）ブランド向けに特化した日本発のECプラットフォームです。定期通販・サブスクリプション販売に強く、LP一体型フォームやA/Bテスト機能でCVR改善を実現。国内の有名D2Cブランドが多数採用しています。",
+      "rating": 4.3,
+      "price": "¥49,800/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "D2C・定期通販に特化",
+        "LP一体型フォームでCVR向上",
+        "充実した分析・CRM機能"
+      ],
+      "cons": [
+        "月額費用が高い",
+        "小規模事業者には不向き"
+      ],
+      "features": [
+        "定期通販・サブスク管理",
+        "LP一体型フォーム",
+        "A/Bテスト",
+        "CRM連携",
+        "API対応"
+      ],
+      "officialUrl": "https://ec-force.com/",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese",
+        "api"
+      ],
+      "processed": false
+    }
+  ]
+}
