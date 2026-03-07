@@ -91,7 +91,7 @@
   }
   </script>
   <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
-  <link rel="stylesheet" href="css/style.css?v=7">
+  <link rel="stylesheet" href="css/style.css?v=8">
   <style>
     /* Shutterstock Affiliate Banner */
     .shutterstock-banner {
@@ -215,6 +215,33 @@
   <section class="categories" id="categories">
     <div class="container">
       <div class="category-grid" id="categoryGrid"></div>
+    </div>
+  </section>
+
+  <!-- Filters -->
+  <section class="filters-section" id="filtersSection">
+    <div class="container">
+      <div class="filter-bar" id="filterBar">
+        <div class="filter-group">
+          <label class="filter-label">料金帯</label>
+          <div class="filter-options" id="priceFilters">
+            <button class="filter-chip active" data-price="all">すべて</button>
+            <button class="filter-chip" data-price="free">無料</button>
+            <button class="filter-chip" data-price="low">〜¥1,000</button>
+            <button class="filter-chip" data-price="mid">〜¥5,000</button>
+            <button class="filter-chip" data-price="high">¥5,000〜</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">タグ</label>
+          <div class="filter-options" id="tagFilters">
+            <button class="filter-chip" data-tag="free">無料プランあり</button>
+            <button class="filter-chip" data-tag="japanese">日本語対応</button>
+            <button class="filter-chip" data-tag="api">API連携可</button>
+            <button class="filter-chip" data-tag="nocard">カード不要</button>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -342,7 +369,7 @@
     gtag('config', 'G-YL05931NPE');
   </script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1060876188767022" crossorigin="anonymous"></script>
-  <script src="js/i18n.js?v=7"></script>
-  <script src="js/app.js?v=7"></script>
+  <script src="js/i18n.js?v=8"></script>
+  <script src="js/app.js?v=8"></script>
 </body>
 </html>

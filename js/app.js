@@ -10,6 +10,8 @@
   let currentPage = 1;
   const perPage = 24;
   let lastFiltered = [];
+  let currentPriceFilter = 'all';
+  let activeTags = [];
 
   // ===== Theme =====
   function initTheme() {
@@ -135,6 +137,7 @@
     renderFeatured();
     filterProducts();
     initSearch();
+    initFilters();
     initQuiz();
     // Load more
     const loadMoreBtn = document.getElementById('loadMoreBtn');
@@ -281,6 +284,36 @@
       </div>`;
   }
 
+  function initFilters() {
+    // Price filter
+    document.getElementById('priceFilters')?.addEventListener('click', (e) => {
+      const chip = e.target.closest('[data-price]');
+      if (!chip) return;
+      document.querySelectorAll('#priceFilters .filter-chip').forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      currentPriceFilter = chip.dataset.price;
+      filterProducts();
+    });
+    // Tag filter (multi-select)
+    document.getElementById('tagFilters')?.addEventListener('click', (e) => {
+      const chip = e.target.closest('[data-tag]');
+      if (!chip) return;
+      chip.classList.toggle('active');
+      activeTags = [...document.querySelectorAll('#tagFilters .filter-chip.active')].map(c => c.dataset.tag);
+      filterProducts();
+    });
+  }
+
+  function parsePrice(priceStr) {
+    if (!priceStr) return 0;
+    if (priceStr.includes('無料')) return 0;
+    const yen = priceStr.match(/[¥￥]([0-9,]+)/);
+    if (yen) return parseInt(yen[1].replace(/,/g, ''));
+    const dollar = priceStr.match(/\$([0-9.]+)/);
+    if (dollar) return Math.round(parseFloat(dollar[1]) * 150);
+    return 0;
+  }
+
   function filterProducts() {
     currentPage = 1;
     const query = (document.getElementById('searchInput')?.value || '').toLowerCase();
@@ -297,6 +330,26 @@
     }
     if (showFavOnly) {
       filtered = filtered.filter(p => isFav(p.id));
+    }
+    // Price filter
+    if (currentPriceFilter !== 'all') {
+      filtered = filtered.filter(p => {
+        const price = parsePrice(p.price);
+        switch (currentPriceFilter) {
+          case 'free': return price === 0;
+          case 'low': return price > 0 && price <= 1000;
+          case 'mid': return price > 1000 && price <= 5000;
+          case 'high': return price > 5000;
+          default: return true;
+        }
+      });
+    }
+    // Tag filter (AND)
+    if (activeTags.length > 0) {
+      filtered = filtered.filter(p => {
+        const tags = p.tags || [];
+        return activeTags.every(t => tags.includes(t));
+      });
     }
     // Sort
     if (currentSort === 'name') {

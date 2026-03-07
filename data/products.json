@@ -32,7 +32,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "conoha-wing",
@@ -65,7 +68,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "mixhost",
@@ -98,7 +104,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "lolipop",
@@ -131,7 +140,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "sakura",
@@ -164,7 +176,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "colorfulbox",
@@ -197,7 +212,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "aws-lightsail",
@@ -230,7 +248,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "nordvpn",
@@ -264,7 +285,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "surfshark",
@@ -297,7 +321,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "expressvpn",
@@ -330,7 +357,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "cyberghost",
@@ -363,7 +393,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "mullvad",
@@ -396,7 +429,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "udemy",
@@ -430,7 +466,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "progate",
@@ -463,7 +502,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "techacademy",
@@ -496,7 +538,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "skillshare",
@@ -529,7 +574,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "codecademy",
@@ -562,7 +610,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "coursera",
@@ -595,7 +646,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "chatgpt-plus",
@@ -628,7 +684,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese",
+        "api"
+      ]
     },
     {
       "id": "claude-pro",
@@ -661,7 +721,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "gemini-advanced",
@@ -694,7 +757,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese",
+        "api"
+      ]
     },
     {
       "id": "perplexity-pro",
@@ -727,7 +794,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "midjourney",
@@ -760,7 +830,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "github-copilot",
@@ -793,7 +866,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "cursor",
@@ -826,7 +902,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "canva-pro",
@@ -860,7 +939,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "figma",
@@ -894,7 +977,13 @@
       "status": "active",
       "featured": true,
       "region": "global",
-      "dateAdded": "2026-03-01"
+      "dateAdded": "2026-03-01",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "adobe-cc",
@@ -927,7 +1016,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "affinity",
@@ -960,7 +1052,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "sketch",
@@ -993,7 +1088,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "google-one",
@@ -1026,7 +1124,13 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "dropbox",
@@ -1059,7 +1163,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese",
+        "api"
+      ]
     },
     {
       "id": "onedrive",
@@ -1092,7 +1200,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese",
+        "api"
+      ]
     },
     {
       "id": "box",
@@ -1125,7 +1237,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "pcloud",
@@ -1158,7 +1275,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "cloudflare-registrar",
@@ -1191,7 +1311,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "onamae",
@@ -1224,7 +1347,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "namecheap",
@@ -1257,7 +1383,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "xdomain",
@@ -1290,7 +1419,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "wordpress-com",
@@ -1323,7 +1455,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "wix",
@@ -1356,7 +1493,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "squarespace",
@@ -1389,7 +1531,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "webflow",
@@ -1422,7 +1567,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "nocard"
+      ]
     },
     {
       "id": "jimdo",
@@ -1455,7 +1604,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "studio",
@@ -1488,7 +1642,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "shopify",
@@ -1521,7 +1680,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese",
+        "api"
+      ]
     },
     {
       "id": "base-ec",
@@ -1554,7 +1717,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "stores-jp",
@@ -1587,7 +1755,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "stripe",
@@ -1620,7 +1793,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese",
+        "api"
+      ]
     },
     {
       "id": "square",
@@ -1653,7 +1830,13 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "notion",
@@ -1687,7 +1870,13 @@
       "status": "active",
       "featured": true,
       "region": "global",
-      "dateAdded": "2026-03-01"
+      "dateAdded": "2026-03-01",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "trello",
@@ -1720,7 +1909,13 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "asana",
@@ -1753,7 +1948,13 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "clickup",
@@ -1786,7 +1987,13 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "monday",
@@ -1819,7 +2026,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "linear",
@@ -1852,7 +2062,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "slack",
@@ -1886,7 +2101,13 @@
       "status": "active",
       "featured": false,
       "region": "global",
-      "dateAdded": "2026-03-01"
+      "dateAdded": "2026-03-01",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "discord",
@@ -1919,7 +2140,13 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "zoom",
@@ -1952,7 +2179,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "api"
+      ]
     },
     {
       "id": "teams",
@@ -1985,7 +2217,13 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "gather",
@@ -2018,7 +2256,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "google-workspace",
@@ -2051,7 +2294,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese",
+        "api"
+      ]
     },
     {
       "id": "norton",
@@ -2084,7 +2331,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "eset",
@@ -2117,7 +2367,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "virus-buster",
@@ -2150,7 +2403,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "malwarebytes",
@@ -2183,7 +2439,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "nocard"
+      ]
     },
     {
       "id": "ahrefs",
@@ -2216,7 +2476,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "semrush",
@@ -2249,7 +2512,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "ubersuggest",
@@ -2282,7 +2548,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "moz-pro",
@@ -2315,7 +2584,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "rank-tracker",
@@ -2348,7 +2620,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "api"
+      ]
     },
     {
       "id": "premiere-pro",
@@ -2381,7 +2656,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "davinci-resolve",
@@ -2414,7 +2692,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free"
+      ]
     },
     {
       "id": "filmora",
@@ -2447,7 +2728,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "capcut-pro",
@@ -2480,7 +2764,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "final-cut-pro",
@@ -2513,7 +2802,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "lightroom",
@@ -2546,7 +2838,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "luminar-neo",
@@ -2579,7 +2874,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "capture-one",
@@ -2612,7 +2910,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "pixlr",
@@ -2645,7 +2946,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "nocard"
+      ]
     },
     {
       "id": "freee",
@@ -2678,7 +2983,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "money-forward",
@@ -2711,7 +3019,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "yayoi",
@@ -2744,7 +3055,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ]
     },
     {
       "id": "misoca",
@@ -2777,7 +3092,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ]
     },
     {
       "id": "mailchimp",
@@ -2810,7 +3129,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "convertkit",
@@ -2843,7 +3167,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "hubspot",
@@ -2876,7 +3205,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "sendgrid",
@@ -2909,7 +3243,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "1password",
@@ -2943,7 +3282,11 @@
       "status": "active",
       "featured": false,
       "region": "global",
-      "dateAdded": "2026-03-01"
+      "dateAdded": "2026-03-01",
+      "tags": [
+        "japanese",
+        "api"
+      ]
     },
     {
       "id": "bitwarden",
@@ -2976,7 +3319,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "lastpass",
@@ -3009,7 +3357,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "nocard"
+      ]
     },
     {
       "id": "dashlane",
@@ -3042,7 +3394,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "grammarly",
@@ -3075,7 +3430,13 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "deepl-pro",
@@ -3108,7 +3469,11 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "japanese",
+        "api"
+      ]
     },
     {
       "id": "scrivener",
@@ -3141,7 +3506,10 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "nocard"
+      ]
     },
     {
       "id": "otter-ai",
@@ -3174,7 +3542,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "vercel",
@@ -3207,7 +3580,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "chatwork",
@@ -3240,7 +3618,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "zapier",
@@ -3273,7 +3656,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "a8net",
@@ -3306,7 +3694,13 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": true,
-      "region": "jp"
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "duolingo-plus",
@@ -3339,7 +3733,12 @@
       "lastChecked": "2026-03-07",
       "status": "active",
       "featured": false,
-      "region": "global"
+      "region": "global",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ]
     },
     {
       "id": "deepl",
@@ -3372,7 +3771,13 @@
       "status": "active",
       "featured": false,
       "region": "global",
-      "dateAdded": "2026-03-01"
+      "dateAdded": "2026-03-01",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "shin-server",
@@ -3406,7 +3811,10 @@
       "status": "active",
       "featured": false,
       "region": "jp",
-      "dateAdded": "2026-03-06"
+      "dateAdded": "2026-03-06",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "star-server",
@@ -3440,7 +3848,10 @@
       "status": "active",
       "featured": false,
       "region": "jp",
-      "dateAdded": "2026-03-06"
+      "dateAdded": "2026-03-06",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "millenvpn",
@@ -3474,7 +3885,10 @@
       "status": "active",
       "featured": false,
       "region": "jp",
-      "dateAdded": "2026-03-06"
+      "dateAdded": "2026-03-06",
+      "tags": [
+        "japanese"
+      ]
     },
     {
       "id": "coconala",
@@ -3508,7 +3922,13 @@
       "status": "active",
       "featured": false,
       "region": "jp",
-      "dateAdded": "2026-03-06"
+      "dateAdded": "2026-03-06",
+      "tags": [
+        "free",
+        "japanese",
+        "api",
+        "nocard"
+      ]
     },
     {
       "id": "xserver-cloudpc",
@@ -3542,7 +3962,168 @@
       "status": "active",
       "featured": false,
       "region": "jp",
-      "dateAdded": "2026-03-06"
+      "dateAdded": "2026-03-06",
+      "tags": [
+        "japanese",
+        "api"
+      ]
+    },
+    {
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion (ComfyUI)",
+      "category": "ai",
+      "summary": "オープンソースの画像生成AI。ローカルPCで無料実行可能。ComfyUIで高度なワークフロー構築。",
+      "description": "Stable DiffusionはStability AIが開発したオープンソースの画像生成AIモデルです。ComfyUIというノードベースのインターフェースを使うことで、テキストから画像生成、画像間変換、ControlNetやLoRAを活用した高度なワークフローを構築できます。ローカルPC上で完全無料で動作し、プライバシーを保ちながら自由にカスタマイズ可能。高性能なGPU（VRAM 8GB以上推奨）が必要ですが、一度環境を構築すれば無制限に画像生成を楽しめます。",
+      "rating": 4.5,
+      "price": "無料（ローカル実行）",
+      "affiliateUrl": "",
+      "affiliateProvider": "none",
+      "imageUrl": "",
+      "pros": [
+        "完全無料（ローカル実行）",
+        "カスタマイズ自由度が高い",
+        "オフラインで使用可能",
+        "プライバシーが保たれる"
+      ],
+      "cons": [
+        "高性能GPU必須",
+        "セットアップが複雑",
+        "プログラミング知識が必要な場合あり"
+      ],
+      "features": [
+        "テキストから画像生成",
+        "画像から画像変換",
+        "LoRA・ControlNet対応",
+        "ComfyUIノードベースワークフロー"
+      ],
+      "officialUrl": "https://github.com/comfyanonymous/ComfyUI",
+      "lastChecked": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-07",
+      "tags": [
+        "free",
+        "japanese",
+        "api"
+      ]
+    },
+    {
+      "id": "notion-ai",
+      "name": "Notion AI",
+      "category": "ai",
+      "summary": "Notionに統合されたAIアシスタント。文章作成・要約・翻訳をワンクリックで。",
+      "description": "Notion AIはNotionワークスペースに統合されたAIアシスタント機能です。文章の生成・編集・要約・翻訳をワンクリックで実行でき、データベースのオートフィルやQ&A機能も搭載。Notionの既存のドキュメントやデータベースと連携し、チーム全体の生産性を大幅に向上させます。日本語対応も良好で、議事録の要約やブログ記事の下書き作成など、幅広い用途で活用できます。",
+      "rating": 4.4,
+      "price": "$10/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "none",
+      "imageUrl": "",
+      "pros": [
+        "Notionと完全統合",
+        "文章生成・要約・翻訳対応",
+        "チーム利用で効率向上",
+        "日本語対応良好"
+      ],
+      "cons": [
+        "Notion契約が前提",
+        "AI機能は追加課金",
+        "大量テキスト処理は遅い"
+      ],
+      "features": [
+        "AI文章生成・編集",
+        "要約・翻訳・トーン変更",
+        "データベースオートフィル",
+        "Q&A機能"
+      ],
+      "officialUrl": "https://www.notion.so/product/ai",
+      "lastChecked": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-07",
+      "tags": [
+        "japanese",
+        "api"
+      ]
+    },
+    {
+      "id": "canva-ai",
+      "name": "Canva AI（Magic Studio）",
+      "category": "ai",
+      "summary": "デザインツールCanvaに搭載されたAI機能群。テキストから画像生成、背景除去などが可能。",
+      "description": "Canva AI（Magic Studio）は、人気デザインツールCanvaに統合されたAI機能群です。Magic Writeによるテキスト生成、テキストから画像生成、背景除去（Magic Eraser）、Magic Resizeなど、デザイン作業を大幅に効率化する機能が揃っています。無料プランでもAI機能の一部が利用可能で、直感的な操作でプロ並みのデザインが作成できます。日本語にも対応しており、初心者からプロまで幅広く活用されています。",
+      "rating": 4.5,
+      "price": "無料プランあり / Pro ¥1,500/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "none",
+      "imageUrl": "",
+      "pros": [
+        "無料プランでもAI機能利用可",
+        "デザインと直接統合",
+        "直感的な操作",
+        "日本語対応"
+      ],
+      "cons": [
+        "無料プランはAI使用回数制限",
+        "高度な編集には向かない",
+        "Pro以外は一部機能制限"
+      ],
+      "features": [
+        "Magic Write（テキスト生成）",
+        "テキストから画像生成",
+        "背景除去・Magic Eraser",
+        "Magic Resize"
+      ],
+      "officialUrl": "https://www.canva.com/magic/",
+      "lastChecked": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-07",
+      "tags": [
+        "free",
+        "japanese"
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "category": "ai",
+      "summary": "最先端のAI音声生成サービス。テキストから自然な音声を合成。ボイスクローニングにも対応。",
+      "description": "ElevenLabsは最先端のAI音声合成技術を提供するサービスです。テキストを入力するだけで、29言語以上で非常に自然な音声を生成できます。ボイスクローニング機能では、自分の声や好みの声をAIに学習させてオリジナル音声を作成可能。音声翻訳機能やAPI連携にも対応しており、ポッドキャスト制作、動画ナレーション、多言語コンテンツ制作など幅広い用途で活用されています。無料プランで試用も可能です。",
+      "rating": 4.6,
+      "price": "無料プランあり / $5/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "none",
+      "imageUrl": "",
+      "pros": [
+        "非常に自然な音声品質",
+        "多言語対応（日本語含む）",
+        "ボイスクローニング機能",
+        "APIで外部連携可能"
+      ],
+      "cons": [
+        "無料プランは文字数制限あり",
+        "日本語の品質は英語に劣る",
+        "商用利用は有料プラン必須"
+      ],
+      "features": [
+        "テキスト読み上げ（29言語）",
+        "ボイスクローニング",
+        "音声翻訳",
+        "API連携"
+      ],
+      "officialUrl": "https://elevenlabs.io/",
+      "lastChecked": "2026-03-07",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-07",
+      "tags": [
+        "free",
+        "api"
+      ]
     }
   ]
 }

@@ -109,4 +109,8 @@
   <url><loc>https://tools.freesozo.com/review.html?id=millenvpn</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=coconala</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=xserver-cloudpc</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=stable-diffusion</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=notion-ai</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=canva-ai</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=elevenlabs</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

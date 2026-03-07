@@ -773,11 +773,21 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   50% { opacity: .7; }
 }
 
+/* ===== Filter Bar ===== */
+.filters-section { padding: 0 0 10px; }
+.filter-bar { display: flex; flex-wrap: wrap; gap: 20px; padding: 16px 20px; background: var(--bg-card); border-radius: 12px; box-shadow: 0 2px 8px var(--shadow); }
+.filter-group { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.filter-label { font-size: .85rem; font-weight: 700; color: var(--text-heading); white-space: nowrap; }
+.filter-chip { background: var(--bg); border: 1px solid var(--border); border-radius: 20px; padding: 6px 14px; font-size: .8rem; cursor: pointer; color: var(--text-sub); transition: all .2s; }
+.filter-chip:hover { border-color: var(--primary); color: var(--primary); }
+.filter-chip.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
 /* ===== Responsive ===== */
 @media (min-width: 1024px) {
   .product-grid { grid-template-columns: repeat(3, 1fr); }
 }
 @media (max-width: 768px) {
+  .filter-bar { flex-direction: column; gap: 12px; }
   .hero h1 { font-size: 1.4rem; }
   .hero { padding: 40px 0; }
   .product-grid { grid-template-columns: 1fr; }
