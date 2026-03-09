@@ -143,6 +143,11 @@
   <url><loc>https://tools.freesozo.com/review.html?id=descript</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=crowdstrike</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=ecforce</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=brilliant</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=deepl-write</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=nordpass</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=wave-accounting</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=backlog</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/blog/1password-vs-bitwarden.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/a8net-vs-hubspot.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/accounting-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>

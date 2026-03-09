@@ -1476,7 +1476,7 @@
       "tags": [
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "basecamp",
@@ -2327,7 +2327,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "mfcloud-kakutei",
@@ -2541,7 +2541,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "keeper",
@@ -2717,7 +2717,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "esa-io",
@@ -2789,7 +2789,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "ecforce",
