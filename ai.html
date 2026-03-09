@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIツール比較 12選｜ChatGPT・Claude・Gemini・Midjourney等を徹底比較【2026年最新】</title>
+  <meta name="description" content="ChatGPT・Claude・Gemini・Midjourney・GitHub Copilot・Stable Diffusionなど人気AIツール12種を徹底比較。料金・機能・無料プランの有無をわかりやすく一覧で確認できます。">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="AIツール比較 12選｜おすすめツール比較ナビ">
+  <meta property="og:description" content="ChatGPT・Claude・Gemini・Midjourney等の人気AIツール12種を料金・機能で徹底比較。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tools.freesozo.com/ai.html">
+  <meta property="og:image" content="https://tools.freesozo.com/og-image.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://tools.freesozo.com/ai.html">
+  <link rel="alternate" hreflang="ja" href="https://tools.freesozo.com/ai.html">
+  <link rel="alternate" hreflang="en" href="https://tools.freesozo.com/ai.html?lang=en">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://tools.freesozo.com/" },
+      { "@type": "ListItem", "position": 2, "name": "AIツール比較" }
+    ]
+  }
+  </script>
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
+  <link rel="stylesheet" href="css/style.css?v=9">
+  <!-- Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YL05931NPE"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YL05931NPE');
+  </script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1060876188767022" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo">ツール比較<span>ナビ</span></a>
+      <nav class="header-nav">
+        <a href="index.html" data-i18n="navHome">ホーム</a>
+        <a href="index.html#categories" data-i18n="navCategory">カテゴリ</a>
+        <a href="ai.html" class="nav-active">🤖 AIツール</a>
+        <a href="blog/">ブログ</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <button class="lang-btn" id="langBtn" data-i18n="lang">🌐 English</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+      <a href="index.html" data-i18n="breadcrumbHome">ホーム</a><span>›</span><span>🤖 AIツール比較</span>
+    </div>
+
+    <!-- Hero -->
+    <section class="ai-hero" style="text-align:center;padding:32px 0 16px;">
+      <h1>🤖 AIツール比較【2026年最新】</h1>
+      <p style="color:var(--text-secondary);line-height:1.8;max-width:700px;margin:12px auto 0;">ChatGPT・Claude・Gemini・Midjourney・GitHub Copilotなど、人気のAIツールを料金・機能・無料プランの有無で徹底比較。チャットAI、画像生成、コーディング支援、音声生成など用途別に最適なAIツールが見つかります。</p>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters-section" id="filtersSection">
+      <div class="filter-bar" id="filterBar">
+        <div class="filter-group">
+          <label class="filter-label">料金帯</label>
+          <div class="filter-options" id="priceFilters">
+            <button class="filter-chip active" data-price="all">すべて</button>
+            <button class="filter-chip" data-price="free">無料</button>
+            <button class="filter-chip" data-price="low">〜¥1,000</button>
+            <button class="filter-chip" data-price="mid">〜¥5,000</button>
+            <button class="filter-chip" data-price="high">¥5,000〜</button>
+          </div>
+        </div>
+        <div class="filter-group">
+          <label class="filter-label">タグ</label>
+          <div class="filter-options" id="tagFilters">
+            <button class="filter-chip" data-tag="free">無料プランあり</button>
+            <button class="filter-chip" data-tag="japanese">日本語対応</button>
+            <button class="filter-chip" data-tag="api">API連携可</button>
+            <button class="filter-chip" data-tag="nocard">カード不要</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Search -->
+    <div class="hero-search" style="max-width:500px;margin:0 auto 24px;">
+      <input type="text" id="searchInput" placeholder="AIツール名で検索...">
+      <button type="button" id="searchBtn">🔍</button>
+    </div>
+
+    <!-- Sort -->
+    <div class="sort-bar" id="sortBar"></div>
+
+    <!-- Product Grid -->
+    <div class="product-grid" id="productGrid" data-category="ai"></div>
+    <div class="no-results" id="noResults" style="display:none;">
+      <p data-i18n="noResults">該当するツールが見つかりませんでした。</p>
+    </div>
+
+    <!-- Static noscript content for SEO -->
+    <noscript>
+    <section style="padding:24px 0;">
+      <h2>掲載AIツール一覧</h2>
+      <ul>
+        <li><strong>ChatGPT Plus</strong>（OpenAI）- GPT-4o搭載の対話型AI。無料プランあり、月額$20〜。テキスト生成・コード作成・画像生成に対応。</li>
+        <li><strong>Claude Pro</strong>（Anthropic）- 高精度な長文処理と安全性が特徴の対話型AI。無料プランあり、月額$20〜。</li>
+        <li><strong>Gemini Advanced</strong>（Google）- Google製マルチモーダルAI。Gmail・Google連携が強み。無料プランあり、月額¥2,900〜。</li>
+        <li><strong>Perplexity Pro</strong> - AI搭載の次世代検索エンジン。リアルタイム情報検索に強い。無料プランあり、月額$20〜。</li>
+        <li><strong>Midjourney</strong> - 高品質なAI画像生成ツール。Discord上で動作。月額$10〜。</li>
+        <li><strong>Stable Diffusion（ComfyUI）</strong> - 無料・オープンソースの画像生成AI。ローカル環境で動作。</li>
+        <li><strong>GitHub Copilot</strong> - AI搭載のコーディング支援ツール。VS Code等のエディタで動作。月額$10〜。</li>
+        <li><strong>Cursor</strong> - AI統合型コードエディタ。Claude/GPT-4搭載。無料プランあり。</li>
+        <li><strong>Notion AI</strong> - Notion内蔵のAIアシスタント。文書作成・要約・翻訳に対応。月額$10〜。</li>
+        <li><strong>Canva AI（Magic Studio）</strong> - デザインツールCanva内蔵のAI機能。画像生成・背景除去等。無料プランあり。</li>
+        <li><strong>ElevenLabs</strong> - 高品質なAI音声生成・テキスト読み上げサービス。29言語対応。無料プランあり。</li>
+        <li><strong>DeepL</strong> - AI翻訳の精度で定評のある翻訳ツール。無料プランあり。</li>
+      </ul>
+      <p><a href="index.html">← トップページに戻る</a></p>
+    </section>
+    </noscript>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html" data-i18n="footerHome">ホーム</a>
+        <a href="blog/">ブログ</a>
+        <a href="privacy.html" data-i18n="footerPrivacy">プライバシーポリシー</a>
+      </div>
+      <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://freesozo.com/" target="_blank" rel="noopener" data-i18n="footerSisterName">フリー素材ポータル</a></p>
+      <p data-i18n="footerAffiliate">※ 当サイトはアフィリエイトプログラムに参加しています。</p>
+      <p data-i18n="footerCopyright">© 2026 おすすめツール比較ナビ</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop">↑</button>
+  <div class="toast" id="toast"></div>
+
+  <script src="js/i18n.js?v=9"></script>
+  <script src="js/app.js?v=9"></script>
+</body>
+</html>

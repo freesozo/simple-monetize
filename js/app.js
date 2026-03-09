@@ -130,6 +130,10 @@
 
   // ===== Index Page =====
   function initIndexPage() {
+    // Category page support (e.g., ai.html)
+    var pageCategory = document.getElementById('productGrid')?.dataset.category;
+    if (pageCategory) currentCategory = pageCategory;
+
     renderCategories();
     renderSortBar();
     renderRecentlyViewed();
