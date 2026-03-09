@@ -207,7 +207,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "dify",
@@ -244,7 +244,7 @@
         "free",
         "api"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "ai-sakura-internet",
@@ -1546,7 +1546,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "loom",
@@ -2113,7 +2113,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "affinity-photo",
@@ -2183,7 +2183,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "gimp",

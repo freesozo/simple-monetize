@@ -4669,6 +4669,191 @@
       "tags": [
         "japanese"
       ]
+    },
+    {
+      "id": "writesonic",
+      "name": "Writesonic",
+      "category": "ai",
+      "summary": "AIコンテンツ作成プラットフォーム。SEO対応の記事を自動生成。",
+      "description": "Writesonicは、SEOに最適化されたコンテンツを生成するAIプラットフォームです。ブログ記事、ランディングページ、広告コピーなどを作成でき、Chatsonic機能でリアルタイムの情報を反映したコンテンツも生成可能です。GPT-4搭載で高品質な出力を実現しています。",
+      "rating": 4.0,
+      "price": "無料〜$19/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "SEO最適化機能が充実",
+        "リアルタイム情報を反映",
+        "手頃な価格設定"
+      ],
+      "cons": [
+        "無料プランは出力文字数制限あり",
+        "UIがやや複雑"
+      ],
+      "features": [
+        "SEO最適化記事生成",
+        "Chatsonic AI チャット",
+        "ランディングページ生成",
+        "AIアート生成"
+      ],
+      "officialUrl": "https://writesonic.com/",
+      "lastChecked": "2026-03-09",
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "vllo",
+      "name": "VLLO",
+      "category": "video",
+      "summary": "韓国発の多機能動画編集アプリ。初心者にも優しいUI。",
+      "description": "VLLOは、韓国で開発された多機能動画編集アプリです。直感的なUIで初心者でも簡単に動画編集が可能。PIP（ピクチャーインピクチャー）、クロマキー、モザイク追跡など、スマホアプリとしては高度な機能を備えています。YouTubeやVlogの編集に人気です。",
+      "rating": 4.2,
+      "price": "無料〜¥4,900/年",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "高機能なのに初心者向け",
+        "PIP・クロマキー対応",
+        "広告なしで使える (有料版)"
+      ],
+      "cons": [
+        "PC版は非対応",
+        "一部機能は有料のみ"
+      ],
+      "features": [
+        "マルチレイヤー編集",
+        "PIP (ピクチャーインピクチャー)",
+        "クロマキー合成",
+        "モザイク追跡",
+        "200以上のBGM"
+      ],
+      "officialUrl": "https://www.vllo.io/",
+      "lastChecked": "2026-03-09",
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "category": "project",
+      "summary": "人気No.1のタスク管理アプリ。シンプルかつパワフルなタスク管理。",
+      "description": "Todoistは、世界で4,000万人以上が利用する人気タスク管理アプリです。自然言語入力でタスクを素早く追加でき、プロジェクト、ラベル、フィルター、優先度などで柔軟にタスクを整理。個人利用からチーム利用まで幅広く対応し、80以上のアプリとの連携が可能です。",
+      "rating": 4.5,
+      "price": "無料〜$5/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "自然言語入力で素早くタスク追加",
+        "マルチプラットフォーム対応",
+        "80以上のアプリ連携"
+      ],
+      "cons": [
+        "無料プランは機能制限あり",
+        "ガントチャートなし"
+      ],
+      "features": [
+        "自然言語入力",
+        "プロジェクト管理",
+        "繰り返しタスク",
+        "生産性トラッキング",
+        "チーム共有"
+      ],
+      "officialUrl": "https://todoist.com/",
+      "lastChecked": "2026-03-09",
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "category": "ai",
+      "summary": "オープンソースのLLMアプリ開発プラットフォーム。ノーコードでAIアプリを構築。",
+      "description": "Difyは、LLM（大規模言語モデル）アプリケーションを簡単に構築できるオープンソースプラットフォームです。ノーコードでAIチャットボット、ワークフロー、RAGアプリケーションを作成可能。セルフホストもクラウド版も利用でき、OpenAI、Claude、Geminiなど複数のLLMに対応しています。",
+      "rating": 4.4,
+      "price": "無料〜$159/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "オープンソースで無料利用可能",
+        "ノーコードでAIアプリ構築",
+        "複数のLLMプロバイダー対応"
+      ],
+      "cons": [
+        "セルフホストには技術知識が必要",
+        "エンタープライズ機能は有料"
+      ],
+      "features": [
+        "ノーコードAIアプリビルダー",
+        "RAG (検索拡張生成)",
+        "ワークフローオーケストレーション",
+        "マルチLLM対応",
+        "API公開機能"
+      ],
+      "officialUrl": "https://dify.ai/",
+      "lastChecked": "2026-03-09",
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free",
+        "api"
+      ]
+    },
+    {
+      "id": "photoscape-x",
+      "name": "PhotoScape X",
+      "category": "photo",
+      "summary": "無料の多機能フォトエディター。コラージュやバッチ編集が簡単。",
+      "description": "PhotoScape Xは、無料で利用できる多機能フォトエディターです。写真編集、コラージュ作成、GIF作成、バッチ編集、画面キャプチャなど多彩な機能を1つのアプリに統合。プロ版では更に高度なフィルターやツールが利用可能。初心者からアマチュアカメラマンまで幅広く使われています。",
+      "rating": 4.0,
+      "price": "無料〜$39.99 (Pro買い切り)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "基本機能は完全無料",
+        "コラージュ・GIF作成対応",
+        "バッチ処理で効率的"
+      ],
+      "cons": [
+        "プロ向けの高度な機能は少ない",
+        "UIがやや古い"
+      ],
+      "features": [
+        "写真編集・レタッチ",
+        "コラージュ作成",
+        "GIFアニメ作成",
+        "バッチ編集",
+        "画面キャプチャ"
+      ],
+      "officialUrl": "http://x.photoscape.org/",
+      "lastChecked": "2026-03-09",
+      "dateAdded": "2026-03-09",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
     }
   ]
 }
