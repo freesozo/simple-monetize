@@ -33,7 +33,8 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "dall-e",
@@ -559,7 +560,8 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "schoo",
@@ -735,7 +737,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "penpot",
@@ -1759,7 +1761,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "kaspersky",
@@ -2363,7 +2365,7 @@
       "tags": [
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "buffer",

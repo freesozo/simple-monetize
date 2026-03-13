@@ -153,6 +153,9 @@
   <url><loc>https://tools.freesozo.com/review.html?id=todoist</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=dify</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=photoscape-x</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=pluralsight</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=mfcloud-kakutei</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=avast</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/blog/1password-vs-bitwarden.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/a8net-vs-hubspot.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/accounting-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -184,9 +187,11 @@
   <url><loc>https://tools.freesozo.com/blog/free-photo-tools.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/free-plan-tools.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/free-project-tools.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tools.freesozo.com/blog/free-security-tools.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/free-sitebuilder-tools.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/free-video-tools.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/free-writing-tools.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tools.freesozo.com/blog/freee-vs-mfcloud-kakutei.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/freee-vs-money-forward.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/google-one-vs-onedrive.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/index.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
