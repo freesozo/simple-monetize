@@ -214,6 +214,13 @@
       return;
     }
     grid.innerHTML = featured.map(p => createProductCard(p, true)).join('');
+    if (fadeObserver) {
+      grid.querySelectorAll('.product-card').forEach(function(card, i) {
+        card.classList.add('fade-in-up');
+        card.style.transitionDelay = i * 0.05 + 's';
+        fadeObserver.observe(card);
+      });
+    }
   }
 
   function renderProducts(list, append) {
@@ -241,6 +248,16 @@
       grid.innerHTML += active.slice(shown - perPage, shown).map(p => createProductCard(p, false)).join('');
     } else {
       grid.innerHTML = visible.map(p => createProductCard(p, false)).join('');
+    }
+    // Staggered fade-in for cards
+    if (fadeObserver) {
+      grid.querySelectorAll('.product-card').forEach(function(card, i) {
+        if (!card.classList.contains('fade-in-up')) {
+          card.classList.add('fade-in-up');
+          card.style.transitionDelay = (i % 12) * 0.05 + 's';
+          fadeObserver.observe(card);
+        }
+      });
     }
     // Load more button
     if (loadMoreBtn) {
@@ -744,6 +761,27 @@
       renderQuizStep();
     }
   });
+
+  // Header scroll effect
+  window.addEventListener('scroll', function() {
+    var header = document.querySelector('.site-header');
+    if (header) {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    }
+  }, { passive: true });
+
+  // IntersectionObserver for fade-in animations
+  var fadeObserver = null;
+  if (typeof IntersectionObserver !== 'undefined') {
+    fadeObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          fadeObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+  }
 
   // ===== Start =====
   document.addEventListener('DOMContentLoaded', init);
