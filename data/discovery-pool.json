@@ -173,7 +173,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "writesonic",
@@ -597,7 +597,7 @@
         "free",
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "dotinstall",
@@ -1971,7 +1971,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "descript",
@@ -2401,7 +2401,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "later",
@@ -2684,7 +2684,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "deepl-write",

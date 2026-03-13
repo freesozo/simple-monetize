@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://tools.freesozo.com/</loc><lastmod>2026-03-14</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://tools.freesozo.com/privacy.html</loc><lastmod>2026-03-14</lastmod><changefreq>monthly</changefreq><priority>0.3</priority></url>
-  <url><loc>https://tools.freesozo.com/ai.html</loc><lastmod>2026-03-14</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://tools.freesozo.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://tools.freesozo.com/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
   <url><loc>https://tools.freesozo.com/go.html</loc><changefreq>monthly</changefreq><priority>0.1</priority></url>
   <url><loc>https://tools.freesozo.com/?cat=server</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/?cat=vpn</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -157,6 +156,11 @@
   <url><loc>https://tools.freesozo.com/review.html?id=pluralsight</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=mfcloud-kakutei</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=avast</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=schoo</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=copy-ai</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=surfer-seo</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=prowritingaid</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=buffer</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/blog/1password-vs-bitwarden.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/a8net-vs-hubspot.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/accounting-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>

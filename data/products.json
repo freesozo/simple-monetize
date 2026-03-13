@@ -4963,6 +4963,188 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "id": "schoo",
+      "name": "Schoo",
+      "category": "learning",
+      "summary": "大人のための生放送学習コミュニティ。ビジネススキルからIT技術まで。",
+      "description": "Schoo（スクー）は、社会人向けのオンライン学習プラットフォームです。毎日生放送の授業が配信され、リアルタイムで質問やコメントが可能。ビジネススキル、プログラミング、デザイン、マーケティングなど幅広いジャンルの授業を8,000本以上提供しています。",
+      "rating": 4.2,
+      "price": "無料〜¥980/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "生放送授業は無料で視聴可能",
+        "8,000本以上のアーカイブ",
+        "日本語コンテンツが充実"
+      ],
+      "cons": [
+        "アーカイブ視聴は有料会員のみ",
+        "英語コンテンツは少ない"
+      ],
+      "features": [
+        "生放送授業",
+        "8,000本以上の録画授業",
+        "チャットで質問可能",
+        "法人向けプランあり"
+      ],
+      "officialUrl": "https://schoo.jp/",
+      "lastChecked": "2026-03-13",
+      "dateAdded": "2026-03-13",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ]
+    },
+    {
+      "id": "copy-ai",
+      "name": "Copy.ai",
+      "category": "ai",
+      "summary": "AIコピーライティングツール。マーケティング文章を素早く生成。",
+      "description": "Copy.aiは、AIを活用したコピーライティングプラットフォームです。ブログ記事、広告コピー、商品説明、SNS投稿などを素早く生成できます。無料プランも提供されており、ワークフロー機能で繰り返し作業を自動化することも可能です。",
+      "rating": 4.1,
+      "price": "無料〜$49/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料プランあり",
+        "90以上のコンテンツテンプレート",
+        "ワークフロー自動化機能"
+      ],
+      "cons": [
+        "日本語対応が限定的",
+        "長文コンテンツは品質にムラ"
+      ],
+      "features": [
+        "AIコピーライティング",
+        "ワークフロー自動化",
+        "多言語対応",
+        "チームコラボレーション"
+      ],
+      "officialUrl": "https://www.copy.ai/",
+      "lastChecked": "2026-03-13",
+      "dateAdded": "2026-03-13",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "surfer-seo",
+      "name": "Surfer SEO",
+      "category": "seo",
+      "summary": "AI搭載のコンテンツ最適化ツール。SEOに最適な記事作成を支援。",
+      "description": "Surfer SEOは、AI技術を活用したコンテンツ最適化ツールです。競合分析に基づいてSEOに最適なコンテンツの構成、文字数、キーワード密度などをリアルタイムで提案。Google DocsやWordPressとの連携で、記事作成しながらSEOスコアを確認できます。",
+      "rating": 4.4,
+      "price": "$89/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "AIベースのコンテンツ最適化",
+        "リアルタイムSEOスコア",
+        "Google Docs統合"
+      ],
+      "cons": [
+        "月額料金が高め",
+        "日本語コンテンツの精度は改善途上"
+      ],
+      "features": [
+        "コンテンツエディター",
+        "SERP分析",
+        "キーワードリサーチ",
+        "AI記事生成",
+        "Google Docs連携"
+      ],
+      "officialUrl": "https://surferseo.com/",
+      "lastChecked": "2026-03-13",
+      "dateAdded": "2026-03-13",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": []
+    },
+    {
+      "id": "prowritingaid",
+      "name": "ProWritingAid",
+      "category": "writing",
+      "summary": "AI搭載のライティング支援ツール。文法チェックからスタイル改善まで。",
+      "description": "ProWritingAidは、文法チェック、スタイル改善、読みやすさ分析を統合したAIライティングツールです。Grammarlyの代替として人気で、より詳細なレポート機能が特徴。Google Docs、Word、Scrivenerなど多くのアプリと統合でき、小説やブログなど長文の執筆に特に強みがあります。",
+      "rating": 4.2,
+      "price": "無料〜$10/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "詳細なライティングレポート",
+        "多数のアプリ統合",
+        "長文執筆に強い"
+      ],
+      "cons": [
+        "英語中心",
+        "無料版は500語まで"
+      ],
+      "features": [
+        "文法チェック",
+        "スタイル分析",
+        "読みやすさレポート",
+        "盗作チェック (有料)",
+        "Scrivener統合"
+      ],
+      "officialUrl": "https://prowritingaid.com/",
+      "lastChecked": "2026-03-13",
+      "dateAdded": "2026-03-13",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "buffer",
+      "name": "Buffer",
+      "category": "marketing",
+      "summary": "SNS投稿管理ツール。複数プラットフォームへの予約投稿を簡単に。",
+      "description": "Bufferは、SNSマーケティングを効率化する投稿管理ツールです。Instagram、Twitter/X、Facebook、LinkedIn、Pinterestなど複数のSNSへの予約投稿を一括管理できます。分析機能で投稿パフォーマンスを可視化し、最適な投稿タイミングも提案してくれます。",
+      "rating": 4.3,
+      "price": "無料〜$5/チャネル/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料で3チャネルまで管理可能",
+        "シンプルで使いやすいUI",
+        "AIアシスタント機能"
+      ],
+      "cons": [
+        "無料プランは機能制限あり",
+        "高度な分析は有料版のみ"
+      ],
+      "features": [
+        "予約投稿",
+        "マルチSNS管理",
+        "分析・レポート",
+        "AIアシスタント",
+        "リンクインバイオ"
+      ],
+      "officialUrl": "https://buffer.com/",
+      "lastChecked": "2026-03-13",
+      "dateAdded": "2026-03-13",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
     }
   ]
 }
