@@ -58,11 +58,19 @@
   async function init() {
     initTheme();
 
+    // Resolve base path for data files (works from /blog/ subdirectory too)
+    var basePath = '';
+    var pathParts = location.pathname.split('/');
+    if (pathParts.length > 2 && pathParts[pathParts.length - 2] !== '') {
+      // We're in a subdirectory (e.g., /blog/xxx.html) → go up
+      basePath = '../'.repeat(pathParts.length - 2);
+    }
     try {
       const [prodRes, confRes] = await Promise.all([
-        fetch('data/products.json'),
-        fetch('data/config.json')
+        fetch(basePath + 'data/products.json'),
+        fetch(basePath + 'data/config.json')
       ]);
+      if (!prodRes.ok || !confRes.ok) throw new Error('HTTP ' + prodRes.status);
       products = (await prodRes.json()).products;
       config = await confRes.json();
     } catch (e) {
@@ -207,9 +215,10 @@
   function renderFeatured() {
     const grid = document.getElementById('featuredGrid');
     if (!grid) return;
+    const titleEl = document.getElementById('featuredTitle');
     const featured = products.filter(p => p.featured && p.status === 'active');
     if (featured.length === 0) {
-      document.getElementById('featuredTitle').style.display = 'none';
+      if (titleEl) titleEl.style.display = 'none';
       grid.style.display = 'none';
       return;
     }
