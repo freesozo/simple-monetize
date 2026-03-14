@@ -281,7 +281,7 @@
         "japanese",
         "api"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "ablenet-vps",
@@ -457,7 +457,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "pia-vpn",
@@ -1297,7 +1297,7 @@
         "free",
         "api"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "bigcommerce",
@@ -2221,7 +2221,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "darktable",
@@ -2293,7 +2293,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "wave-accounting",
