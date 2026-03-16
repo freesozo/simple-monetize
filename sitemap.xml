@@ -166,6 +166,11 @@
   <url><loc>https://tools.freesozo.com/review.html?id=protonvpn</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=ai-sakura-internet</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=zoho-books</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=kagoya-vps</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=bitdefender</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=pia-vpn</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=runway-ml</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=darktable</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/blog/1password-vs-bitwarden.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/a8net-vs-hubspot.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/accounting-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -173,6 +178,7 @@
   <url><loc>https://tools.freesozo.com/blog/ai-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/api-tools.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/best-tools-ranking.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tools.freesozo.com/blog/bitdefender-vs-crowdstrike.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/claude-pro-vs-chatgpt-plus.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/cloud-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/cloudflare-registrar-vs-namecheap.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>

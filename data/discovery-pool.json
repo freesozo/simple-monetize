@@ -105,7 +105,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "jasper-ai",
@@ -351,7 +351,7 @@
       "tags": [
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "wpx-server",
@@ -490,7 +490,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "windscribe",
@@ -1725,7 +1725,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "avast",
@@ -2257,7 +2257,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "zoho-books",
