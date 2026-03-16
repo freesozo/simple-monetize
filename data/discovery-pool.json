@@ -421,7 +421,7 @@
       "tags": [
         "api"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "protonvpn",
@@ -980,7 +980,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "icedrive",
@@ -1512,7 +1512,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "todoist",
@@ -1937,7 +1937,7 @@
         "free",
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "surfer-seo",
@@ -2149,7 +2149,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "photoscape-x",

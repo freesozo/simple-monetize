@@ -5509,6 +5509,184 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "id": "affinity-photo",
+      "name": "Affinity Photo 2",
+      "category": "photo",
+      "summary": "買い切りのプロ向け写真編集ソフト。Photoshop代替として人気。",
+      "description": "Affinity Photo 2は、Serif社が開発した買い切り型のプロフェッショナル向け写真編集ソフトです。Adobe Photoshopの代替として高い評価を受けており、RAW現像、レイヤー編集、マスキング、レタッチなどの高度な写真編集機能を提供。サブスクリプション不要の買い切りモデルが人気です。",
+      "rating": 4.6,
+      "price": "$69.99 (買い切り)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "買い切りで追加費用なし",
+        "Photoshop級の編集機能",
+        "PSD完全互換"
+      ],
+      "cons": [
+        "Photoshopほどのプラグインがない",
+        "一部の最新AI機能は未搭載"
+      ],
+      "features": [
+        "RAW現像",
+        "非破壊編集",
+        "HDR合成",
+        "フォーカスマージ",
+        "PSD互換"
+      ],
+      "officialUrl": "https://affinity.serif.com/photo/",
+      "lastChecked": "2026-03-16",
+      "dateAdded": "2026-03-16",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": []
+    },
+    {
+      "id": "tresorit",
+      "name": "Tresorit",
+      "category": "cloud",
+      "summary": "スイス拠点の超高セキュリティクラウドストレージ。法人利用に最適。",
+      "description": "Tresoritmは、スイス拠点のエンドツーエンド暗号化クラウドストレージです。GDPR完全準拠で、医療・法律・金融など高いセキュリティ基準が求められる業界で採用されています。電子署名機能も統合されており、ビジネス文書の安全な管理に最適です。",
+      "rating": 4.4,
+      "price": "$10/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "最高レベルのセキュリティ",
+        "GDPR完全準拠",
+        "電子署名統合"
+      ],
+      "cons": [
+        "無料プランなし",
+        "個人利用にはやや高額"
+      ],
+      "features": [
+        "E2E暗号化",
+        "電子署名統合",
+        "GDPR準拠",
+        "リンク共有管理",
+        "DRM制御"
+      ],
+      "officialUrl": "https://tresorit.com/",
+      "lastChecked": "2026-03-16",
+      "dateAdded": "2026-03-16",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": []
+    },
+    {
+      "id": "hetznervps",
+      "name": "Hetzner Cloud",
+      "category": "server",
+      "summary": "欧州発の高コスパクラウドサーバー。開発者に人気のVPS。",
+      "description": "Hetzner Cloudはドイツの老舗ホスティング企業Hetznerが提供するクラウドサーバーサービスです。非常に手頃な価格で高性能なVPSを提供しており、欧州とアメリカにデータセンターを構えています。開発者やスタートアップに非常に人気があります。",
+      "rating": 4.5,
+      "price": "$3.29/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "業界最安クラスの価格",
+        "高性能なスペック",
+        "シンプルなAPI"
+      ],
+      "cons": [
+        "日本にデータセンターなし",
+        "サポートは英語/ドイツ語のみ"
+      ],
+      "features": [
+        "SSD/NVMe ストレージ",
+        "従量課金制",
+        "REST API対応",
+        "ロードバランサー"
+      ],
+      "officialUrl": "https://www.hetzner.com/cloud/",
+      "lastChecked": "2026-03-16",
+      "dateAdded": "2026-03-16",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "id": "basecamp",
+      "name": "Basecamp",
+      "category": "project",
+      "summary": "シンプルさを追求したプロジェクト管理ツール。To-doとメッセージボード中心。",
+      "description": "Basecampは、シンプルさを追求したプロジェクト管理ツールです。To-doリスト、メッセージボード、スケジュール、ドキュメント、チャットの5つの基本機能に集約された設計が特徴。過剰な機能を排除し、チームの生産性を最大化するアプローチで根強いファンを持っています。",
+      "rating": 4.1,
+      "price": "$15/ユーザー/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "シンプルで学習コストが低い",
+        "機能の絞り込みによる高い生産性",
+        "Hill Charts独自の進捗管理"
+      ],
+      "cons": [
+        "ガントチャートなし",
+        "カスタマイズ性が低い"
+      ],
+      "features": [
+        "To-doリスト",
+        "メッセージボード",
+        "スケジュール管理",
+        "Hill Charts",
+        "グループチャット"
+      ],
+      "officialUrl": "https://basecamp.com/",
+      "lastChecked": "2026-03-16",
+      "dateAdded": "2026-03-16",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": []
+    },
+    {
+      "id": "grc-seo",
+      "name": "GRC",
+      "category": "seo",
+      "summary": "日本の定番検索順位チェックツール。Google/Yahoo/Bingの順位を毎日自動取得。",
+      "description": "GRCは、日本のSEO業界で広く使われている検索順位チェックツールです。Google、Yahoo! JAPAN、Bingの検索順位を毎日自動で取得し、推移をグラフで表示します。デスクトップアプリとして動作し、買い切りプランもある手頃な価格設定が特徴です。",
+      "rating": 4.1,
+      "price": "無料〜¥9,900/年",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "日本のSEO定番ツール",
+        "3大検索エンジン対応",
+        "手頃な価格設定"
+      ],
+      "cons": [
+        "Windows専用",
+        "UIがやや古い"
+      ],
+      "features": [
+        "検索順位自動チェック",
+        "Google/Yahoo/Bing対応",
+        "順位推移グラフ",
+        "レポート出力"
+      ],
+      "officialUrl": "https://seopro.jp/grc/",
+      "lastChecked": "2026-03-16",
+      "dateAdded": "2026-03-16",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ]
     }
   ]
 }
