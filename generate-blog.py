@@ -8,14 +8,14 @@ Usage: py generate-blog.py
 import json
 import os
 import html as html_mod
-from datetime import datetime
+from datetime import datetime, date
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 BLOG_DIR = os.path.join(BASE_DIR, "blog")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 SITE_URL = "https://tools.freesozo.com"
-GENERATE_DATE = "2026-03-07"
-YEAR = "2026"
+GENERATE_DATE = date.today().isoformat()
+YEAR = str(date.today().year)
 CSS_VERSION = "8"
 JS_VERSION = "8"
 
