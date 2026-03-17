@@ -316,7 +316,7 @@
       "tags": [
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "kagoya-vps",
@@ -1225,7 +1225,7 @@
         "free",
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "weebly",
@@ -1691,7 +1691,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "bitdefender",
@@ -2079,7 +2079,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "vllo",
@@ -2756,7 +2756,7 @@
         "japanese",
         "api"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "brilliant",
