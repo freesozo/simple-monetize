@@ -179,13 +179,13 @@
   <!-- Header -->
   <header class="site-header">
     <div class="container">
-      <a href="index.html" class="site-logo">ツール比較<span>ナビ</span></a>
+      <a href="index.html" class="site-logo"><span data-i18n="logoPrefix">ツール比較</span><span data-i18n="logoSuffix">ナビ</span></a>
       <nav class="header-nav">
         <a href="index.html" data-i18n="navHome">ホーム</a>
         <a href="#categories" data-i18n="navCategory">カテゴリ</a>
-        <a href="ai.html">🤖 AIツール</a>
+        <a href="ai.html" data-i18n="navAI">🤖 AIツール</a>
         <a href="#all-products" data-i18n="navAll">全ツール</a>
-        <a href="blog/">ブログ</a>
+        <a href="blog/" data-i18n="navBlog">ブログ</a>
       </nav>
       <div class="header-actions">
         <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
@@ -245,22 +245,22 @@
     <div class="container">
       <div class="filter-bar" id="filterBar">
         <div class="filter-group">
-          <label class="filter-label">料金帯</label>
+          <label class="filter-label" data-i18n="filterPriceLabel">料金帯</label>
           <div class="filter-options" id="priceFilters">
-            <button class="filter-chip active" data-price="all">すべて</button>
-            <button class="filter-chip" data-price="free">無料</button>
-            <button class="filter-chip" data-price="low">〜¥1,000</button>
-            <button class="filter-chip" data-price="mid">〜¥5,000</button>
-            <button class="filter-chip" data-price="high">¥5,000〜</button>
+            <button class="filter-chip active" data-price="all" data-i18n="filterPriceAll">すべて</button>
+            <button class="filter-chip" data-price="free" data-i18n="filterPriceFree">無料</button>
+            <button class="filter-chip" data-price="low" data-i18n="filterPriceLow">〜¥1,000</button>
+            <button class="filter-chip" data-price="mid" data-i18n="filterPriceMid">〜¥5,000</button>
+            <button class="filter-chip" data-price="high" data-i18n="filterPriceHigh">¥5,000〜</button>
           </div>
         </div>
         <div class="filter-group">
-          <label class="filter-label">タグ</label>
+          <label class="filter-label" data-i18n="filterTagLabel">タグ</label>
           <div class="filter-options" id="tagFilters">
-            <button class="filter-chip" data-tag="free">無料プランあり</button>
-            <button class="filter-chip" data-tag="japanese">日本語対応</button>
-            <button class="filter-chip" data-tag="api">API連携可</button>
-            <button class="filter-chip" data-tag="nocard">カード不要</button>
+            <button class="filter-chip" data-tag="free" data-i18n="filterTagFree">無料プランあり</button>
+            <button class="filter-chip" data-tag="japanese" data-i18n="filterTagJapanese">日本語対応</button>
+            <button class="filter-chip" data-tag="api" data-i18n="filterTagAPI">API連携可</button>
+            <button class="filter-chip" data-tag="nocard" data-i18n="filterTagNoCard">カード不要</button>
           </div>
         </div>
       </div>
@@ -340,20 +340,20 @@
     <div class="container">
       <div class="ss-banner-inner">
         <div class="ss-banner-text">
-          <p class="ss-banner-label">📸 プロ品質の素材をお探しなら</p>
+          <p class="ss-banner-label" data-i18n="ssBannerLabel">📸 プロ品質の素材をお探しなら</p>
           <h3 class="ss-banner-title">Shutterstock</h3>
-          <p class="ss-banner-desc">写真・動画・音楽・イラスト3億点以上。<br>ビジネスから個人利用まで対応。</p>
+          <p class="ss-banner-desc" data-i18n="ssBannerDesc">写真・動画・音楽・イラスト3億点以上。ビジネスから個人利用まで対応。</p>
           <ul class="ss-banner-features">
-            <li>✅ 商用利用OK</li>
-            <li>✅ 日本語サポート</li>
-            <li>✅ 定額制プランあり</li>
+            <li data-i18n="ssBannerFeat1">✅ 商用利用OK</li>
+            <li data-i18n="ssBannerFeat2">✅ 日本語サポート</li>
+            <li data-i18n="ssBannerFeat3">✅ 定額制プランあり</li>
           </ul>
         </div>
         <div class="ss-banner-cta">
-          <a href="https://shutterstock.7eer.net/yZ2RL2" target="_blank" rel="noopener sponsored" class="ss-banner-btn">
+          <a href="https://shutterstock.7eer.net/yZ2RL2" target="_blank" rel="noopener sponsored" class="ss-banner-btn" data-i18n="ssBannerCta">
             無料トライアルを試す →
           </a>
-          <p class="ss-banner-note">※ 初月無料プランあり</p>
+          <p class="ss-banner-note" data-i18n="ssBannerNote">※ 初月無料プランあり</p>
         </div>
       </div>
     </div>
@@ -362,7 +362,7 @@
   <!-- Sister Site Banner -->
   <section class="sister-banner">
     <div class="container">
-      <p>🎨 無料素材を探すなら → <a href="https://freesozo.com/" target="_blank" rel="noopener"><strong>フリー素材ポータル</strong></a> - 200以上の無料素材サイトを比較</p>
+      <p><span data-i18n="sisterBannerPrefix">🎨 無料素材を探すなら →</span> <a href="https://freesozo.com/" target="_blank" rel="noopener"><strong data-i18n="sisterBannerName">フリー素材ポータル</strong></a> <span data-i18n="sisterBannerSuffix">- 200以上の無料素材サイトを比較</span></p>
     </div>
   </section>
 
@@ -371,7 +371,7 @@
     <div class="container">
       <div class="footer-links">
         <a href="index.html" data-i18n="footerHome">ホーム</a>
-        <a href="blog/">ブログ</a>
+        <a href="blog/" data-i18n="navBlog">ブログ</a>
         <a href="privacy.html" data-i18n="footerPrivacy">プライバシーポリシー</a>
       </div>
       <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://freesozo.com/" target="_blank" rel="noopener" data-i18n="footerSisterName">フリー素材ポータル</a></p>

@@ -49,12 +49,12 @@
   <!-- Header -->
   <header class="site-header">
     <div class="container">
-      <a href="index.html" class="site-logo">ツール比較<span>ナビ</span></a>
+      <a href="index.html" class="site-logo"><span data-i18n="logoPrefix">ツール比較</span><span data-i18n="logoSuffix">ナビ</span></a>
       <nav class="header-nav">
         <a href="index.html" data-i18n="navHome">ホーム</a>
         <a href="index.html#categories" data-i18n="navCategory">カテゴリ</a>
-        <a href="ai.html" class="nav-active">🤖 AIツール</a>
-        <a href="blog/">ブログ</a>
+        <a href="ai.html" class="nav-active" data-i18n="navAI">🤖 AIツール</a>
+        <a href="blog/" data-i18n="navBlog">ブログ</a>
       </nav>
       <div class="header-actions">
         <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
@@ -66,35 +66,35 @@
   <main class="container">
     <!-- Breadcrumb -->
     <div class="breadcrumb">
-      <a href="index.html" data-i18n="breadcrumbHome">ホーム</a><span>›</span><span>🤖 AIツール比較</span>
+      <a href="index.html" data-i18n="breadcrumbHome">ホーム</a><span>›</span><span data-i18n="aiBreadcrumb">🤖 AIツール比較</span>
     </div>
 
     <!-- Hero -->
     <section class="ai-hero" style="text-align:center;padding:32px 0 16px;">
-      <h1>🤖 AIツール比較【2026年最新】</h1>
-      <p style="color:var(--text-secondary);line-height:1.8;max-width:700px;margin:12px auto 0;">ChatGPT・Claude・Gemini・Midjourney・GitHub Copilotなど、人気のAIツールを料金・機能・無料プランの有無で徹底比較。チャットAI、画像生成、コーディング支援、音声生成など用途別に最適なAIツールが見つかります。</p>
+      <h1 data-i18n="aiHeroTitle">🤖 AIツール比較【2026年最新】</h1>
+      <p style="color:var(--text-secondary);line-height:1.8;max-width:700px;margin:12px auto 0;" data-i18n="aiHeroDesc">ChatGPT・Claude・Gemini・Midjourney・GitHub Copilotなど、人気のAIツールを料金・機能・無料プランの有無で徹底比較。チャットAI、画像生成、コーディング支援、音声生成など用途別に最適なAIツールが見つかります。</p>
     </section>
 
     <!-- Filters -->
     <section class="filters-section" id="filtersSection">
       <div class="filter-bar" id="filterBar">
         <div class="filter-group">
-          <label class="filter-label">料金帯</label>
+          <label class="filter-label" data-i18n="filterPriceLabel">料金帯</label>
           <div class="filter-options" id="priceFilters">
-            <button class="filter-chip active" data-price="all">すべて</button>
-            <button class="filter-chip" data-price="free">無料</button>
-            <button class="filter-chip" data-price="low">〜¥1,000</button>
-            <button class="filter-chip" data-price="mid">〜¥5,000</button>
-            <button class="filter-chip" data-price="high">¥5,000〜</button>
+            <button class="filter-chip active" data-price="all" data-i18n="filterPriceAll">すべて</button>
+            <button class="filter-chip" data-price="free" data-i18n="filterPriceFree">無料</button>
+            <button class="filter-chip" data-price="low" data-i18n="filterPriceLow">〜¥1,000</button>
+            <button class="filter-chip" data-price="mid" data-i18n="filterPriceMid">〜¥5,000</button>
+            <button class="filter-chip" data-price="high" data-i18n="filterPriceHigh">¥5,000〜</button>
           </div>
         </div>
         <div class="filter-group">
-          <label class="filter-label">タグ</label>
+          <label class="filter-label" data-i18n="filterTagLabel">タグ</label>
           <div class="filter-options" id="tagFilters">
-            <button class="filter-chip" data-tag="free">無料プランあり</button>
-            <button class="filter-chip" data-tag="japanese">日本語対応</button>
-            <button class="filter-chip" data-tag="api">API連携可</button>
-            <button class="filter-chip" data-tag="nocard">カード不要</button>
+            <button class="filter-chip" data-tag="free" data-i18n="filterTagFree">無料プランあり</button>
+            <button class="filter-chip" data-tag="japanese" data-i18n="filterTagJapanese">日本語対応</button>
+            <button class="filter-chip" data-tag="api" data-i18n="filterTagAPI">API連携可</button>
+            <button class="filter-chip" data-tag="nocard" data-i18n="filterTagNoCard">カード不要</button>
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@
 
     <!-- Search -->
     <div class="hero-search" style="max-width:500px;margin:0 auto 24px;">
-      <input type="text" id="searchInput" placeholder="AIツール名で検索...">
+      <input type="text" id="searchInput" data-i18n="aiSearchPlaceholder" placeholder="AIツール名で検索...">
       <button type="button" id="searchBtn">🔍</button>
     </div>
 
@@ -143,7 +143,7 @@
     <div class="container">
       <div class="footer-links">
         <a href="index.html" data-i18n="footerHome">ホーム</a>
-        <a href="blog/">ブログ</a>
+        <a href="blog/" data-i18n="navBlog">ブログ</a>
         <a href="privacy.html" data-i18n="footerPrivacy">プライバシーポリシー</a>
       </div>
       <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://freesozo.com/" target="_blank" rel="noopener" data-i18n="footerSisterName">フリー素材ポータル</a></p>
