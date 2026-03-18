@@ -138,7 +138,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "copy-ai",
@@ -875,7 +875,8 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "mega-cloud",
@@ -911,7 +912,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "sync-com",
@@ -1901,7 +1902,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "grc-seo",
@@ -2043,7 +2044,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "clipchamp",

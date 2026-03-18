@@ -6052,6 +6052,149 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "id": "mega-cloud",
+      "name": "MEGA",
+      "category": "cloud",
+      "summary": "エンドツーエンド暗号化のクラウドストレージ。無料で20GBの大容量。",
+      "description": "MEGAは、エンドツーエンド暗号化を標準搭載したクラウドストレージサービスです。無料プランで20GBの容量が利用可能で、プライバシーを重視するユーザーに人気。ファイル共有、チャット、ビデオ通話機能も備えており、ニュージーランドに拠点を置いています。",
+      "rating": 4.2,
+      "price": "無料〜€29.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料で20GBの大容量",
+        "エンドツーエンド暗号化標準",
+        "チャット・通話機能付き"
+      ],
+      "cons": [
+        "転送量制限あり",
+        "一部機能のUIがやや複雑"
+      ],
+      "features": [
+        "E2E暗号化",
+        "20GB無料ストレージ",
+        "ファイル共有リンク",
+        "MEGAchat",
+        "デスクトップ同期アプリ"
+      ],
+      "officialUrl": "https://mega.io/",
+      "lastChecked": "2026-03-18",
+      "dateAdded": "2026-03-18",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "jasper-ai",
+      "name": "Jasper AI",
+      "category": "ai",
+      "summary": "マーケティング向けAIライティングツール。広告やブログ記事を自動生成。",
+      "description": "Jasper AIは、マーケティングコンテンツの作成に特化したAIライティングツールです。ブログ記事、広告コピー、SNS投稿、メールなど多様なコンテンツを高品質に生成します。ブランドボイス機能により、一貫したトーンでのコンテンツ作成が可能です。",
+      "rating": 4.2,
+      "price": "$39/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "マーケティング特化のテンプレート豊富",
+        "ブランドボイス機能",
+        "多言語対応"
+      ],
+      "cons": [
+        "月額料金が高め",
+        "日本語の品質は英語より劣る"
+      ],
+      "features": [
+        "AIコンテンツ生成",
+        "ブランドボイス設定",
+        "50以上のテンプレート",
+        "Chrome拡張機能"
+      ],
+      "officialUrl": "https://www.jasper.ai/",
+      "lastChecked": "2026-03-18",
+      "dateAdded": "2026-03-18",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": []
+    },
+    {
+      "id": "inshot",
+      "name": "InShot",
+      "category": "video",
+      "summary": "スマホ向け動画編集アプリ。SNS投稿に最適な簡単編集。",
+      "description": "InShotは、スマートフォン向けの人気動画編集アプリです。トリミング、スピード調整、フィルター、テキスト追加、音楽追加などの基本編集機能を直感的なUIで提供。Instagram、TikTok、YouTubeなどSNSに最適なアスペクト比での編集が簡単に行えます。",
+      "rating": 4.3,
+      "price": "無料〜$3.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "直感的で使いやすいUI",
+        "SNS向けアスペクト比対応",
+        "無料でも十分な機能"
+      ],
+      "cons": [
+        "PC版は未提供",
+        "無料版はウォーターマーク付き"
+      ],
+      "features": [
+        "動画トリミング・分割",
+        "フィルター・エフェクト",
+        "テキスト・ステッカー追加",
+        "BGM・効果音追加",
+        "SNS用アスペクト比"
+      ],
+      "officialUrl": "https://inshot.com/",
+      "lastChecked": "2026-03-18",
+      "dateAdded": "2026-03-18",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "mangools",
+      "name": "Mangools",
+      "category": "seo",
+      "summary": "初心者向けSEOツールセット。5つのツールでSEOを包括的にカバー。",
+      "description": "Mangoolsは、KWFinder、SERPChecker、SERPWatcher、LinkMiner、SiteProfilerの5つのSEOツールをセットで提供するプラットフォームです。直感的なUIで初心者にも使いやすく、キーワードリサーチ、SERP分析、順位追跡、被リンク分析、サイト分析をカバーしています。",
+      "rating": 4.2,
+      "price": "$29/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "初心者に優しいUI",
+        "5ツールのセット",
+        "手頃な料金設定"
+      ],
+      "cons": [
+        "上級者には物足りない",
+        "データの更新頻度がやや低い"
+      ],
+      "features": [
+        "KWFinder (キーワード調査)",
+        "SERPChecker (SERP分析)",
+        "SERPWatcher (順位追跡)",
+        "LinkMiner (被リンク)",
+        "SiteProfiler (サイト分析)"
+      ],
+      "officialUrl": "https://mangools.com/",
+      "lastChecked": "2026-03-18",
+      "dateAdded": "2026-03-18",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": []
     }
   ]
 }
