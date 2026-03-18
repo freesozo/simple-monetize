@@ -633,7 +633,7 @@
         "free",
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "linkedin-learning",
@@ -667,7 +667,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "paiza-learning",
@@ -773,7 +773,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "framer-design",
@@ -1050,7 +1050,7 @@
       "tags": [
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "star-domain",
@@ -2471,7 +2471,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "brevo",
