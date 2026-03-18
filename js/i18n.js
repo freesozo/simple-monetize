@@ -409,6 +409,14 @@ const I18n = (() => {
         el.textContent = t(key);
       }
     });
+    // Inline translations: data-i18n-en / data-i18n-ja on elements without dict keys
+    document.querySelectorAll('[data-i18n-en]').forEach(el => {
+      if (el.hasAttribute('data-i18n')) return; // already handled above
+      var text = current === 'en'
+        ? el.getAttribute('data-i18n-en')
+        : (el.getAttribute('data-i18n-ja') || el.getAttribute('data-i18n-original') || '');
+      if (text) el.textContent = text;
+    });
     window.dispatchEvent(new CustomEvent('langchange', { detail: { lang: current } }));
   }
 

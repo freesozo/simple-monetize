@@ -57,6 +57,8 @@
   // ===== Init =====
   async function init() {
     initTheme();
+    initLang();
+    I18n.applyAll();
 
     // Resolve base path for data files (works from /blog/ subdirectory too)
     var basePath = '';
@@ -85,8 +87,6 @@
       initReviewPage();
     }
     initBackToTop();
-    initLang();
-    I18n.applyAll();
   }
 
   // ===== Favorites =====
