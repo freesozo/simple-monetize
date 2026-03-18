@@ -242,12 +242,12 @@ def header_html():
   <!-- Header -->
   <header class="site-header">
     <div class="container">
-      <a href="../index.html" class="site-logo">ツール比較<span>ナビ</span></a>
+      <a href="../index.html" class="site-logo"><span data-i18n="logoPrefix">ツール比較</span><span data-i18n="logoSuffix">ナビ</span></a>
       <nav class="header-nav">
         <a href="../index.html" data-i18n="navHome">ホーム</a>
         <a href="../index.html#categories" data-i18n="navCategory">カテゴリ</a>
         <a href="../index.html#all-products" data-i18n="navAll">全ツール</a>
-        <a href="index.html">ブログ</a>
+        <a href="index.html" data-i18n="navBlog">ブログ</a>
       </nav>
       <div class="header-actions">
         <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">&#x1F319;</button>
@@ -259,13 +259,17 @@ def header_html():
 
 
 def breadcrumb_html(crumbs):
-    """Breadcrumb nav. crumbs: list of (name, url_or_None)"""
+    """Breadcrumb nav. crumbs: list of (name, url_or_None, i18n_key_or_None)"""
     parts = []
-    for name, url in crumbs:
+    for item in crumbs:
+        name = item[0]
+        url = item[1]
+        i18n_key = item[2] if len(item) > 2 else None
+        i18n_attr = f' data-i18n="{i18n_key}"' if i18n_key else ''
         if url:
-            parts.append(f'<a href="{h(url)}">{h(name)}</a>')
+            parts.append(f'<a href="{h(url)}"{i18n_attr}>{h(name)}</a>')
         else:
-            parts.append(f'<span>{h(name)}</span>')
+            parts.append(f'<span{i18n_attr}>{h(name)}</span>')
     return f'''  <div class="container">
     <div class="breadcrumb">
       {"<span>&#x203A;</span>".join(parts)}
@@ -281,7 +285,7 @@ def footer_html():
     <div class="container">
       <div class="footer-links">
         <a href="../index.html" data-i18n="footerHome">ホーム</a>
-        <a href="index.html">ブログ</a>
+        <a href="index.html" data-i18n="navBlog">ブログ</a>
         <a href="../privacy.html" data-i18n="footerPrivacy">プライバシーポリシー</a>
       </div>
       <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://freesozo.com/" target="_blank" rel="noopener" data-i18n="footerSisterName">フリー素材ポータル</a></p>
@@ -320,7 +324,7 @@ def toc_html(sections):
         for sid, title in sections
     )
     return f'''    <nav class="blog-toc">
-      <p class="blog-toc-title">目次</p>
+      <p class="blog-toc-title" data-i18n="blogToc">目次</p>
       <ol>
 {items}
       </ol>
@@ -348,27 +352,27 @@ def product_card_html(p, index=None):
       <p>{h(p.get("description", ""))}</p>
       <div class="blog-pros-cons">
         <div class="blog-pros">
-          <h4>メリット</h4>
+          <h4 data-i18n="blogMerit">メリット</h4>
           <ul>
 {pros_html}
           </ul>
         </div>
         <div class="blog-cons">
-          <h4>デメリット</h4>
+          <h4 data-i18n="blogDemerit">デメリット</h4>
           <ul>
 {cons_html}
           </ul>
         </div>
       </div>
       <div class="blog-features">
-        <h4>主な機能・特徴</h4>
+        <h4 data-i18n="blogFeatures">主な機能・特徴</h4>
         <ul>
 {features_html}
         </ul>
       </div>
       <div class="blog-card-actions">
-        <a href="{h(aff_link)}" class="blog-cta" target="_blank" rel="noopener noreferrer nofollow">公式サイトを見る</a>
-        <a href="{h(review_link)}" class="blog-review-link">詳細レビューを読む &rarr;</a>
+        <a href="{h(aff_link)}" class="blog-cta" target="_blank" rel="noopener noreferrer nofollow" data-i18n="blogVisitOfficial">公式サイトを見る</a>
+        <a href="{h(review_link)}" class="blog-review-link" data-i18n="blogReadReview">詳細レビューを読む &rarr;</a>
       </div>
     </div>
 '''
@@ -377,12 +381,13 @@ def product_card_html(p, index=None):
 def comparison_table_html(products, columns=None):
     """Generate comparison table for products"""
     if columns is None:
-        columns = [("ツール名", "name"), ("料金", "price"), ("評価", "rating"), ("特徴", "features")]
+        columns = [("ツール名", "name", "blogTableTool"), ("料金", "price", "blogTablePrice"), ("評価", "rating", "blogTableRating"), ("特徴", "features", "blogTableFeatures")]
 
     rows = []
     for p in products:
         cells = []
-        for label, key in columns:
+        for col in columns:
+            label, key = col[0], col[1]
             if key == "name":
                 cells.append(f'<td><strong>{h(p["name"])}</strong></td>')
             elif key == "rating":
@@ -394,7 +399,10 @@ def comparison_table_html(products, columns=None):
                 cells.append(f"<td>{h(p.get(key, ''))}</td>")
         rows.append("          <tr>" + "".join(cells) + "</tr>")
 
-    header_cells = "".join(f"<th>{h(label)}</th>" for label, _ in columns)
+    header_cells = "".join(
+        f'<th data-i18n="{col[2]}">{h(col[0])}</th>' if len(col) > 2 and col[2] else f"<th>{h(col[0])}</th>"
+        for col in columns
+    )
 
     return f'''    <div class="blog-comparison-table">
       <table>
@@ -412,20 +420,21 @@ def comparison_table_html(products, columns=None):
 def vs_table_html(p1, p2):
     """Side-by-side comparison table for A vs B articles"""
     rows_data = [
-        ("料金", p1.get("price", ""), p2.get("price", "")),
-        ("評価", f'{p1.get("rating", 0)}/5', f'{p2.get("rating", 0)}/5'),
-        ("主な特徴", " / ".join(p1.get("features", [])[:3]), " / ".join(p2.get("features", [])[:3])),
-        ("メリット数", f'{len(p1.get("pros", []))}点', f'{len(p2.get("pros", []))}点'),
-        ("デメリット数", f'{len(p1.get("cons", []))}点', f'{len(p2.get("cons", []))}点'),
+        ("料金", p1.get("price", ""), p2.get("price", ""), "blogTablePrice"),
+        ("評価", f'{p1.get("rating", 0)}/5', f'{p2.get("rating", 0)}/5', "blogTableRating"),
+        ("主な特徴", " / ".join(p1.get("features", [])[:3]), " / ".join(p2.get("features", [])[:3]), "blogTableFeatures"),
+        ("メリット数", f'{len(p1.get("pros", []))}点', f'{len(p2.get("pros", []))}点', None),
+        ("デメリット数", f'{len(p1.get("cons", []))}点', f'{len(p2.get("cons", []))}点', None),
     ]
     rows = []
-    for label, v1, v2 in rows_data:
-        rows.append(f"          <tr><th>{h(label)}</th><td>{h(v1)}</td><td>{h(v2)}</td></tr>")
+    for label, v1, v2, i18n_key in rows_data:
+        i18n_attr = f' data-i18n="{i18n_key}"' if i18n_key else ''
+        rows.append(f"          <tr><th{i18n_attr}>{h(label)}</th><td>{h(v1)}</td><td>{h(v2)}</td></tr>")
 
     return f'''    <div class="blog-vs-table">
       <table>
         <thead>
-          <tr><th>比較項目</th><th>{h(p1["name"])}</th><th>{h(p2["name"])}</th></tr>
+          <tr><th data-i18n="blogTableComparison">比較項目</th><th>{h(p1["name"])}</th><th>{h(p2["name"])}</th></tr>
         </thead>
         <tbody>
 {"\\n".join(rows)}
@@ -502,8 +511,8 @@ def generate_category_roundup(cat_id, products):
     ])
     html_str += header_html()
     html_str += breadcrumb_html([
-        ("ホーム", "../index.html"),
-        ("ブログ", "index.html"),
+        ("ホーム", "../index.html", "breadcrumbHome"),
+        ("ブログ", "index.html", "navBlog"),
         (title, None),
     ])
     html_str += f'''  <article class="blog-article">
@@ -594,8 +603,8 @@ def generate_free_tools_article(cat_id, products):
     ])
     html_str += header_html()
     html_str += breadcrumb_html([
-        ("ホーム", "../index.html"),
-        ("ブログ", "index.html"),
+        ("ホーム", "../index.html", "breadcrumbHome"),
+        ("ブログ", "index.html", "navBlog"),
         (title, None),
     ])
     html_str += f'''  <article class="blog-article">
@@ -680,8 +689,8 @@ def generate_tag_article(tag, tag_ja, tag_desc_intro, products):
       </div>
       <p>{h(p.get("summary", ""))}</p>
       <div class="blog-card-actions">
-        <a href="{h(aff)}" class="blog-cta" target="_blank" rel="noopener noreferrer nofollow">公式サイトを見る</a>
-        <a href="../review.html?id={p['id']}" class="blog-review-link">詳細レビューを読む &rarr;</a>
+        <a href="{h(aff)}" class="blog-cta" target="_blank" rel="noopener noreferrer nofollow" data-i18n="blogVisitOfficial">公式サイトを見る</a>
+        <a href="../review.html?id={p['id']}" class="blog-review-link" data-i18n="blogReadReview">詳細レビューを読む &rarr;</a>
       </div>
     </div>
 ''')
@@ -701,8 +710,8 @@ def generate_tag_article(tag, tag_ja, tag_desc_intro, products):
     ])
     html_str += header_html()
     html_str += breadcrumb_html([
-        ("ホーム", "../index.html"),
-        ("ブログ", "index.html"),
+        ("ホーム", "../index.html", "breadcrumbHome"),
+        ("ブログ", "index.html", "navBlog"),
         (title, None),
     ])
     html_str += f'''  <article class="blog-article">
@@ -754,30 +763,30 @@ def generate_vs_article(p1, p2, cat_id):
     pros1 = "\n".join(f"      <li>{h(x)}</li>" for x in p1.get("pros", []))
     cons1 = "\n".join(f"      <li>{h(x)}</li>" for x in p1.get("cons", []))
     body_parts.append(f'''    <div class="blog-pros-cons">
-      <div class="blog-pros"><h4>メリット</h4><ul>
+      <div class="blog-pros"><h4 data-i18n="blogMerit">メリット</h4><ul>
 {pros1}
       </ul></div>
-      <div class="blog-cons"><h4>デメリット</h4><ul>
+      <div class="blog-cons"><h4 data-i18n="blogDemerit">デメリット</h4><ul>
 {cons1}
       </ul></div>
     </div>''')
     aff1 = f'../go.html?id={p1["id"]}' if p1.get("affiliateUrl") else p1.get("officialUrl", "#")
-    body_parts.append(f'    <p><a href="{h(aff1)}" class="blog-cta" target="_blank" rel="noopener noreferrer nofollow">{h(p1["name"])}の公式サイトを見る</a> <a href="../review.html?id={p1["id"]}" class="blog-review-link">詳細レビュー</a></p>')
+    body_parts.append(f'    <p><a href="{h(aff1)}" class="blog-cta" target="_blank" rel="noopener noreferrer nofollow" data-i18n="blogVisitOfficial">公式サイトを見る</a> <a href="../review.html?id={p1["id"]}" class="blog-review-link" data-i18n="blogReadReview">詳細レビュー</a></p>')
 
     body_parts.append(f'    <h2 id="product-{p2["id"]}">{h(p2["name"])}の特徴</h2>')
     body_parts.append(f"    <p>{h(p2.get('description', p2.get('summary', '')))}</p>")
     pros2 = "\n".join(f"      <li>{h(x)}</li>" for x in p2.get("pros", []))
     cons2 = "\n".join(f"      <li>{h(x)}</li>" for x in p2.get("cons", []))
     body_parts.append(f'''    <div class="blog-pros-cons">
-      <div class="blog-pros"><h4>メリット</h4><ul>
+      <div class="blog-pros"><h4 data-i18n="blogMerit">メリット</h4><ul>
 {pros2}
       </ul></div>
-      <div class="blog-cons"><h4>デメリット</h4><ul>
+      <div class="blog-cons"><h4 data-i18n="blogDemerit">デメリット</h4><ul>
 {cons2}
       </ul></div>
     </div>''')
     aff2 = f'../go.html?id={p2["id"]}' if p2.get("affiliateUrl") else p2.get("officialUrl", "#")
-    body_parts.append(f'    <p><a href="{h(aff2)}" class="blog-cta" target="_blank" rel="noopener noreferrer nofollow">{h(p2["name"])}の公式サイトを見る</a> <a href="../review.html?id={p2["id"]}" class="blog-review-link">詳細レビュー</a></p>')
+    body_parts.append(f'    <p><a href="{h(aff2)}" class="blog-cta" target="_blank" rel="noopener noreferrer nofollow" data-i18n="blogVisitOfficial">公式サイトを見る</a> <a href="../review.html?id={p2["id"]}" class="blog-review-link" data-i18n="blogReadReview">詳細レビュー</a></p>')
 
     body_parts.append(f'    <h2 id="which">どちらを選ぶべき？</h2>')
     # Determine recommendation based on characteristics
@@ -810,8 +819,8 @@ def generate_vs_article(p1, p2, cat_id):
     ])
     html_str += header_html()
     html_str += breadcrumb_html([
-        ("ホーム", "../index.html"),
-        ("ブログ", "index.html"),
+        ("ホーム", "../index.html", "breadcrumbHome"),
+        ("ブログ", "index.html", "navBlog"),
         (title, None),
     ])
     html_str += f'''  <article class="blog-article">
@@ -861,7 +870,7 @@ def generate_ranking_article(products):
         rows.append(f'          <tr><td><strong>{i}</strong></td><td><strong>{h(p["name"])}</strong></td><td>{h(cat_name)}</td><td>{star_rating_html(p.get("rating", 0))}</td><td>{h(p.get("price", ""))}</td></tr>')
     body_parts.append(f'''    <div class="blog-comparison-table">
       <table>
-        <thead><tr><th>順位</th><th>ツール名</th><th>カテゴリ</th><th>評価</th><th>料金</th></tr></thead>
+        <thead><tr><th data-i18n="blogTableRank">順位</th><th data-i18n="blogTableTool">ツール名</th><th data-i18n="blogTableCategory">カテゴリ</th><th data-i18n="blogTableRating">評価</th><th data-i18n="blogTablePrice">料金</th></tr></thead>
         <tbody>
 {"\\n".join(rows)}
         </tbody>
@@ -884,14 +893,14 @@ def generate_ranking_article(products):
       <p class="blog-meta-cat" style="margin-bottom:8px;">{h(cat_name)}</p>
       <p>{h(p.get("description", p.get("summary", "")))}</p>
       <div class="blog-pros">
-        <h4>おすすめポイント</h4>
+        <h4 data-i18n="blogRecommendedPoints">おすすめポイント</h4>
         <ul>
 {pros}
         </ul>
       </div>
       <div class="blog-card-actions">
-        <a href="{h(aff)}" class="blog-cta" target="_blank" rel="noopener noreferrer nofollow">公式サイトを見る</a>
-        <a href="../review.html?id={p['id']}" class="blog-review-link">詳細レビューを読む &rarr;</a>
+        <a href="{h(aff)}" class="blog-cta" target="_blank" rel="noopener noreferrer nofollow" data-i18n="blogVisitOfficial">公式サイトを見る</a>
+        <a href="../review.html?id={p['id']}" class="blog-review-link" data-i18n="blogReadReview">詳細レビューを読む &rarr;</a>
       </div>
     </div>
 ''')
@@ -914,8 +923,8 @@ def generate_ranking_article(products):
     ])
     html_str += header_html()
     html_str += breadcrumb_html([
-        ("ホーム", "../index.html"),
-        ("ブログ", "index.html"),
+        ("ホーム", "../index.html", "breadcrumbHome"),
+        ("ブログ", "index.html", "navBlog"),
         (title, None),
     ])
     html_str += f'''  <article class="blog-article">
@@ -965,7 +974,7 @@ def generate_blog_index(articles):
 
     # Ranking first
     if ranking_arts:
-        cards_html_parts.append('    <h2>ランキング</h2>')
+        cards_html_parts.append('    <h2 data-i18n="blogSectionRanking">ランキング</h2>')
         cards_html_parts.append('    <div class="blog-card-grid">')
         for a in ranking_arts:
             cards_html_parts.append(article_card(a))
@@ -973,7 +982,7 @@ def generate_blog_index(articles):
 
     # Category roundups
     if roundups:
-        cards_html_parts.append(f'    <h2>カテゴリ別比較（{len(roundups)}記事）</h2>')
+        cards_html_parts.append(f'    <h2 data-i18n="blogSectionCategory">カテゴリ別比較</h2>')
         cards_html_parts.append('    <div class="blog-card-grid">')
         for a in sorted(roundups, key=lambda x: x["title"]):
             cards_html_parts.append(article_card(a))
@@ -981,7 +990,7 @@ def generate_blog_index(articles):
 
     # Free tools
     if free_arts:
-        cards_html_parts.append(f'    <h2>無料ツール特集（{len(free_arts)}記事）</h2>')
+        cards_html_parts.append(f'    <h2 data-i18n="blogSectionFree">無料ツール特集</h2>')
         cards_html_parts.append('    <div class="blog-card-grid">')
         for a in sorted(free_arts, key=lambda x: x["title"]):
             cards_html_parts.append(article_card(a))
@@ -989,7 +998,7 @@ def generate_blog_index(articles):
 
     # Tag articles
     if tag_arts:
-        cards_html_parts.append(f'    <h2>特集記事（{len(tag_arts)}記事）</h2>')
+        cards_html_parts.append(f'    <h2 data-i18n="blogSectionFeature">特集記事</h2>')
         cards_html_parts.append('    <div class="blog-card-grid">')
         for a in tag_arts:
             cards_html_parts.append(article_card(a))
@@ -997,7 +1006,7 @@ def generate_blog_index(articles):
 
     # VS articles
     if vs_arts:
-        cards_html_parts.append(f'    <h2>VS 比較（{len(vs_arts)}記事）</h2>')
+        cards_html_parts.append(f'    <h2 data-i18n="blogSectionVs">VS 比較</h2>')
         cards_html_parts.append('    <div class="blog-card-grid">')
         for a in sorted(vs_arts, key=lambda x: x["title"]):
             cards_html_parts.append(article_card(a))
@@ -1012,13 +1021,13 @@ def generate_blog_index(articles):
     ])
     html_str += header_html()
     html_str += breadcrumb_html([
-        ("ホーム", "../index.html"),
-        ("ブログ", None),
+        ("ホーム", "../index.html", "breadcrumbHome"),
+        ("ブログ", None, "navBlog"),
     ])
     html_str += f'''  <section class="blog-article">
     <div class="container">
-    <h1>ブログ記事一覧</h1>
-    <p class="blog-index-sub">ツールの比較・ランキング・特集記事を{total}本公開中。{YEAR}年の最新情報でお届けします。</p>
+    <h1 data-i18n="blogIndexTitle">ブログ記事一覧</h1>
+    <p class="blog-index-sub" data-i18n="blogIndexSub">ツールの比較・ランキング・特集記事を公開中。最新情報でお届けします。</p>
 
 {cards_html}
 
