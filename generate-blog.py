@@ -85,6 +85,13 @@ CATEGORY_ICONS = {
     "writing": "&#x270D;&#xFE0F;",
 }
 
+TAG_NAMES_EN = {
+    "japanese": "Japanese-Supported Tools",
+    "free": "Tools with Free Plans",
+    "api": "API-Ready Tools",
+    "nocard": "No Credit Card Required",
+}
+
 # Intro text per category for SEO
 CATEGORY_INTROS = {
     "server": "ウェブサイトやブログの運営に欠かせないレンタルサーバー。速度・安定性・料金・サポートなど、選ぶポイントは多岐にわたります。本記事では、{year}年現在おすすめのレンタルサーバーを厳選し、各サービスの特徴を徹底的に比較します。初心者からプロまで、あなたの用途に最適なサーバーが見つかるはずです。",
@@ -962,10 +969,14 @@ def generate_blog_index(articles):
     total = len(articles)
 
     def article_card(a):
+        title_ja = h(a["title"])
+        title_en = h(a.get("title_en", a["title"]))
+        desc_ja = h(a["desc"][:100])
+        desc_en = h(a.get("desc_en", a["desc"])[:100])
         return f'''      <a href="{h(a['filename'])}" class="blog-card">
         <div class="blog-card-tag">{h(a.get("tag_label", ""))}</div>
-        <h3 class="blog-card-title">{h(a["title"])}</h3>
-        <p class="blog-card-excerpt">{h(a["desc"][:100])}...</p>
+        <h3 class="blog-card-title" data-i18n-ja="{title_ja}" data-i18n-en="{title_en}">{title_ja}</h3>
+        <p class="blog-card-excerpt" data-i18n-ja="{desc_ja}..." data-i18n-en="{desc_en}...">{desc_ja}...</p>
         <span class="blog-card-meta">{h(a.get("product_count", ""))}</span>
       </a>
 '''
@@ -1060,6 +1071,7 @@ def main():
             filepath = os.path.join(BLOG_DIR, filename)
             with open(filepath, "w", encoding="utf-8") as f:
                 f.write(html_content)
+            cat_name_en = CATEGORY_NAMES_EN.get(cat_id, cat_id)
             articles.append({
                 "type": "roundup",
                 "filename": filename,
@@ -1067,6 +1079,8 @@ def main():
                 "desc": desc,
                 "tag_label": cat_name,
                 "product_count": f"{n}製品比較",
+                "title_en": f"Best {n} {cat_name_en} [{YEAR}] - Feature & Price Comparison",
+                "desc_en": f"Handpicked {n} {cat_name_en.lower()} for {YEAR}. Compare features, pricing, pros & cons.",
             })
             generated_files.append(filename)
             print(f"  {filename} ({n} products)")
@@ -1081,6 +1095,7 @@ def main():
             filepath = os.path.join(BLOG_DIR, filename)
             with open(filepath, "w", encoding="utf-8") as f:
                 f.write(html_content)
+            cat_name_en = CATEGORY_NAMES_EN.get(cat_id, cat_id)
             articles.append({
                 "type": "free",
                 "filename": filename,
@@ -1088,6 +1103,8 @@ def main():
                 "desc": desc,
                 "tag_label": f"無料 {cat_name}",
                 "product_count": f"{n}製品",
+                "title_en": f"Best {n} Free {cat_name_en} [{YEAR}]",
+                "desc_en": f"{n} {cat_name_en.lower()} with free plans or trials. Compare features, limits & paid upgrades.",
             })
             generated_files.append(filename)
             print(f"  {filename} ({n} free products)")
@@ -1107,6 +1124,7 @@ def main():
             filepath = os.path.join(BLOG_DIR, filename)
             with open(filepath, "w", encoding="utf-8") as f:
                 f.write(html_content)
+            tag_name_en = TAG_NAMES_EN.get(tag, tag_label)
             articles.append({
                 "type": "tag",
                 "filename": filename,
@@ -1114,6 +1132,8 @@ def main():
                 "desc": desc,
                 "tag_label": tag_label,
                 "product_count": f"{n}製品",
+                "title_en": f"{tag_name_en} - {n} Picks [{YEAR}]",
+                "desc_en": f"{n} {tag_name_en.lower()} curated for {YEAR}. Compare features and pricing.",
             })
             generated_files.append(filename)
             print(f"  {filename} ({n} products)")
@@ -1134,6 +1154,7 @@ def main():
                 filepath = os.path.join(BLOG_DIR, filename)
                 with open(filepath, "w", encoding="utf-8") as f:
                     f.write(html_content)
+                cat_name_en = CATEGORY_NAMES_EN.get(cat_id, cat_id)
                 articles.append({
                     "type": "vs",
                     "filename": filename,
@@ -1141,6 +1162,8 @@ def main():
                     "desc": desc,
                     "tag_label": f"VS比較 ({cat_name})",
                     "product_count": "2製品比較",
+                    "title_en": f"{p1['name']} vs {p2['name']} - Comparison [{YEAR}]",
+                    "desc_en": f"Compare {p1['name']} and {p2['name']} in {YEAR}. Features, pricing, pros & cons.",
                 })
                 generated_files.append(filename)
                 print(f"  {filename}")
@@ -1160,6 +1183,8 @@ def main():
             "desc": desc,
             "tag_label": "ランキング",
             "product_count": f"TOP{n}",
+            "title_en": f"Top {n} Business Tools Ranking [{YEAR}]",
+            "desc_en": f"Top {n} business tools for {YEAR}, ranked by rating across all categories.",
         })
         generated_files.append(filename)
         print(f"  {filename} (TOP{n})")
