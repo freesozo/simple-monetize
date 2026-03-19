@@ -387,7 +387,7 @@
       "tags": [
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "hetznervps",
@@ -810,7 +810,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "affinity-designer",
@@ -1372,7 +1372,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "stores",
@@ -1409,7 +1409,7 @@
         "free",
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "wrike",
@@ -2580,7 +2580,7 @@
       "featured": false,
       "region": "global",
       "tags": [],
-      "processed": false
+      "processed": true
     },
     {
       "id": "proton-pass",

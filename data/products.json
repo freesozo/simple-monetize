@@ -7130,6 +7130,189 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "id": "wpx-server",
+      "name": "wpX Speed",
+      "category": "server",
+      "summary": "WordPress特化の高速サーバー。エックスサーバー系列の専用環境。",
+      "description": "wpX Speedはエックスサーバー株式会社が提供するWordPress専用の高速レンタルサーバーです。WordPress運用に最適化された環境で、高速表示とセキュリティ対策が充実。オートスケール機能でアクセス急増時も安定稼働します。",
+      "rating": 4.2,
+      "price": "¥2.2/時間〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "WordPress特化で高速",
+        "オートスケール対応",
+        "エックスサーバー系列の安心感"
+      ],
+      "cons": [
+        "WordPress以外には使えない",
+        "従量課金で費用が読みにくい"
+      ],
+      "features": [
+        "WordPress専用最適化",
+        "オートスケール",
+        "無料SSL",
+        "自動バックアップ"
+      ],
+      "officialUrl": "https://www.wpx.ne.jp/speed/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "japanese"
+      ]
+    },
+    {
+      "id": "gumroad",
+      "name": "Gumroad",
+      "category": "ecommerce",
+      "summary": "クリエイター向けのデジタル商品販売プラットフォーム。手軽に販売開始。",
+      "description": "Gumroadは、クリエイターがデジタル商品（電子書籍、音楽、ソフトウェア、コースなど）を手軽に販売できるプラットフォームです。月額費用なしで始められ、売上発生時のみ手数料が発生するシンプルな料金体系。サブスクリプション販売やメンバーシップ機能にも対応しています。",
+      "rating": 4.2,
+      "price": "無料 (売上の10%手数料)",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "月額費用なしで始められる",
+        "デジタル商品販売に特化",
+        "サブスクリプション販売対応"
+      ],
+      "cons": [
+        "手数料10%はやや高め",
+        "日本語サポートなし"
+      ],
+      "features": [
+        "デジタル商品販売",
+        "サブスクリプション",
+        "メンバーシップ機能",
+        "アフィリエイトシステム",
+        "ワークフロー自動化"
+      ],
+      "officialUrl": "https://gumroad.com/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "framer-design",
+      "name": "Framer",
+      "category": "design",
+      "summary": "デザインから公開まで一気通貫のWebデザインツール。インタラクション作成に強い。",
+      "description": "Framerは、デザインから実際のWebサイト公開まで一貫して行えるデザインツールです。高度なインタラクションやアニメーションを直感的に作成でき、デザインしたものがそのままレスポンシブなWebサイトとして公開可能。CMSやフォーム機能も内蔵しています。",
+      "rating": 4.4,
+      "price": "無料〜$30/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "デザインからそのまま公開可能",
+        "高度なアニメーション作成",
+        "レスポンシブ対応"
+      ],
+      "cons": [
+        "学習コストがやや高い",
+        "複雑なサイトには不向き"
+      ],
+      "features": [
+        "ビジュアルデザイン",
+        "レスポンシブレイアウト",
+        "CMS内蔵",
+        "カスタムアニメーション",
+        "ワンクリック公開"
+      ],
+      "officialUrl": "https://www.framer.com/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "keeper",
+      "name": "Keeper",
+      "category": "password",
+      "summary": "エンタープライズ対応のパスワードマネージャー。高度なセキュリティ機能。",
+      "description": "Keeperは、個人からエンタープライズまで対応する高セキュリティのパスワードマネージャーです。ゼロ知識暗号化、BreachWatch（ダークウェブモニタリング）、セキュアファイルストレージなどの高度な機能を提供。SOC 2、ISO 27001認定も取得しています。",
+      "rating": 4.4,
+      "price": "$2.92/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "ゼロ知識暗号化",
+        "ダークウェブモニタリング",
+        "SOC 2/ISO 27001認定"
+      ],
+      "cons": [
+        "無料プランは1デバイスのみ",
+        "追加機能ごとに料金がかかる"
+      ],
+      "features": [
+        "パスワード管理",
+        "BreachWatch",
+        "セキュアファイルストレージ",
+        "パスキー対応",
+        "緊急アクセス"
+      ],
+      "officialUrl": "https://www.keepersecurity.com/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": []
+    },
+    {
+      "id": "stores",
+      "name": "STORES",
+      "category": "ecommerce",
+      "summary": "日本発の簡単ネットショップ作成サービス。決済・予約も一括管理。",
+      "description": "STORESは、日本発のネットショップ作成サービスです。ECサイト構築だけでなく、実店舗のPOSレジ、予約システム、決済サービスまで一括で提供。テンプレートを選ぶだけで美しいショップが完成し、初期費用無料で始められます。",
+      "rating": 4.3,
+      "price": "無料〜¥2,980/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "初期費用無料で始められる",
+        "EC＋実店舗を一括管理",
+        "日本語サポートが充実"
+      ],
+      "cons": [
+        "海外販売には不向き",
+        "デザインのカスタマイズに制限"
+      ],
+      "features": [
+        "ネットショップ作成",
+        "予約システム",
+        "POSレジ連携",
+        "STORES決済",
+        "インスタ連携"
+      ],
+      "officialUrl": "https://stores.jp/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ]
     }
   ]
 }
