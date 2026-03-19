@@ -70,7 +70,8 @@
         "free",
         "api"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "runway-ml",
@@ -1016,7 +1017,8 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true,
+      "failed": true
     },
     {
       "id": "muumuu-domain",
@@ -1086,7 +1088,7 @@
       "tags": [
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "gandi",
@@ -1585,7 +1587,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "miro",
@@ -1798,7 +1800,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "crowdstrike",
