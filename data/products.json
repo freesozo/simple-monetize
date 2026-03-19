@@ -6945,6 +6945,191 @@
         "planetscale",
         "neon"
       ]
+    },
+    {
+      "id": "wrike",
+      "name": "Wrike",
+      "category": "project",
+      "summary": "エンタープライズ向けプロジェクト管理。高度なカスタマイズとレポート機能。",
+      "description": "Wrikeは、エンタープライズ企業向けの高機能プロジェクト管理ツールです。ガントチャート、カンバンボード、タイムトラッキング、カスタムワークフローなど豊富な機能を備え、マーケティング、IT、製品開発など部門横断での利用に最適。400以上のアプリとの統合も可能です。",
+      "rating": 4.3,
+      "price": "無料〜$24.80/ユーザー/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "高度なカスタマイズ性",
+        "400以上のアプリ統合",
+        "詳細なレポート機能"
+      ],
+      "cons": [
+        "学習コストが高い",
+        "エンタープライズ価格がネック"
+      ],
+      "features": [
+        "ガントチャート",
+        "カンバンボード",
+        "タイムトラッキング",
+        "カスタムワークフロー",
+        "AIアシスタント"
+      ],
+      "officialUrl": "https://www.wrike.com/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "brevo",
+      "name": "Brevo (旧Sendinblue)",
+      "category": "marketing",
+      "summary": "オールインワンのデジタルマーケティングツール。メール・SMS・チャット対応。",
+      "description": "Brevo（旧Sendinblue）は、メールマーケティング、SMS、チャット、CRMを統合したオールインワンのデジタルマーケティングプラットフォームです。無料プランで1日300通のメール送信が可能で、中小企業のマーケティングを手頃な価格で支援します。",
+      "rating": 4.1,
+      "price": "無料〜$25/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料プランが充実",
+        "メール＋SMS＋チャット統合",
+        "手頃な料金設定"
+      ],
+      "cons": [
+        "無料版はBrevoロゴ表示",
+        "テンプレートのデザインがやや限定的"
+      ],
+      "features": [
+        "メールマーケティング",
+        "SMS配信",
+        "チャット機能",
+        "CRM",
+        "ランディングページ"
+      ],
+      "officialUrl": "https://www.brevo.com/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "bigcommerce",
+      "name": "BigCommerce",
+      "category": "ecommerce",
+      "summary": "スケーラブルなECプラットフォーム。中〜大規模ビジネス向け。",
+      "description": "BigCommerceは、中規模から大規模ビジネス向けのECプラットフォームです。SEO機能が標準で充実しており、マルチチャネル販売（Amazon、eBay、SNS連携）にも対応。API駆動のヘッドレスコマース機能で、カスタマイズ性の高いEC構築が可能です。",
+      "rating": 4.2,
+      "price": "$29/月〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "SEO機能が標準で充実",
+        "マルチチャネル販売対応",
+        "取引手数料0%"
+      ],
+      "cons": [
+        "月額売上制限がプランごとにある",
+        "テンプレートの種類が少なめ"
+      ],
+      "features": [
+        "マルチチャネル販売",
+        "ヘッドレスコマース",
+        "取引手数料0%",
+        "REST API対応",
+        "B2B機能"
+      ],
+      "officialUrl": "https://www.bigcommerce.com/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "api"
+      ]
+    },
+    {
+      "id": "paiza-learning",
+      "name": "paizaラーニング",
+      "category": "learning",
+      "summary": "動画と演習で学ぶプログラミング学習サービス。転職サポートも。",
+      "description": "paizaラーニングは、プログラミング学習と転職支援を一体化した日本のサービスです。動画講座と実践的なコーディング演習を組み合わせた学習スタイルで、Python、Java、PHP、Rubyなど多数の言語に対応。学習後はpaiza転職で実力をアピールしてIT企業への就職・転職が可能です。",
+      "rating": 4.1,
+      "price": "無料〜¥1,078/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "学習と転職が一体化",
+        "ブラウザ上でコーディング練習",
+        "無料コンテンツが豊富"
+      ],
+      "cons": [
+        "上級者向けコンテンツが少ない",
+        "転職は日本国内限定"
+      ],
+      "features": [
+        "動画+演習の学習スタイル",
+        "ブラウザ実行環境",
+        "スキルチェック",
+        "転職サポート連携"
+      ],
+      "officialUrl": "https://paiza.jp/works",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "jp",
+      "tags": [
+        "free",
+        "japanese"
+      ]
+    },
+    {
+      "id": "proton-pass",
+      "name": "Proton Pass",
+      "category": "password",
+      "summary": "Proton開発のオープンソースパスワードマネージャー。メールエイリアス機能付き。",
+      "description": "Proton Passは、ProtonMailやProtonVPNで知られるProtonが開発したオープンソースのパスワードマネージャーです。エンドツーエンド暗号化はもちろん、hide-my-emailエイリアス機能でメールアドレスの漏洩も防止。無料プランでも全デバイスで同期可能です。",
+      "rating": 4.2,
+      "price": "無料〜$3.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "オープンソースで透明性が高い",
+        "無料で全デバイス同期",
+        "メールエイリアス機能"
+      ],
+      "cons": [
+        "比較的新しいサービス",
+        "他社に比べ機能がまだ少ない"
+      ],
+      "features": [
+        "パスワード管理",
+        "hide-my-emailエイリアス",
+        "E2E暗号化",
+        "オープンソース",
+        "パスキー対応"
+      ],
+      "officialUrl": "https://proton.me/pass",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
     }
   ]
 }

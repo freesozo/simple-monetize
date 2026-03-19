@@ -193,11 +193,19 @@
   <url><loc>https://tools.freesozo.com/review.html?id=star-domain</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=kaspersky</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/review.html?id=loom</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://tools.freesozo.com/review.html?id=screaming-frog</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://tools.freesozo.com/review.html?id=gandi</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://tools.freesozo.com/review.html?id=carrd</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://tools.freesozo.com/review.html?id=sync-com</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
-  <url><loc>https://tools.freesozo.com/review.html?id=whereby</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=tally</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=excalidraw</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=pika</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=bolt-new</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=gamma</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=tldraw</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=n8n</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=supabase</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=wrike</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=brevo</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=bigcommerce</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=paiza-learning</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://tools.freesozo.com/review.html?id=proton-pass</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://tools.freesozo.com/blog/1password-vs-bitwarden.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/a8net-vs-hubspot.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/accounting-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
@@ -261,6 +269,7 @@
   <url><loc>https://tools.freesozo.com/blog/sitebuilder-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/slack-vs-google-workspace.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/stripe-vs-shopify.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://tools.freesozo.com/blog/vercel-vs-supabase.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/vercel-vs-webflow.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/video-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
   <url><loc>https://tools.freesozo.com/blog/vpn-tools-comparison.html</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>

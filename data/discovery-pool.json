@@ -704,7 +704,7 @@
         "free",
         "japanese"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "pluralsight",
@@ -1336,7 +1336,7 @@
       "tags": [
         "api"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "gumroad",
@@ -1445,7 +1445,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "backlog",
@@ -2510,7 +2510,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "nordpass",
@@ -2616,7 +2616,7 @@
       "tags": [
         "free"
       ],
-      "processed": false
+      "processed": true
     },
     {
       "id": "hemingway-editor",
