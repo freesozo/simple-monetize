@@ -16,8 +16,8 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 SITE_URL = "https://tools.freesozo.com"
 GENERATE_DATE = date.today().isoformat()
 YEAR = str(date.today().year)
-CSS_VERSION = "8"
-JS_VERSION = "8"
+CSS_VERSION = "11"
+JS_VERSION = "11"
 
 CATEGORY_NAMES = {
     "server": "レンタルサーバー",
