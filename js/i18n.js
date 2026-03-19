@@ -53,6 +53,7 @@ const I18n = (() => {
       // Personalized sections
       recentlyViewed: '最近チェックしたツール',
       favSection: '❤️ お気に入りツール',
+      hiddenGemHeading: '🔍 知る人ぞ知る便利ツール',
       // Theme
       lang: '🌐 English',
       // Quiz
@@ -242,6 +243,7 @@ const I18n = (() => {
       // Personalized sections
       recentlyViewed: 'Recently Viewed',
       favSection: '❤️ Your Favorites',
+      hiddenGemHeading: '🔍 Hidden Gem Tools',
       // Theme
       lang: '🌐 日本語',
       // Quiz

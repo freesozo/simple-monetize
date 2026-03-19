@@ -147,6 +147,7 @@
     renderRecentlyViewed();
     renderFavoritesHome();
     renderFeatured();
+    renderHiddenGems();
     filterProducts();
     initSearch();
     initFilters();
@@ -223,6 +224,23 @@
       return;
     }
     grid.innerHTML = featured.map(p => createProductCard(p, true)).join('');
+    if (fadeObserver) {
+      grid.querySelectorAll('.product-card').forEach(function(card, i) {
+        card.classList.add('fade-in-up');
+        card.style.transitionDelay = i * 0.05 + 's';
+        fadeObserver.observe(card);
+      });
+    }
+  }
+
+  function renderHiddenGems() {
+    const section = document.getElementById('hiddenGemSection');
+    const grid = document.getElementById('hiddenGemGrid');
+    if (!section || !grid) return;
+    const gems = products.filter(p => p.isHiddenGem && p.status === 'active');
+    if (gems.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = '';
+    grid.innerHTML = gems.map(p => createProductCard(p, false)).join('');
     if (fadeObserver) {
       grid.querySelectorAll('.product-card').forEach(function(card, i) {
         card.classList.add('fade-in-up');

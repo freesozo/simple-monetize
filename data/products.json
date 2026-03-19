@@ -882,7 +882,8 @@
       "region": "global",
       "tags": [
         "api"
-      ]
+      ],
+      "isHiddenGem": true
     },
     {
       "id": "midjourney",
@@ -5039,7 +5040,8 @@
       "tags": [
         "free",
         "api"
-      ]
+      ],
+      "isHiddenGem": true
     },
     {
       "id": "photoscape-x",
@@ -6530,183 +6532,418 @@
       ]
     },
     {
-      "id": "screaming-frog",
-      "name": "Screaming Frog SEO Spider",
-      "category": "seo",
-      "summary": "デスクトップ型のSEOクローラーツール。サイト全体を高速に解析。",
-      "description": "Screaming Frog SEO Spiderは、デスクトップ型のWebサイトクローラーツールです。サイト全体をクロールし、タイトルタグ、メタディスクリプション、リンク切れ、リダイレクト、構造化データなどのSEO問題を一括で検出します。無料版で500URLまで分析可能で、SEO専門家に愛用されています。",
-      "rating": 4.6,
-      "price": "無料〜£199/年",
-      "affiliateUrl": "",
-      "affiliateProvider": "",
-      "imageUrl": "",
-      "pros": [
-        "無料で500URLまで分析可能",
-        "詳細なSEO技術分析",
-        "デスクトップで高速処理"
-      ],
-      "cons": [
-        "UIがやや取っつきにくい",
-        "大規模サイトにはRAMが必要"
-      ],
-      "features": [
-        "サイトクロール",
-        "リンク切れ検出",
-        "構造化データ検証",
-        "XMLサイトマップ生成",
-        "GA/GSC統合"
-      ],
-      "officialUrl": "https://www.screamingfrog.co.uk/seo-spider/",
-      "lastChecked": "2026-03-19",
-      "dateAdded": "2026-03-19",
-      "status": "active",
-      "featured": false,
-      "region": "global",
-      "tags": [
-        "free"
-      ]
-    },
-    {
-      "id": "gandi",
-      "name": "Gandi",
-      "category": "domain",
-      "summary": "フランス発の老舗ドメインレジストラ。透明な料金設定と高いセキュリティ。",
-      "description": "Gandiは、2000年設立のフランスの老舗ドメインレジストラです。「No Bullshit」をモットーに透明な料金体系を採用し、隠れた費用がありません。Whoisプライバシー保護やSSL証明書も無料で付属。800以上のTLDに対応し、ビジネス向けのメールホスティングも提供しています。",
-      "rating": 4.2,
-      "price": "$14.94/年〜",
-      "affiliateUrl": "",
-      "affiliateProvider": "",
-      "imageUrl": "",
-      "pros": [
-        "透明な料金設定",
-        "Whoisプライバシー無料",
-        "800以上のTLD対応"
-      ],
-      "cons": [
-        "他社と比べてやや割高",
-        "日本語サポートなし"
-      ],
-      "features": [
-        "800+ TLD対応",
-        "Whoisプライバシー無料",
-        "SSL証明書付属",
-        "メールホスティング"
-      ],
-      "officialUrl": "https://www.gandi.net/",
-      "lastChecked": "2026-03-19",
-      "dateAdded": "2026-03-19",
-      "status": "active",
-      "featured": false,
-      "region": "global",
-      "tags": []
-    },
-    {
-      "id": "carrd",
-      "name": "Carrd",
+      "id": "tally",
+      "name": "Tally",
       "category": "sitebuilder",
-      "summary": "シンプルな1ページサイトビルダー。無料で美しいランディングページを作成。",
-      "description": "Carrdは、シンプルで美しい1ページのWebサイトを簡単に作成できるサイトビルダーです。ポートフォリオ、ランディングページ、プロフィールサイトなどに最適。無料プランで3サイトまで作成可能で、有料プランではカスタムドメインやフォーム機能が利用できます。",
-      "rating": 4.3,
-      "price": "無料〜$19/年",
+      "summary": "無料で使えるフォームビルダー。Notionライクな操作感で直感的にフォーム作成。",
+      "description": "Tallyは無料で無制限にフォームを作成できるオンラインフォームビルダーです。Notionのようなブロックエディタ方式で、アンケート、申し込みフォーム、クイズなどを直感的に構築可能。条件分岐やファイルアップロード、決済連携にも対応しており、Google FormsやTypeformの代替として注目されています。無料プランでも回答数無制限です。",
+      "rating": 4.5,
+      "price": "無料〜$29/月",
       "affiliateUrl": "",
-      "affiliateProvider": "",
+      "affiliateProvider": "none",
       "imageUrl": "",
       "pros": [
-        "非常にシンプルで使いやすい",
-        "無料で3サイト作成可能",
-        "有料プランが年$19と格安"
+        "無料で回答数無制限",
+        "Notionライクな直感的操作",
+        "条件分岐対応",
+        "デザインカスタマイズ可"
       ],
       "cons": [
-        "1ページサイトのみ",
-        "複雑なサイトには不向き"
+        "日本語UIがない",
+        "高度な分析はProプラン必要"
       ],
       "features": [
-        "ドラッグ&ドロップ編集",
-        "レスポンシブデザイン",
-        "カスタムドメイン (Pro)",
-        "フォーム・決済連携 (Pro)"
+        "ブロックエディタ",
+        "条件分岐",
+        "ファイルアップロード",
+        "Webhook連携"
       ],
-      "officialUrl": "https://carrd.co/",
+      "officialUrl": "https://tally.so/",
       "lastChecked": "2026-03-19",
-      "dateAdded": "2026-03-19",
       "status": "active",
       "featured": false,
       "region": "global",
+      "dateAdded": "2026-03-19",
       "tags": [
-        "free"
+        "free",
+        "nocard"
+      ],
+      "isHiddenGem": true,
+      "recommendedFor": "Google Formsでは物足りないが有料ツールには手を出したくない方",
+      "freeLimit": "無料プランで回答数無制限・フォーム数無制限。カスタムドメインはPro以上",
+      "freeFeatures": [
+        "フォーム数無制限",
+        "回答数無制限",
+        "条件分岐",
+        "ファイルアップロード"
+      ],
+      "alternatives": [
+        "google-forms",
+        "typeform",
+        "jotform"
       ]
     },
     {
-      "id": "sync-com",
-      "name": "Sync.com",
-      "category": "cloud",
-      "summary": "プライバシー重視のカナダ発クラウドストレージ。ゼロ知識暗号化。",
-      "description": "Sync.comは、カナダ拠点のプライバシー重視クラウドストレージサービスです。ゼロ知識暗号化により、サービス提供者でさえユーザーのファイルにアクセスできない設計。無料プランで5GBの容量が利用可能で、ビジネス向けのコンプライアンス機能も充実しています。",
-      "rating": 4.3,
-      "price": "無料〜$8/月",
+      "id": "excalidraw",
+      "name": "Excalidraw",
+      "category": "design",
+      "summary": "手書き風のオンラインホワイトボード。技術ドキュメントやブレスト図に最適。",
+      "description": "Excalidrawはブラウザで動作する手書き風のダイアグラム・ホワイトボードツールです。システム構成図やフローチャート、ワイヤーフレームを手描き風タッチで素早く作成可能。リアルタイム共同編集に対応し、エンジニアやデザイナーの技術ドキュメント作成に広く愛用されています。完全無料でオープンソースです。",
+      "rating": 4.6,
+      "price": "無料",
       "affiliateUrl": "",
-      "affiliateProvider": "",
+      "affiliateProvider": "none",
       "imageUrl": "",
       "pros": [
-        "ゼロ知識暗号化で高セキュリティ",
-        "カナダのプライバシー法で保護",
-        "無料5GBプラン"
+        "完全無料・オープンソース",
+        "手書き風の親しみやすいデザイン",
+        "リアルタイム共同編集",
+        "オフラインでも動作"
       ],
       "cons": [
-        "同期速度がやや遅い",
-        "サードパーティ連携が少ない"
+        "高度なダイアグラム機能は限定的",
+        "モバイル対応が弱い"
       ],
       "features": [
-        "ゼロ知識暗号化",
-        "ファイルバージョニング",
-        "リモートワイプ",
-        "2TB〜6TBプラン"
+        "手書き風描画",
+        "共同編集",
+        "ライブラリ機能",
+        "SVG/PNG書き出し"
       ],
-      "officialUrl": "https://www.sync.com/",
+      "officialUrl": "https://excalidraw.com/",
       "lastChecked": "2026-03-19",
-      "dateAdded": "2026-03-19",
       "status": "active",
       "featured": false,
       "region": "global",
+      "dateAdded": "2026-03-19",
       "tags": [
-        "free"
+        "free",
+        "nocard"
+      ],
+      "isHiddenGem": true,
+      "recommendedFor": "エンジニアやPMがサッと図を描いて共有したい場面に",
+      "freeLimit": "完全無料で全機能利用可",
+      "freeFeatures": [
+        "全描画機能",
+        "共同編集",
+        "エクスポート",
+        "ライブラリ"
+      ],
+      "alternatives": [
+        "tldraw",
+        "miro",
+        "figma"
       ]
     },
     {
-      "id": "whereby",
-      "name": "Whereby",
-      "category": "communication",
-      "summary": "ブラウザだけで使えるビデオ会議ツール。インストール不要。",
-      "description": "Wherebyは、ブラウザだけでビデオ会議が行えるシンプルなツールです。参加者のアプリインストールが不要で、URLを共有するだけで会議に参加可能。固定URLのミーティングルームを作成でき、繰り返しの会議に便利です。少人数チームに最適な手軽さが特徴です。",
-      "rating": 4.1,
-      "price": "無料〜$8.99/月",
+      "id": "pika",
+      "name": "Pika",
+      "category": "video",
+      "summary": "テキストや画像から動画を生成するAIツール。短尺動画の制作を大幅効率化。",
+      "description": "Pikaはテキストプロンプトや画像からAIで動画を生成できるツールです。SNS向け短尺動画やプロモーション映像の素案作成に最適。最新のPika 2.0では映像品質が大幅に向上し、リップシンクや動きの自然さも改善。無料プランでも毎月一定数の動画を生成でき、AI動画生成の入門として人気です。",
+      "rating": 4.3,
+      "price": "無料〜$58/月",
       "affiliateUrl": "",
-      "affiliateProvider": "",
+      "affiliateProvider": "none",
       "imageUrl": "",
       "pros": [
-        "アプリインストール不要",
-        "固定URL会議室",
-        "シンプルなUI"
+        "テキストから動画生成",
+        "直感的なUI",
+        "無料プランあり",
+        "Pika 2.0で品質向上"
       ],
       "cons": [
-        "大人数の会議には不向き",
-        "無料プランは100名まで"
+        "長尺動画は不向き",
+        "生成結果のバラつき"
       ],
       "features": [
-        "ブラウザベース会議",
-        "画面共有",
-        "録画機能",
-        "バーチャル背景",
-        "ブレイクアウトルーム"
+        "テキストから動画生成",
+        "画像から動画変換",
+        "スタイル指定",
+        "リップシンク"
       ],
-      "officialUrl": "https://whereby.com/",
+      "officialUrl": "https://pika.art/",
       "lastChecked": "2026-03-19",
-      "dateAdded": "2026-03-19",
       "status": "active",
       "featured": false,
       "region": "global",
+      "dateAdded": "2026-03-19",
       "tags": [
-        "free"
+        "free",
+        "nocard"
+      ],
+      "isHiddenGem": true,
+      "recommendedFor": "SNS動画やプロモーション映像を手軽にAIで作りたいクリエイター",
+      "freeLimit": "無料プランは月150クレジット（約10本の動画生成）",
+      "freeFeatures": [
+        "月150クレジット",
+        "基本的な動画生成",
+        "ウォーターマーク付き"
+      ],
+      "alternatives": [
+        "runway",
+        "sora",
+        "kling"
+      ]
+    },
+    {
+      "id": "bolt-new",
+      "name": "Bolt.new",
+      "category": "ai",
+      "summary": "AIでWebアプリを丸ごと生成。プロンプトだけでフルスタック開発が可能。",
+      "description": "Bolt.newはStackBlitzが開発したAIフルスタック開発ツールです。自然言語のプロンプトでReact、Next.js、Vueなどのアプリケーションを丸ごと生成し、ブラウザ上でリアルタイムにプレビュー・編集が可能。環境構築なしでプロトタイプからMVPまで素早く作れます。",
+      "rating": 4.4,
+      "price": "無料〜$20/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "none",
+      "imageUrl": "",
+      "pros": [
+        "プロンプトでアプリ生成",
+        "環境構築不要",
+        "ブラウザで完結",
+        "リアルタイムプレビュー"
+      ],
+      "cons": [
+        "複雑なアプリは手動修正必要",
+        "生成コードの品質にバラつき"
+      ],
+      "features": [
+        "AI全自動コーディング",
+        "ブラウザIDE",
+        "ワンクリックデプロイ",
+        "複数フレームワーク対応"
+      ],
+      "officialUrl": "https://bolt.new/",
+      "lastChecked": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-19",
+      "tags": [
+        "free",
+        "nocard"
+      ],
+      "isHiddenGem": true,
+      "recommendedFor": "アイデアを素早くプロトタイプ化したい起業家やPM",
+      "freeLimit": "無料プランはAIトークン使用量に制限あり",
+      "freeFeatures": [
+        "基本的なAI生成",
+        "ブラウザIDE",
+        "プレビュー機能"
+      ],
+      "alternatives": [
+        "cursor",
+        "replit",
+        "v0"
+      ]
+    },
+    {
+      "id": "gamma",
+      "name": "Gamma",
+      "category": "ai",
+      "summary": "AIでプレゼン資料を自動生成。テキストを入力するだけでスライド完成。",
+      "description": "GammaはAIを活用してプレゼンテーション、ドキュメント、Webページを自動生成するツールです。トピックやテキストを入力するだけで、デザイン済みのスライドが数秒で完成。従来のスライド作成と比べて制作時間を大幅に短縮できます。日本語にも対応。",
+      "rating": 4.4,
+      "price": "無料〜$15/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "none",
+      "imageUrl": "",
+      "pros": [
+        "AIで瞬時にスライド生成",
+        "美しいデザインテンプレート",
+        "日本語対応",
+        "Web公開可能"
+      ],
+      "cons": [
+        "細かいレイアウト調整が難しい",
+        "画像選択の精度にバラつき"
+      ],
+      "features": [
+        "AI自動生成",
+        "テンプレート",
+        "インタラクティブカード",
+        "Web公開"
+      ],
+      "officialUrl": "https://gamma.app/",
+      "lastChecked": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-19",
+      "tags": [
+        "free",
+        "japanese",
+        "nocard"
+      ],
+      "isHiddenGem": true,
+      "recommendedFor": "プレゼン資料を短時間で作りたいビジネスパーソンや学生",
+      "freeLimit": "無料プランは400 AIクレジット。月に約10件のプレゼン生成が可能",
+      "freeFeatures": [
+        "400 AIクレジット",
+        "テンプレート利用",
+        "Web公開",
+        "PDF書き出し"
+      ],
+      "alternatives": [
+        "canva-pro",
+        "slidesai",
+        "beautiful-ai"
+      ]
+    },
+    {
+      "id": "tldraw",
+      "name": "tldraw",
+      "category": "design",
+      "summary": "軽量なオンラインホワイトボード。シンプルで高速、共有もワンクリック。",
+      "description": "tldrawはブラウザベースの軽量ホワイトボード・ダイアグラムツールです。極めてシンプルなUIで、図形やテキスト、矢印を使ったダイアグラムをサッと描けます。URLを共有するだけでリアルタイム共同編集が可能。完全無料でオープンソース。",
+      "rating": 4.4,
+      "price": "無料",
+      "affiliateUrl": "",
+      "affiliateProvider": "none",
+      "imageUrl": "",
+      "pros": [
+        "完全無料・オープンソース",
+        "超軽量で高速",
+        "URL共有で即コラボ",
+        "Make Real AI機能"
+      ],
+      "cons": [
+        "機能はExcalidrawより少ない",
+        "ファイル管理機能なし"
+      ],
+      "features": [
+        "ホワイトボード",
+        "共同編集",
+        "SVG/PNG書き出し",
+        "Make Real（AI）"
+      ],
+      "officialUrl": "https://www.tldraw.com/",
+      "lastChecked": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-19",
+      "tags": [
+        "free",
+        "nocard"
+      ],
+      "isHiddenGem": true,
+      "recommendedFor": "ミーティング中にサッと図を描いて共有したいチーム",
+      "freeLimit": "完全無料で全機能利用可",
+      "freeFeatures": [
+        "全描画機能",
+        "共同編集",
+        "エクスポート",
+        "Make Real AI"
+      ],
+      "alternatives": [
+        "excalidraw",
+        "miro",
+        "figma"
+      ]
+    },
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "category": "project",
+      "summary": "オープンソースの自動化ツール。ノーコードでワークフローを構築。",
+      "description": "n8nはオープンソースのワークフロー自動化ツールです。ノーコードのビジュアルエディタで、400以上のアプリ・サービスを接続し業務を自動化できます。Zapierの代替として注目され、セルフホストなら完全無料。AI機能も統合されています。",
+      "rating": 4.5,
+      "price": "無料（セルフホスト）",
+      "affiliateUrl": "",
+      "affiliateProvider": "none",
+      "imageUrl": "",
+      "pros": [
+        "オープンソースで無料",
+        "400以上のアプリ連携",
+        "セルフホスト可能",
+        "AI統合"
+      ],
+      "cons": [
+        "セットアップに技術知識が必要",
+        "クラウド版は有料"
+      ],
+      "features": [
+        "ビジュアルワークフロー",
+        "400+連携",
+        "AI統合",
+        "セルフホスト"
+      ],
+      "officialUrl": "https://n8n.io/",
+      "lastChecked": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-19",
+      "tags": [
+        "free",
+        "api"
+      ],
+      "isHiddenGem": true,
+      "recommendedFor": "Zapierの代替を探している方、業務自動化を低コストで実現したいエンジニア",
+      "freeLimit": "セルフホストなら完全無料・無制限。クラウド版は月5,000実行まで無料",
+      "freeFeatures": [
+        "セルフホスト無制限",
+        "クラウド版5,000実行/月",
+        "全ノード利用可能"
+      ],
+      "alternatives": [
+        "zapier",
+        "make",
+        "dify"
+      ]
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "category": "sitebuilder",
+      "summary": "Firebase代替のオープンソースBaaS。PostgreSQLベースで本格的なバックエンド構築。",
+      "description": "SupabaseはFirebaseのオープンソース代替として急成長中のBaaS（Backend as a Service）です。PostgreSQLデータベース、認証、ストレージ、リアルタイム通信、Edge Functionsを統合提供。無料プランでも2プロジェクト・500MBストレージが利用可能です。",
+      "rating": 4.6,
+      "price": "無料〜$25/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "none",
+      "imageUrl": "",
+      "pros": [
+        "オープンソース",
+        "PostgreSQL対応",
+        "無料プラン充実",
+        "Firebase代替として最有力"
+      ],
+      "cons": [
+        "Firebaseほどドキュメントが豊富ではない",
+        "Edge Functions制限あり"
+      ],
+      "features": [
+        "PostgreSQL DB",
+        "認証",
+        "ストレージ",
+        "リアルタイム"
+      ],
+      "officialUrl": "https://supabase.com/",
+      "lastChecked": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "dateAdded": "2026-03-19",
+      "tags": [
+        "free",
+        "api",
+        "nocard"
+      ],
+      "isHiddenGem": true,
+      "recommendedFor": "Firebaseに不満があるフルスタック開発者、SQL好きなエンジニア",
+      "freeLimit": "無料プランは2プロジェクト、500MBデータベース、1GBストレージ",
+      "freeFeatures": [
+        "2プロジェクト",
+        "500MB DB",
+        "1GBストレージ",
+        "認証（MAU 50,000まで）"
+      ],
+      "alternatives": [
+        "firebase",
+        "planetscale",
+        "neon"
       ]
     }
   ]
