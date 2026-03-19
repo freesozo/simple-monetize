@@ -6528,6 +6528,186 @@
       "tags": [
         "free"
       ]
+    },
+    {
+      "id": "screaming-frog",
+      "name": "Screaming Frog SEO Spider",
+      "category": "seo",
+      "summary": "デスクトップ型のSEOクローラーツール。サイト全体を高速に解析。",
+      "description": "Screaming Frog SEO Spiderは、デスクトップ型のWebサイトクローラーツールです。サイト全体をクロールし、タイトルタグ、メタディスクリプション、リンク切れ、リダイレクト、構造化データなどのSEO問題を一括で検出します。無料版で500URLまで分析可能で、SEO専門家に愛用されています。",
+      "rating": 4.6,
+      "price": "無料〜£199/年",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "無料で500URLまで分析可能",
+        "詳細なSEO技術分析",
+        "デスクトップで高速処理"
+      ],
+      "cons": [
+        "UIがやや取っつきにくい",
+        "大規模サイトにはRAMが必要"
+      ],
+      "features": [
+        "サイトクロール",
+        "リンク切れ検出",
+        "構造化データ検証",
+        "XMLサイトマップ生成",
+        "GA/GSC統合"
+      ],
+      "officialUrl": "https://www.screamingfrog.co.uk/seo-spider/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "gandi",
+      "name": "Gandi",
+      "category": "domain",
+      "summary": "フランス発の老舗ドメインレジストラ。透明な料金設定と高いセキュリティ。",
+      "description": "Gandiは、2000年設立のフランスの老舗ドメインレジストラです。「No Bullshit」をモットーに透明な料金体系を採用し、隠れた費用がありません。Whoisプライバシー保護やSSL証明書も無料で付属。800以上のTLDに対応し、ビジネス向けのメールホスティングも提供しています。",
+      "rating": 4.2,
+      "price": "$14.94/年〜",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "透明な料金設定",
+        "Whoisプライバシー無料",
+        "800以上のTLD対応"
+      ],
+      "cons": [
+        "他社と比べてやや割高",
+        "日本語サポートなし"
+      ],
+      "features": [
+        "800+ TLD対応",
+        "Whoisプライバシー無料",
+        "SSL証明書付属",
+        "メールホスティング"
+      ],
+      "officialUrl": "https://www.gandi.net/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": []
+    },
+    {
+      "id": "carrd",
+      "name": "Carrd",
+      "category": "sitebuilder",
+      "summary": "シンプルな1ページサイトビルダー。無料で美しいランディングページを作成。",
+      "description": "Carrdは、シンプルで美しい1ページのWebサイトを簡単に作成できるサイトビルダーです。ポートフォリオ、ランディングページ、プロフィールサイトなどに最適。無料プランで3サイトまで作成可能で、有料プランではカスタムドメインやフォーム機能が利用できます。",
+      "rating": 4.3,
+      "price": "無料〜$19/年",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "非常にシンプルで使いやすい",
+        "無料で3サイト作成可能",
+        "有料プランが年$19と格安"
+      ],
+      "cons": [
+        "1ページサイトのみ",
+        "複雑なサイトには不向き"
+      ],
+      "features": [
+        "ドラッグ&ドロップ編集",
+        "レスポンシブデザイン",
+        "カスタムドメイン (Pro)",
+        "フォーム・決済連携 (Pro)"
+      ],
+      "officialUrl": "https://carrd.co/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "sync-com",
+      "name": "Sync.com",
+      "category": "cloud",
+      "summary": "プライバシー重視のカナダ発クラウドストレージ。ゼロ知識暗号化。",
+      "description": "Sync.comは、カナダ拠点のプライバシー重視クラウドストレージサービスです。ゼロ知識暗号化により、サービス提供者でさえユーザーのファイルにアクセスできない設計。無料プランで5GBの容量が利用可能で、ビジネス向けのコンプライアンス機能も充実しています。",
+      "rating": 4.3,
+      "price": "無料〜$8/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "ゼロ知識暗号化で高セキュリティ",
+        "カナダのプライバシー法で保護",
+        "無料5GBプラン"
+      ],
+      "cons": [
+        "同期速度がやや遅い",
+        "サードパーティ連携が少ない"
+      ],
+      "features": [
+        "ゼロ知識暗号化",
+        "ファイルバージョニング",
+        "リモートワイプ",
+        "2TB〜6TBプラン"
+      ],
+      "officialUrl": "https://www.sync.com/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
+    },
+    {
+      "id": "whereby",
+      "name": "Whereby",
+      "category": "communication",
+      "summary": "ブラウザだけで使えるビデオ会議ツール。インストール不要。",
+      "description": "Wherebyは、ブラウザだけでビデオ会議が行えるシンプルなツールです。参加者のアプリインストールが不要で、URLを共有するだけで会議に参加可能。固定URLのミーティングルームを作成でき、繰り返しの会議に便利です。少人数チームに最適な手軽さが特徴です。",
+      "rating": 4.1,
+      "price": "無料〜$8.99/月",
+      "affiliateUrl": "",
+      "affiliateProvider": "",
+      "imageUrl": "",
+      "pros": [
+        "アプリインストール不要",
+        "固定URL会議室",
+        "シンプルなUI"
+      ],
+      "cons": [
+        "大人数の会議には不向き",
+        "無料プランは100名まで"
+      ],
+      "features": [
+        "ブラウザベース会議",
+        "画面共有",
+        "録画機能",
+        "バーチャル背景",
+        "ブレイクアウトルーム"
+      ],
+      "officialUrl": "https://whereby.com/",
+      "lastChecked": "2026-03-19",
+      "dateAdded": "2026-03-19",
+      "status": "active",
+      "featured": false,
+      "region": "global",
+      "tags": [
+        "free"
+      ]
     }
   ]
 }
