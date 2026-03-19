@@ -512,6 +512,36 @@
     document.getElementById('reviewFeatures').innerHTML =
       product.features.map(f => '<li>' + escapeHtml(f) + '</li>').join('');
 
+    // Free Features
+    var freeFeatSection = document.getElementById('freeFeaturesSection');
+    if (freeFeatSection && (product.freeFeatures?.length || product.freeLimit)) {
+      freeFeatSection.style.display = '';
+      if (product.freeLimit) {
+        document.getElementById('freeLimitText').textContent = product.freeLimit;
+      }
+      if (product.freeFeatures?.length) {
+        document.getElementById('reviewFreeFeatures').innerHTML =
+          product.freeFeatures.map(f => '<li>' + escapeHtml(f) + '</li>').join('');
+      }
+    }
+
+    // Recommended For
+    var recoSection = document.getElementById('recommendedSection');
+    if (recoSection && product.recommendedFor) {
+      recoSection.style.display = '';
+      document.getElementById('reviewRecommendedFor').textContent = product.recommendedFor;
+    }
+
+    // Alternatives
+    var altSection = document.getElementById('alternativesSection');
+    if (altSection && product.alternatives?.length) {
+      var altProducts = product.alternatives.map(id => products.find(p => p.id === id)).filter(p => p && p.status === 'active');
+      if (altProducts.length > 0) {
+        altSection.style.display = '';
+        document.getElementById('alternativesGrid').innerHTML = altProducts.map(p => createProductCard(p, false)).join('');
+      }
+    }
+
     // CTA
     const affiliateLink = product.affiliateUrl || product.officialUrl;
     document.getElementById('ctaTitle').textContent = product.name + I18n.t('tryTool');
