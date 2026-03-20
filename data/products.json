@@ -362,7 +362,9 @@
       "region": "global",
       "tags": [
         "japanese"
-      ]
+      ],
+      "recommendedFor": "複数デバイスでVPNを使いたいコスパ重視のユーザー",
+      "freeLimit": "無料プランなし。30日間返金保証付き。2年プランで月額¥328〜"
     },
     {
       "id": "expressvpn",
@@ -398,7 +400,9 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "recommendedFor": "海外から日本のサービスを使いたい方、最速VPNを求める方",
+      "freeLimit": "無料プランなし。30日間返金保証付き"
     },
     {
       "id": "cyberghost",
@@ -712,6 +716,13 @@
         "free",
         "japanese",
         "nocard"
+      ],
+      "recommendedFor": "世界トップ大学の講座で体系的にスキルアップしたい社会人・学生",
+      "freeLimit": "多くの講座を無料で聴講可能（修了証は有料）。7日間の無料トライアルあり",
+      "freeFeatures": [
+        "講座の聴講（動画視聴）",
+        "一部の課題提出",
+        "コミュニティフォーラム"
       ]
     },
     {
@@ -883,7 +894,14 @@
       "tags": [
         "api"
       ],
-      "isHiddenGem": true
+      "isHiddenGem": true,
+      "recommendedFor": "調査・リサーチを効率化したい研究者・ライター・ビジネスパーソン",
+      "freeLimit": "無料プランで基本的なAI検索が利用可能。Pro版でGPT-4・Claude対応、1日300クエリ",
+      "freeFeatures": [
+        "AI検索（基本モデル）",
+        "出典表示",
+        "フォローアップ質問"
+      ]
     },
     {
       "id": "midjourney",
@@ -1013,6 +1031,13 @@
       "region": "global",
       "tags": [
         "api"
+      ],
+      "recommendedFor": "AIの力でコーディング速度を劇的に上げたいソフトウェアエンジニア",
+      "freeLimit": "無料プランでGPT-3.5ベースの補完が利用可能。Pro版($20/月)でGPT-4・Claude対応",
+      "freeFeatures": [
+        "AIコード補完（基本）",
+        "チャット機能",
+        "VS Code互換"
       ]
     },
     {
@@ -1457,7 +1482,9 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "recommendedFor": "ドメイン管理コストを最小限に抑えたい個人開発者・Web制作者",
+      "freeLimit": "ドメイン登録は有料のみ（原価提供）。Cloudflare DNS・CDNは無料で利用可能"
     },
     {
       "id": "onamae",
@@ -1827,7 +1854,9 @@
       "tags": [
         "japanese",
         "api"
-      ]
+      ],
+      "recommendedFor": "プログラミング不要でオンラインストアを開設したい事業者・個人",
+      "freeLimit": "無料プランなし。3日間の無料トライアル後、月$1で3ヶ月利用可能なキャンペーンあり"
     },
     {
       "id": "base-ec",
@@ -1940,7 +1969,9 @@
       "tags": [
         "japanese",
         "api"
-      ]
+      ],
+      "recommendedFor": "自社サービスにカスタム決済機能を組み込みたい開発者・スタートアップ",
+      "freeLimit": "初期費用・月額費用なし。決済ごとに手数料3.6%が発生"
     },
     {
       "id": "square",
@@ -2223,6 +2254,14 @@
         "free",
         "api",
         "nocard"
+      ],
+      "recommendedFor": "高速でモダンなプロジェクト管理ツールを求める開発チーム",
+      "freeLimit": "無料プランで250イシューまで管理可能。チームメンバー数無制限",
+      "freeFeatures": [
+        "250イシューまで",
+        "無制限メンバー",
+        "ロードマップ",
+        "サイクル管理"
       ]
     },
     {
@@ -2655,7 +2694,9 @@
       "region": "global",
       "tags": [
         "api"
-      ]
+      ],
+      "recommendedFor": "競合分析・被リンク調査を本格的に行いたいSEO担当者・マーケター",
+      "freeLimit": "Ahrefs Webmaster Toolsで自サイトの基本的なSEO分析が無料。有料版は$99/月〜"
     },
     {
       "id": "semrush",
@@ -2871,6 +2912,15 @@
       "region": "global",
       "tags": [
         "free"
+      ],
+      "recommendedFor": "プロ品質の動画編集・カラーグレーディングを無料で始めたいクリエイター",
+      "freeLimit": "無料版で編集・カラー・Fusion・Fairlightの主要機能を利用可能。4K編集対応。Studio版は一部高度機能のみ",
+      "freeFeatures": [
+        "動画編集（タイムライン）",
+        "カラーグレーディング",
+        "VFX（Fusion）",
+        "オーディオ編集（Fairlight）",
+        "4K書き出し"
       ]
     },
     {
@@ -3462,7 +3512,9 @@
       "tags": [
         "japanese",
         "api"
-      ]
+      ],
+      "recommendedFor": "家族やチームでパスワードを安全に共有・管理したい方",
+      "freeLimit": "無料プランなし。14日間の無料トライアルあり。個人$2.99/月〜"
     },
     {
       "id": "bitwarden",
@@ -3649,6 +3701,13 @@
       "tags": [
         "japanese",
         "api"
+      ],
+      "recommendedFor": "高品質な翻訳が必要なライター・翻訳者・グローバルビジネス担当者",
+      "freeLimit": "無料版で月5,000文字まで翻訳可能。ファイル翻訳は3ファイル/月まで。Pro版で制限解除",
+      "freeFeatures": [
+        "テキスト翻訳（5,000文字/月）",
+        "ファイル翻訳（3ファイル/月）",
+        "31言語対応"
       ]
     },
     {
@@ -4347,6 +4406,13 @@
       "tags": [
         "free",
         "api"
+      ],
+      "recommendedFor": "ナレーション・ポッドキャスト・動画にリアルなAI音声を使いたいクリエイター",
+      "freeLimit": "無料プランで月10,000文字まで音声生成可能。3つのカスタムボイスまで作成可能",
+      "freeFeatures": [
+        "月10,000文字の音声生成",
+        "29言語対応",
+        "カスタムボイス3つ"
       ]
     },
     {
@@ -4418,7 +4484,9 @@
       "status": "active",
       "featured": false,
       "region": "global",
-      "tags": []
+      "tags": [],
+      "recommendedFor": "Illustratorの代替を探しているグラフィックデザイナー・イラストレーター",
+      "freeLimit": "無料プランなし。$69.99の買い切りでサブスク不要。30日間無料トライアルあり"
     },
     {
       "id": "miro",
@@ -5626,7 +5694,14 @@
       "status": "active",
       "featured": false,
       "region": "global",
-      "tags": []
+      "tags": [],
+      "recommendedFor": "PC・スマホを包括的に保護したい個人ユーザー・家族",
+      "freeLimit": "無料版（Bitdefender Free）でWindows向け基本的なウイルス対策が利用可能",
+      "freeFeatures": [
+        "リアルタイムウイルス対策",
+        "フィッシング防止",
+        "Web保護"
+      ]
     },
     {
       "id": "pia-vpn",
@@ -5768,7 +5843,9 @@
       "status": "active",
       "featured": false,
       "region": "global",
-      "tags": []
+      "tags": [],
+      "recommendedFor": "Photoshopの代替を探している写真家・デザイナー",
+      "freeLimit": "無料プランなし。$69.99の買い切りでサブスク不要。30日間無料トライアルあり"
     },
     {
       "id": "tresorit",

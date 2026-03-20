@@ -285,6 +285,17 @@ def generate_category_page(cat_id, products):
 {cards}
       </div>
 
+      <h2 style="font-size:1.1rem;margin:32px 0 12px">{emoji} {h(cat_ja)}に関する記事</h2>
+      <ul style="line-height:1.8;margin-bottom:24px">
+        <li><a href="../blog/{cat_id}-tools-comparison.html">{h(cat_ja)}おすすめ比較【{YEAR}年版】</a></li>
+        <li><a href="../blog/free-{cat_id}-tools.html">無料で使える{h(cat_ja)}まとめ</a></li>
+        <li><a href="../blog/best-tools-ranking.html">ビジネスツールおすすめランキングTOP20</a></li>
+      </ul>
+
+      <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:24px">
+        <p>📦 <strong>フリー素材を探すなら →</strong> <a href="https://freesozo.com/" target="_blank" rel="noopener">フリー素材ポータル</a> — 写真・イラスト・音楽など221サイト以上を比較</p>
+      </div>
+
       <h2 style="font-size:1.1rem;margin:32px 0 12px">他のカテゴリ</h2>
       <div style="display:flex;flex-wrap:wrap;gap:8px">
 {other_cats}
@@ -412,6 +423,10 @@ def generate_tool_page(product, all_products, by_cat):
 
         <a href="../category/{h(cat_id)}.html" class="btn btn-outline" style="margin-bottom:24px">{emoji} {h(cat_ja)}一覧に戻る</a>
 {related_html}
+
+        <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-top:24px">
+          <p>📦 <strong>デザインに使えるフリー素材はこちら →</strong> <a href="https://freesozo.com/" target="_blank" rel="noopener">フリー素材ポータル</a></p>
+        </div>
       </div>
     </section>'''
 
