@@ -235,7 +235,7 @@ def breadcrumb_jsonld(crumbs):
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-{",\\n".join(items)}
+{",\n".join(items)}
     ]
   }}
   </script>
@@ -417,7 +417,7 @@ def comparison_table_html(products, columns=None):
           <tr>{header_cells}</tr>
         </thead>
         <tbody>
-{"\\n".join(rows)}
+{"\n".join(rows)}
         </tbody>
       </table>
     </div>
@@ -444,7 +444,7 @@ def vs_table_html(p1, p2):
           <tr><th data-i18n="blogTableComparison">比較項目</th><th>{h(p1["name"])}</th><th>{h(p2["name"])}</th></tr>
         </thead>
         <tbody>
-{"\\n".join(rows)}
+{"\n".join(rows)}
         </tbody>
       </table>
     </div>
@@ -879,7 +879,7 @@ def generate_ranking_article(products):
       <table>
         <thead><tr><th data-i18n="blogTableRank">順位</th><th data-i18n="blogTableTool">ツール名</th><th data-i18n="blogTableCategory">カテゴリ</th><th data-i18n="blogTableRating">評価</th><th data-i18n="blogTablePrice">料金</th></tr></thead>
         <tbody>
-{"\\n".join(rows)}
+{"\n".join(rows)}
         </tbody>
       </table>
     </div>
