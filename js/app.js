@@ -300,6 +300,16 @@
     }
   }
 
+  function formatVerifiedDate(dateStr) {
+    if (!dateStr) return I18n.t('verifiedDefault');
+    const d = new Date(dateStr);
+    if (I18n.getLang() === 'en') {
+      const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+      return I18n.t('verifiedPrefix') + months[d.getMonth()] + ' ' + d.getFullYear();
+    }
+    return I18n.t('verifiedPrefix') + d.getFullYear() + '年' + (d.getMonth() + 1) + '月 ' + I18n.t('verifiedSuffix');
+  }
+
   function createProductCard(product, isFeatured) {
     const catName = getCategoryName(product.category);
     const isNew = product.dateAdded && (Date.now() - new Date(product.dateAdded).getTime()) < 30 * 86400000;
@@ -320,6 +330,7 @@
           </div>
           <h3 class="card-title">${escapeHtml(product.name)}</h3>
           <p class="card-summary">${escapeHtml(I18n.getLang() === 'en' ? (product.summaryEn || product.summary) : product.summary)}</p>
+          ${product.recommendedFor ? `<p class="card-recommended">${I18n.t('recommendedForLabel')} ${escapeHtml(product.recommendedFor)}</p>` : ''}
           <div class="card-meta">
             <span class="card-rating">${stars} ${product.rating}</span>
             <span class="card-price">${escapeHtml(product.price)}</span>
@@ -328,6 +339,7 @@
             <a href="review.html?id=${product.id}" class="btn btn-outline">${I18n.t('viewDetail')}</a>
             <a href="${escapeHtml(affiliateLink)}" class="btn btn-primary" target="_blank" rel="noopener noreferrer nofollow" onclick="trackClick('${product.id}')">${I18n.t('visitOfficial')}</a>
           </div>
+          <span class="card-verified">${formatVerifiedDate(product.lastChecked)}</span>
         </div>
       </div>`;
   }
@@ -523,6 +535,12 @@
         document.getElementById('reviewFreeFeatures').innerHTML =
           product.freeFeatures.map(f => '<li>' + escapeHtml(f) + '</li>').join('');
       }
+    }
+
+    // Verified date
+    var verifiedEl = document.getElementById('reviewVerified');
+    if (verifiedEl) {
+      verifiedEl.textContent = I18n.t('lastVerifiedLabel') + ' ' + formatVerifiedDate(product.lastChecked);
     }
 
     // Recommended For
