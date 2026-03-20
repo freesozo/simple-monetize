@@ -111,6 +111,11 @@ jobs:
           echo "=== Regenerating blog articles ==="
           python3 generate-blog.py
 
+      - name: Generate static pages (SSG)
+        run: |
+          echo "=== Generating static category + tool pages ==="
+          python3 generate-pages.py
+
       - name: Regenerate sitemap (with blog)
         run: |
           python3 << 'PYEOF'

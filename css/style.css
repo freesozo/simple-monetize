@@ -1105,3 +1105,9 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
 }
 .sister-banner a { color: var(--primary); text-decoration: underline; }
 [data-theme="dark"] .sister-banner { background: var(--bg-secondary, #1e293b); }
+
+/* SSG tools */
+.breadcrumb a { color: var(--primary); }
+.breadcrumb span { color: var(--text-muted); }
+.product-card .card-title a { color: inherit; text-decoration: none; }
+.product-card .card-title a:hover { color: var(--primary); }
