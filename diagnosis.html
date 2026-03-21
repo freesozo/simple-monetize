@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AIツール診断｜あなたに最適なAIツールを5問で発見 | ツール比較ナビ</title>
+  <meta name="description" content="5つの質問に答えるだけで、あなたに最適なAIツールが見つかる診断ツール。ChatGPT・Claude・Midjourney・Cursor等20種以上のAIツールから最適な3つを提案。">
+  <meta name="theme-color" content="#1a1a2e">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.json">
+  <link rel="canonical" href="https://tools.freesozo.com/diagnosis.html">
+  <meta property="og:title" content="AIツール診断｜あなたに最適なAIツールを5問で発見">
+  <meta property="og:description" content="5つの質問に答えるだけ。20以上のAIツールからあなたに最適な3つを提案します。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tools.freesozo.com/diagnosis.html">
+  <meta property="og:image" content="https://tools.freesozo.com/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "AIツール診断",
+    "description": "5つの質問に答えるだけで最適なAIツールが見つかる診断ツール",
+    "url": "https://tools.freesozo.com/diagnosis.html",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "All",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "JPY" }
+  }
+  </script>
+  <script>(function(){var t=localStorage.getItem('theme');if(!t)t=window.matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=11">
+  <style>
+    .diag-hero { text-align: center; padding: 80px 0 40px; }
+    .diag-hero h1 { font-family: var(--font-display, 'Noto Serif JP', serif); font-size: 2rem; font-weight: 900; margin-bottom: 12px; }
+    .diag-hero p { color: var(--text-muted, #666); font-size: 1rem; margin-bottom: 32px; max-width: 500px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+    .diag-hero-icon { font-size: 3.5rem; margin-bottom: 16px; display: block; }
+    .diag-start-btn { display: inline-flex; align-items: center; gap: 8px; padding: 16px 40px; background: var(--primary, #6c63ff); color: #fff; border: none; border-radius: 999px; font-size: 1.1rem; font-weight: 700; cursor: pointer; transition: transform .2s, box-shadow .2s; }
+    .diag-start-btn:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,0,0,.15); }
+
+    .diag-progress { display: flex; align-items: center; justify-content: center; gap: 6px; margin-bottom: 32px; }
+    .diag-step { width: 36px; height: 36px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: .8rem; font-weight: 700; background: var(--bg-card, #fff); border: 2px solid var(--border, #e0e0e0); color: var(--text-muted, #666); transition: all .3s; flex-shrink: 0; }
+    .diag-step.active { background: var(--primary, #6c63ff); border-color: var(--primary); color: #fff; }
+    .diag-step.done { background: #10b981; border-color: #10b981; color: #fff; }
+    .diag-step-line { width: 20px; height: 2px; background: var(--border, #e0e0e0); flex-shrink: 0; }
+
+    .diag-question { text-align: center; max-width: 700px; margin: 0 auto; padding: 20px 0 60px; animation: diagIn .4s ease; }
+    @keyframes diagIn { from { opacity: 0; transform: translateX(40px); } to { opacity: 1; transform: translateX(0); } }
+    .diag-question h2 { font-size: 1.4rem; font-weight: 800; margin-bottom: 8px; }
+    .diag-question .diag-q-sub { color: var(--text-muted, #666); margin-bottom: 24px; font-size: .9rem; }
+    .diag-options { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px; }
+    .diag-option { display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 20px 14px; background: var(--bg-card, #fff); border: 2px solid var(--border, #e0e0e0); border-radius: 12px; cursor: pointer; transition: all .2s; text-align: center; }
+    .diag-option:hover { border-color: var(--primary, #6c63ff); transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,.08); }
+    .diag-option-icon { font-size: 2rem; }
+    .diag-option-text { font-weight: 600; font-size: .92rem; }
+    .diag-option-desc { font-size: .78rem; color: var(--text-muted, #666); line-height: 1.4; }
+    .diag-back { display: inline-block; margin-top: 20px; background: none; border: none; color: var(--text-muted, #666); font-size: .9rem; cursor: pointer; padding: 6px 12px; }
+    .diag-back:hover { color: var(--primary, #6c63ff); }
+
+    .diag-results { max-width: 700px; margin: 0 auto; padding: 20px 0 60px; animation: diagIn .4s ease; }
+    .diag-results h2 { text-align: center; font-size: 1.5rem; font-weight: 800; margin-bottom: 32px; }
+    .diag-result-card { background: var(--bg-card, #fff); border: 2px solid var(--border, #e0e0e0); border-radius: 16px; padding: 24px; margin-bottom: 16px; position: relative; }
+    .diag-result-card.first { border-color: #f59e0b; box-shadow: 0 4px 24px rgba(245,158,11,.12); }
+    .diag-rank { position: absolute; top: -12px; left: 20px; background: linear-gradient(135deg, #f59e0b, #ef4444); color: #fff; font-size: .75rem; font-weight: 700; padding: 3px 14px; border-radius: 999px; }
+    .diag-rank.r2 { background: linear-gradient(135deg, #94a3b8, #64748b); }
+    .diag-rank.r3 { background: linear-gradient(135deg, #b45309, #92400e); }
+    .diag-result-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 8px; margin-bottom: 8px; }
+    .diag-result-name { font-family: var(--font-display, 'Noto Serif JP', serif); font-size: 1.25rem; font-weight: 800; }
+    .diag-result-score { font-size: .82rem; color: var(--primary, #6c63ff); font-weight: 600; background: rgba(108,99,255,.08); padding: 4px 12px; border-radius: 999px; }
+    .diag-result-price { font-size: .85rem; color: var(--text-muted, #666); margin-bottom: 8px; }
+    .diag-result-desc { font-size: .88rem; color: var(--text-muted, #666); line-height: 1.6; margin-bottom: 12px; }
+    .diag-result-reason { background: var(--bg-hover, rgba(0,0,0,.03)); padding: 12px 16px; border-radius: 8px; font-size: .85rem; line-height: 1.6; margin-bottom: 14px; }
+    .diag-result-reason strong { color: var(--primary, #6c63ff); }
+    .diag-result-link { display: inline-flex; align-items: center; gap: 4px; color: var(--primary, #6c63ff); font-weight: 600; font-size: .9rem; text-decoration: none; }
+    .diag-result-link:hover { text-decoration: underline; }
+    .diag-actions { text-align: center; margin-top: 32px; display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+    .diag-retry-btn { padding: 12px 32px; background: var(--primary, #6c63ff); color: #fff; border: none; border-radius: 999px; font-weight: 600; font-size: .95rem; cursor: pointer; transition: opacity .2s; }
+    .diag-retry-btn:hover { opacity: .85; }
+    .diag-share-btn { padding: 12px 32px; background: var(--bg-card, #fff); color: var(--text-primary, #222); border: 1px solid var(--border, #e0e0e0); border-radius: 999px; font-weight: 600; font-size: .95rem; cursor: pointer; transition: all .2s; }
+    .diag-share-btn:hover { border-color: var(--primary); color: var(--primary); }
+    .diag-toast { position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%); background: #333; color: #fff; padding: 10px 24px; border-radius: 999px; font-size: .85rem; opacity: 0; transition: opacity .3s; z-index: 1000; pointer-events: none; }
+    .diag-toast.show { opacity: 1; }
+    @media (max-width: 480px) { .diag-hero h1 { font-size: 1.5rem; } .diag-options { grid-template-columns: 1fr; } .diag-result-name { font-size: 1.1rem; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="site-logo"><span data-i18n="logoPrefix">ツール比較</span><span data-i18n="logoSuffix">ナビ</span></a>
+      <nav class="header-nav">
+        <a href="index.html" data-i18n="navHome">ホーム</a>
+        <a href="index.html#categories" data-i18n="navCategory">カテゴリ</a>
+        <a href="diagnosis.html" style="color:var(--primary);font-weight:700;">🤖 AI診断</a>
+        <a href="blog/" data-i18n="navBlog">ブログ</a>
+        <a href="about.html" data-i18n="aboutNav">サイトについて</a>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
+        <button class="lang-btn" id="langBtn" data-i18n="lang">🌐 English</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container" id="diagApp"></main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-links">
+        <a href="index.html" data-i18n="footerHome">ホーム</a>
+        <a href="blog/" data-i18n="navBlog">ブログ</a>
+        <a href="about.html" data-i18n="aboutNav">サイトについて</a>
+        <a href="privacy.html" data-i18n="footerPrivacy">プライバシーポリシー</a>
+      </div>
+      <p class="sister-site"><span data-i18n="footerSister">姉妹サイト:</span> <a href="https://freesozo.com/" target="_blank" rel="noopener" data-i18n="footerSisterName">フリー素材ポータル</a></p>
+      <p data-i18n="footerCopyright">© 2026 おすすめツール比較ナビ</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop">↑</button>
+  <div class="diag-toast" id="diagToast"></div>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YL05931NPE"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YL05931NPE');</script>
+  <script src="js/i18n.js?v=11"></script>
+  <script>
+  (function() {
+    'use strict';
+
+    // ── i18n ──
+    const T = {
+      ja: {
+        heroIcon: '🤖',
+        heroTitle: 'あなたにぴったりのAIツールを見つけよう',
+        heroSub: '5つの質問に答えるだけ。20以上のAIツールからあなたに最適な3つを提案します。',
+        startBtn: '🚀 診断スタート',
+        q1: '何をしたいですか？', q1sub: '一番やりたいことを選んでください',
+        q1a: '✍️', q1aText: '文章を書く', q1aDesc: 'ブログ、メール、レポート',
+        q1b: '🎨', q1bText: '画像を作る', q1bDesc: 'イラスト、写真、デザイン',
+        q1c: '💻', q1cText: 'コードを書く', q1cDesc: 'Web開発、アプリ、自動化',
+        q1d: '🎬', q1dText: '動画を作る', q1dDesc: '編集、字幕、エフェクト',
+        q1e: '📚', q1eText: '学習・リサーチ', q1eDesc: '調査、要約、翻訳',
+        q2: '予算は？', q2sub: '月額の目安を教えてください',
+        q2a: '🆓', q2aText: '完全無料がいい', q2b: '💰', q2bText: '月1,000円以内',
+        q2c: '💳', q2cText: '月5,000円以内', q2d: '💎', q2dText: '予算は気にしない',
+        q3: '日本語対応は重要？', q3sub: '',
+        q3a: '🇯🇵', q3aText: '必須', q3aDesc: '日本語メインで使いたい',
+        q3b: '🌏', q3bText: 'あれば嬉しい', q3bDesc: '',
+        q3c: '🌐', q3cText: '英語でOK', q3cDesc: '',
+        q4: '使う頻度は？', q4sub: '',
+        q4a: '📅', q4aText: '毎日使う', q4b: '📆', q4bText: '週に数回', q4c: '🗓️', q4cText: 'たまに使う程度',
+        q5: '技術レベルは？', q5sub: '',
+        q5a: '🌱', q5aText: '初心者', q5aDesc: 'AIツール初めて',
+        q5b: '🌿', q5bText: '中級者', q5bDesc: 'いくつか使ったことある',
+        q5c: '🌳', q5cText: '上級者', q5cDesc: 'API連携や自動化もやりたい',
+        resultTitle: '🎯 あなたにおすすめのAIツール',
+        rank1: '🥇 1位', rank2: '🥈 2位', rank3: '🥉 3位',
+        matchLabel: 'マッチ度',
+        reasonLabel: '💡 おすすめ理由',
+        detailLink: '詳しく見る →',
+        retryBtn: 'もう一度診断する',
+        shareBtn: '結果をシェア',
+        copiedMsg: 'URLをコピーしました！',
+        back: '← 戻る',
+      },
+      en: {
+        heroIcon: '🤖',
+        heroTitle: 'Find Your Perfect AI Tool',
+        heroSub: 'Answer 5 quick questions. We\'ll recommend the top 3 AI tools for you from 20+ options.',
+        startBtn: '🚀 Start Diagnosis',
+        q1: 'What do you want to do?', q1sub: 'Pick your primary goal',
+        q1a: '✍️', q1aText: 'Write content', q1aDesc: 'Blog, email, reports',
+        q1b: '🎨', q1bText: 'Create images', q1bDesc: 'Illustration, photos, design',
+        q1c: '💻', q1cText: 'Write code', q1cDesc: 'Web dev, apps, automation',
+        q1d: '🎬', q1dText: 'Create videos', q1dDesc: 'Editing, subtitles, effects',
+        q1e: '📚', q1eText: 'Learn & Research', q1eDesc: 'Research, summaries, translation',
+        q2: 'What\'s your budget?', q2sub: 'Monthly spending estimate',
+        q2a: '🆓', q2aText: 'Free only', q2b: '💰', q2bText: 'Under $10/mo',
+        q2c: '💳', q2cText: 'Under $40/mo', q2d: '💎', q2dText: 'No limit',
+        q3: 'Is Japanese support important?', q3sub: '',
+        q3a: '🇯🇵', q3aText: 'Required', q3aDesc: 'I mainly use Japanese',
+        q3b: '🌏', q3bText: 'Nice to have', q3bDesc: '',
+        q3c: '🌐', q3cText: 'English is fine', q3cDesc: '',
+        q4: 'How often will you use it?', q4sub: '',
+        q4a: '📅', q4aText: 'Daily', q4b: '📆', q4bText: 'A few times/week', q4c: '🗓️', q4cText: 'Occasionally',
+        q5: 'Your tech level?', q5sub: '',
+        q5a: '🌱', q5aText: 'Beginner', q5aDesc: 'New to AI tools',
+        q5b: '🌿', q5bText: 'Intermediate', q5bDesc: 'Used some before',
+        q5c: '🌳', q5cText: 'Advanced', q5cDesc: 'API integrations & automation',
+        resultTitle: '🎯 Your Recommended AI Tools',
+        rank1: '🥇 #1', rank2: '🥈 #2', rank3: '🥉 #3',
+        matchLabel: 'Match',
+        reasonLabel: '💡 Why this tool',
+        detailLink: 'View Details →',
+        retryBtn: 'Try Again',
+        shareBtn: 'Share Results',
+        copiedMsg: 'URL copied!',
+        back: '← Back',
+      }
+    };
+
+    function t(key) { const lang = I18n.getLang(); return (T[lang] && T[lang][key]) || T.ja[key] || key; }
+
+    // ── Scoring config ──
+    const PURPOSE_MAP = {
+      writing: ['chatgpt-plus','claude-pro','gemini-advanced','notion-ai','jasper-ai','copy-ai','writesonic','deepl','perplexity-pro'],
+      image: ['midjourney','stable-diffusion','canva-ai','runway-ml','gamma'],
+      code: ['cursor','github-copilot','claude-pro','chatgpt-plus','bolt-new','dify'],
+      video: ['runway-ml','elevenlabs','canva-ai','gamma'],
+      research: ['perplexity-pro','claude-pro','chatgpt-plus','gemini-advanced','deepl','notion-ai']
+    };
+    const PRICE_YEN = {
+      'chatgpt-plus':3000,'claude-pro':3000,'midjourney':1500,'cursor':3000,'elevenlabs':750,
+      'perplexity-pro':3000,'github-copilot':1500,'deepl':1300,'stable-diffusion':0,'canva-ai':1500,
+      'gemini-advanced':2900,'notion-ai':1500,'dify':0,'bolt-new':0,'gamma':0,'runway-ml':0,
+      'jasper-ai':5850,'copy-ai':0,'sakura-cloud-gpu':3000,'writesonic':0
+    };
+    const BEGINNER = new Set(['chatgpt-plus','claude-pro','gemini-advanced','canva-ai','deepl','perplexity-pro','notion-ai','gamma','copy-ai','writesonic']);
+    const ADVANCED = new Set(['cursor','github-copilot','dify','stable-diffusion','bolt-new','sakura-cloud-gpu']);
+
+    function scoreProduct(p, ans) {
+      let s = 0;
+      // Q1: Purpose (0-15)
+      if ((PURPOSE_MAP[ans.q1] || []).includes(p.id)) s += 15;
+      // Q2: Budget (0-10)
+      const hasFree = p.tags?.includes('free');
+      const yen = PRICE_YEN[p.id] ?? 9999;
+      if (ans.q2 === 'free') s += hasFree ? 10 : (yen === 0 ? 8 : 0);
+      else if (ans.q2 === 'low') s += (yen <= 1000 ? 10 : (hasFree ? 8 : (yen <= 2000 ? 6 : 2)));
+      else if (ans.q2 === 'mid') s += (yen <= 5000 ? 9 : 3);
+      else s += 5;
+      // Q3: Japanese (0-10)
+      const jp = p.tags?.includes('japanese');
+      if (ans.q3 === 'required') s += jp ? 10 : 0;
+      else if (ans.q3 === 'nice') s += jp ? 7 : 3;
+      else s += 5;
+      // Q4: Frequency (0-8)
+      if (ans.q4 === 'daily') s += hasFree ? 5 : 8;
+      else if (ans.q4 === 'weekly') s += 5;
+      else s += hasFree ? 8 : 3;
+      // Q5: Tech level (0-10)
+      if (ans.q5 === 'beginner') s += BEGINNER.has(p.id) ? 10 : (ADVANCED.has(p.id) ? 2 : 5);
+      else if (ans.q5 === 'intermediate') s += 6;
+      else s += ADVANCED.has(p.id) ? 10 : (BEGINNER.has(p.id) ? 4 : 6);
+      // Base rating
+      s += (p.rating || 0) * 2;
+      return Math.round(s);
+    }
+
+    // ── App state ──
+    let products = [];
+    let answers = {};
+    let step = 0; // 0=intro, 1-5=questions, 6=result
+    const $app = document.getElementById('diagApp');
+
+    // ── Data loading ──
+    async function loadData() {
+      const res = await fetch('data/products.json');
+      const data = await res.json();
+      products = data.products.filter(p => p.category === 'ai' && p.status === 'active');
+    }
+
+    // ── Render ──
+    function render() {
+      if (step === 0) renderIntro();
+      else if (step <= 5) renderQuestion(step);
+      else renderResults();
+    }
+
+    function renderIntro() {
+      $app.innerHTML = `
+        <div class="diag-hero">
+          <span class="diag-hero-icon">${t('heroIcon')}</span>
+          <h1>${t('heroTitle')}</h1>
+          <p>${t('heroSub')}</p>
+          <button class="diag-start-btn" id="startBtn">${t('startBtn')}</button>
+        </div>`;
+      document.getElementById('startBtn').addEventListener('click', () => { step = 1; render(); });
+    }
+
+    function renderProgress() {
+      let html = '<div class="diag-progress">';
+      for (let i = 1; i <= 5; i++) {
+        const cls = i < step ? 'done' : (i === step ? 'active' : '');
+        html += `<div class="diag-step ${cls}">${i < step ? '✓' : i}</div>`;
+        if (i < 5) html += '<div class="diag-step-line"></div>';
+      }
+      return html + '</div>';
+    }
+
+    function renderQuestion(n) {
+      const questions = [
+        null,
+        { key: 'q1', options: [
+          { value: 'writing', icon: 'q1a', text: 'q1aText', desc: 'q1aDesc' },
+          { value: 'image', icon: 'q1b', text: 'q1bText', desc: 'q1bDesc' },
+          { value: 'code', icon: 'q1c', text: 'q1cText', desc: 'q1cDesc' },
+          { value: 'video', icon: 'q1d', text: 'q1dText', desc: 'q1dDesc' },
+          { value: 'research', icon: 'q1e', text: 'q1eText', desc: 'q1eDesc' },
+        ]},
+        { key: 'q2', options: [
+          { value: 'free', icon: 'q2a', text: 'q2aText' },
+          { value: 'low', icon: 'q2b', text: 'q2bText' },
+          { value: 'mid', icon: 'q2c', text: 'q2cText' },
+          { value: 'any', icon: 'q2d', text: 'q2dText' },
+        ]},
+        { key: 'q3', options: [
+          { value: 'required', icon: 'q3a', text: 'q3aText', desc: 'q3aDesc' },
+          { value: 'nice', icon: 'q3b', text: 'q3bText', desc: 'q3bDesc' },
+          { value: 'ok', icon: 'q3c', text: 'q3cText', desc: 'q3cDesc' },
+        ]},
+        { key: 'q4', options: [
+          { value: 'daily', icon: 'q4a', text: 'q4aText' },
+          { value: 'weekly', icon: 'q4b', text: 'q4bText' },
+          { value: 'occasional', icon: 'q4c', text: 'q4cText' },
+        ]},
+        { key: 'q5', options: [
+          { value: 'beginner', icon: 'q5a', text: 'q5aText', desc: 'q5aDesc' },
+          { value: 'intermediate', icon: 'q5b', text: 'q5bText', desc: 'q5bDesc' },
+          { value: 'advanced', icon: 'q5c', text: 'q5cText', desc: 'q5cDesc' },
+        ]},
+      ];
+      const q = questions[n];
+      const optHTML = q.options.map(o => `
+        <div class="diag-option" data-value="${o.value}">
+          <span class="diag-option-icon">${t(o.icon)}</span>
+          <span class="diag-option-text">${t(o.text)}</span>
+          ${o.desc ? `<span class="diag-option-desc">${t(o.desc)}</span>` : ''}
+        </div>`).join('');
+
+      $app.innerHTML = `
+        ${renderProgress()}
+        <div class="diag-question">
+          <h2>Q${n}. ${t(q.key)}</h2>
+          ${t(q.key + 'sub') ? `<p class="diag-q-sub">${t(q.key + 'sub')}</p>` : ''}
+          <div class="diag-options">${optHTML}</div>
+          ${n > 1 ? `<button class="diag-back" id="backBtn">${t('back')}</button>` : ''}
+        </div>`;
+
+      $app.querySelectorAll('.diag-option').forEach(el => {
+        el.addEventListener('click', () => {
+          answers[q.key] = el.dataset.value;
+          step++;
+          render();
+        });
+      });
+      const backBtn = document.getElementById('backBtn');
+      if (backBtn) backBtn.addEventListener('click', () => { step--; render(); });
+    }
+
+    function renderResults() {
+      const scored = products.map(p => ({ product: p, score: scoreProduct(p, answers) }));
+      scored.sort((a, b) => b.score - a.score);
+      const top3 = scored.slice(0, 3);
+      const maxScore = 58; // theoretical max
+
+      // Update URL
+      const ids = top3.map(r => r.product.id).join(',');
+      history.replaceState(null, '', 'diagnosis.html?result=' + ids);
+
+      const ranks = [t('rank1'), t('rank2'), t('rank3')];
+      const rankCls = ['', ' r2', ' r3'];
+
+      let cardsHTML = top3.map((r, i) => {
+        const p = r.product;
+        const pct = Math.round((r.score / maxScore) * 100);
+        const reason = p.recommendedFor || p.summary || '';
+        return `
+          <div class="diag-result-card${i === 0 ? ' first' : ''}">
+            <span class="diag-rank${rankCls[i]}">${ranks[i]}</span>
+            <div class="diag-result-header">
+              <span class="diag-result-name">${p.name}</span>
+              <span class="diag-result-score">${t('matchLabel')} ${pct}%</span>
+            </div>
+            <div class="diag-result-price">${p.price || ''}</div>
+            <p class="diag-result-desc">${p.summary || ''}</p>
+            <div class="diag-result-reason"><strong>${t('reasonLabel')}:</strong> ${reason}</div>
+            <a href="tool/${p.id}.html" class="diag-result-link">${t('detailLink')}</a>
+          </div>`;
+      }).join('');
+
+      $app.innerHTML = `
+        <div class="diag-results">
+          <h2>${t('resultTitle')}</h2>
+          ${cardsHTML}
+          <div class="diag-actions">
+            <button class="diag-retry-btn" id="retryBtn">${t('retryBtn')}</button>
+            <button class="diag-share-btn" id="shareBtn">📋 ${t('shareBtn')}</button>
+          </div>
+        </div>`;
+
+      document.getElementById('retryBtn').addEventListener('click', () => {
+        answers = {}; step = 0;
+        history.replaceState(null, '', 'diagnosis.html');
+        render();
+      });
+      document.getElementById('shareBtn').addEventListener('click', () => {
+        navigator.clipboard.writeText(window.location.href).then(() => {
+          const toast = document.getElementById('diagToast');
+          toast.textContent = t('copiedMsg');
+          toast.classList.add('show');
+          setTimeout(() => toast.classList.remove('show'), 2000);
+        });
+      });
+    }
+
+    // ── URL result restore ──
+    function checkURLResult() {
+      const params = new URLSearchParams(window.location.search);
+      const result = params.get('result');
+      if (result && products.length > 0) {
+        const ids = result.split(',');
+        // Find matching products
+        const matched = ids.map(id => products.find(p => p.id === id)).filter(Boolean);
+        if (matched.length >= 2) {
+          step = 6;
+          // Fake answers to show results directly
+          answers = { q1: 'writing', q2: 'any', q3: 'nice', q4: 'weekly', q5: 'intermediate' };
+          return true;
+        }
+      }
+      return false;
+    }
+
+    // ── Theme & Lang ──
+    function initTheme() {
+      const btn = document.getElementById('themeBtn');
+      if (!btn) return;
+      const apply = (th) => {
+        document.documentElement.dataset.theme = th;
+        btn.textContent = th === 'dark' ? '☀️' : '🌙';
+      };
+      apply(document.documentElement.dataset.theme || 'light');
+      btn.addEventListener('click', () => {
+        const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+        localStorage.setItem('theme', next);
+        apply(next);
+      });
+    }
+
+    function initLang() {
+      const btn = document.getElementById('langBtn');
+      if (btn) btn.addEventListener('click', () => { I18n.toggle(); render(); });
+      window.addEventListener('langchange', () => {
+        render();
+        const lb = document.getElementById('langBtn');
+        if (lb) lb.textContent = I18n.t('lang');
+      });
+    }
+
+    function initBackToTop() {
+      const btn = document.getElementById('backToTop');
+      if (!btn) return;
+      window.addEventListener('scroll', () => btn.classList.toggle('visible', window.scrollY > 400));
+      btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    }
+
+    // ── Init ──
+    async function init() {
+      await loadData();
+      initTheme();
+      initLang();
+      initBackToTop();
+      I18n.applyAll();
+      if (!checkURLResult()) step = 0;
+      render();
+    }
+
+    init();
+  })();
+  </script>
+</body>
+</html>

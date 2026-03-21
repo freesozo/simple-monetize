@@ -230,8 +230,9 @@ const I18n = (() => {
       // Hero action cards
       heroCard1Title: 'ツールを探す',
       heroCard1Desc: '189種から条件で比較',
-      heroCard2Title: '穴場ツール',
-      heroCard2Desc: '知る人ぞ知る便利ツール',
+      heroCard2Title: 'AI診断',
+      heroCard2Desc: '5問であなたに最適なAIツールを発見',
+      navDiagnosis: '🤖 AI診断',
       heroCard3Title: '無料素材を探す',
       heroCard3Desc: '→ freesozo.com',
       // Blog highlights
@@ -487,8 +488,9 @@ const I18n = (() => {
       // Hero action cards
       heroCard1Title: 'Browse Tools',
       heroCard1Desc: 'Compare 189 tools',
-      heroCard2Title: 'Hidden Gems',
-      heroCard2Desc: 'Lesser-known useful tools',
+      heroCard2Title: 'AI Diagnosis',
+      heroCard2Desc: 'Find your perfect AI tool in 5 questions',
+      navDiagnosis: '🤖 AI Diagnosis',
       heroCard3Title: 'Free Assets',
       heroCard3Desc: '→ freesozo.com',
       // Blog highlights
