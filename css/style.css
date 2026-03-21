@@ -452,6 +452,31 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   border-radius: 20px;
   margin-bottom: 8px;
 }
+/* --- Text-first card identity row --- */
+.card-identity {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.card-initials {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .85rem;
+  font-weight: 800;
+  color: #fff;
+  flex-shrink: 0;
+  letter-spacing: .5px;
+  user-select: none;
+}
+.card-identity-info {
+  flex: 1;
+  min-width: 0;
+}
 .card-title {
   font-family: var(--font-display);
   font-size: 1.2rem;
@@ -459,12 +484,45 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   margin-bottom: 6px;
   color: var(--text-heading);
 }
+.card-identity .card-title {
+  font-size: 1.1rem;
+  margin-bottom: 2px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-price {
+  font-weight: 700;
+  color: var(--text-heading);
+  font-size: 1rem;
+}
+.card-identity .card-price {
+  font-size: .82rem;
+  font-weight: 600;
+  color: var(--text-sub);
+}
+.card-score {
+  font-size: .95rem;
+  font-weight: 700;
+  color: var(--featured);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
 .card-summary {
   font-size: .9rem;
   color: var(--text-sub);
   margin-bottom: 14px;
   flex: 1;
 }
+.card-identity ~ .card-summary {
+  font-size: .88rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  line-height: 1.55;
+}
+/* legacy .card-meta (kept for review pages / blog cards) */
 .card-meta {
   display: flex;
   justify-content: space-between;
@@ -472,7 +530,6 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   margin-bottom: 14px;
 }
 .card-rating { color: var(--featured); font-weight: 700; font-size: .95rem; }
-.card-price { font-weight: 700; color: var(--text-heading); font-size: 1rem; }
 .card-actions { display: flex; gap: 10px; }
 .card-verified {
   font-size: 0.7rem;

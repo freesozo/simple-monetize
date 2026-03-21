@@ -312,17 +312,34 @@
     return I18n.t('verifiedPrefix') + d.getFullYear() + '年' + (d.getMonth() + 1) + '月 ' + I18n.t('verifiedSuffix');
   }
 
+  // Category colors for initials icon
+  const CATEGORY_COLORS = {
+    server:'#3d5a80', vpn:'#6d597a', learning:'#457b6e', ai:'#4a6fa5',
+    design:'#8b7bb8', cloud:'#5c6b73', domain:'#2d3142', sitebuilder:'#9e8c6c',
+    ecommerce:'#b56b4f', project:'#7d8570', communication:'#6a4c93',
+    security:'#8b8589', seo:'#a68a64', video:'#b56b4f', photo:'#8b7bb8',
+    accounting:'#2d3142', marketing:'#6d597a', password:'#5c6b73', writing:'#457b6e'
+  };
+
+  function getInitials(name) {
+    // For ASCII names, take first 2 chars uppercase; for Japanese, take first 2 chars
+    const clean = name.replace(/[^\w\u3000-\u9fff\uff00-\uffef]/g, '').trim();
+    if (!clean) return name.substring(0, 2);
+    return clean.substring(0, 2).toUpperCase();
+  }
+
   function createProductCard(product, isFeatured) {
     const catName = getCategoryName(product.category);
     const isNew = product.dateAdded && (Date.now() - new Date(product.dateAdded).getTime()) < 30 * 86400000;
     const newBadge = isNew ? ' <span class="new-badge">NEW</span>' : '';
     const regionFlag = product.region === 'jp' ? '🇯🇵' : '🌐';
     const regionLabel = product.region === 'jp' ? (I18n.getLang() === 'en' ? 'Japan' : '日本') : (I18n.getLang() === 'en' ? 'Global' : '海外');
-    const stars = '★'.repeat(Math.floor(product.rating)) + (product.rating % 1 >= 0.5 ? '☆' : '');
     const featuredClass = (isFeatured || product.featured) ? ' featured' : '';
     const affiliateLink = product.affiliateUrl || product.officialUrl;
     const faved = isFav(product.id);
     const favLabel = faved ? I18n.t('favRemove') : I18n.t('favAdd');
+    const initials = getInitials(product.name);
+    const catColor = CATEGORY_COLORS[product.category] || '#4a6fa5';
     return `
       <div class="product-card${featuredClass}" data-featured-label="${escapeHtml(I18n.getLang() === 'en' ? '★ Top Pick' : '★ おすすめ')}">
         <div class="card-body">
@@ -330,13 +347,16 @@
             <span class="card-category">${escapeHtml(catName)}${newBadge} <span class="card-region card-region-${product.region || 'global'}">${regionFlag} ${regionLabel}</span></span>
             <button class="fav-btn${faved ? ' active' : ''}" onclick="toggleFav('${product.id}')" title="${favLabel}">${faved ? '❤️' : '🤍'}</button>
           </div>
-          <h3 class="card-title">${escapeHtml(product.name)}</h3>
+          <div class="card-identity">
+            <span class="card-initials" style="background:${catColor}">${escapeHtml(initials)}</span>
+            <div class="card-identity-info">
+              <h3 class="card-title">${escapeHtml(product.name)}</h3>
+              <span class="card-price">${escapeHtml(product.price)}</span>
+            </div>
+            <span class="card-score">★ ${product.rating}</span>
+          </div>
           <p class="card-summary">${escapeHtml(I18n.getLang() === 'en' ? (product.summaryEn || product.summary) : product.summary)}</p>
           ${product.recommendedFor ? `<p class="card-recommended">${I18n.t('recommendedForLabel')} ${escapeHtml(product.recommendedFor)}</p>` : ''}
-          <div class="card-meta">
-            <span class="card-rating">${stars} ${product.rating}</span>
-            <span class="card-price">${escapeHtml(product.price)}</span>
-          </div>
           <div class="card-actions">
             <a href="review.html?id=${product.id}" class="btn btn-outline">${I18n.t('viewDetail')}</a>
             <a href="${escapeHtml(affiliateLink)}" class="btn btn-primary" target="_blank" rel="noopener noreferrer nofollow" onclick="trackClick('${product.id}')">${I18n.t('visitOfficial')}</a>
