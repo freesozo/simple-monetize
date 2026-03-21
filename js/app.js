@@ -43,6 +43,7 @@
         renderRecentlyViewed();
         renderFavoritesHome();
         renderFeatured();
+        renderBlogHighlights();
         filterProducts();
       } else if (document.getElementById('reviewContent')) {
         initReviewPage();
@@ -84,6 +85,7 @@
     } else if (document.getElementById('reviewContent')) {
       initReviewPage();
     }
+    renderBlogHighlights();
     initBackToTop();
     initLang();
     I18n.applyAll();
@@ -623,6 +625,43 @@
     toast.textContent = msg;
     toast.classList.add('show');
     setTimeout(() => toast.classList.remove('show'), 3000);
+  }
+
+  // ===== Blog Highlights =====
+  function renderBlogHighlights() {
+    const grid = document.getElementById('blogHighlightGrid');
+    if (!grid) return;
+    const articles = [
+      {
+        tag: I18n.getLang() === 'en' ? 'VS Comparison' : 'VS 比較',
+        title: I18n.getLang() === 'en' ? 'NordVPN vs ExpressVPN – Which VPN Should You Choose?' : 'NordVPN vs ExpressVPN 徹底比較｜どっちを選ぶべき？',
+        excerpt: I18n.getLang() === 'en' ? 'A detailed comparison of the two most popular VPNs. Speed, security, pricing, and features compared side by side.' : '人気VPN2社を速度・セキュリティ・料金・機能で徹底比較。あなたに最適なVPNがわかります。',
+        meta: I18n.getLang() === 'en' ? 'VS Comparison | 2026-03' : 'VS比較 | 2026-03',
+        url: 'blog/nordvpn-vs-expressvpn.html'
+      },
+      {
+        tag: I18n.getLang() === 'en' ? 'AI Tools' : 'AIツール',
+        title: I18n.getLang() === 'en' ? 'Claude Pro vs ChatGPT Plus – AI Tool Comparison 2026' : 'Claude Pro vs ChatGPT Plus｜AIツール徹底比較【2026年版】',
+        excerpt: I18n.getLang() === 'en' ? 'Comparing the latest AI assistants. Features, pricing, and use cases to help you choose the right one.' : '最新AIアシスタントを機能・料金・活用シーンで比較。あなたに合ったAIツールが見つかります。',
+        meta: I18n.getLang() === 'en' ? 'VS Comparison | 2026-03' : 'VS比較 | 2026-03',
+        url: 'blog/claude-pro-vs-chatgpt-plus.html'
+      },
+      {
+        tag: I18n.getLang() === 'en' ? 'Hosting' : 'サーバー',
+        title: I18n.getLang() === 'en' ? 'Xserver vs ConoHa WING – Best Japanese Web Hosting' : 'エックスサーバー vs ConoHa WING｜レンタルサーバー比較',
+        excerpt: I18n.getLang() === 'en' ? 'Japan\'s top two web hosting services compared. Speed, pricing, WordPress support and more.' : '日本の人気レンタルサーバー2社を速度・料金・WordPress対応で比較。',
+        meta: I18n.getLang() === 'en' ? 'VS Comparison | 2026-03' : 'VS比較 | 2026-03',
+        url: 'blog/xserver-vs-conoha-wing.html'
+      }
+    ];
+    grid.innerHTML = articles.map(a => `
+      <a href="${a.url}" class="blog-highlight-card">
+        <span class="blog-highlight-tag">${a.tag}</span>
+        <span class="blog-highlight-title">${a.title}</span>
+        <p class="blog-highlight-excerpt">${a.excerpt}</p>
+        <span class="blog-highlight-meta">${a.meta}</span>
+      </a>
+    `).join('');
   }
 
   function initBackToTop() {
