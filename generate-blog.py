@@ -16,8 +16,8 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 SITE_URL = "https://tools.freesozo.com"
 GENERATE_DATE = date.today().isoformat()
 YEAR = str(date.today().year)
-CSS_VERSION = "14"
-JS_VERSION = "14"
+CSS_VERSION = "15"
+JS_VERSION = "15"
 
 CATEGORY_NAMES = {
     "server": "レンタルサーバー",
@@ -130,17 +130,18 @@ def h(text):
     return html_mod.escape(str(text))
 
 
+_BLOG_STAR_FILLED = '<svg viewBox="0 0 24 24" width="14" height="14" fill="#f59e0b" stroke="#f59e0b" stroke-width="1.5" style="vertical-align:-2px"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>'
+_BLOG_STAR_EMPTY = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="#d1d5db" stroke-width="1.5" style="vertical-align:-2px"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>'
+
 def star_rating_html(rating):
     """Generate star rating HTML"""
     full = int(rating)
     half = 1 if rating - full >= 0.3 else 0
     empty = 5 - full - half
-    stars = '<span style="color:#f59e0b;">'
-    stars += "&#9733;" * full
+    stars = _BLOG_STAR_FILLED * full
     if half:
-        stars += "&#9733;"  # half star shown as full for simplicity
-    stars += "</span>"
-    stars += '<span style="color:#d1d5db;">' + "&#9734;" * empty + "</span>"
+        stars += _BLOG_STAR_FILLED
+    stars += _BLOG_STAR_EMPTY * empty
     return stars + f" <strong>{rating}</strong>"
 
 
@@ -258,25 +259,25 @@ def header_html():
             <span data-i18n="navCategory">カテゴリ</span> <span class="dropdown-arrow">&#x25BE;</span>
           </a>
           <div class="nav-dropdown-menu">
-            <a href="../category/server.html">&#x1F5A5;&#xFE0F; <span data-i18n="dropCatServer">サーバー</span></a>
-            <a href="../category/vpn.html">&#x1F512; <span data-i18n="dropCatVPN">VPN</span></a>
-            <a href="../category/ai.html">&#x1F916; <span data-i18n="dropCatAI">AIツール</span></a>
-            <a href="../category/design.html">&#x1F3A8; <span data-i18n="dropCatDesign">デザイン</span></a>
-            <a href="../category/learning.html">&#x1F4DA; <span data-i18n="dropCatLearning">学習</span></a>
-            <a href="../category/security.html">&#x1F6E1;&#xFE0F; <span data-i18n="dropCatSecurity">セキュリティ</span></a>
-            <a href="../category/cloud.html">&#x2601;&#xFE0F; <span data-i18n="dropCatCloud">クラウド</span></a>
-            <a href="../category/video.html">&#x1F3AC; <span data-i18n="dropCatVideo">動画編集</span></a>
-            <a href="../category/ecommerce.html">&#x1F6D2; <span data-i18n="dropCatEC">EC・決済</span></a>
-            <a href="../category/seo.html">&#x1F4CA; <span data-i18n="dropCatSEO">SEO</span></a>
-            <a href="../category/project.html">&#x1F4CB; <span data-i18n="dropCatProject">プロジェクト管理</span></a>
-            <a href="../category/communication.html">&#x1F4AC; <span data-i18n="dropCatComm">コミュニケーション</span></a>
-            <a href="../category/sitebuilder.html">&#x1F3D7;&#xFE0F; <span data-i18n="dropCatSitebuilder">サイトビルダー</span></a>
-            <a href="../category/domain.html">&#x1F310; <span data-i18n="dropCatDomain">ドメイン</span></a>
-            <a href="../category/photo.html">&#x1F4F7; <span data-i18n="dropCatPhoto">写真編集</span></a>
-            <a href="../category/accounting.html">&#x1F4B0; <span data-i18n="dropCatAccounting">会計・経理</span></a>
-            <a href="../category/marketing.html">&#x1F4E7; <span data-i18n="dropCatMarketing">マーケティング</span></a>
-            <a href="../category/password.html">&#x1F511; <span data-i18n="dropCatPassword">パスワード管理</span></a>
-            <a href="../category/writing.html">&#x270D;&#xFE0F; <span data-i18n="dropCatWriting">ライティング</span></a>
+            <a href="../category/server.html">''' + CATEGORY_ICONS['server'] + ''' <span data-i18n="dropCatServer">サーバー</span></a>
+            <a href="../category/vpn.html">''' + CATEGORY_ICONS['vpn'] + ''' <span data-i18n="dropCatVPN">VPN</span></a>
+            <a href="../category/ai.html">''' + CATEGORY_ICONS['ai'] + ''' <span data-i18n="dropCatAI">AIツール</span></a>
+            <a href="../category/design.html">''' + CATEGORY_ICONS['design'] + ''' <span data-i18n="dropCatDesign">デザイン</span></a>
+            <a href="../category/learning.html">''' + CATEGORY_ICONS['learning'] + ''' <span data-i18n="dropCatLearning">学習</span></a>
+            <a href="../category/security.html">''' + CATEGORY_ICONS['security'] + ''' <span data-i18n="dropCatSecurity">セキュリティ</span></a>
+            <a href="../category/cloud.html">''' + CATEGORY_ICONS['cloud'] + ''' <span data-i18n="dropCatCloud">クラウド</span></a>
+            <a href="../category/video.html">''' + CATEGORY_ICONS['video'] + ''' <span data-i18n="dropCatVideo">動画編集</span></a>
+            <a href="../category/ecommerce.html">''' + CATEGORY_ICONS['ecommerce'] + ''' <span data-i18n="dropCatEC">EC・決済</span></a>
+            <a href="../category/seo.html">''' + CATEGORY_ICONS['seo'] + ''' <span data-i18n="dropCatSEO">SEO</span></a>
+            <a href="../category/project.html">''' + CATEGORY_ICONS['project'] + ''' <span data-i18n="dropCatProject">プロジェクト管理</span></a>
+            <a href="../category/communication.html">''' + CATEGORY_ICONS['communication'] + ''' <span data-i18n="dropCatComm">コミュニケーション</span></a>
+            <a href="../category/sitebuilder.html">''' + CATEGORY_ICONS['sitebuilder'] + ''' <span data-i18n="dropCatSitebuilder">サイトビルダー</span></a>
+            <a href="../category/domain.html">''' + CATEGORY_ICONS['domain'] + ''' <span data-i18n="dropCatDomain">ドメイン</span></a>
+            <a href="../category/photo.html">''' + CATEGORY_ICONS['photo'] + ''' <span data-i18n="dropCatPhoto">写真編集</span></a>
+            <a href="../category/accounting.html">''' + CATEGORY_ICONS['accounting'] + ''' <span data-i18n="dropCatAccounting">会計・経理</span></a>
+            <a href="../category/marketing.html">''' + CATEGORY_ICONS['marketing'] + ''' <span data-i18n="dropCatMarketing">マーケティング</span></a>
+            <a href="../category/password.html">''' + CATEGORY_ICONS['password'] + ''' <span data-i18n="dropCatPassword">パスワード管理</span></a>
+            <a href="../category/writing.html">''' + CATEGORY_ICONS['writing'] + ''' <span data-i18n="dropCatWriting">ライティング</span></a>
           </div>
         </div>
         <a href="../diagnosis.html" data-i18n="navDiagnosis">AI診断</a>
@@ -284,8 +285,8 @@ def header_html():
         <a href="../about.html" data-i18n="aboutNav">サイトについて</a>
       </nav>
       <div class="header-actions">
-        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">&#x1F319;</button>
-        <button class="lang-btn" id="langBtn" data-i18n="lang">&#x1F310; English</button>
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+        <button class="lang-btn" id="langBtn" data-i18n="lang"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> English</button>
       </div>
     </div>
   </header>

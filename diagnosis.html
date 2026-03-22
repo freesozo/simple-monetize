@@ -31,7 +31,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700;900&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=14">
+  <link rel="stylesheet" href="css/style.css?v=15">
   <style>
     .diag-hero { text-align: center; padding: 80px 0 40px; }
     .diag-hero h1 { font-family: var(--font-display, 'Noto Serif JP', serif); font-size: 2rem; font-weight: 900; margin-bottom: 12px; }
@@ -97,8 +97,8 @@
         <a href="about.html" data-i18n="aboutNav">サイトについて</a>
       </nav>
       <div class="header-actions">
-        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
-        <button class="lang-btn" id="langBtn" data-i18n="lang">🌐 English</button>
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+        <button class="lang-btn" id="langBtn" data-i18n="lang"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> English</button>
       </div>
     </div>
   </header>
@@ -123,7 +123,7 @@
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-YL05931NPE"></script>
   <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YL05931NPE');</script>
-  <script src="js/i18n.js?v=14"></script>
+  <script src="js/i18n.js?v=15"></script>
   <script>
   (function() {
     'use strict';
@@ -131,33 +131,33 @@
     // ── i18n ──
     const T = {
       ja: {
-        heroIcon: '🤖',
+        heroIcon: '<svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg>',
         heroTitle: 'あなたにぴったりのAIツールを見つけよう',
         heroSub: '5つの質問に答えるだけ。20以上のAIツールからあなたに最適な3つを提案します。',
-        startBtn: '🚀 診断スタート',
+        startBtn: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg> 診断スタート',
         q1: '何をしたいですか？', q1sub: '一番やりたいことを選んでください',
-        q1a: '✍️', q1aText: '文章を書く', q1aDesc: 'ブログ、メール、レポート',
-        q1b: '🎨', q1bText: '画像を作る', q1bDesc: 'イラスト、写真、デザイン',
-        q1c: '💻', q1cText: 'コードを書く', q1cDesc: 'Web開発、アプリ、自動化',
-        q1d: '🎬', q1dText: '動画を作る', q1dDesc: '編集、字幕、エフェクト',
-        q1e: '📚', q1eText: '学習・リサーチ', q1eDesc: '調査、要約、翻訳',
+        q1a: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>', q1aText: '文章を書く', q1aDesc: 'ブログ、メール、レポート',
+        q1b: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.04-.24-.3-.39-.65-.39-1.04 0-.83.67-1.5 1.5-1.5H16c3.31 0 6-2.69 6-6 0-5.17-4.49-9-10-9z"/></svg>', q1bText: '画像を作る', q1bDesc: 'イラスト、写真、デザイン',
+        q1c: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>', q1cText: 'コードを書く', q1cDesc: 'Web開発、アプリ、自動化',
+        q1d: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18"/><path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 17h5M17 7h5"/></svg>', q1dText: '動画を作る', q1dDesc: '編集、字幕、エフェクト',
+        q1e: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>', q1eText: '学習・リサーチ', q1eDesc: '調査、要約、翻訳',
         q2: '予算は？', q2sub: '月額の目安を教えてください',
-        q2a: '🆓', q2aText: '完全無料がいい', q2b: '💰', q2bText: '月1,000円以内',
-        q2c: '💳', q2cText: '月5,000円以内', q2d: '💎', q2dText: '予算は気にしない',
+        q2a: '<span style="font-size:1.2rem;font-weight:700;border:1.5px solid currentColor;border-radius:3px;padding:0 4px;line-height:1.4">FREE</span>', q2aText: '完全無料がいい', q2b: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>', q2bText: '月1,000円以内',
+        q2c: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>', q2cText: '月5,000円以内', q2d: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>', q2dText: '予算は気にしない',
         q3: '日本語対応は重要？', q3sub: '',
-        q3a: '🇯🇵', q3aText: '必須', q3aDesc: '日本語メインで使いたい',
-        q3b: '🌏', q3bText: 'あれば嬉しい', q3bDesc: '',
-        q3c: '🌐', q3cText: '英語でOK', q3cDesc: '',
+        q3a: '<svg viewBox="0 0 24 16" width="28" height="18" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#fff" rx="2"/><circle cx="12" cy="8" r="4.5" fill="#bc002d"/></svg>', q3aText: '必須', q3aDesc: '日本語メインで使いたい',
+        q3b: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>', q3bText: 'あれば嬉しい', q3bDesc: '',
+        q3c: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>', q3cText: '英語でOK', q3cDesc: '',
         q4: '使う頻度は？', q4sub: '',
-        q4a: '📅', q4aText: '毎日使う', q4b: '📆', q4bText: '週に数回', q4c: '🗓️', q4cText: 'たまに使う程度',
+        q4a: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>', q4aText: '毎日使う', q4b: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>', q4bText: '週に数回', q4c: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>', q4cText: 'たまに使う程度',
         q5: '技術レベルは？', q5sub: '',
-        q5a: '🌱', q5aText: '初心者', q5aDesc: 'AIツール初めて',
-        q5b: '🌿', q5bText: '中級者', q5bDesc: 'いくつか使ったことある',
-        q5c: '🌳', q5cText: '上級者', q5cDesc: 'API連携や自動化もやりたい',
-        resultTitle: '🎯 あなたにおすすめのAIツール',
-        rank1: '🥇 1位', rank2: '🥈 2位', rank3: '🥉 3位',
+        q5a: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M12 10V6"/><path d="M10 8h4"/></svg>', q5aText: '初心者', q5aDesc: 'AIツール初めて',
+        q5b: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M12 10V6"/><path d="M9 8h6"/><path d="M9 12h6"/></svg>', q5bText: '中級者', q5bDesc: 'いくつか使ったことある',
+        q5c: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M8 8h8M8 11h8M10 14h4"/></svg>', q5cText: '上級者', q5cDesc: 'API連携や自動化もやりたい',
+        resultTitle: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 8 10 14 8 12"/></svg> あなたにおすすめのAIツール',
+        rank1: '#1', rank2: '#2', rank3: '#3',
         matchLabel: 'マッチ度',
-        reasonLabel: '💡 おすすめ理由',
+        reasonLabel: '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L9 9H2l6 4.5L5.5 22 12 17l6.5 5-2.5-8.5L22 9h-7z"/></svg> おすすめ理由',
         detailLink: '詳しく見る →',
         retryBtn: 'もう一度診断する',
         shareBtn: '結果をシェア',
@@ -165,33 +165,33 @@
         back: '← 戻る',
       },
       en: {
-        heroIcon: '🤖',
+        heroIcon: '<svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg>',
         heroTitle: 'Find Your Perfect AI Tool',
         heroSub: 'Answer 5 quick questions. We\'ll recommend the top 3 AI tools for you from 20+ options.',
-        startBtn: '🚀 Start Diagnosis',
+        startBtn: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="5 3 19 12 5 21 5 3"/></svg> Start Diagnosis',
         q1: 'What do you want to do?', q1sub: 'Pick your primary goal',
-        q1a: '✍️', q1aText: 'Write content', q1aDesc: 'Blog, email, reports',
-        q1b: '🎨', q1bText: 'Create images', q1bDesc: 'Illustration, photos, design',
-        q1c: '💻', q1cText: 'Write code', q1cDesc: 'Web dev, apps, automation',
-        q1d: '🎬', q1dText: 'Create videos', q1dDesc: 'Editing, subtitles, effects',
-        q1e: '📚', q1eText: 'Learn & Research', q1eDesc: 'Research, summaries, translation',
+        q1a: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>', q1aText: 'Write content', q1aDesc: 'Blog, email, reports',
+        q1b: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.04-.24-.3-.39-.65-.39-1.04 0-.83.67-1.5 1.5-1.5H16c3.31 0 6-2.69 6-6 0-5.17-4.49-9-10-9z"/></svg>', q1bText: 'Create images', q1bDesc: 'Illustration, photos, design',
+        q1c: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>', q1cText: 'Write code', q1cDesc: 'Web dev, apps, automation',
+        q1d: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2.18"/><path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 17h5M17 7h5"/></svg>', q1dText: 'Create videos', q1dDesc: 'Editing, subtitles, effects',
+        q1e: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>', q1eText: 'Learn & Research', q1eDesc: 'Research, summaries, translation',
         q2: 'What\'s your budget?', q2sub: 'Monthly spending estimate',
-        q2a: '🆓', q2aText: 'Free only', q2b: '💰', q2bText: 'Under $10/mo',
-        q2c: '💳', q2cText: 'Under $40/mo', q2d: '💎', q2dText: 'No limit',
+        q2a: '<span style="font-size:1.2rem;font-weight:700;border:1.5px solid currentColor;border-radius:3px;padding:0 4px;line-height:1.4">FREE</span>', q2aText: 'Free only', q2b: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>', q2bText: 'Under $10/mo',
+        q2c: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>', q2cText: 'Under $40/mo', q2d: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>', q2dText: 'No limit',
         q3: 'Is Japanese support important?', q3sub: '',
-        q3a: '🇯🇵', q3aText: 'Required', q3aDesc: 'I mainly use Japanese',
-        q3b: '🌏', q3bText: 'Nice to have', q3bDesc: '',
-        q3c: '🌐', q3cText: 'English is fine', q3cDesc: '',
+        q3a: '<svg viewBox="0 0 24 16" width="28" height="18" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#fff" rx="2"/><circle cx="12" cy="8" r="4.5" fill="#bc002d"/></svg>', q3aText: 'Required', q3aDesc: 'I mainly use Japanese',
+        q3b: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>', q3bText: 'Nice to have', q3bDesc: '',
+        q3c: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>', q3cText: 'English is fine', q3cDesc: '',
         q4: 'How often will you use it?', q4sub: '',
-        q4a: '📅', q4aText: 'Daily', q4b: '📆', q4bText: 'A few times/week', q4c: '🗓️', q4cText: 'Occasionally',
+        q4a: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>', q4aText: 'Daily', q4b: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>', q4bText: 'A few times/week', q4c: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>', q4cText: 'Occasionally',
         q5: 'Your tech level?', q5sub: '',
-        q5a: '🌱', q5aText: 'Beginner', q5aDesc: 'New to AI tools',
-        q5b: '🌿', q5bText: 'Intermediate', q5bDesc: 'Used some before',
-        q5c: '🌳', q5cText: 'Advanced', q5cDesc: 'API integrations & automation',
-        resultTitle: '🎯 Your Recommended AI Tools',
-        rank1: '🥇 #1', rank2: '🥈 #2', rank3: '🥉 #3',
+        q5a: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M12 10V6"/><path d="M10 8h4"/></svg>', q5aText: 'Beginner', q5aDesc: 'New to AI tools',
+        q5b: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M12 10V6"/><path d="M9 8h6"/><path d="M9 12h6"/></svg>', q5bText: 'Intermediate', q5bDesc: 'Used some before',
+        q5c: '<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M8 8h8M8 11h8M10 14h4"/></svg>', q5cText: 'Advanced', q5cDesc: 'API integrations & automation',
+        resultTitle: '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="16 8 10 14 8 12"/></svg> Your Recommended AI Tools',
+        rank1: '#1', rank2: '#2', rank3: '#3',
         matchLabel: 'Match',
-        reasonLabel: '💡 Why this tool',
+        reasonLabel: '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L9 9H2l6 4.5L5.5 22 12 17l6.5 5-2.5-8.5L22 9h-7z"/></svg> Why this tool',
         detailLink: 'View Details →',
         retryBtn: 'Try Again',
         shareBtn: 'Share Results',
@@ -386,7 +386,7 @@
           ${cardsHTML}
           <div class="diag-actions">
             <button class="diag-retry-btn" id="retryBtn">${t('retryBtn')}</button>
-            <button class="diag-share-btn" id="shareBtn">📋 ${t('shareBtn')}</button>
+            <button class="diag-share-btn" id="shareBtn"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg> ${t('shareBtn')}</button>
           </div>
         </div>`;
 
@@ -429,7 +429,7 @@
       if (!btn) return;
       const apply = (th) => {
         document.documentElement.dataset.theme = th;
-        btn.textContent = th === 'dark' ? '☀️' : '🌙';
+        btn.innerHTML = th === 'dark' ? '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>' : '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
       };
       apply(document.documentElement.dataset.theme || 'light');
       btn.addEventListener('click', () => {
@@ -445,7 +445,7 @@
       window.addEventListener('langchange', () => {
         render();
         const lb = document.getElementById('langBtn');
-        if (lb) lb.textContent = I18n.t('lang');
+        if (lb) lb.innerHTML = I18n.t('lang');
       });
     }
 

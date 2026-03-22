@@ -12,7 +12,7 @@ const I18n = (() => {
       navCategory: 'カテゴリ',
       navAll: '全ツール',
       categoryAll: 'すべて',
-      featuredHeading: '★ 特におすすめ',
+      featuredHeading: '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 特におすすめ',
       allToolsHeading: '全ツール一覧',
       noResults: '該当するツールが見つかりませんでした。',
       viewDetail: '詳細を見る',
@@ -48,37 +48,37 @@ const I18n = (() => {
       sortRating: '評価順',
       sortName: '名前順',
       // Favorites
-      favOnly: '❤️ お気に入りのみ',
+      favOnly: '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> お気に入りのみ',
       favAdd: 'お気に入りに追加',
       favRemove: 'お気に入りから削除',
       // Load more
       loadMore: 'もっと見る',
       // Personalized sections
       recentlyViewed: '最近チェックしたツール',
-      favSection: '❤️ お気に入りツール',
-      hiddenGemHeading: '🔍 知る人ぞ知る便利ツール',
+      favSection: '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> お気に入りツール',
+      hiddenGemHeading: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> 知る人ぞ知る便利ツール',
       // Theme
-      lang: '🌐 English',
+      lang: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> English',
       // Quiz
-      quizBtn: '🔍 おすすめ診断',
+      quizBtn: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> おすすめ診断',
       quizTitle: 'おすすめ診断',
       quizQ1: '何をしたいですか？',
-      quizQ1a: '🌐 ウェブサイトを作る',
-      quizQ1b: '🔒 セキュリティ',
-      quizQ1c: '📚 スキルを学ぶ',
-      quizQ1d: '🎨 コンテンツ制作',
-      quizQ1e: '🤖 AIツール',
-      quizQ1f: '💼 ビジネス運営',
-      quizQ1g: '☁️ ファイル管理',
-      quizQ1h: '📊 SEO強化',
+      quizQ1a: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> ウェブサイトを作る',
+      quizQ1b: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> セキュリティ',
+      quizQ1c: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> スキルを学ぶ',
+      quizQ1d: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.04-.24-.3-.39-.65-.39-1.04 0-.83.67-1.5 1.5-1.5H16c3.31 0 6-2.69 6-6 0-5.17-4.49-9-10-9z"/></svg> コンテンツ制作',
+      quizQ1e: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg> AIツール',
+      quizQ1f: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a4 4 0 0 0-8 0v2"/></svg> ビジネス運営',
+      quizQ1g: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg> ファイル管理',
+      quizQ1h: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg> SEO強化',
       quizQ2: '予算は？',
-      quizQ2a: '🆓 無料・フリーミアム',
-      quizQ2b: '💰 低コスト（月¥2,000以下）',
-      quizQ2c: '💎 予算は気にしない',
+      quizQ2a: '<span style="font-size:.7rem;font-weight:700;border:1.5px solid currentColor;border-radius:3px;padding:0 3px;line-height:1.4">FREE</span> 無料・フリーミアム',
+      quizQ2b: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> 低コスト（月¥2,000以下）',
+      quizQ2c: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> 予算は気にしない',
       quizQ3: '経験レベルは？',
-      quizQ3a: '🌱 初心者',
-      quizQ3b: '🌿 中級者',
-      quizQ3c: '🌳 上級者',
+      quizQ3a: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M12 10V6"/><path d="M10 8h4"/></svg> 初心者',
+      quizQ3b: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M12 10V6"/><path d="M9 8h6"/><path d="M9 12h6"/></svg> 中級者',
+      quizQ3c: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M8 8h8M8 11h8M10 14h4"/></svg> 上級者',
       quizResultTitle: 'あなたにおすすめのツール',
       quizNoResult: '条件に合うツールが見つかりませんでした。',
       quizRetry: 'もう一度診断する',
@@ -88,7 +88,7 @@ const I18n = (() => {
       logoPrefix: 'ツール比較',
       logoSuffix: 'ナビ',
       // Navigation
-      navAI: '🤖 AIツール',
+      navAI: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg> AIツール',
       navBlog: 'ブログ',
       // Blog page
       blogIndexTitle: 'ブログ記事一覧',
@@ -144,20 +144,20 @@ const I18n = (() => {
       filterTagAPI: 'API連携可',
       filterTagNoCard: 'カード不要',
       // Shutterstock banner
-      ssBannerLabel: '📸 プロ品質の素材をお探しなら',
+      ssBannerLabel: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> プロ品質の素材をお探しなら',
       ssBannerDesc: '写真・動画・音楽・イラスト3億点以上。ビジネスから個人利用まで対応。',
-      ssBannerFeat1: '✅ 商用利用OK',
-      ssBannerFeat2: '✅ 日本語サポート',
-      ssBannerFeat3: '✅ 定額制プランあり',
+      ssBannerFeat1: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 商用利用OK',
+      ssBannerFeat2: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 日本語サポート',
+      ssBannerFeat3: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> 定額制プランあり',
       ssBannerCta: '無料トライアルを試す →',
       ssBannerNote: '※ 初月無料プランあり',
       // Sister site banner
-      sisterBannerPrefix: '🎨 無料素材を探すなら →',
+      sisterBannerPrefix: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.04-.24-.3-.39-.65-.39-1.04 0-.83.67-1.5 1.5-1.5H16c3.31 0 6-2.69 6-6 0-5.17-4.49-9-10-9z"/></svg> 無料素材を探すなら →',
       sisterBannerName: 'フリー素材ポータル',
       sisterBannerSuffix: '- 200以上の無料素材サイトを比較',
       // AI page
-      aiBreadcrumb: '🤖 AIツール比較',
-      aiHeroTitle: '🤖 AIツール比較【2026年最新】',
+      aiBreadcrumb: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg> AIツール比較',
+      aiHeroTitle: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg> AIツール比較【2026年最新】',
       aiHeroDesc: 'ChatGPT・Claude・Gemini・Midjourney・GitHub Copilotなど、人気のAIツールを料金・機能・無料プランの有無で徹底比較。チャットAI、画像生成、コーディング支援、音声生成など用途別に最適なAIツールが見つかります。',
       aiSearchPlaceholder: 'AIツール名で検索...',
       // Privacy page
@@ -226,13 +226,13 @@ const I18n = (() => {
       verifiedSuffix: '確認済み',
       verifiedDefault: '2026年3月 確認済み',
       lastVerifiedLabel: '最終確認:',
-      recommendedForLabel: '👤 こんな人に:',
+      recommendedForLabel: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> こんな人に:',
       // Hero action cards
       heroCard1Title: 'ツールを探す',
       heroCard1Desc: '189種から条件で比較',
       heroCard2Title: 'AI診断',
       heroCard2Desc: '5問であなたに最適なAIツールを発見',
-      navDiagnosis: '🤖 AI診断',
+      navDiagnosis: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg> AI診断',
       heroCard3Title: '無料素材を探す',
       heroCard3Desc: '→ freesozo.com',
       // Blog highlights
@@ -270,7 +270,7 @@ const I18n = (() => {
       navCategory: 'Categories',
       navAll: 'All Tools',
       categoryAll: 'All',
-      featuredHeading: '★ Top Picks',
+      featuredHeading: '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Top Picks',
       allToolsHeading: 'All Tools',
       noResults: 'No matching tools found.',
       viewDetail: 'Details',
@@ -306,37 +306,37 @@ const I18n = (() => {
       sortRating: 'By Rating',
       sortName: 'By Name',
       // Favorites
-      favOnly: '❤️ Favorites Only',
+      favOnly: '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> Favorites Only',
       favAdd: 'Add to favorites',
       favRemove: 'Remove from favorites',
       // Load more
       loadMore: 'Show More',
       // Personalized sections
       recentlyViewed: 'Recently Viewed',
-      favSection: '❤️ Your Favorites',
-      hiddenGemHeading: '🔍 Hidden Gem Tools',
+      favSection: '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> Your Favorites',
+      hiddenGemHeading: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Hidden Gem Tools',
       // Theme
-      lang: '🌐 日本語',
+      lang: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> 日本語',
       // Quiz
-      quizBtn: '🔍 Find Your Tool',
+      quizBtn: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Find Your Tool',
       quizTitle: 'Tool Finder',
       quizQ1: 'What do you want to do?',
-      quizQ1a: '🌐 Build a Website',
-      quizQ1b: '🔒 Security',
-      quizQ1c: '📚 Learn New Skills',
-      quizQ1d: '🎨 Create Content',
-      quizQ1e: '🤖 AI Tools',
-      quizQ1f: '💼 Run a Business',
-      quizQ1g: '☁️ File Management',
-      quizQ1h: '📊 Boost SEO',
+      quizQ1a: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> Build a Website',
+      quizQ1b: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> Security',
+      quizQ1c: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> Learn New Skills',
+      quizQ1d: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.04-.24-.3-.39-.65-.39-1.04 0-.83.67-1.5 1.5-1.5H16c3.31 0 6-2.69 6-6 0-5.17-4.49-9-10-9z"/></svg> Create Content',
+      quizQ1e: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg> AI Tools',
+      quizQ1f: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a4 4 0 0 0-8 0v2"/></svg> Run a Business',
+      quizQ1g: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg> File Management',
+      quizQ1h: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg> Boost SEO',
       quizQ2: 'What\'s your budget?',
-      quizQ2a: '🆓 Free / Freemium',
-      quizQ2b: '💰 Low Cost (< $15/mo)',
-      quizQ2c: '💎 Budget is no concern',
+      quizQ2a: '<span style="font-size:.7rem;font-weight:700;border:1.5px solid currentColor;border-radius:3px;padding:0 3px;line-height:1.4">FREE</span> Free / Freemium',
+      quizQ2b: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> Low Cost (< $15/mo)',
+      quizQ2c: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Budget is no concern',
       quizQ3: 'Your experience level?',
-      quizQ3a: '🌱 Beginner',
-      quizQ3b: '🌿 Intermediate',
-      quizQ3c: '🌳 Advanced',
+      quizQ3a: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M12 10V6"/><path d="M10 8h4"/></svg> Beginner',
+      quizQ3b: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M12 10V6"/><path d="M9 8h6"/><path d="M9 12h6"/></svg> Intermediate',
+      quizQ3c: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22c4-3 8-7.5 8-12a8 8 0 0 0-16 0c0 4.5 4 9 8 12z"/><path d="M8 8h8M8 11h8M10 14h4"/></svg> Advanced',
       quizResultTitle: 'Recommended Tools for You',
       quizNoResult: 'No tools matched your criteria.',
       quizRetry: 'Try Again',
@@ -346,7 +346,7 @@ const I18n = (() => {
       logoPrefix: 'Tool Compare',
       logoSuffix: 'Navi',
       // Navigation
-      navAI: '🤖 AI Tools',
+      navAI: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg> AI Tools',
       navBlog: 'Blog',
       // Blog page
       blogIndexTitle: 'Blog Articles',
@@ -402,20 +402,20 @@ const I18n = (() => {
       filterTagAPI: 'API Integration',
       filterTagNoCard: 'No Card Required',
       // Shutterstock banner
-      ssBannerLabel: '📸 Looking for pro-quality assets?',
+      ssBannerLabel: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> Looking for pro-quality assets?',
       ssBannerDesc: 'Over 300 million photos, videos, music & illustrations. For business and personal use.',
-      ssBannerFeat1: '✅ Commercial Use OK',
-      ssBannerFeat2: '✅ Japanese Support',
-      ssBannerFeat3: '✅ Subscription Plans',
+      ssBannerFeat1: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Commercial Use OK',
+      ssBannerFeat2: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Japanese Support',
+      ssBannerFeat3: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Subscription Plans',
       ssBannerCta: 'Start Free Trial →',
       ssBannerNote: '* Free first month available',
       // Sister site banner
-      sisterBannerPrefix: '🎨 Looking for free assets? →',
+      sisterBannerPrefix: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.04-.24-.3-.39-.65-.39-1.04 0-.83.67-1.5 1.5-1.5H16c3.31 0 6-2.69 6-6 0-5.17-4.49-9-10-9z"/></svg> Looking for free assets? →',
       sisterBannerName: 'Free Asset Portal',
       sisterBannerSuffix: '- Compare 200+ free asset sites',
       // AI page
-      aiBreadcrumb: '🤖 AI Tool Comparison',
-      aiHeroTitle: '🤖 AI Tool Comparison [2026 Latest]',
+      aiBreadcrumb: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg> AI Tool Comparison',
+      aiHeroTitle: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg> AI Tool Comparison [2026 Latest]',
       aiHeroDesc: 'Compare popular AI tools including ChatGPT, Claude, Gemini, Midjourney, and GitHub Copilot by pricing, features, and free plan availability. Find the best AI tool for chat, image generation, coding assistance, voice synthesis, and more.',
       aiSearchPlaceholder: 'Search AI tools...',
       // Privacy page
@@ -484,13 +484,13 @@ const I18n = (() => {
       verifiedSuffix: '',
       verifiedDefault: 'Verified Mar 2026',
       lastVerifiedLabel: 'Last verified:',
-      recommendedForLabel: '👤 Best for:',
+      recommendedForLabel: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> Best for:',
       // Hero action cards
       heroCard1Title: 'Browse Tools',
       heroCard1Desc: 'Compare 189 tools',
       heroCard2Title: 'AI Diagnosis',
       heroCard2Desc: 'Find your perfect AI tool in 5 questions',
-      navDiagnosis: '🤖 AI Diagnosis',
+      navDiagnosis: '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg> AI Diagnosis',
       heroCard3Title: 'Free Assets',
       heroCard3Desc: '→ freesozo.com',
       // Blog highlights
@@ -544,12 +544,12 @@ const I18n = (() => {
       if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
         el.placeholder = t(key);
       } else {
-        el.textContent = t(key);
+        el.innerHTML = t(key);
       }
     });
     // Blog cards: inline ja/en translations
     document.querySelectorAll('[data-i18n-ja]').forEach(el => {
-      el.textContent = current === 'en'
+      el.innerHTML = current === 'en'
         ? (el.getAttribute('data-i18n-en') || el.getAttribute('data-i18n-ja'))
         : el.getAttribute('data-i18n-ja');
     });

@@ -19,8 +19,8 @@ BASE_URL = "https://tools.freesozo.com"
 SITE_NAME = "おすすめツール比較ナビ"
 GA_ID = "G-YL05931NPE"
 ADSENSE_PUB = "ca-pub-1060876188767022"
-CSS_VERSION = 14
-JS_VERSION = 14
+CSS_VERSION = 15
+JS_VERSION = 15
 TODAY = date.today().isoformat()
 YEAR = date.today().year
 MONTH = date.today().month
@@ -102,10 +102,13 @@ def load_products():
     return [p for p in data.get("products", []) if p.get("status") == "active"]
 
 
+_STAR_FILLED = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>'
+_STAR_EMPTY = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>'
+
 def star_html(rating):
     full = int(rating)
-    half = "☆" if rating - full >= 0.5 else ""
-    return "★" * full + half + "☆" * (5 - full - (1 if half else 0))
+    half = _STAR_EMPTY if rating - full >= 0.5 else ""
+    return _STAR_FILLED * full + half + _STAR_EMPTY * (5 - full - (1 if half else 0))
 
 
 def format_verified(last_checked):
@@ -125,15 +128,15 @@ def tool_card_static(p):
     cat = p.get("category", "")
     cat_name = h(CATEGORY_NAMES.get(cat, cat))
     region = p.get("region", "global")
-    region_flag = "🇯🇵" if region == "jp" else "🌐"
+    region_flag = '<svg viewBox="0 0 24 16" width="18" height="12" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#fff" rx="2"/><circle cx="12" cy="8" r="4.5" fill="#bc002d"/></svg>' if region == "jp" else '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>'
     region_label = "日本" if region == "jp" else "海外"
     aff = p.get("affiliateUrl") or p.get("officialUrl", "")
     reco = p.get("recommendedFor", "")
     verified = format_verified(p.get("lastChecked"))
     featured = ' featured' if p.get("featured") else ''
-    featured_label = '★ おすすめ' if p.get("featured") else ''
+    featured_label = 'おすすめ' if p.get("featured") else ''
 
-    reco_html = f'\n          <p class="card-recommended">👤 こんな人に: {h(reco)}</p>' if reco else ''
+    reco_html = f'\n          <p class="card-recommended"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> こんな人に: {h(reco)}</p>' if reco else ''
 
     return f'''    <div class="product-card{featured}" data-featured-label="{featured_label}">
       <div class="card-body">
@@ -211,25 +214,25 @@ def page_html(*, title, description, canonical, breadcrumbs, content, schema_jso
             <span>カテゴリ</span> <span class="dropdown-arrow">▾</span>
           </a>
           <div class="nav-dropdown-menu">
-            <a href="{root_prefix}/category/server.html">🖥️ サーバー</a>
-            <a href="{root_prefix}/category/vpn.html">🔒 VPN</a>
-            <a href="{root_prefix}/category/ai.html">🤖 AIツール</a>
-            <a href="{root_prefix}/category/design.html">🎨 デザイン</a>
-            <a href="{root_prefix}/category/learning.html">📚 学習</a>
-            <a href="{root_prefix}/category/security.html">🛡️ セキュリティ</a>
-            <a href="{root_prefix}/category/cloud.html">☁️ クラウド</a>
-            <a href="{root_prefix}/category/video.html">🎬 動画編集</a>
-            <a href="{root_prefix}/category/ecommerce.html">🛒 EC・決済</a>
-            <a href="{root_prefix}/category/seo.html">📊 SEO</a>
-            <a href="{root_prefix}/category/project.html">📋 プロジェクト管理</a>
-            <a href="{root_prefix}/category/communication.html">💬 コミュニケーション</a>
-            <a href="{root_prefix}/category/sitebuilder.html">🏗️ サイトビルダー</a>
-            <a href="{root_prefix}/category/domain.html">🌐 ドメイン</a>
-            <a href="{root_prefix}/category/photo.html">📷 写真編集</a>
-            <a href="{root_prefix}/category/accounting.html">💰 会計・経理</a>
-            <a href="{root_prefix}/category/marketing.html">📧 マーケティング</a>
-            <a href="{root_prefix}/category/password.html">🔑 パスワード管理</a>
-            <a href="{root_prefix}/category/writing.html">✍️ ライティング</a>
+            <a href="{root_prefix}/category/server.html">{CATEGORY_SVG['server']} サーバー</a>
+            <a href="{root_prefix}/category/vpn.html">{CATEGORY_SVG['vpn']} VPN</a>
+            <a href="{root_prefix}/category/ai.html">{CATEGORY_SVG['ai']} AIツール</a>
+            <a href="{root_prefix}/category/design.html">{CATEGORY_SVG['design']} デザイン</a>
+            <a href="{root_prefix}/category/learning.html">{CATEGORY_SVG['learning']} 学習</a>
+            <a href="{root_prefix}/category/security.html">{CATEGORY_SVG['security']} セキュリティ</a>
+            <a href="{root_prefix}/category/cloud.html">{CATEGORY_SVG['cloud']} クラウド</a>
+            <a href="{root_prefix}/category/video.html">{CATEGORY_SVG['video']} 動画編集</a>
+            <a href="{root_prefix}/category/ecommerce.html">{CATEGORY_SVG['ecommerce']} EC・決済</a>
+            <a href="{root_prefix}/category/seo.html">{CATEGORY_SVG['seo']} SEO</a>
+            <a href="{root_prefix}/category/project.html">{CATEGORY_SVG['project']} プロジェクト管理</a>
+            <a href="{root_prefix}/category/communication.html">{CATEGORY_SVG['communication']} コミュニケーション</a>
+            <a href="{root_prefix}/category/sitebuilder.html">{CATEGORY_SVG['sitebuilder']} サイトビルダー</a>
+            <a href="{root_prefix}/category/domain.html">{CATEGORY_SVG['domain']} ドメイン</a>
+            <a href="{root_prefix}/category/photo.html">{CATEGORY_SVG['photo']} 写真編集</a>
+            <a href="{root_prefix}/category/accounting.html">{CATEGORY_SVG['accounting']} 会計・経理</a>
+            <a href="{root_prefix}/category/marketing.html">{CATEGORY_SVG['marketing']} マーケティング</a>
+            <a href="{root_prefix}/category/password.html">{CATEGORY_SVG['password']} パスワード管理</a>
+            <a href="{root_prefix}/category/writing.html">{CATEGORY_SVG['writing']} ライティング</a>
           </div>
         </div>
         <a href="{root_prefix}/diagnosis.html">AI診断</a>
@@ -237,8 +240,8 @@ def page_html(*, title, description, canonical, breadcrumbs, content, schema_jso
         <a href="{root_prefix}/about.html">サイトについて</a>
       </nav>
       <div class="header-actions">
-        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">🌙</button>
-        <button class="lang-btn" id="langBtn" data-i18n="lang">🌐 English</button>
+        <button class="theme-btn" id="themeBtn" aria-label="Toggle theme"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button>
+        <button class="lang-btn" id="langBtn" data-i18n="lang"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg> English</button>
       </div>
     </div>
   </header>
@@ -270,10 +273,10 @@ def page_html(*, title, description, canonical, breadcrumbs, content, schema_jso
   <script>
     (function(){{
       var btn=document.getElementById('themeBtn');
-      if(btn){{var t=document.documentElement.dataset.theme||'light';btn.textContent=t==='dark'?'☀️':'🌙';
-        btn.addEventListener('click',function(){{var n=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=n;localStorage.setItem('theme',n);btn.textContent=n==='dark'?'☀️':'🌙';}});}}
+      if(btn){{var t=document.documentElement.dataset.theme||'light';btn.innerHTML=t==='dark'?'<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>':'<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
+        btn.addEventListener('click',function(){{var n=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=n;localStorage.setItem('theme',n);btn.innerHTML=n==='dark'?'<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>':'<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';}});}}
       var lb=document.getElementById('langBtn');
-      if(lb){{lb.textContent=I18n.t('lang');lb.addEventListener('click',function(){{I18n.toggle();lb.textContent=I18n.t('lang');}});}}
+      if(lb){{lb.innerHTML=I18n.t('lang');lb.addEventListener('click',function(){{I18n.toggle();lb.innerHTML=I18n.t('lang');}});}}
       I18n.applyAll();
       var btt=document.getElementById('backToTop');
       if(btt){{window.addEventListener('scroll',function(){{btt.classList.toggle('visible',window.scrollY>400);}});btt.addEventListener('click',function(){{window.scrollTo({{top:0,behavior:'smooth'}});}});}}
@@ -342,7 +345,7 @@ def generate_category_page(cat_id, products):
       </ul>
 
       <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-bottom:24px">
-        <p>📦 <strong>フリー素材を探すなら →</strong> <a href="https://freesozo.com/" target="_blank" rel="noopener">フリー素材ポータル</a> — 写真・イラスト・音楽など221サイト以上を比較</p>
+        <p><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg> <strong>フリー素材を探すなら →</strong> <a href="https://freesozo.com/" target="_blank" rel="noopener">フリー素材ポータル</a> — 写真・イラスト・音楽など221サイト以上を比較</p>
       </div>
 
       <h2 style="font-size:1.1rem;margin:32px 0 12px">他のカテゴリ</h2>
@@ -415,7 +418,7 @@ def generate_tool_page(product, all_products, by_cat):
 
     reco_html = f'''
       <h2>こんな人におすすめ</h2>
-      <p>👤 {h(reco)}</p>''' if reco else ''
+      <p><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> {h(reco)}</p>''' if reco else ''
 
     # Related tools
     related = [p for p in by_cat.get(cat_id, []) if p["id"] != pid][:5]
@@ -467,14 +470,14 @@ def generate_tool_page(product, all_products, by_cat):
 {reco_html}
 
         <div style="margin:24px 0;padding:16px;background:var(--bg-card);border:1px solid var(--border);border-radius:8px;font-size:.85rem;color:var(--text-muted)">
-          ⚠️ 掲載情報は{YEAR}年{MONTH}月時点の内容です。料金・機能は変更される場合があります。最新情報は公式サイトでご確認ください。
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> 掲載情報は{YEAR}年{MONTH}月時点の内容です。料金・機能は変更される場合があります。最新情報は公式サイトでご確認ください。
         </div>
 
         <a href="../category/{h(cat_id)}.html" class="btn btn-outline" style="margin-bottom:24px">{svg_icon} {h(cat_ja)}一覧に戻る</a>
 {related_html}
 
         <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-top:24px">
-          <p>📦 <strong>デザインに使えるフリー素材はこちら →</strong> <a href="https://freesozo.com/" target="_blank" rel="noopener">フリー素材ポータル</a></p>
+          <p><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/></svg> <strong>デザインに使えるフリー素材はこちら →</strong> <a href="https://freesozo.com/" target="_blank" rel="noopener">フリー素材ポータル</a></p>
         </div>
       </div>
     </section>'''

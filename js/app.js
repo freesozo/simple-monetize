@@ -43,12 +43,12 @@
     let theme = localStorage.getItem('theme');
     if (!theme) theme = window.matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light';
     document.documentElement.dataset.theme = theme;
-    btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    btn.innerHTML = theme === 'dark' ? '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>' : '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
     btn.addEventListener('click', () => {
       const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
       document.documentElement.dataset.theme = next;
       localStorage.setItem('theme', next);
-      btn.textContent = next === 'dark' ? '☀️' : '🌙';
+      btn.innerHTML = next === 'dark' ? '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>' : '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>';
     });
   }
 
@@ -56,10 +56,10 @@
   function initLang() {
     const btn = document.getElementById('langBtn');
     if (!btn) return;
-    btn.textContent = I18n.t('lang');
+    btn.innerHTML = I18n.t('lang');
     btn.addEventListener('click', () => {
       I18n.toggle();
-      btn.textContent = I18n.t('lang');
+      btn.innerHTML = I18n.t('lang');
       // Re-render dynamic content
       if (document.getElementById('productGrid')) {
         renderCategories();
@@ -74,7 +74,7 @@
     });
     // Also listen for langchange event
     window.addEventListener('langchange', () => {
-      btn.textContent = I18n.t('lang');
+      btn.innerHTML = I18n.t('lang');
     });
   }
 
@@ -195,7 +195,7 @@
     // Fav toggle
     const favBtn = document.createElement('button');
     favBtn.className = 'fav-filter-btn' + (showFavOnly ? ' active' : '');
-    favBtn.textContent = I18n.t('favOnly');
+    favBtn.innerHTML = I18n.t('favOnly');
     favBtn.addEventListener('click', () => {
       showFavOnly = !showFavOnly;
       favBtn.classList.toggle('active', showFavOnly);
@@ -356,7 +356,7 @@
     const catName = getCategoryName(product.category);
     const isNew = product.dateAdded && (Date.now() - new Date(product.dateAdded).getTime()) < 30 * 86400000;
     const newBadge = isNew ? ' <span class="new-badge">NEW</span>' : '';
-    const regionFlag = product.region === 'jp' ? '🇯🇵' : '🌐';
+    const regionFlag = product.region === 'jp' ? '<svg viewBox="0 0 24 16" width="18" height="12" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#fff" rx="2"/><circle cx="12" cy="8" r="4.5" fill="#bc002d"/></svg>' : '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
     const regionLabel = product.region === 'jp' ? (I18n.getLang() === 'en' ? 'Japan' : '日本') : (I18n.getLang() === 'en' ? 'Global' : '海外');
     const featuredClass = (isFeatured || product.featured) ? ' featured' : '';
     const affiliateLink = product.affiliateUrl || product.officialUrl;
@@ -365,11 +365,11 @@
     const initials = getInitials(product.name);
     const catColor = CATEGORY_COLORS[product.category] || '#4a6fa5';
     return `
-      <div class="product-card${featuredClass}" data-featured-label="${escapeHtml(I18n.getLang() === 'en' ? '★ Top Pick' : '★ おすすめ')}">
+      <div class="product-card${featuredClass}" data-featured-label="${I18n.getLang() === 'en' ? 'Top Pick' : 'おすすめ'}">
         <div class="card-body">
           <div class="card-top-row">
             <span class="card-category">${escapeHtml(catName)}${newBadge} <span class="card-region card-region-${product.region || 'global'}">${regionFlag} ${regionLabel}</span></span>
-            <button class="fav-btn${faved ? ' active' : ''}" onclick="toggleFav('${product.id}')" title="${favLabel}">${faved ? '❤️' : '🤍'}</button>
+            <button class="fav-btn${faved ? ' active' : ''}" onclick="toggleFav('${product.id}')" title="${favLabel}">${faved ? '<svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>' : '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>'}</button>
           </div>
           <div class="card-identity">
             <span class="card-initials" style="background:${catColor}">${escapeHtml(initials)}</span>
@@ -377,7 +377,7 @@
               <h3 class="card-title">${escapeHtml(product.name)}</h3>
               <span class="card-price">${escapeHtml(product.price)}</span>
             </div>
-            <span class="card-score">★ ${product.rating}</span>
+            <span class="card-score"><svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> ${product.rating}</span>
           </div>
           <p class="card-summary">${escapeHtml(I18n.getLang() === 'en' ? (product.summaryEn || product.summary) : product.summary)}</p>
           ${product.recommendedFor ? `<p class="card-recommended">${I18n.t('recommendedForLabel')} ${escapeHtml(product.recommendedFor)}</p>` : ''}
@@ -538,7 +538,9 @@
     }
 
     const catName = getCategoryName(product.category);
-    const stars = '★'.repeat(Math.floor(product.rating)) + (product.rating % 1 >= 0.5 ? '☆' : '');
+    const starFilled = '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
+    const starEmpty = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
+    const stars = starFilled.repeat(Math.floor(product.rating)) + (product.rating % 1 >= 0.5 ? starEmpty : '');
 
     // Breadcrumb
     document.getElementById('breadcrumbCategory').textContent = catName;
@@ -546,7 +548,7 @@
 
     // Header
     document.getElementById('reviewTitle').textContent = product.name;
-    document.getElementById('reviewRating').textContent = stars + ' ' + product.rating;
+    document.getElementById('reviewRating').innerHTML = stars + ' ' + product.rating;
     document.getElementById('reviewPrice').textContent = product.price;
     document.getElementById('reviewBadge').textContent = I18n.t('recommended');
 
