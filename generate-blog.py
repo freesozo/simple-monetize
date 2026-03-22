@@ -16,8 +16,8 @@ DATA_DIR = os.path.join(BASE_DIR, "data")
 SITE_URL = "https://tools.freesozo.com"
 GENERATE_DATE = date.today().isoformat()
 YEAR = str(date.today().year)
-CSS_VERSION = "8"
-JS_VERSION = "8"
+CSS_VERSION = "14"
+JS_VERSION = "14"
 
 CATEGORY_NAMES = {
     "server": "レンタルサーバー",
@@ -63,26 +63,27 @@ CATEGORY_NAMES_EN = {
     "writing": "Writing & Translation",
 }
 
+_SVG_A = 'width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"'
 CATEGORY_ICONS = {
-    "server": "&#x1F5A5;&#xFE0F;",
-    "vpn": "&#x1F512;",
-    "learning": "&#x1F4DA;",
-    "ai": "&#x1F916;",
-    "design": "&#x1F3A8;",
-    "cloud": "&#x2601;&#xFE0F;",
-    "domain": "&#x1F310;",
-    "sitebuilder": "&#x1F3D7;&#xFE0F;",
-    "ecommerce": "&#x1F6D2;",
-    "project": "&#x1F4CB;",
-    "communication": "&#x1F4AC;",
-    "security": "&#x1F6E1;&#xFE0F;",
-    "seo": "&#x1F4CA;",
-    "video": "&#x1F3AC;",
-    "photo": "&#x1F4F7;",
-    "accounting": "&#x1F4B0;",
-    "marketing": "&#x1F4E7;",
-    "password": "&#x1F511;",
-    "writing": "&#x270D;&#xFE0F;",
+    "server": f'<svg {_SVG_A}><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><circle cx="6" cy="6" r="1"/><circle cx="6" cy="18" r="1"/></svg>',
+    "vpn": f'<svg {_SVG_A}><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>',
+    "learning": f'<svg {_SVG_A}><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
+    "ai": f'<svg {_SVG_A}><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg>',
+    "design": f'<svg {_SVG_A}><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.04-.24-.3-.39-.65-.39-1.04 0-.83.67-1.5 1.5-1.5H16c3.31 0 6-2.69 6-6 0-5.17-4.49-9-10-9z"/></svg>',
+    "cloud": f'<svg {_SVG_A}><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>',
+    "domain": f'<svg {_SVG_A}><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
+    "sitebuilder": f'<svg {_SVG_A}><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>',
+    "ecommerce": f'<svg {_SVG_A}><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>',
+    "project": f'<svg {_SVG_A}><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M9 14l2 2 4-4"/></svg>',
+    "communication": f'<svg {_SVG_A}><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
+    "security": f'<svg {_SVG_A}><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+    "seo": f'<svg {_SVG_A}><path d="M18 20V10M12 20V4M6 20v-6"/></svg>',
+    "video": f'<svg {_SVG_A}><rect x="2" y="2" width="20" height="20" rx="2.18"/><path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 17h5M17 7h5"/></svg>',
+    "photo": f'<svg {_SVG_A}><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>',
+    "accounting": f'<svg {_SVG_A}><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>',
+    "marketing": f'<svg {_SVG_A}><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>',
+    "password": f'<svg {_SVG_A}><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>',
+    "writing": f'<svg {_SVG_A}><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>',
 }
 
 TAG_NAMES_EN = {
@@ -249,12 +250,38 @@ def header_html():
   <!-- Header -->
   <header class="site-header">
     <div class="container">
-      <a href="../index.html" class="site-logo"><span data-i18n="logoPrefix">ツール比較</span><span data-i18n="logoSuffix">ナビ</span></a>
+      <a href="../index.html" class="site-logo"><span class="logo-text">freesozo</span> <span class="logo-sub">tools</span></a>
       <nav class="header-nav">
         <a href="../index.html" data-i18n="navHome">ホーム</a>
-        <a href="../index.html#categories" data-i18n="navCategory">カテゴリ</a>
-        <a href="../index.html#all-products" data-i18n="navAll">全ツール</a>
+        <div class="nav-dropdown">
+          <a href="../index.html#categories" class="nav-dropdown-trigger">
+            <span data-i18n="navCategory">カテゴリ</span> <span class="dropdown-arrow">&#x25BE;</span>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="../category/server.html">&#x1F5A5;&#xFE0F; <span data-i18n="dropCatServer">サーバー</span></a>
+            <a href="../category/vpn.html">&#x1F512; <span data-i18n="dropCatVPN">VPN</span></a>
+            <a href="../category/ai.html">&#x1F916; <span data-i18n="dropCatAI">AIツール</span></a>
+            <a href="../category/design.html">&#x1F3A8; <span data-i18n="dropCatDesign">デザイン</span></a>
+            <a href="../category/learning.html">&#x1F4DA; <span data-i18n="dropCatLearning">学習</span></a>
+            <a href="../category/security.html">&#x1F6E1;&#xFE0F; <span data-i18n="dropCatSecurity">セキュリティ</span></a>
+            <a href="../category/cloud.html">&#x2601;&#xFE0F; <span data-i18n="dropCatCloud">クラウド</span></a>
+            <a href="../category/video.html">&#x1F3AC; <span data-i18n="dropCatVideo">動画編集</span></a>
+            <a href="../category/ecommerce.html">&#x1F6D2; <span data-i18n="dropCatEC">EC・決済</span></a>
+            <a href="../category/seo.html">&#x1F4CA; <span data-i18n="dropCatSEO">SEO</span></a>
+            <a href="../category/project.html">&#x1F4CB; <span data-i18n="dropCatProject">プロジェクト管理</span></a>
+            <a href="../category/communication.html">&#x1F4AC; <span data-i18n="dropCatComm">コミュニケーション</span></a>
+            <a href="../category/sitebuilder.html">&#x1F3D7;&#xFE0F; <span data-i18n="dropCatSitebuilder">サイトビルダー</span></a>
+            <a href="../category/domain.html">&#x1F310; <span data-i18n="dropCatDomain">ドメイン</span></a>
+            <a href="../category/photo.html">&#x1F4F7; <span data-i18n="dropCatPhoto">写真編集</span></a>
+            <a href="../category/accounting.html">&#x1F4B0; <span data-i18n="dropCatAccounting">会計・経理</span></a>
+            <a href="../category/marketing.html">&#x1F4E7; <span data-i18n="dropCatMarketing">マーケティング</span></a>
+            <a href="../category/password.html">&#x1F511; <span data-i18n="dropCatPassword">パスワード管理</span></a>
+            <a href="../category/writing.html">&#x270D;&#xFE0F; <span data-i18n="dropCatWriting">ライティング</span></a>
+          </div>
+        </div>
+        <a href="../diagnosis.html" data-i18n="navDiagnosis">AI診断</a>
         <a href="index.html" data-i18n="navBlog">ブログ</a>
+        <a href="../about.html" data-i18n="aboutNav">サイトについて</a>
       </nav>
       <div class="header-actions">
         <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">&#x1F319;</button>

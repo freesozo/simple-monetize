@@ -19,8 +19,8 @@ BASE_URL = "https://tools.freesozo.com"
 SITE_NAME = "おすすめツール比較ナビ"
 GA_ID = "G-YL05931NPE"
 ADSENSE_PUB = "ca-pub-1060876188767022"
-CSS_VERSION = 10
-JS_VERSION = 10
+CSS_VERSION = 14
+JS_VERSION = 14
 TODAY = date.today().isoformat()
 YEAR = date.today().year
 MONTH = date.today().month
@@ -41,6 +41,29 @@ CATEGORY_EMOJI = {
     "project": "📋", "communication": "💬", "security": "🛡️", "seo": "📊",
     "video": "🎬", "photo": "📷", "accounting": "💰", "marketing": "📧",
     "password": "🔑", "writing": "✍️",
+}
+
+_SVG_ATTRS = 'width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-2px"'
+CATEGORY_SVG = {
+    "server": f'<svg {_SVG_ATTRS}><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><circle cx="6" cy="6" r="1"/><circle cx="6" cy="18" r="1"/></svg>',
+    "vpn": f'<svg {_SVG_ATTRS}><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>',
+    "learning": f'<svg {_SVG_ATTRS}><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
+    "ai": f'<svg {_SVG_ATTRS}><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M20 9h3M20 14h3M1 9h3M1 14h3"/></svg>',
+    "design": f'<svg {_SVG_ATTRS}><circle cx="13.5" cy="6.5" r="1.5"/><circle cx="17.5" cy="10.5" r="1.5"/><circle cx="8.5" cy="7.5" r="1.5"/><circle cx="6.5" cy="12.5" r="1.5"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.5-.67 1.5-1.5 0-.39-.15-.74-.39-1.04-.24-.3-.39-.65-.39-1.04 0-.83.67-1.5 1.5-1.5H16c3.31 0 6-2.69 6-6 0-5.17-4.49-9-10-9z"/></svg>',
+    "cloud": f'<svg {_SVG_ATTRS}><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>',
+    "domain": f'<svg {_SVG_ATTRS}><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>',
+    "sitebuilder": f'<svg {_SVG_ATTRS}><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>',
+    "ecommerce": f'<svg {_SVG_ATTRS}><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>',
+    "project": f'<svg {_SVG_ATTRS}><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/><path d="M9 14l2 2 4-4"/></svg>',
+    "communication": f'<svg {_SVG_ATTRS}><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>',
+    "security": f'<svg {_SVG_ATTRS}><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>',
+    "seo": f'<svg {_SVG_ATTRS}><path d="M18 20V10M12 20V4M6 20v-6"/></svg>',
+    "video": f'<svg {_SVG_ATTRS}><rect x="2" y="2" width="20" height="20" rx="2.18"/><path d="M7 2v20M17 2v20M2 12h20M2 7h5M2 17h5M17 17h5M17 7h5"/></svg>',
+    "photo": f'<svg {_SVG_ATTRS}><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>',
+    "accounting": f'<svg {_SVG_ATTRS}><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>',
+    "marketing": f'<svg {_SVG_ATTRS}><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>',
+    "password": f'<svg {_SVG_ATTRS}><path d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4"/></svg>',
+    "writing": f'<svg {_SVG_ATTRS}><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>',
 }
 
 CATEGORY_DESC = {
@@ -180,10 +203,36 @@ def page_html(*, title, description, canonical, breadcrumbs, content, schema_jso
 <body>
   <header class="site-header">
     <div class="container">
-      <a href="{root_prefix}/index.html" class="site-logo"><span>ツール比較</span><span>ナビ</span></a>
+      <a href="{root_prefix}/index.html" class="site-logo"><span class="logo-text">freesozo</span> <span class="logo-sub">tools</span></a>
       <nav class="header-nav">
         <a href="{root_prefix}/index.html">ホーム</a>
-        <a href="{root_prefix}/index.html#categories">カテゴリ</a>
+        <div class="nav-dropdown">
+          <a href="{root_prefix}/index.html#categories" class="nav-dropdown-trigger">
+            <span>カテゴリ</span> <span class="dropdown-arrow">▾</span>
+          </a>
+          <div class="nav-dropdown-menu">
+            <a href="{root_prefix}/category/server.html">🖥️ サーバー</a>
+            <a href="{root_prefix}/category/vpn.html">🔒 VPN</a>
+            <a href="{root_prefix}/category/ai.html">🤖 AIツール</a>
+            <a href="{root_prefix}/category/design.html">🎨 デザイン</a>
+            <a href="{root_prefix}/category/learning.html">📚 学習</a>
+            <a href="{root_prefix}/category/security.html">🛡️ セキュリティ</a>
+            <a href="{root_prefix}/category/cloud.html">☁️ クラウド</a>
+            <a href="{root_prefix}/category/video.html">🎬 動画編集</a>
+            <a href="{root_prefix}/category/ecommerce.html">🛒 EC・決済</a>
+            <a href="{root_prefix}/category/seo.html">📊 SEO</a>
+            <a href="{root_prefix}/category/project.html">📋 プロジェクト管理</a>
+            <a href="{root_prefix}/category/communication.html">💬 コミュニケーション</a>
+            <a href="{root_prefix}/category/sitebuilder.html">🏗️ サイトビルダー</a>
+            <a href="{root_prefix}/category/domain.html">🌐 ドメイン</a>
+            <a href="{root_prefix}/category/photo.html">📷 写真編集</a>
+            <a href="{root_prefix}/category/accounting.html">💰 会計・経理</a>
+            <a href="{root_prefix}/category/marketing.html">📧 マーケティング</a>
+            <a href="{root_prefix}/category/password.html">🔑 パスワード管理</a>
+            <a href="{root_prefix}/category/writing.html">✍️ ライティング</a>
+          </div>
+        </div>
+        <a href="{root_prefix}/diagnosis.html">AI診断</a>
         <a href="{root_prefix}/blog/">ブログ</a>
         <a href="{root_prefix}/about.html">サイトについて</a>
       </nav>
@@ -238,7 +287,7 @@ def page_html(*, title, description, canonical, breadcrumbs, content, schema_jso
 
 def generate_category_page(cat_id, products):
     cat_ja = CATEGORY_NAMES[cat_id]
-    emoji = CATEGORY_EMOJI.get(cat_id, "")
+    svg_icon = CATEGORY_SVG.get(cat_id, "")
     desc = CATEGORY_DESC.get(cat_id, f"{cat_ja}を料金・機能で比較。")
     count = len(products)
 
@@ -261,12 +310,12 @@ def generate_category_page(cat_id, products):
     rows_str = "\n".join(rows)
 
     other_cats = "\n".join(
-        f'        <a href="{c}.html" class="tag">{CATEGORY_EMOJI.get(c, "")} {CATEGORY_NAMES[c]}</a>'
+        f'        <a href="{c}.html" class="tag">{CATEGORY_SVG.get(c, "")} {CATEGORY_NAMES[c]}</a>'
         for c in CATEGORY_NAMES if c != cat_id
     )
 
     content = f'''    <section style="max-width:960px">
-      <h1 style="font-size:1.5rem;font-weight:800;margin-bottom:12px">{emoji} {h(cat_ja)}おすすめ{count}選【{YEAR}年最新比較】</h1>
+      <h1 style="font-size:1.5rem;font-weight:800;margin-bottom:12px">{svg_icon} {h(cat_ja)}おすすめ{count}選【{YEAR}年最新比較】</h1>
       <p style="color:var(--text-sub);line-height:1.7;margin-bottom:16px">{h(desc)}</p>
       <p style="font-size:.85rem;color:var(--text-muted);margin-bottom:24px">掲載ツール数: <strong>{count}件</strong>（{YEAR}年{MONTH}月更新）</p>
 
@@ -285,7 +334,7 @@ def generate_category_page(cat_id, products):
 {cards}
       </div>
 
-      <h2 style="font-size:1.1rem;margin:32px 0 12px">{emoji} {h(cat_ja)}に関する記事</h2>
+      <h2 style="font-size:1.1rem;margin:32px 0 12px">{svg_icon} {h(cat_ja)}に関する記事</h2>
       <ul style="line-height:1.8;margin-bottom:24px">
         <li><a href="../blog/{cat_id}-tools-comparison.html">{h(cat_ja)}おすすめ比較【{YEAR}年版】</a></li>
         <li><a href="../blog/free-{cat_id}-tools.html">無料で使える{h(cat_ja)}まとめ</a></li>
@@ -320,7 +369,7 @@ def generate_category_page(cat_id, products):
 
     return page_html(
         title=title, description=desc, canonical=canonical,
-        breadcrumbs=[("ホーム", "../index.html"), (f"{emoji} {cat_ja}", None)],
+        breadcrumbs=[("ホーム", "../index.html"), (f"{svg_icon} {cat_ja}", None)],
         content=content, schema_json=schema,
     )
 
@@ -332,7 +381,7 @@ def generate_tool_page(product, all_products, by_cat):
     name = product["name"]
     cat_id = product.get("category", "")
     cat_ja = CATEGORY_NAMES.get(cat_id, cat_id)
-    emoji = CATEGORY_EMOJI.get(cat_id, "")
+    svg_icon = CATEGORY_SVG.get(cat_id, "")
     desc_text = product.get("description", product.get("summary", ""))
     summary = product.get("summary", "")
     rating = product.get("rating", 0)
@@ -421,7 +470,7 @@ def generate_tool_page(product, all_products, by_cat):
           ⚠️ 掲載情報は{YEAR}年{MONTH}月時点の内容です。料金・機能は変更される場合があります。最新情報は公式サイトでご確認ください。
         </div>
 
-        <a href="../category/{h(cat_id)}.html" class="btn btn-outline" style="margin-bottom:24px">{emoji} {h(cat_ja)}一覧に戻る</a>
+        <a href="../category/{h(cat_id)}.html" class="btn btn-outline" style="margin-bottom:24px">{svg_icon} {h(cat_ja)}一覧に戻る</a>
 {related_html}
 
         <div style="background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:20px;margin-top:24px">
@@ -450,7 +499,7 @@ def generate_tool_page(product, all_products, by_cat):
 
     return page_html(
         title=title, description=description, canonical=canonical,
-        breadcrumbs=[("ホーム", "../index.html"), (f"{emoji} {cat_ja}", f"../category/{cat_id}.html"),
+        breadcrumbs=[("ホーム", "../index.html"), (f"{svg_icon} {cat_ja}", f"../category/{cat_id}.html"),
                      (name, None)],
         content=content, schema_json=schema,
     )
