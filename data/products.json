@@ -45,7 +45,8 @@
         "conoha-wing",
         "lolipop",
         "mixhost"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "conoha-wing",
@@ -89,7 +90,8 @@
         "xserver",
         "lolipop",
         "mixhost"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "mixhost",
@@ -125,7 +127,8 @@
       "region": "jp",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "lolipop",
@@ -171,7 +174,8 @@
         "xserver",
         "conoha-wing",
         "mixhost"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "sakura",
@@ -207,7 +211,8 @@
       "region": "jp",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "colorfulbox",
@@ -243,7 +248,8 @@
       "region": "jp",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "aws-lightsail",
@@ -279,7 +285,8 @@
       "region": "global",
       "tags": [
         "api"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "nordvpn",
@@ -326,7 +333,8 @@
         "millenvpn",
         "surfshark",
         "expressvpn"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "surfshark",
@@ -364,7 +372,8 @@
         "japanese"
       ],
       "recommendedFor": "複数デバイスでVPNを使いたいコスパ重視のユーザー",
-      "freeLimit": "無料プランなし。30日間返金保証付き。2年プランで月額¥328〜"
+      "freeLimit": "無料プランなし。30日間返金保証付き。2年プランで月額¥328〜",
+      "dateAdded": "2026-01"
     },
     {
       "id": "expressvpn",
@@ -402,7 +411,8 @@
         "nocard"
       ],
       "recommendedFor": "海外から日本のサービスを使いたい方、最速VPNを求める方",
-      "freeLimit": "無料プランなし。30日間返金保証付き"
+      "freeLimit": "無料プランなし。30日間返金保証付き",
+      "dateAdded": "2026-02"
     },
     {
       "id": "cyberghost",
@@ -438,7 +448,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "mullvad",
@@ -474,7 +485,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "udemy",
@@ -522,7 +534,8 @@
         "progate",
         "coursera",
         "skillshare"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "progate",
@@ -570,7 +583,8 @@
         "udemy",
         "paiza",
         "dotinstall"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "techacademy",
@@ -606,7 +620,8 @@
       "region": "jp",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "skillshare",
@@ -642,7 +657,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "codecademy",
@@ -678,7 +694,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "coursera",
@@ -723,7 +740,8 @@
         "講座の聴講（動画視聴）",
         "一部の課題提出",
         "コミュニティフォーラム"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "chatgpt-plus",
@@ -772,7 +790,8 @@
         "claude-pro",
         "gemini",
         "perplexity-pro"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "claude-pro",
@@ -820,7 +839,8 @@
         "chatgpt-plus",
         "gemini",
         "perplexity-pro"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "gemini-advanced",
@@ -857,7 +877,8 @@
       "tags": [
         "japanese",
         "api"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "perplexity-pro",
@@ -901,7 +922,8 @@
         "AI検索（基本モデル）",
         "出典表示",
         "フォローアップ質問"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "midjourney",
@@ -947,7 +969,8 @@
         "stable-diffusion",
         "canva-ai",
         "dalle"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "github-copilot",
@@ -995,7 +1018,8 @@
         "claude-pro",
         "chatgpt-plus",
         "cursor"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "cursor",
@@ -1038,7 +1062,8 @@
         "AIコード補完（基本）",
         "チャット機能",
         "VS Code互換"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "canva-pro",
@@ -1088,7 +1113,8 @@
         "figma",
         "adobe-cc",
         "canva-ai"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "figma",
@@ -1187,7 +1213,8 @@
         "canva-pro",
         "figma",
         "affinity-suite"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "affinity",
@@ -1223,7 +1250,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "sketch",
@@ -1259,7 +1287,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "google-one",
@@ -1298,7 +1327,8 @@
         "japanese",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "dropbox",
@@ -1335,7 +1365,8 @@
       "tags": [
         "japanese",
         "api"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "onedrive",
@@ -1372,7 +1403,8 @@
       "tags": [
         "japanese",
         "api"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "box",
@@ -1410,7 +1442,8 @@
         "free",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "pcloud",
@@ -1446,7 +1479,8 @@
       "region": "global",
       "tags": [
         "api"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "cloudflare-registrar",
@@ -1484,7 +1518,8 @@
         "nocard"
       ],
       "recommendedFor": "ドメイン管理コストを最小限に抑えたい個人開発者・Web制作者",
-      "freeLimit": "ドメイン登録は有料のみ（原価提供）。Cloudflare DNS・CDNは無料で利用可能"
+      "freeLimit": "ドメイン登録は有料のみ（原価提供）。Cloudflare DNS・CDNは無料で利用可能",
+      "dateAdded": "2026-03"
     },
     {
       "id": "onamae",
@@ -1520,7 +1555,8 @@
       "region": "jp",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "namecheap",
@@ -1556,7 +1592,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "xdomain",
@@ -1592,7 +1629,8 @@
       "region": "jp",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "wordpress-com",
@@ -1630,7 +1668,8 @@
         "free",
         "japanese",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "wix",
@@ -1668,7 +1707,8 @@
         "free",
         "japanese",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "squarespace",
@@ -1704,7 +1744,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "webflow",
@@ -1741,7 +1782,8 @@
       "tags": [
         "free",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "jimdo",
@@ -1779,7 +1821,8 @@
         "free",
         "japanese",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "studio",
@@ -1817,7 +1860,8 @@
         "free",
         "japanese",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "shopify",
@@ -1856,7 +1900,8 @@
         "api"
       ],
       "recommendedFor": "プログラミング不要でオンラインストアを開設したい事業者・個人",
-      "freeLimit": "無料プランなし。3日間の無料トライアル後、月$1で3ヶ月利用可能なキャンペーンあり"
+      "freeLimit": "無料プランなし。3日間の無料トライアル後、月$1で3ヶ月利用可能なキャンペーンあり",
+      "dateAdded": "2025-12"
     },
     {
       "id": "base-ec",
@@ -1894,7 +1939,8 @@
         "free",
         "japanese",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "stores-jp",
@@ -1932,7 +1978,8 @@
         "free",
         "japanese",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "stripe",
@@ -1971,7 +2018,8 @@
         "api"
       ],
       "recommendedFor": "自社サービスにカスタム決済機能を組み込みたい開発者・スタートアップ",
-      "freeLimit": "初期費用・月額費用なし。決済ごとに手数料3.6%が発生"
+      "freeLimit": "初期費用・月額費用なし。決済ごとに手数料3.6%が発生",
+      "dateAdded": "2026-03"
     },
     {
       "id": "square",
@@ -2010,7 +2058,8 @@
         "japanese",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "notion",
@@ -2102,7 +2151,8 @@
         "japanese",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "asana",
@@ -2141,7 +2191,8 @@
         "japanese",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "clickup",
@@ -2180,7 +2231,8 @@
         "japanese",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "monday",
@@ -2216,7 +2268,8 @@
       "region": "global",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "linear",
@@ -2262,7 +2315,8 @@
         "無制限メンバー",
         "ロードマップ",
         "サイクル管理"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "slack",
@@ -2353,7 +2407,8 @@
         "japanese",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "zoom",
@@ -2391,7 +2446,8 @@
         "free",
         "japanese",
         "api"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "teams",
@@ -2430,7 +2486,8 @@
         "japanese",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "gather",
@@ -2468,7 +2525,8 @@
         "free",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "google-workspace",
@@ -2513,7 +2571,8 @@
         "microsoft-365",
         "zoho-workplace",
         "slack"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "norton",
@@ -2549,7 +2608,8 @@
       "region": "global",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "eset",
@@ -2585,7 +2645,8 @@
       "region": "global",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "virus-buster",
@@ -2621,7 +2682,8 @@
       "region": "jp",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "malwarebytes",
@@ -2658,7 +2720,8 @@
       "tags": [
         "free",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "ahrefs",
@@ -2696,7 +2759,8 @@
         "api"
       ],
       "recommendedFor": "競合分析・被リンク調査を本格的に行いたいSEO担当者・マーケター",
-      "freeLimit": "Ahrefs Webmaster Toolsで自サイトの基本的なSEO分析が無料。有料版は$99/月〜"
+      "freeLimit": "Ahrefs Webmaster Toolsで自サイトの基本的なSEO分析が無料。有料版は$99/月〜",
+      "dateAdded": "2025-12"
     },
     {
       "id": "semrush",
@@ -2732,7 +2796,8 @@
       "region": "global",
       "tags": [
         "api"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "ubersuggest",
@@ -2768,7 +2833,8 @@
       "region": "global",
       "tags": [
         "api"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "moz-pro",
@@ -2804,7 +2870,8 @@
       "region": "global",
       "tags": [
         "api"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "rank-tracker",
@@ -2840,7 +2907,8 @@
       "region": "global",
       "tags": [
         "api"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "premiere-pro",
@@ -2876,7 +2944,8 @@
       "region": "global",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "davinci-resolve",
@@ -2921,7 +2990,8 @@
         "VFX（Fusion）",
         "オーディオ編集（Fairlight）",
         "4K書き出し"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "filmora",
@@ -2957,7 +3027,8 @@
       "region": "global",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "capcut-pro",
@@ -2995,7 +3066,8 @@
         "free",
         "japanese",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "final-cut-pro",
@@ -3031,7 +3103,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "lightroom",
@@ -3067,7 +3140,8 @@
       "region": "global",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "luminar-neo",
@@ -3103,7 +3177,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "capture-one",
@@ -3139,7 +3214,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "pixlr",
@@ -3176,7 +3252,8 @@
       "tags": [
         "free",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "freee",
@@ -3212,7 +3289,8 @@
       "region": "jp",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "money-forward",
@@ -3248,7 +3326,8 @@
       "region": "jp",
       "tags": [
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "yayoi",
@@ -3285,7 +3364,8 @@
       "tags": [
         "free",
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "misoca",
@@ -3322,7 +3402,8 @@
       "tags": [
         "free",
         "japanese"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "mailchimp",
@@ -3360,7 +3441,8 @@
         "free",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "convertkit",
@@ -3398,7 +3480,8 @@
         "free",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "hubspot",
@@ -3436,7 +3519,8 @@
         "free",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "sendgrid",
@@ -3474,7 +3558,8 @@
         "free",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "1password",
@@ -3552,7 +3637,8 @@
         "free",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "lastpass",
@@ -3589,7 +3675,8 @@
       "tags": [
         "free",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "dashlane",
@@ -3625,7 +3712,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "grammarly",
@@ -3664,7 +3752,8 @@
         "japanese",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "deepl-pro",
@@ -3708,7 +3797,8 @@
         "テキスト翻訳（5,000文字/月）",
         "ファイル翻訳（3ファイル/月）",
         "31言語対応"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "scrivener",
@@ -3744,7 +3834,8 @@
       "region": "global",
       "tags": [
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "otter-ai",
@@ -3782,7 +3873,8 @@
         "free",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "vercel",
@@ -3833,7 +3925,8 @@
         "netlify",
         "cloudflare-pages",
         "railway"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "chatwork",
@@ -3871,7 +3964,8 @@
         "free",
         "japanese",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-03"
     },
     {
       "id": "zapier",
@@ -3909,7 +4003,8 @@
         "free",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-01"
     },
     {
       "id": "a8net",
@@ -3948,7 +4043,8 @@
         "japanese",
         "api",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2025-12"
     },
     {
       "id": "duolingo-plus",
@@ -3986,7 +4082,8 @@
         "free",
         "japanese",
         "nocard"
-      ]
+      ],
+      "dateAdded": "2026-02"
     },
     {
       "id": "deepl",
@@ -4070,7 +4167,7 @@
       "category": "server",
       "summary": "ネットオウル提供の格安高速サーバー。オールSSDで月額220円から。",
       "description": "スターサーバーはネットオウル株式会社（エックスサーバーグループ）が提供するレンタルサーバーです。月額220円の格安プランからオールSSD環境を利用可能。HTTP/2対応やPHP高速化設定など、低価格ながらも高速表示を実現。個人ブログや小規模サイトに最適です。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "¥220/月〜",
       "affiliateUrl": "https://px.a8.net/svt/ejp?a8mat=4AZ9C8+4EDBOY+1WTI+62MDD",
       "affiliateProvider": "a8",
@@ -4639,7 +4736,7 @@
       "category": "sitebuilder",
       "summary": "モバイル最適化のサイトビルダー。数分で美しいサイトを公開。",
       "description": "Strikinglyは、モバイルファーストの美しいWebサイトを数分で作成できるサイトビルダーです。テンプレートを選んで編集するだけで、プロフェッショナルなサイトが完成。ECサイト機能も統合されており、シンプルなオンラインショップの開設にも対応しています。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料〜$49/月",
       "affiliateUrl": "",
       "affiliateProvider": "",
@@ -4894,7 +4991,7 @@
       "category": "accounting",
       "summary": "完全無料のクラウド会計ソフト。フリーランスや小規模事業者に最適。",
       "description": "Waveは、フリーランスや小規模事業者向けの完全無料クラウド会計ソフトです。請求書作成、経費管理、レポート作成などの会計機能が無料で利用可能。有料オプションとして給与計算や決済処理も提供しています。北米を中心に広く利用されています。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料",
       "affiliateUrl": "",
       "affiliateProvider": "",
@@ -4968,7 +5065,7 @@
       "category": "ai",
       "summary": "AIコンテンツ作成プラットフォーム。SEO対応の記事を自動生成。",
       "description": "Writesonicは、SEOに最適化されたコンテンツを生成するAIプラットフォームです。ブログ記事、ランディングページ、広告コピーなどを作成でき、Chatsonic機能でリアルタイムの情報を反映したコンテンツも生成可能です。GPT-4搭載で高品質な出力を実現しています。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料〜$19/月",
       "affiliateUrl": "",
       "affiliateProvider": "",
@@ -5117,7 +5214,7 @@
       "category": "photo",
       "summary": "無料の多機能フォトエディター。コラージュやバッチ編集が簡単。",
       "description": "PhotoScape Xは、無料で利用できる多機能フォトエディターです。写真編集、コラージュ作成、GIF作成、バッチ編集、画面キャプチャなど多彩な機能を1つのアプリに統合。プロ版では更に高度なフィルターやツールが利用可能。初心者からアマチュアカメラマンまで幅広く使われています。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料〜$39.99 (Pro買い切り)",
       "affiliateUrl": "",
       "affiliateProvider": "",
@@ -5631,7 +5728,7 @@
       "category": "server",
       "summary": "京都発の老舗ホスティング。自社データセンター運営で高い信頼性。",
       "description": "カゴヤ・ジャパンは京都に自社データセンターを持つ老舗ホスティング企業です。VPSサービスは日額課金に対応しており、必要な期間だけ利用可能。法人利用にも適した高い信頼性とセキュリティを提供しています。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "¥550/月〜",
       "affiliateUrl": "",
       "affiliateProvider": "",
@@ -6034,7 +6131,7 @@
       "category": "server",
       "summary": "老舗のVPSホスティング。安定性とコスパに優れたサーバー。",
       "description": "ABLENET VPSは、20年以上の実績を持つ老舗VPSホスティングサービスです。Windows VPSとLinux VPSの両方を提供しており、安定した稼働率と手頃な価格が特徴。FX自動売買やWebサーバー運用など幅広い用途で利用されています。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "¥554/月〜",
       "affiliateUrl": "",
       "affiliateProvider": "",
@@ -6070,7 +6167,7 @@
       "category": "communication",
       "summary": "プレゼン特化のビデオツール。バーチャル背景でプロ級の発表を実現。",
       "description": "mmhmmは、プレゼンテーションに特化したビデオコミュニケーションツールです。スライドと自分の映像を自由にレイアウトでき、Zoom、Teams、Google Meetなどあらゆるビデオ会議ツールと連携可能。プレゼンの録画・共有機能も充実しており、非同期プレゼンにも対応しています。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料〜$8.33/月",
       "affiliateUrl": "",
       "affiliateProvider": "",
@@ -6106,7 +6203,7 @@
       "category": "video",
       "summary": "Microsoft傘下のブラウザ動画編集ツール。Windows 11に標準搭載。",
       "description": "Clipchampは、Microsoft傘下のブラウザベース動画編集ツールです。Windows 11に標準搭載されており、インストール不要でブラウザから直接動画編集が可能。テンプレート、ストック映像、テキスト読み上げなどの機能を備え、SNSやプレゼン用動画を素早く作成できます。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "無料〜$11.99/月",
       "affiliateUrl": "",
       "affiliateProvider": "",
@@ -6504,7 +6601,7 @@
       "category": "domain",
       "summary": "ネットオウル運営の格安ドメインサービス。無料レンタルサーバー付き。",
       "description": "スタードメインは、エックスサーバー系列のネットオウルが運営するドメイン取得サービスです。業界最安クラスの価格でドメインを取得でき、ドメイン購入者には無料のレンタルサーバーも付属。.comや.jpなどの主要ドメインを安価に取得できます。",
-      "rating": 4.0,
+      "rating": 4,
       "price": "¥980/年〜",
       "affiliateUrl": "",
       "affiliateProvider": "",

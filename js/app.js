@@ -65,6 +65,7 @@
         renderCategories();
         renderRecentlyViewed();
         renderFavoritesHome();
+        renderRecentlyAdded();
         renderFeatured();
         renderBlogHighlights();
         filterProducts();
@@ -127,6 +128,7 @@
     renderFeatured();
     renderRecentlyViewed();
     renderFavoritesHome();
+    renderRecentlyAdded();
     filterProducts();
   }
   window.toggleFav = toggleFav;
@@ -161,6 +163,34 @@
     grid.innerHTML = favProducts.map(p => createProductCard(p, false)).join('');
   }
 
+  function renderRecentlyAdded() {
+    const section = document.getElementById('recentlyAddedSection');
+    const grid = document.getElementById('recentlyAddedGrid');
+    const subtitle = document.getElementById('recentlyAddedSubtitle');
+    if (!section || !grid) return;
+
+    const recent = products
+      .filter(p => p.dateAdded && p.status === 'active')
+      .sort((a, b) => (b.dateAdded || '').localeCompare(a.dateAdded || ''))
+      .slice(0, 6);
+
+    if (recent.length === 0) { section.style.display = 'none'; return; }
+    section.style.display = '';
+
+    const latestDate = recent[0].dateAdded || '';
+    if (subtitle && latestDate) {
+      const [y, m] = latestDate.split('-');
+      if (I18n.getLang() === 'en') {
+        const monthNames = ['','Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        subtitle.textContent = 'Added / updated in ' + monthNames[parseInt(m)] + ' ' + y;
+      } else {
+        subtitle.textContent = y + '\u5E74' + parseInt(m) + '\u6708\u306B\u8FFD\u52A0\u30FB\u66F4\u65B0';
+      }
+    }
+
+    grid.innerHTML = recent.map(p => createProductCard(p, false)).join('');
+  }
+
   // ===== Index Page =====
   function initIndexPage() {
     // Category page support (e.g., ai.html)
@@ -171,6 +201,7 @@
     renderSortBar();
     renderRecentlyViewed();
     renderFavoritesHome();
+    renderRecentlyAdded();
     renderFeatured();
     renderHiddenGems();
     filterProducts();

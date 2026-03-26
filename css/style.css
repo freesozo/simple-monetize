@@ -1368,6 +1368,14 @@ a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible
   color: #fff;
   text-decoration: none;
 }
+/* ── Recently Added Section ── */
+.section-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: -8px;
+  margin-bottom: 20px;
+}
+
 @media (max-width: 768px) {
   .blog-highlight-grid {
     grid-template-columns: 1fr;
