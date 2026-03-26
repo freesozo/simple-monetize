@@ -259,6 +259,7 @@ const I18n = (() => {
       dropCatMarketing: 'マーケティング',
       dropCatPassword: 'パスワード管理',
       dropCatWriting: 'ライティング',
+      weeklyPicksHeading: '今週のおすすめ',
     },
     en: {
       siteTitle: 'Tool Compare Navi',
@@ -518,6 +519,7 @@ const I18n = (() => {
       dropCatMarketing: 'Marketing',
       dropCatPassword: 'Passwords',
       dropCatWriting: 'Writing',
+      weeklyPicksHeading: 'Weekly Picks',
     }
   };
 

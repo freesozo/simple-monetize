@@ -66,6 +66,7 @@
         renderRecentlyViewed();
         renderFavoritesHome();
         renderRecentlyAdded();
+        renderWeeklyPicks();
         renderFeatured();
         renderBlogHighlights();
         filterProducts();
@@ -126,6 +127,7 @@
     localStorage.setItem('toolFavorites', JSON.stringify(favorites));
     // Re-render
     renderFeatured();
+    renderWeeklyPicks();
     renderRecentlyViewed();
     renderFavoritesHome();
     renderRecentlyAdded();
@@ -202,6 +204,7 @@
     renderRecentlyViewed();
     renderFavoritesHome();
     renderRecentlyAdded();
+    renderWeeklyPicks();
     renderFeatured();
     renderHiddenGems();
     filterProducts();
@@ -281,6 +284,71 @@
       return;
     }
     grid.innerHTML = featured.map(p => createProductCard(p, true)).join('');
+    if (fadeObserver) {
+      grid.querySelectorAll('.product-card').forEach(function(card, i) {
+        card.classList.add('fade-in-up');
+        card.style.transitionDelay = i * 0.05 + 's';
+        fadeObserver.observe(card);
+      });
+    }
+  }
+
+  // ===== Weekly Picks =====
+  function getWeekNumber() {
+    const now = new Date();
+    const start = new Date(now.getFullYear(), 0, 1);
+    return Math.floor((now - start) / 604800000);
+  }
+
+  function getWeekDateRange() {
+    const now = new Date();
+    const dayOfWeek = now.getDay();
+    const monday = new Date(now);
+    monday.setDate(now.getDate() - (dayOfWeek === 0 ? 6 : dayOfWeek - 1));
+    const sunday = new Date(monday);
+    sunday.setDate(monday.getDate() + 6);
+    const fmt = (d) => `${d.getMonth() + 1}/${d.getDate()}`;
+    return `${fmt(monday)}\u301C${fmt(sunday)}`;
+  }
+
+  function seededRandom(seed) {
+    let x = Math.sin(seed) * 10000;
+    return x - Math.floor(x);
+  }
+
+  function renderWeeklyPicks() {
+    const grid = document.getElementById('weeklyGrid');
+    const dateEl = document.getElementById('weeklyDate');
+    if (!grid) return;
+
+    if (dateEl) dateEl.textContent = getWeekDateRange();
+
+    const week = getWeekNumber();
+    const year = new Date().getFullYear();
+    const seed = year * 100 + week;
+
+    // Use top-rated active products as pool
+    const pool = products
+      .filter(p => p.status === 'active')
+      .sort((a, b) => (b.rating || 0) - (a.rating || 0))
+      .slice(0, 50);
+
+    const shuffled = [...pool].sort((a, b) => {
+      const aHash = seededRandom(seed + pool.indexOf(a));
+      const bHash = seededRandom(seed + pool.indexOf(b));
+      return aHash - bHash;
+    });
+
+    const picks = shuffled.slice(0, 3);
+    const medals = ['\uD83E\uDD47', '\uD83E\uDD48', '\uD83E\uDD49'];
+
+    grid.innerHTML = picks.map((product, i) => {
+      return `<div class="weekly-card">
+        <span class="weekly-rank">${medals[i]}</span>
+        ${createProductCard(product, false)}
+      </div>`;
+    }).join('');
+
     if (fadeObserver) {
       grid.querySelectorAll('.product-card').forEach(function(card, i) {
         card.classList.add('fade-in-up');
