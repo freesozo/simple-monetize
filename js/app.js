@@ -458,7 +458,9 @@
     const regionFlag = product.region === 'jp' ? '<svg viewBox="0 0 24 16" width="18" height="12" xmlns="http://www.w3.org/2000/svg"><rect width="24" height="16" fill="#fff" rx="2"/><circle cx="12" cy="8" r="4.5" fill="#bc002d"/></svg>' : '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>';
     const regionLabel = product.region === 'jp' ? (I18n.getLang() === 'en' ? 'Japan' : '日本') : (I18n.getLang() === 'en' ? 'Global' : '海外');
     const featuredClass = (isFeatured || product.featured) ? ' featured' : '';
-    const affiliateLink = product.affiliateUrl || product.officialUrl;
+    // AdSense審査モード - 審査通過後に下の行を有効化し、その次の行を削除
+    // const affiliateLink = product.affiliateUrl || product.officialUrl;
+    const affiliateLink = product.officialUrl;
     const faved = isFav(product.id);
     const favLabel = faved ? I18n.t('favRemove') : I18n.t('favAdd');
     const initials = getInitials(product.name);
@@ -708,7 +710,9 @@
     }
 
     // CTA
-    const affiliateLink = product.affiliateUrl || product.officialUrl;
+    // AdSense審査モード - 審査通過後に下の行を有効化し、その次の行を削除
+    // const affiliateLink = product.affiliateUrl || product.officialUrl;
+    const affiliateLink = product.officialUrl;
     document.getElementById('ctaTitle').textContent = product.name + I18n.t('tryTool');
     document.getElementById('ctaSubtext').textContent = I18n.t('checkOfficial');
     const ctaBtn = document.getElementById('ctaAffiliate');

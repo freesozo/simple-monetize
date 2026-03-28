@@ -1,3 +1,7 @@
+/* AdSense審査モード - 審査通過後にこのブロックを削除 */
+a.btn-primary[href*="px.a8.net"] { display: none !important; }
+/* /AdSense審査モード */
+
 /* ===== CSS Custom Properties – Japanese Editorial Luxury ===== */
 :root, [data-theme="light"] {
   --bg: #f8f7f4;
